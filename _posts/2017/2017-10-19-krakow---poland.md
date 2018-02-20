@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Krakow, Poland
+title: Krakow - Poland
 tags: krakow poland photography
 ---
 
