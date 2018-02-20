@@ -4,7 +4,7 @@ title: Use eisvogel custom template with Pandoc
 tags: ctan tlmgr eisvogel pandoc macos linux
 ---
 
-On macOS, the preinstalled tlmgr command is used to install TeX packages from [CTAN](https://ctan.org/).
+On macOS, the preinstalled tlmgr command is used to install $$\TeX$$ packages from [CTAN](https://ctan.org/).
 
 To list currently installed packages
 
@@ -18,7 +18,7 @@ To update tlmgr itself - you won't be able to install packages unless you do
 sudo tlmgr update --self
 ```
 
-To install packages required by the [eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) LaTeX template for Pandoc
+To install packages required by the [eisvogel](https://github.com/Wandmalfarbe/pandoc-latex-template) $$\LaTeX$$ template for Pandoc
 
 ```bash
 sudo tlmgr install csquotes mdframed needspace sourcesanspro ly1 mweights sourcecodepro titling pagecolor
