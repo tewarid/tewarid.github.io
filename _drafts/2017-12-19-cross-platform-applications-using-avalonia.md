@@ -4,8 +4,6 @@ title: Cross-platform applications using Avalonia
 tags: avalonia wpf windows linux macos .net
 ---
 
-# Cross-platform applications using Avalonia
-
 Avalonia is a library for making cross-platform GUI applications that targets .NET framework and .NET Core. In this post, we'll use the later. GUI is defined in XAML and rendered using toolkits native to each platform such as WPF on Windows.
 
 Install templates for .NET core

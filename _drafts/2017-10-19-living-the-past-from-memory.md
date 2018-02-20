@@ -4,8 +4,6 @@ title: Living the past from memory
 tags: memoir
 ---
 
-# Living the past from memory
-
 Our parents shape us. They give us our early aspirations, a safe environment to grow in, and lots of love. My early memory of my parents are lost in time but snapshots of a few poignant moments resurface from time to time.
 
 One such memory is of a time I traveled with my mother and sister to our grandparent’s village. I probably wasn’t older than four. It was quite an experience and involved a harrowing moment when I woke up in the middle of a thundery night. Upon our return, the happiness of seeing our family reunited with Dad is still fresh in my mind. I remember telling him that I felt the ground rocking under me, a sensation bound to be familiar to anyone who’s gone on a long train trip. I remember playing with a new doorbell Dad had installed during our absence, and which we took to every new place we moved to hence.
