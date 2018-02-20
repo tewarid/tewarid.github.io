@@ -4,8 +4,6 @@ title: I2C with Bus Pirate v4.0 on Windows 10
 tags: i2c bus pirate windows 
 ---
 
-# I2C with Bus Pirate v4.0 on Windows 10
-
 In this post, I learn to use a [Bus Pirate v4.0](https://www.seeedstudio.com/bus-pirate-v4-p-740.html) to retrieve raw linear acceleration data from a [Tilt Compensated Compass Breakout](https://www.sparkfun.com/products/retired/10888) (LSM303DLMTR), over the [I2C bus](http://www.nxp.com/documents/user_manual/UM10204.pdf) (also referred to as TWI - two wire interface).
 
 I've had a [Bus Pirate v4.0](https://www.seeedstudio.com/bus-pirate-v4-p-740.html) for three years now, but it has seen limited use. I've never really paused to use it in earnest. I first used it on Windows 8 which had pretty stringent requirements for installing unsigned drivers, that I circumvented using a [self-signed driver](https://github.com/tewarid/bus-pirate-v4-driver). Fortunately, Windows 10 does not require any driver installation. The only thing you need to start using the Bus Pirate is terminal emulation software such as [Tera Term](https://ttssh2.osdn.jp/).

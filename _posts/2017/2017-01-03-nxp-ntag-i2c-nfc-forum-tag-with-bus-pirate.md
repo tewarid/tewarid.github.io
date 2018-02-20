@@ -4,8 +4,6 @@ title: NXP NTAG I2C NFC Forum tag with Bus Pirate
 tags: i2c nfx nxp bus pirate
 ---
 
-# NXP NTAG I2C NFC Forum tag with Bus Pirate
-
 In this post, I use a Bus Pirate v4.0 to interact with an [NXP NTAG I2C NFC Forum](http://www.nxp.com/products/wireless-connectivity/nfc-and-reader-ics/connected-tag-solutions/demoboard-for-ntag-ic:OM5569-NT312D) tag, over the latter's I2C interface.
 
 Connect Bus Pirate to the tag board as follows

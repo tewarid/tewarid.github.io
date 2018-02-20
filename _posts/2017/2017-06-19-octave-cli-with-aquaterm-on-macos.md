@@ -4,8 +4,6 @@ title: Octave CLI with AquaTerm on MacOS
 tags: octave cli macos aquaterm
 ---
 
-# Octave CLI with AquaTerm on MacOS
-
 I'm in need of [AquaTerm](https://github.com/AquaTerm/AquaTerm) to plot graphics using gnuplot with [octave-cli](https://sourceforge.net/projects/octave/files). I'll use the following Octave command to produce a nice little graphical plot
 
 ```text

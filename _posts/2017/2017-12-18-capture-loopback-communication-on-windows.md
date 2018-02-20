@@ -4,8 +4,6 @@ title: Capture loopback communication on Windows
 tags: wireshark npcap loopback
 ---
 
-# Capture loopback communication on Windows
-
 Wireshark is unable to capture any loopback communication (not just loopback interface) on Windows using WinPcap. You'll need to replace WinPcap with [Npcap](https://nmap.org/npcap/) to be able to do that.
 
 Uninstall WinPcap first.

@@ -4,8 +4,6 @@ title: .NET Core class library solution from scratch
 tags: update
 ---
 
-# .NET Core class library solution from scratch
-
 This post documents using the `dotnet` command to create a class library solution from scratch. The solution builds a class library project, and a MS unit test project that tests the class library.
 
 To create an empty solution called `MySolution.sln`

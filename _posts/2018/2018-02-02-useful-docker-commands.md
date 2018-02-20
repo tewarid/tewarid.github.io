@@ -4,8 +4,6 @@ title: Useful Docker commands
 tags: docker linux
 ---
 
-# Useful Docker commands
-
 Interactively run command in a new container based on a Docker image
 
 ```bash

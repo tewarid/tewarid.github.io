@@ -4,8 +4,6 @@ title: Wireshark dissector in Lua for custom protocol over WebSockets
 tags: update
 ---
 
-# Wireshark dissector in Lua for custom protocol over WebSockets
-
 It is fairly easy to write a Wireshark dissector in Lua for your custom protocol over WebSockets. To understand the basics of writing, and using, dissectors for Wireshark in Lua, see [Create a Wireshark dissector in Lua](https://delog.wordpress.com/2010/09/27/create-a-wireshark-dissector-in-lua/).
 
 Here's a template to get you started with writing your custom dissector. Replace port number 8002, with the port number where your WebSocket server listens for incoming connections, and the dissector should be called.

@@ -4,8 +4,6 @@ title: Export private key in pfx or p12 file to pem format
 tags: pfx p12 pem openssl
 ---
 
-# Export private key in pfx or p12 file to pem format
-
 The following openssl command can be used to export private key in a pfx or p12 file to pem
 
 ```bash

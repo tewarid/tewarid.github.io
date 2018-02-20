@@ -4,8 +4,6 @@ title: Krakow, Poland
 tags: krakow poland photography
 ---
 
-# Krakow - Poland
-
 ![Wawel Royal Castle Entrance Path](/assets/img/krakow-wawel-castle-entrance.jpg)
 
 ![Wawel Royal Castle Inner Courtyard](/assets/img/krakow-wawel-castle-inner-courtyard.jpg)

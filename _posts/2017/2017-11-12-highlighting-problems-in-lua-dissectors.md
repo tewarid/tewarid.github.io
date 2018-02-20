@@ -4,8 +4,6 @@ title: Highlighting problems in Lua dissectors
 tags: wireshark lua dissector expert info
 ---
 
-# Highlighting problems in Lua dissectors
-
 Here's a snippet of code from [nordic_ble](https://github.com/tewarid/wireshark-nordic-ble-lua/blob/master/nordic_ble.lua) dissector that shows how you can highlight problems in [Lua dissectors](https://delog.wordpress.com/2010/09/27/create-a-wireshark-dissector-in-lua/) using [add_expert_info](https://www.wireshark.org/docs/wsdg_html_chunked/lua_module_Tree.html#lua_class_TreeItem)
 
 ```lua

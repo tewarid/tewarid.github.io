@@ -4,8 +4,6 @@ title: Use JavaFX in a Swing or console app
 tags: update
 ---
 
-# Use JavaFX in a Swing or console app
-
 This short post explores how to integrate JavaFX into a legacy console or Swing application.
 
 Assuming you've created an application such as the [WebView Sample](https://gist.github.com/tewarid/59c5b91c6c4c89d7beda207144978470), create a separate thread to launch JavaFX's Application class
