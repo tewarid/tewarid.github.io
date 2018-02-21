@@ -24,7 +24,7 @@ To install packages required by the [eisvogel](https://github.com/Wandmalfarbe/p
 sudo tlmgr install csquotes mdframed needspace sourcesanspro ly1 mweights sourcecodepro titling pagecolor
 ```
 
-The command needs to be run with sudo because the path where TeX and associated packages are installed is at `/usr/local/texlive/2016basic/texmf-dist/tex` and does not have write permission for my user.
+The command needs to be run with sudo because the path where $$\TeX$$ and associated packages are installed is at `/usr/local/texlive/2016basic/texmf-dist/tex` and does not have write permission for my user.
 
 To use the eisvogel template, clone its repo
 

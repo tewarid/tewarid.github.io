@@ -15,3 +15,11 @@ Some useful tips to work with this Jekyll blog
     ```bash
     for i in *.md; do v=`grep title: $i`; v=${v:7}; v=`echo ${v} | awk '{print tolower($0)}'`; v=`echo ${v//[ \/?\":]/-}`; mv ${i} ${i:0:10}-$v.md; done
     ```
+
+* LaTeX can be inserted inline `$$\LaTeX$$` or as a block
+
+    ```latex
+    $$
+    \LaTeX
+    $$
+    ```
