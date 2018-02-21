@@ -8,8 +8,8 @@ This post shows how to build a basic wireless router, using the Raspberry Pi. It
 
 Add all appropriate Kernel modules and Buildroot packages referenced in the following posts, before proceeding
 
-* [Wireless on Raspberry Pi with Buildroot]({% post_url 2014-10-10-wireless-on-raspberry-pi-with-buildroot %})
-* [Linux NAT routing on Raspberry Pi with Buildroot]({% post_url 2014-09-03-linux-nat-routing-on-raspberry-pi-with-buildroot %})
+* [Wireless on Raspberry Pi with Buildroot]({% link _posts/2014/2014-10-10-wireless-on-raspberry-pi-with-buildroot.md %})
+* [Linux NAT routing on Raspberry Pi with Buildroot]({% link _posts/2014/2014-09-03-linux-nat-routing-on-raspberry-pi-with-buildroot.md %})
 
 ## Kernel Configuration
 

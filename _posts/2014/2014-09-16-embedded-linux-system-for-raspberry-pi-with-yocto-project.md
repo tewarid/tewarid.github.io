@@ -47,4 +47,4 @@ After the build is complete, create an SD card with the following command. Remem
 dd if=tmp/deploy/images/raspberrypi/rpi-hwup-image-raspberrypi.rpi-sdimg of=/dev/sdb
 ```
 
-Boot Pi using the SD card. Command line output appears on the HDMI display, or the serial port on the [expansion header]({% post_url 2014-07-21-sparkfun-ftdi-basic-with-raspberry-pi %}). Login is root, with an empty password.
+Boot Pi using the SD card. Command line output appears on the HDMI display, or the serial port on the [expansion header]({% link _posts/2014/2014-07-21-sparkfun-ftdi-basic-with-raspberry-pi.md %}). Login is root, with an empty password.

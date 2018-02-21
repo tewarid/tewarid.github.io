@@ -4,7 +4,7 @@ title: Enable IP multicast routing in Linux kernel
 tags: multicast buildroot kernel udp smcroute glibc iptables linux raspberry pi
 ---
 
-In this post I discuss how to enable multicast routing in a Linux system. It is a continuation to the post [Wireless Router with Buildroot and Raspberry Pi]({% post_url 2014-10-29-wireless-router-with-buildroot-and-raspberry-pi %}), where I discussed how to build a basic Wi-Fi router with a Raspberry Pi. You'll want to read that first.
+In this post I discuss how to enable multicast routing in a Linux system. It is a continuation to the post [Wireless Router with Buildroot and Raspberry Pi]({% link _posts/2014/2014-10-29-wireless-router-with-buildroot-and-raspberry-pi.md %}), where I discussed how to build a basic Wi-Fi router with a Raspberry Pi. You'll want to read that first.
 
 ## Linux kernel configuration
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: USB Serial firmware for ATmega32U4
-tags: usb serial atmega32u4 adafruit
+tags: usb serial atmega32u4 adafruit atmel studio
 ---
 
 This post shows how to create USB Serial firmware for the ATmega32U4 found on Adrafruit's excellent [breakout board](https://www.adafruit.com/products/296), using Atmel Studio 7\. The design of the breakout board is [available](https://github.com/adafruit/Atmega32u4-Breakout-Board) at GitHub, so is the [Fritzing part](https://github.com/adafruit/Fritzing-Library) used in the figure below. The source code of the USB Serial firmware discussed here can also be [forked](https://github.com/tewarid/atmega32u4-usb-serial) at GitHub.
@@ -10,7 +10,7 @@ This post shows how to create USB Serial firmware for the ATmega32U4 found on Ad
 
 ## Source code
 
-Creation of source code using Atmel Studio 7 is described in post [Arduino USB Serial firmware from scratch]({{ site.baseurl }}{% post_url 2016-08-10-arduino-usb-serial-firmware-from-scratch %}). Choose adafruit_u4 as the board for LUFA Board Support (driver).
+Creation of source code using Atmel Studio 7 is described in post [Arduino USB Serial firmware from scratch]({% link _posts/2016/2016-08-10-arduino-usb-serial-firmware-from-scratch.md %}). Choose adafruit_u4 as the board for LUFA Board Support (driver).
 
 the breakout board has just one programmable LED hence the code has been adapted to blink the same LED when receiving and transmitting data.
 
