@@ -29,3 +29,13 @@ The following are some [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252
 `\xae` (registered ®) replace with (R)
 
 `\xb7` (dot ·) replace with an asterix *
+
+You can use your favorite editor to search using regular expression sequence above, and replace.
+
+Alternatively, use [GNU sed]() to automate file search and replace
+
+```bash
+gsed -i "s/\x94/'/g" file
+```
+
+This replaces all occurences of character with code 0x94 with a quote. `gsed` is GNU sed on MacOS. `-i` does in place update to the file.
