@@ -1,6 +1,6 @@
 theme: jekyll-theme-slate
 title: Dev's Log
-description: make ~ share ~ learn ~ care
+description: make ~ learn ~ share ~ care
 google_analytics: UA-114405074-1
 defaults:
   - scope:
@@ -9,3 +9,5 @@ defaults:
       image: true
 plugins:
   - jekyll-sitemap
+  - jekyll-feed
+  
