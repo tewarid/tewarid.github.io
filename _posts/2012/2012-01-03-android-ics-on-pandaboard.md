@@ -50,4 +50,4 @@ Things are at an early experimental stage with Android on PandaBoard. Gingerbrea
 
 I have to really try and build the ICS from [source](http://source.android.com/), check the cool video below. I wish they provided an image to download.
 
-[youtube http://www.youtube.com/watch?v=ltbdDSocIJE&w=560&h=315]
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ltbdDSocIJE?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
