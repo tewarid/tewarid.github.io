@@ -6,7 +6,7 @@
 ## {{this_year}}
     {% endif %}
 
-* [{{ post.title }}]({{ post.url }})
+[{{ post.title }}]({{ post.url }})
 
     {% if forloop.last %}
     {% else %}
