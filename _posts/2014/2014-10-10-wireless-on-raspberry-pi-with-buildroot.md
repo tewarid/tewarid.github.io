@@ -6,7 +6,7 @@ tags: wireless wifi wi-fi raspberry pi buildroot kernel linux
 
 Raspberry Pi does not have Wi-Fi on board. You'll need to use a Wi-Fi dongle and discover the driver to build into the kernel. One way to find the driver is to plug the dongle into a Raspberry Pi running Raspbian, and run `lsmod` to see which module gets loaded. The following text assumes you're building a custom embedded Linux system using Buildroot.
 
-## Kernel Configuration
+### Kernel Configuration
 
 Invoke the Kernel configuration utility using `make linux-menuconfig`.
 
@@ -30,7 +30,7 @@ Enable [Realtek 8187 and 8187B USB support](http://wireless.kernel.org/en/users/
 
 ![Realtek 8187 and 8187B USB support](/assets/img/buildroot-kernel-driver-realtek-8187.png)
 
-## Package Configuration
+### Package Configuration
 
 Invoke `make menuconfig` within the buildroot folder from a command prompt.
 
@@ -44,7 +44,7 @@ Select package [wpa_supplicant](http://wireless.kernel.org/en/users/Documentatio
 
 Perform the build by invoking make, copy the newly minted system to an SD card, and use it to boot up your Raspberry Pi.
 
-## Configure Wireless Networking
+### Configure Wireless Networking
 
 List your wireless interfaces
 

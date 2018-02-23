@@ -41,7 +41,7 @@ Install certificate (Test.cer) to local machine before running executable.
 
 ![Install certificate (Test.cer) to local machine](/assets/img/code-signing-root-certificate.png)
 
-**Signing a Wix Toolset setup bundle**
+### Signing a Wix Toolset setup bundle
 
 You cannot just sign the setup bundle executable and get it to work, because the embedded executable (engine.exe) remains unsigned and will be flagged as a security risk. Use the [following steps](http://stackoverflow.com/questions/19254772/how-do-i-use-insignia-exe-to-codesign-a-wix-bundle) to prepare setup bundle for installation without being flagged as a security risk.
 

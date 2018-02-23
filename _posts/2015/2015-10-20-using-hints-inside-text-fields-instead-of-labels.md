@@ -10,6 +10,4 @@ A custom attribute called data-hint-value contains the hint value to which a tex
 
 {% gist b404e71c8f4d9174b679f3fa380f1417 %}
 
-[See Preview](https://gistpreview.github.io/?b404e71c8f4d9174b679f3fa380f1417)
-
 setAllTextToHint is a helper function that sets all text fields to their hint values. isTextValueValid may be used to check whether a text field contains some value, and alerts the user when it does not. Tweak these as you see fit.

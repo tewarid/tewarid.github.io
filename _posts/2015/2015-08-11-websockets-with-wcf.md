@@ -6,7 +6,7 @@ tags: websocket wcf c# .net programming
 
 This post demonstrates an elementary chat service constructed using WCF and WebSockets. A custom binding that leverages WebSocket support in [httpTransport](https://msdn.microsoft.com/en-us/library/ms731364.aspx) is used. JSON is serialized and deserialized using byteStreamMessageEncoding encoding. Use httpsTransport for secure transport.
 
-## Service interface
+### Service interface
 
 The service interface is used to receive connection requests and messages from clients. It has only one method, as shown below.
 
@@ -26,7 +26,7 @@ namespace ChatService
 }
 ```
 
-## Callback interface
+### Callback interface
 
 The callback interface is used to send messages back to the clients.
 
@@ -46,7 +46,7 @@ namespace ChatService
 }
 ```
 
-## Service implementation
+### Service implementation
 
 The service implementation receives messages from clients, and fires them off to other clients, using their respective callback interface. Messages are sent to clients who have sent messages to a chat room, and are still connected.
 
@@ -151,7 +151,7 @@ namespace ChatService
 }
 ```
 
-## App.config
+### App.config
 
 App.config below creates a customBinding and associates it with the chat service.
 
@@ -181,7 +181,7 @@ App.config below creates a customBinding and associates it with the chat service
 </configuration>
 ```
 
-## Self hosted console app
+### Self hosted console app
 
 A console app that hosts the service is shown below.
 
@@ -205,7 +205,7 @@ namespace ChatServiceHost
 }
 ```
 
-## Chat web page
+### Chat web page
 
 The following web page uses jQuery and WebSocket to send/receive messages to/from chat rooms.
 
@@ -279,7 +279,7 @@ The following web page uses jQuery and WebSocket to send/receive messages to/fro
 </html>
 ```
 
-## Testing
+### Testing
 
 Open the HTML file in a modern web browser, and you'll see the chat page. Open the same page in additional tabs. Once you send a message to one or more chat rooms in a tab, messages posted from other tabs using different nicknames to the same chat rooms, should appear in the Messages area in reverse chronological order.
 

@@ -8,7 +8,7 @@ This post shows how to build Bluetooth support with Buildroot for a Raspberry Pi
 
 I recommend using Buildroot 2014.08 because [bluez-tools]({% link _posts/2014/2014-10-24-customize-buildroot-to-build-bluez-tools.md %}) such as bt-adapter and bt-agent work with its version of Bluez.
 
-## Kernel Configuration
+### Kernel Configuration
 
 Enable Bluetooth subsystem support under Networking support
 
@@ -22,7 +22,7 @@ Since we're using a USB adapter, enable [HCI](https://developer.bluetooth.org/Te
 
 ![HCI USB driver](/assets/img/buildroot-kernel-networking-bluetooth-driver-hci.png)
 
-## Buildroot Packages
+### Buildroot Packages
 
 The Kernel Bluetooth stack is called BlueZ. BlueZ also provides a set of utilities that can be used from the command line. To add those, select bluez-utils under Target packages, Networking applications
 
@@ -34,7 +34,7 @@ If using Buildroot 2014.08, select bluez-utils 5.x package instead
 
 `make` the Linux system and copy to SD card.
 
-## Useful commands
+### Useful commands
 
 Look for interfaces
 
@@ -122,7 +122,7 @@ Use screen with the above serial port
 screen /dev/rfcomm0 115200
 ```
 
-## Bluetooth LE commands
+### Bluetooth LE commands
 
 Scan for Bluetooth LE devices
 

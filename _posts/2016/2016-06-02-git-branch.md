@@ -94,7 +94,7 @@ Permanently delete branch ref from remote (use caution)
 
 ```bash
 git push remote --delete branch
-## OR
+### OR
 git push remote :branch
 ```
 

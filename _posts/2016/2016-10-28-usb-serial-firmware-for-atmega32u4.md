@@ -8,7 +8,7 @@ This post shows how to create USB Serial firmware for the ATmega32U4 found on Ad
 
 ![Adafruit's ATmega32U4 breakout](/assets/img/fritzing-atmega32u4-adafruit.png)
 
-## Source code
+### Source code
 
 Creation of source code using Atmel Studio 7 is described in post [Arduino USB Serial firmware from scratch]({% link _posts/2016/2016-08-10-arduino-usb-serial-firmware-from-scratch.md %}). Choose adafruit_u4 as the board for LUFA Board Support (driver).
 
@@ -18,7 +18,7 @@ See the wiring diagram above to see how JTAGICE3 can be wired to the ICSP header
 
 ![Device Programming](/assets/img/atmel-studio-device-programming-usb-serial.png)
 
-## Testing and troubleshooting
+### Testing and troubleshooting
 
 The converter can be tested by using another USB Serial converter connected to RX and TX wires shown in the wiring diagram. Note that the wire ending with TX should be connected to RX on the other converter, similarly the wire ending with RX should be connected to TX.
 

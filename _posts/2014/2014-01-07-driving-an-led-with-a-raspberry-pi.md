@@ -6,7 +6,7 @@ tags: gpio led raspberry pi python c# linux
 
 I recently began tinkering with a [Raspberry Pi Model B rev2](http://www.adafruit.com/products/998). This post shows how you can drive an LED using the GPIO pins on a Pi running Raspbian. If you are unfamiliar with Pi take a look at their [quick start guide](http://www.raspberrypi.org/technical-help-and-resource-documents).
 
-## GPIO Pin Numbering
+### GPIO Pin Numbering
 
 There are two ways to specify the GPIO you want to control. One is based on the numbering of the pin on the P1 connector, the other is based on the Broadcom SOC (BCM2835) GPIO numbering. For instance, pin 12 on P1 connector corresponds to pin GPIO18 on BCM2835.
 
@@ -16,7 +16,7 @@ This can be derived from the screenshots of the [schematic](http://www.raspberry
 
 ![BMC2835](/assets/img/pi-bcm2835.png)
 
-## RPi.GPIO Python module
+### RPi.GPIO Python module
 
 The [RPi.GPIO](http://sourceforge.net/projects/raspberry-gpio-python/) module is available on Raspbian. Let's assume you connect the LED as shown below. I have come to realize that the current driven by GPIO is low enough, that you can drive the LED shown without need for a resistor in series.
 
@@ -44,7 +44,7 @@ gpio.output(18, gpio.LOW)
 
 The project Wiki has many more examples.
 
-## Using GPIO filesystem
+### Using GPIO filesystem
 
 You can achieve the same result from the shell using the GPIO filesystem under /sys/class/gpio. The pin number needs to be the GPIO number specified for BCM2835\. You cannot do PWM with this mechanism, except at very low frequencies.
 

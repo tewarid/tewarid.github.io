@@ -6,7 +6,7 @@ tags: network bridging linux kernel buildroot raspberry pi
 
 This post shows how I add [network connection bridging](https://wiki.debian.org/BridgeNetworkConnections) to my custom embedded Linux system for Raspberry Pi. This allows me to experiment with bridging network connections for internet sharing, [robustness testing](https://delog.wordpress.com/2010/09/16/test-robustness-of-your-networked-applications-using-netem/), [packet capture](http://williamknowles.co.uk/?p=16), and so on.
 
-## Modify Linux kernel configuration
+### Modify Linux kernel configuration
 
 Execute the following in the buildroot folder to get Linux Kernel configuration menu
 
@@ -18,7 +18,7 @@ Select the 802.1d Ethernet Bridging module shown in the following screenshot
 
 ![Ethernet Bridging](/assets/img/buildroot-kernel-networking-bridging.png)
 
-## Modify Buildroot configuration
+### Modify Buildroot configuration
 
 Execute the following in the buildroot folder to get the configuration menu
 
@@ -32,7 +32,7 @@ Select the bridge-utils package, shown in the screenshot below. This package con
 
 Then, just execute make to build the system. Once that is done, copy the new kernel image and root file system over to the SD card.
 
-## Perform bridging
+### Perform bridging
 
 These are the sequence of commands I typically use to bring up the bridge manually. I use a regular ethernet interface and a USB CDC ethernet interface for testing.
 

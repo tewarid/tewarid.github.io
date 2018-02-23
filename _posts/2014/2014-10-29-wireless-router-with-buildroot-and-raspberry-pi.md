@@ -11,13 +11,13 @@ Add all appropriate Kernel modules and Buildroot packages referenced in the foll
 * [Wireless on Raspberry Pi with Buildroot]({% link _posts/2014/2014-10-10-wireless-on-raspberry-pi-with-buildroot.md %})
 * [Linux NAT routing on Raspberry Pi with Buildroot]({% link _posts/2014/2014-09-03-linux-nat-routing-on-raspberry-pi-with-buildroot.md %})
 
-## Kernel Configuration
+### Kernel Configuration
 
 I'm using a different [USB Wi-Fi adapter](http://www.adafruit.com/products/1012) in this post. It has the RTL8188CUS chipset that supports access point mode. The Kernel driver is Realtek 8192C USB WiFi, available under Device Drivers, Network device support, Wireless LAN
 
 ![Realtek 8192C USB WiFi](/assets/img/buildroot-kernel-driver-realtek-8192c.png)
 
-## Package Configuration
+### Package Configuration
 
 Invoke `make menuconfig` within the buildroot folder from a command prompt. Under Target Packages, select option Show packages that are also provided by busybox
 
@@ -33,7 +33,7 @@ If you're using a different wireless adapter, select [hostapd](http://wireless.k
 
 Perform build by invoking make, copy the newly minted system to an SD card, and use it to boot up your Raspberry Pi.
 
-## Custom hostapd
+### Custom hostapd
 
 The hostapd built by Buildroot does not work with the chosen Wi-Fi adapter. We need to build the hostapd module provided by Realtek for RTL8188CUS.
 
@@ -48,7 +48,7 @@ make CC=arm-buildroot-linux-uclibcgnueabi-gcc
 
 Copy hostapd binary to SD card.
 
-## Router Setup
+### Router Setup
 
 Bring up wireless interface with a static IP address
 

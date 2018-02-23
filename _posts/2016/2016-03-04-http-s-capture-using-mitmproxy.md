@@ -8,7 +8,7 @@ This post shows how to install mitmproxy on MacOS (El Capitan) to capture HTTP/S
 
 I've been using Telerik Fiddler on Windows for sniffing HTTP/S and WebSocket traffic, but it isn't very reliable on Mac or Linux. mitmproxy fills the lacuna well, but it does not yet support WebSocket traffic.
 
-## Install
+### Install
 
 Use pip to install mitmproxy thus
 
@@ -64,7 +64,7 @@ xcode-select --install
 
 Now, mitmproxy should install successfully.
 
-## Run
+### Run
 
 To capture HTTP/S traffic using mitmproxy traffic, run
 
@@ -74,7 +74,7 @@ mitmproxy
 
 mitmproxy should show which port it is listening at; 8080 is the default. Use http://localhost:8080 as the HTTP proxy setting in browsers and applications.
 
-## Android emulator
+### Android emulator
 
 This is how you can execute Android emulator to use mitmproxy as an HTTP proxy
 
@@ -85,13 +85,13 @@ export DYLD_FALLBACK_LIBRARY_PATH=~/Library/Android/sdk/tools/lib64
 
 The first line is needed so that the emulator can find the necessary libraries such as OpenGLES emulation library.
 
-## Pinned Certificates
+### Pinned Certificates
 
 If you try to access any site in the Android browser, or run any application that uses HTTP/S, mitmproxy will capture all traffic. To capture SSL traffic mitmproxy presents its own certificate to the applications. The root certificate that mitmproxy uses will need to be added to the certificate store, to avoid failures in certificate chain validation. This can be done by navigating to the special [mitm.it](http://mitm.it) URL in the browser, and picking your platform from the resulting page.
 
 If you use certificate pinning in your applications, you can add ~/.mitmproxy/mitmproxy-ca-cert.cer to the list of certificates.
 
-## WebSocket traffic
+### WebSocket traffic
 
 mitmproxy does not support WebSocket traffic so connection establishment will fail. You can however setup mitmproxy to ignore traffic to a certain host:port. This can be leveraged to ask it to ignore WebSocket traffic.
 
