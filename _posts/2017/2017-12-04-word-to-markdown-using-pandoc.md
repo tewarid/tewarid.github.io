@@ -58,7 +58,7 @@ HTML tables in Markdown are not rendered to PDF, and pipe table cells with long 
 
 Pandora dumps the table of contents (TOC) of the original docx a line per topic. It renders section headings without numbering. I suggest eliminating the TOC, and letting Pandoc number sections, and render table of contents, automatically.
 
-If you have cross-references in the Word document using section numbers, you can generate a hyperlinked TOC using the capabilities of Markdown TOC plugin of Code. The plugin can also add, update, or remove section numbering.
+If you have cross-references in the Word document that use section numbers, you can generate a hyperlinked TOC using the capabilities of Markdown TOC plugin of Code. The plugin can also add, update, or remove section numbers.
 
 I suggest you avoid section numbers and use hyperlinked section references instead.
 
