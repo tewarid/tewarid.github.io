@@ -4,7 +4,7 @@ title: Word to Markdown using Pandoc
 tags: word markdown pandoc
 ---
 
-Markdown has become the de-facto standard for [writing software documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). This post discusses converting Word documents to Markdown using Pandoc, and rendering them to PDF.
+Markdown has become the _de-facto_ standard for [writing software documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). This post discusses converting Word documents to Markdown using Pandoc, and rendering them to PDF.
 
 To follow along, if you haven't done so already, [install](https://pandoc.org/installing.html) Pandoc. Word documents need to be in the [docx](http://www.ecma-international.org/publications/standards/Ecma-376.htm) format. Legacy binary doc files are not supported by Pandoc.
 
@@ -28,14 +28,22 @@ Remove `--toc` option if you don't want a table of contents. Remove `-N` option 
 
 ### Markdown Editor
 
-You'll need a text editor to edit a Markdown file. I use Visual Studio Code (Code) which has built-in support for editing and previewing Markdown files. I use a few additional plugins to make editing Markdown files more productive
+You'll need a text editor to edit a Markdown file. I use Visual Studio Code (Code) which has built-in support for editing and previewing Markdown files.
+
+I use a few additional plugins to make editing Markdown files more productive
 
 * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+
 * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
+
 * [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
+
 * [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)
+
 * [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+
 * [SpellChecker](https://marketplace.visualstudio.com/items?itemName=swyphcosmo.spellchecker)
+
 * [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter)
 
 ### Tables
@@ -94,10 +102,30 @@ Using [regular expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScr
 
 Some useful regular expressions for searching
 
-* `^#+\s*$` empty heading
-* `\s+$` line with trailing spaces
-* `\b\s\s+\b` repeated whitespace between words
-* `\s+[,;.]` whitespace before , or .
-* `\n\n[a-z]` paragraph starts with small case
-* `figure\s+(?!([\d]){1,})` word figure not followed by a number
-* `section\s+(?!(\d+\.*\d*?){1,})` word section not followed by number
+* Empty heading
+
+    `^#+\s*$`
+
+* Line with trailing spaces
+
+    `\s+$`
+
+* Repeated whitespace between words
+
+    `\b\s\s+\b`
+
+* Whitespace before , or .
+
+    `\s+[,;.]`
+
+* Paragraph starts with small case
+
+    `\n\n[a-z]`
+
+* Word _figure_ not followed by a number
+
+    `figure\s+(?!([\d]){1,})`
+
+* Word _section_ not followed by a number
+
+    `section\s+(?!(\d+\.*\d*?){1,})`
