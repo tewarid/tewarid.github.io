@@ -8,9 +8,9 @@ As an avid iOS user I have been keen on using [HomeKit](https://developer.apple.
 
 ### Setup Raspberry Pi Image
 
-I decided to download a headless (console-only) version of Raspbian called [RASPBIAN JESSIE LITE](https://www.raspberrypi.org/downloads/raspbian/). Instructions for setting up an SD card appropriately can be found [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). I use Win32 Disk Imager on Windows to [write](https://delog.wordpress.com/2011/06/27/write-ubuntu-image-file-to-sd-card-on-windows/) images.
+I decided to download a headless (console-only) version of Raspbian called [RASPBIAN JESSIE LITE](https://www.raspberrypi.org/downloads/raspbian/). Instructions for setting up an SD card appropriately can be found [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). I use Win32 Disk Imager on Windows to [write]({% link _posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md %}) images.
 
-I didn't want to use an HDMI display with the Raspberry Pi, and wanted to power it using my laptop. I have used a USB to serial adapter to do that [in the past](https://delog.wordpress.com/2014/07/21/sparkfun-ftdi-basic-with-raspberry-pi/). This time, I went with Adafruit's USB Serial TTL cable as described in this [lesson](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable). That done, I was able to power up and login to the Raspberry Pi using a serial terminal. I tend to use screen on Linux or Mac OS X
+I didn't want to use an HDMI display with the Raspberry Pi, and wanted to power it using my laptop. I have used a USB to serial adapter to do that [in the past]({% link _posts/2014/2014-07-21-sparkfun-ftdi-basic-with-raspberry-pi.md %}). This time, I went with Adafruit's USB Serial TTL cable as described in this [lesson](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable). That done, I was able to power up and login to the Raspberry Pi using a serial terminal. I tend to use screen on Linux or Mac OS X
 
 ```bash
 screen /dev/ttyUSB0

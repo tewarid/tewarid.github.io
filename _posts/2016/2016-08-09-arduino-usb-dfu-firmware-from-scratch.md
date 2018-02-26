@@ -20,6 +20,6 @@ Change the compiler optimization setting to -Os in toolchain properties (Project
 
 ![Optimize for Size Configuration](/assets/img/atmel-studio-optimize-for-size-dfu.png)
 
-Build the solution and flash (Tools -> Device Programming) using an [ISP/ICSP programmer](https://delog.wordpress.com/2016/08/05/arduino-uno-bootloader-programming-using-jtagice-mkii/) connected to the ICSP2 header.
+Build the solution and flash (Tools -> Device Programming) using an [ISP/ICSP programmer]({% link _posts/2016/2016-08-05-arduino-uno-bootloader-programming-using-jtagice-mkii.md %}) connected to the ICSP2 header.
 
 ![Device Programming](/assets/img/atmel-studio-device-programming-dfu.png)

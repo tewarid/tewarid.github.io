@@ -4,7 +4,7 @@ title: Tackling OAuth 2.0 in iOS 9 with Swift 2
 tags: oauth2 ios swift
 ---
 
-In an earlier post I discussed how to [tackle OAuth 2.0 in an Android app](https://delog.wordpress.com/2016/02/18/tackling-oauth-2-0-in-an-android-app/). This post discusses how to do that in iOS 9 with Swift 2.
+In an earlier post I discussed how to [tackle OAuth 2.0 in an Android app]({% link _posts/2016/2016-02-18-tackling-oauth-2.0-in-an-android-app.md %}). This post discusses how to do that in iOS 9 with Swift 2.
 
 Step 1, in the post referenced above, is performed in a UIWebView. The view containing the UIWebView implements UIWebViewDelegate, intercepts all accessed URLs in webView:shouldStartLoadWithRequest:navigationType: function, and acquires the authorization code using regular expressions.
 

@@ -58,7 +58,7 @@ export NODE_PATH=$HOME/node_modules/
 homebridge
 ```
 
-See also how to [run homebridge as a service upon reboot](https://delog.wordpress.com/2016/05/10/run-homebridge-as-a-service-upon-reboot/).
+See also how to [run homebridge as a service upon reboot]({% link _posts/2016/2016-05-10-run-homebridge-as-a-service-upon-reboot.md %}).
 
 ### Test with HomeKit
 

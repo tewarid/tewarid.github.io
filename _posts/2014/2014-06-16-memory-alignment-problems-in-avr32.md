@@ -16,4 +16,4 @@ This post summarizes some memory alignment problems I've had with AVR32 and Atme
 
 * Passing pointers to unaligned members of packed `struct`s
 
-    I haven't (yet) had any problems with [packed](http://delog.wordpress.com/2011/05/25/points-to-remember-regarding-c-pointers/) `struct`s, but beware of passing pointers to members of such `struct`s to other functions. If your architecture does not support unaligned access (AVR32 being one such architecture), the processor may fault when functions try to read or write memory through misaligned pointers. Passing a pointer to the `struct` itself is fine because the compiler knows it is packed, and will access its members in a safe way.
+    I haven't (yet) had any problems with packed `struct`s, but beware of passing pointers to members of such `struct`s to other functions. If your architecture does not support unaligned access (AVR32 being one such architecture), the processor may fault when functions try to read or write memory through misaligned pointers. Passing a pointer to the `struct` itself is fine because the compiler knows it is packed, and will access its members in a safe way.

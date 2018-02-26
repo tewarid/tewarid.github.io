@@ -4,7 +4,7 @@ title: Recursively copy to output in msbuild project
 tags: msbuild xcopy
 ---
 
-I have this very specific need to copy all files and folders from a source folder, to the project build output, akin to [xcopy](https://delog.wordpress.com/2013/01/09/xcopy/). Here's an AfterBuild target that does that.
+I have this very specific need to copy all files and folders from a source folder, to the project build output, akin to [xcopy]({% link _posts/2013/2013-01-09-xcopy.md %}). Here's an AfterBuild target that does that.
 
 ```xml
   <Target Name="AfterBuild">

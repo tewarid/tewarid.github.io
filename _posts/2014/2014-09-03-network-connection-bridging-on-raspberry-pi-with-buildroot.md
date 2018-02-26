@@ -4,7 +4,7 @@ title: Network Connection Bridging on Raspberry Pi with Buildroot
 tags: network bridging linux kernel buildroot raspberry pi
 ---
 
-This post shows how I add [network connection bridging](https://wiki.debian.org/BridgeNetworkConnections) to my custom embedded Linux system for Raspberry Pi. This allows me to experiment with bridging network connections for internet sharing, [robustness testing](https://delog.wordpress.com/2010/09/16/test-robustness-of-your-networked-applications-using-netem/), [packet capture](http://williamknowles.co.uk/?p=16), and so on.
+This post shows how I add [network connection bridging](https://wiki.debian.org/BridgeNetworkConnections) to my custom embedded Linux system for Raspberry Pi. This allows me to experiment with bridging network connections for internet sharing, [robustness testing]({% link _posts/2010/2010-09-16-test-robustness-of-your-networked-applications-using-netem.md %}), [packet capture](http://williamknowles.co.uk/?p=16), and so on.
 
 ### Modify Linux kernel configuration
 

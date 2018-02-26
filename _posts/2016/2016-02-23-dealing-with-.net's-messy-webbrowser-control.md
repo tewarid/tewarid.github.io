@@ -4,7 +4,7 @@ title: Dealing with .NET's messy WebBrowser control
 tags: update
 ---
 
-I've been trying hard to coax .NET's WebBrowser control to log in using PingFederate federation server. I particularly don't want to mess with the registry to change Internet Explorer's [browser emulation](https://msdn.microsoft.com/en-us/library/ee330730.aspx) settings due to a single application. Something that with Android is [amazingly simple](https://delog.wordpress.com/2016/02/18/tackling-oauth-2-0-in-an-android-app/), requires a lot of [extra effort](http://stackoverflow.com/a/937636/1750924) with .NET for the Desktop.
+I've been trying hard to coax .NET's WebBrowser control to log in using PingFederate federation server. I particularly don't want to mess with the registry to change Internet Explorer's [browser emulation](https://msdn.microsoft.com/en-us/library/ee330730.aspx) settings due to a single application. Something that with Android is [amazingly simple]({% link _posts/2016/2016-02-18-tackling-oauth-2.0-in-an-android-app.md %}), requires a lot of [extra effort](http://stackoverflow.com/a/937636/1750924) with .NET for the Desktop.
 
 The WebBrowser control defaults to IE7 emulation as seen by the following User-Agent header, discovered using Fiddler.
 

@@ -12,7 +12,7 @@ MOTOTRBO radios can be connected to an IP peripheral, such as a PC, over a USB 1
 
 ### Generic Option Board
 
-The radio can also host an embedded board called the Generic Option Board (GOB), designed around an Atmel [AVR32](http://delog.wordpress.com/2011/05/27/useful-references-and-tools-for-avr32-developers/) SoC. An application on the GOB can receive raw datagrams sent to a virtual port on the radio. Connectivity to the PC and extensibility using the GOB make the MOTOTRBO radio an attractive platform for delivering small-data applications.
+The radio can also host an embedded board called the Generic Option Board (GOB), designed around an Atmel AVR32 SoC. An application on the GOB can receive raw datagrams sent to a virtual port on the radio. Connectivity to the PC and extensibility using the GOB make the MOTOTRBO radio an attractive platform for delivering small-data applications.
 
 ### Non-IP Peripheral
 

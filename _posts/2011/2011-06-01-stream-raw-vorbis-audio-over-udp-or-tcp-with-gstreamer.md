@@ -1,22 +1,22 @@
 ---
 layout: default
 title: Stream raw vorbis audio over UDP or TCP with GStreamer
-tags:
+tags: audio vorbis stream tcp udp gstreamer
 ---
 
-I have [posted](http://delog.wordpress.com/2011/05/03/stream-webm-vorbis-audio-using-gstreamer-over-tcp/) before about streaming a vorbis audio stream using TCP, muxed as WebM, so that the container header provides the necessary information regarding the audio stream to the receiver. I have also [posted](http://delog.wordpress.com/2011/05/11/audio-streaming-over-rtp-using-the-rtpbin-plugin-of-gstreamer/) about streaming raw audio using RTP over UDP. All that works fine, but I wanted to try doing the same using just UDP or TCP, without resorting to a container format or other protocol.
+I have [posted]({% link _posts/2011/2011-05-03-stream-webm-vorbis-audio-using-gstreamer-over-tcp.md %}) before about streaming a vorbis audio stream using TCP, muxed as WebM, so that the container header provides the necessary information regarding the audio stream to the receiver. I have also [posted]({% link _posts/2011/2011-05-11-audio-streaming-over-rtp-using-the-rtpbin-plugin-of-gstreamer.md %}) about streaming raw audio using RTP over UDP. All that works fine, but I wanted to try doing the same using just UDP or TCP, without resorting to a container format or other protocol.
 
 ### Using UDP
 
 The receiver starts the pipeline first, so it can receive the right headers
 
-```
+```bash
 gst-launch -v udpsrc port=9001 ! vorbisdec ! audioconvert ! alsasink sync=false
 ```
 
 The sender then starts a pipeline thus
 
-```
+```bash
 gst-launch -v autoaudiosrc ! audioconvert ! audioresample ! vorbisenc ! multiudpsink client="localhost:9001,localhost:9002"
 ```
 
@@ -24,7 +24,7 @@ I have used a `multiudpsink` to demonstrate that it is possible to stream to mul
 
 If you initiate the receiver pipeline after the sender, you'll see a message such as
 
-```
+```text
 ERROR: from element /GstPipeline:pipeline0/GstVorbisDec:vorbisdec0: Could not decode stream.
 Additional debug info:
 gstvorbisdec.c(976): vorbis_handle_data_packet (): /GstPipeline:pipeline0/GstVorbisDec:vorbisdec0:
@@ -36,13 +36,13 @@ Now, one would think that replacing the `udpsrc` and `udpsink` above, with `tcps
 
 The receiver can run a pipeline such as
 
-```
+```bash
 gst-launch -v tcpserversrc port=9001 ! gdpdepay ! vorbisdec ! audioconvert ! alsasink sync=false
 ```
 
 The sender can then start sending the audio stream, using a pipeline such as
 
-```
+```bash
 gst-launch -v autoaudiosrc ! audioconvert ! audioresample ! vorbisenc ! gdppay ! tcpclientsink port=9001
 ```
 
@@ -50,7 +50,7 @@ One immediate advantage of using gdp with TCP, the sender can stream data using 
 
 The TCP pipelines above will not work with UDP. On executing the sender pipeline, the receiver prints a message such as
 
-```
+```text
 gstgdpdepay.c(416): gst_gdp_depay_chain (): /GstPipeline:pipeline0/GstGDPDepay:gdpdepay0:
 Received a buffer without first receiving caps
 ```

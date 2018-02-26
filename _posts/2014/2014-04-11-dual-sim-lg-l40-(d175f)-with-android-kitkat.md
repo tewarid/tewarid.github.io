@@ -28,6 +28,6 @@ More details follow
 * 4 GB internal flash storage (1.64 GB available to user)
 * A-GPS support
 * Rotation sensing with built-in accelerometer
-* Bluetooth 4.0 with LE (was able to detect an iBeacon [emulated](https://delog.wordpress.com/2014/02/04/emulating-bluetooth-peripheral-on-mac-os-x-mavericks/) on Mac OS X)
+* Bluetooth 4.0 with LE (was able to detect an iBeacon [emulated]({% link _posts/2014/2014-02-04-emulating-bluetooth-le-peripheral-on-mac-os-x-mavericks.md %}) on Mac OS X)
 * MTP (media transfer protocol) works fine with Windows (transfer arbitrary files to/from internal storage and SD card)
 * MTP doesn't work with Mac OS X Mavericks, but [Android File Transfer](https://www.android.com/filetransfer/) does the job

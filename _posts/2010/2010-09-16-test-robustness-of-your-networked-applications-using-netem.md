@@ -6,7 +6,7 @@ tags: linux kernel netem chaos monkey testing engineering
 
 Adverse network conditions that cause corrupt, delayed, dropped, and out-of-order packets, can play havoc with distributed applications.
 
-Linux provides a kernel module called [netem](http://www.linuxfoundation.org/collaborate/workgroups/networking/netem) that can modify network traffic in configurable ways. You can create two networks and use a [linux box](https://delog.wordpress.com/2014/09/03/linux-network-connection-bridging/) to [bridge](http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge) these two networks, and configure netem to simulate adverse conditions between the two networks.
+Linux provides a kernel module called [netem](http://www.linuxfoundation.org/collaborate/workgroups/networking/netem) that can modify network traffic in configurable ways. You can create two networks and use a linux box to [bridge](http://www.linuxfoundation.org/collaborate/workgroups/networking/bridge) these two networks, and configure netem to simulate adverse conditions between the two networks.
 
 If you're building an embedded Linux system, with Buildroot for instance, you can enable netem module under Networking support, Networking options, QoS and/or fair queueing.
 
