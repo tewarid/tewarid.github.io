@@ -18,13 +18,13 @@ We use a chained dissector. A chained dissector dissects payload of an existing 
 
 ### Running the Lua script in Wireshark
 
-Here are the steps required to get the above code running. Skip step 3 if your Wireshark version is 1.4 or better.
+These are the steps required to test the code above
 
-1. Edit and save the lua script above to any folder e.g. a file called `myproto.lua` in `c:\myproto`.
+1. Edit and save the lua script above to any folder e.g. a file called `myproto.lua` in `c:\myproto`
 
 2. Open `init.lua` in the Wireshark installation directory for editing. You will need Admin privileges on Windows Vista and 7.
 
-3. Ensure that the following line in `init.lua`, if present, is commented out
+3. Ensure that the following line in `init.lua` is commented out - skip step if Wireshark version is 1.4 or better
 
     ```lua
     -- disable_lua = true; do return end;
@@ -37,11 +37,11 @@ Here are the steps required to get the above code running. Skip step 3 if your W
     dofile(MYPROTO_SCRIPT_PATH.."myproto.lua")
     ```
 
-5. Change MYPROTO_SCRIPT_PATH to point to the folder where you saved the script in step 1.
+5. Change MYPROTO_SCRIPT_PATH to point to the folder where you saved the script in step 1
 
-6. Run Wireshark.
+6. Run Wireshark
 
-7. Load a capture file that has the packets of your custom protocol or start a live capture.
+7. Load a capture file that has the packets of your custom protocol or start a live capture
 
 Here's a figure that shows the protocol dissector in action
 
