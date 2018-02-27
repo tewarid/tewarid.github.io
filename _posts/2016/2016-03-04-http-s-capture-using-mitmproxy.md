@@ -4,7 +4,7 @@ title: HTTP/S capture using mitmproxy
 tags: http https mitmproxy sniffer macos
 ---
 
-This post shows how to install mitmproxy on MacOS (El Capitan) to capture HTTP/S traffic, especially useful when debugging applications.
+This post shows how to install mitmproxy on Mac OS X (El Capitan) to capture HTTP/S traffic, especially useful when debugging applications.
 
 I've been using Telerik Fiddler on Windows for sniffing HTTP/S and WebSocket traffic, but it isn't very reliable on Mac or Linux. mitmproxy fills the lacuna well, but it does not yet support WebSocket traffic.
 

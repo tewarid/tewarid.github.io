@@ -10,7 +10,7 @@ Some useful tips to work with this Jekyll blog
     ./run-docker.sh
     ```
 
-    This works well but I've run into a situation where the Docker container [uses excessive CPU time](https://github.com/docker/for-mac/issues/1759) on MacOS while idling.
+    This works well but I've run into a situation where the Docker container [uses excessive CPU time](https://github.com/docker/for-mac/issues/1759) on macOS while idling.
 
 * Command to rename all posts in a folder using title specified in Front Matter
 

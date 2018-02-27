@@ -14,7 +14,7 @@ ping -s 50000 -M do localhost
 
 Here, 50000 is the size of the payload in the ICMP echo request. The `-M do` option prohibits fragmentation. The ICMP message as a whole has 8 more bytes, as that is the size of the header. The command shows that the loopback adapter's MTU size is 16436, and the ping fails.
 
-On MacOS
+On Mac OS X
 
 ```bash
 ping -s 50000 -D localhost

@@ -4,7 +4,7 @@ title: Access USB device on Mac OS X using I/O Kit
 tags: macos usb bulk transfer c
 ---
 
-This post shows how you can access a USB device from user space on MacOS. I used Xcode 4.3.2 on MacOS Lion (10.7.3) for testing the code.
+This post shows how you can access a USB device from user space on Mac OS X. I used Xcode 4.3.2 on Mac OS X Lion (10.7.3) for testing the code.
 
 Apple provides the [USB Device Interface Guide](https://developer.apple.com/library/mac/documentation/devicedrivers/Conceptual/USBBook/WorkingWithUSB.pdf "USB Device Interface Guide") that shows how USB devices can be accessed from user space. The book [OS X and iOS Kernel Programming](http://www.apress.com/gp/book/9781430235361) is also very helpful, see Chapter 15 - User-Space USB Drivers.
 

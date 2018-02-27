@@ -4,7 +4,7 @@ title: Mac OS X tips
 tags:
 ---
 
-This is an ever expanding list of tips for MacOS
+This is an ever expanding list of tips for Mac OS X
 
 * Go to a folder in Finder
 

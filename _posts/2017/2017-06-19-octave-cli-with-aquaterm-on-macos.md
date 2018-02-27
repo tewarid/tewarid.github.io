@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Octave CLI with AquaTerm on MacOS
+title: Octave CLI with AquaTerm on macOS
 tags: octave cli macos aquaterm
 ---
 

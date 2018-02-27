@@ -1,6 +1,6 @@
 ---
 layout: default
-title: RNDIS driver for MacOS
+title: RNDIS driver for Mac OS X
 tags: rndis macos
 ---
 

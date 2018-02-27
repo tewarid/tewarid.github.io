@@ -14,7 +14,7 @@ Clone the google-oauth-java-client repo at GitHub
 git clone git@github.com:google/google-oauth-java-client.git
 ```
 
-Install Apache Maven if you don't already have it. You'll need Oracle's JDK to use Maven and compile the sample app. On Mac OS X, Maven can be installed using Homebrew
+Install Apache Maven if you don't already have it. You'll need Oracle's JDK to use Maven and compile the sample app. On macOS, Maven can be installed using Homebrew
 
 ```bash
 brew install maven

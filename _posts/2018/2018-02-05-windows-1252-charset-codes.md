@@ -38,4 +38,4 @@ Alternatively, use [GNU sed]() to automate file search and replace
 gsed -i "s/\x94/'/g" file
 ```
 
-This replaces all occurences of character with code 0x94 with a quote. `gsed` is GNU sed on MacOS. `-i` does in place update to the file.
+This replaces all occurences of character with code 0x94 with a quote. `gsed` is GNU sed on macOS. `-i` does in place update to the file.

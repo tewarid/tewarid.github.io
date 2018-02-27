@@ -4,7 +4,7 @@ title: Building usbboot
 tags: usbboot usb boot pandaboard arm android aosp
 ---
 
-I have mentioned usbboot in the post [Install AOSP build to PandaBoard]({% link _posts/2013/2013-05-29-install-aosp-build-to-pandaboard.md %}). In this post I show how you can tweak the usbboot utility and build it from [source](https://github.com/swetland/omap4boot). I am running Ubuntu 12.04 within Parallels on MacOS.
+I have mentioned usbboot in the post [Install AOSP build to PandaBoard]({% link _posts/2013/2013-05-29-install-aosp-build-to-pandaboard.md %}). In this post I show how you can tweak the usbboot utility and build it from [source](https://github.com/swetland/omap4boot). I am running Ubuntu 12.04 within Parallels on Mac OS X.
 
 To begin, clone omap4boot from GitHub.
 
