@@ -18,13 +18,13 @@ The `--extract-media` option tells Pandoc to extract media to a `./media` folder
 
 ### Render PDF
 
-To render a PDF using Pandoc
+To render a PDF
 
 ```bash
 pandoc file.md -f gfm -o file.pdf --toc -N
 ```
 
-Remove `--toc` option if you don't want a table of contents. Remove `-N` option if you don't want sections to be numbered automatically.
+Remove `--toc` option if you don't want Pandoc to create a table of contents. Remove `-N` option if you don't want it to number sections automatically.
 
 ### Markdown Editor
 
