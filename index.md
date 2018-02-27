@@ -1,6 +1,6 @@
 ---
 layout: default
-title: make · learn · share · care
+title: hello, world!
 tags: update
 ---
 
