@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Main Page
+title: make · learn · share · care
 tags: update
 ---
 
