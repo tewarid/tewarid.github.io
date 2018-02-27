@@ -4,7 +4,7 @@ title: Android ICS on PandaBoard
 tags: aosp ics pandaboard
 ---
 
-PandaBoard has been graced with Android 4 ICS (Ice Cream Sandwich). Thanks to linaro.org it is fairly easy to obtain and try for yourself, their [download](http://www.linaro.org/downloads/) page provides images for different ARM SoC development [boards](https://wiki.linaro.org/Boards) including [PandaBoard](http://pandaboard.org/).
+PandaBoard has been graced with Android 4 ICS (Ice Cream Sandwich). Thanks to linaro.org it is fairly easy to obtain and try for yourself, their [download](http://www.linaro.org/downloads/) page provides images for different ARM SoC development [boards](https://wiki.linaro.org/Boards) including [PandaBoard](https://en.wikipedia.org/wiki/PandaBoard).
 
 My PandaBoard is a [Rev](http://omappedia.org/wiki/PandaBoard_Revisions) A2\. The Linaro Android image I tested is [11.12](https://releases.linaro.org/archive/11.12/android/images/). You can use [Win32 Disk Imager]({% link _posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md %}) to write the pre-built binary to SD card on Windows.
 
