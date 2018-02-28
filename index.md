@@ -9,7 +9,7 @@ tags: update
     {% capture next_year %}{{ post.previous.date | date: "%Y" }}{% endcapture %}
 
     {% if forloop.first %}
-## {{this_year}}
+### {{this_year}}
     {% endif %}
 
 [{{ post.title }}]({{ post.url }})
@@ -17,7 +17,7 @@ tags: update
     {% if forloop.last %}
     {% else %}
         {% if this_year != next_year %}
-## {{next_year}}
+### {{next_year}}
         {% endif %}
     {% endif %}
 {% endfor %}
