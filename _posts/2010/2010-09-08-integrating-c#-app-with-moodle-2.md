@@ -10,7 +10,7 @@ Moodle 2 exposes the same service methods using several protocols like XML-RPC, 
 
 To expose web service methods for Moodle 2 use the following documentation: [https://docs.moodle.org/dev/Web_services](https://docs.moodle.org/dev/Web_services). Since this documentation is sparse, we'll list the basic steps required to configure a user that can access existing web service methods.
 
-![site admin web services plugin](http://delog.files.wordpress.com/2010/09/wsadmin1.jpg)
+![site admin web services plugin](/assets/img/moodle-2-site-administration.jpg)
 
 1. Add a new Moodle user
 
