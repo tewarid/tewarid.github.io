@@ -4,27 +4,43 @@ title: Post-mortem debugging of .NET applications using WinDbg
 tags: post mortem debug c# .net windows
 ---
 
-Debugging is a skill you learn under pressure, because you usually learn it when things are going awry with a particular application or service just gone live, and you are quite convinced it has no severe bugs. It is never a pleasure to encounter such bugs, because although they happen quite frequently in your production environment, they are particularly hard to reproduce in your development or test environment.
+Debugging is a skill you usually learn under pressure, when things are going awry with an application or service just gone live, and you are quite convinced that the code has no apparent bugs. It is never a pleasure to encounter such bugs, because although they happen quite frequently in your production environment, they are particularly hard to reproduce in your test environment.
 
-For managed applications, you can learn a new skill that will save you some face, it is called post-mortem debugging. WinDbg is a splendid tool. It can be used to debug any arbitrary running process, but it is a really useful tool for debugging memory dumps.
+For managed applications, you can learn a new skill that will save you some face, called post-mortem debugging. WinDbg is a splendid tool that is often used to debug running processes, but can also be used to analyze process crash dumps.
 
-Process memory can be dumped quite easily
+### Dump process memory
 
-* You can use WinDbg
+Process memory can be dumped quite easily using
 
-    [Install](http://www.microsoft.com/whdc/devtools/debugging/installx86.mspx) WinDbg, attach to a process, break on the required exception and then dump memory. Memory can be dumped from the command line or the file menu. From the command line, just type: `.dump /ma filename.dmp`. You need to have enough disk space because `dmp` files can be rather big.
+* WinDbg
 
-* You can dump process memory using the Task Manager
+    * [Install](http://www.microsoft.com/whdc/devtools/debugging/installx86.mspx) WinDbg
 
-There are several other ways that are already documented [elsewhere](http://www.wintellect.com/CS/blogs/jrobbins/archive/2010/06/17/how-to-capture-a-minidump-let-me-count-the-ways.aspx), but for most purposes the above should suffice.
+    * Attach to a process
 
-Once you have the dump file, you can open it with WinDbg.
+    * Break on the required exception
 
-There are several useful commands you can then execute to examine the process
+    * Dump memory from the command line or the _File_ menu. From the command line, type
+
+        ```text
+        .dump /ma filename.dmp
+        ```
+
+        You need to have enough disk space because `dmp` files can be rather big.
+
+* Task Manager
+
+    Right click on a process and select _Create dump file_
+
+There are several other ways documented [elsewhere](https://www.wintellect.com/how-to-capture-a-minidump-let-me-count-the-ways/), but the above should suffice for most purposes.
+
+### WinDbg commands
+
+Once you have the crash dump file, you can open it with WinDbg, and examine it with several useful commands
 
 * `!runaway`
 
-    Shows thread times. This can be really useful to find badly behaved threads that are consuming much CPU.
+    Shows thread times. This can be really useful to find badly behaved threads that are consuming a lot of CPU.
 
 * `!analyze -v`
 
@@ -42,6 +58,8 @@ There are several useful commands you can then execute to examine the process
 
     Sets the thread with ID `n` as the current thread.
 
+### Extensions
+
 WinDbg is most useful for debugging managed application using the following extensions
 
 * [SOS](http://msdn.microsoft.com/en-us/library/bb190764.aspx)
@@ -50,21 +68,23 @@ WinDbg is most useful for debugging managed application using the following exte
 
 * [SOSEX](http://www.stevestechspot.com/default.aspx)
 
-    This has several useful additions to the core SOS extension. It must be loaded by using the `.load` command e.g. `.load c:\sosex\sosex.dll`.
+    This has several useful additions to the core SOS extension. It must be loaded using the `.load` command e.g. `.load c:\sosex\sosex.dll`.
 
 * [Psscor2](https://blogs.msdn.microsoft.com/amb/2011/04/28/free-download-psscor2-new-windbg-extension-for-debugging-net-4-0-applications/)
 
     Has several useful commands, especially commands for debugging ASP.NET applications. Load it using the `.load` command e.g. `.load c:\psscor2\x86\psscor2.dll`.
 
+### SOS extension
+
 The SOS extension has several useful commands, particularly
 
 * `!clrstack -p`
 
-    Prints the stack trace of the current thread. This only works for managed threads. If you have [symbols](http://support.microsoft.com/kb/311503) for your assemblies, you can see some pretty detailed information in the stack trace.
+    Prints the stack trace of the current thread. This only works for managed threads. If you have [symbols](http://support.microsoft.com/kb/311503) for your assemblies, you can see some pretty useful information in the stack trace.
 
 * `!dumpheap`
 
-    Dumps the objects from the heap. You can dump objects of a specific type by using the -type option e.g. `!dumpheap -type System.Threading.Thread`. This can be really useful to list all objects and their addresses. By knowing the number of objects of a particular type in use you can debug typical resource exhaustion problems.
+    Dumps the objects from the heap. You can dump objects of a specific type by using the `-type` option e.g. `!dumpheap -type System.Threading.Thread`. This can be really useful to list all objects and their addresses. By knowing the number of objects of a particular type in use, you can debug resource exhaustion problems.
 
 * `!do address`
 
@@ -73,6 +93,8 @@ The SOS extension has several useful commands, particularly
 * `!da`
 
     Prints information about an array
+
+### SOSEX extension
 
 The SOSEX extension has the following commands that are particularly useful
 
@@ -83,6 +105,8 @@ The SOSEX extension has the following commands that are particularly useful
 * `!dlk`
 
     Searches for possible deadlocks.
+
+### Psscor2 extension
 
 The Psscor2 extension has one particularly useful command, among several others, that can come in handy when troubleshooting network related issues
 
