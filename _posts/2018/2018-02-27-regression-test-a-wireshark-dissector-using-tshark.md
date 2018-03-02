@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Regression test a Wireshark dissector using tshark
-tags: update
+tags: wireshark tshark dissector test regression
 ---
 
 This post shows how you can use some basic command line utilities, and [tshark](https://www.wireshark.org/docs/man-pages/tshark.html), to automate regression testing of a Wireshark dissector.
