@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation using Markdown and Pandoc
+title: Documentation as Code with Markdown
 tags: topic
 ---
 
