@@ -8,7 +8,7 @@ I've been troubleshooting iBeacons lately, and [Bluetooth LE Sniffer](https://ww
 
 [nRF Sniffer software](https://learn.adafruit.com/introducing-the-adafruit-bluefruit-le-sniffer/nordic-nrfsniffer) captures all BLE traffic in libpcap format that can be viewed in Wireshark 2.4\. If you're using an older version of Wireshark, I have [ported](https://github.com/tewarid/wireshark-nordic-ble-lua) the native dissector to Lua that should work starting from Wireshark 1.12.
 
-Here's an iBeacon advertisement dissected using the nordic_ble Lua dissector, and Wireshark's native btle dissector, on OS X. Note that iBeacon payload proprietary to Apple is not yet decoded by Wireshark's btle dissector.
+Here's an iBeacon advertisement dissected using the nordic_ble Lua dissector, and Wireshark's native btle dissector, on macOS. Note that iBeacon payload proprietary to Apple is not yet decoded by Wireshark's btle dissector.
 
 ![Bluetooth LE Advertisement](/assets/img/btle_adv_ind.png)
 

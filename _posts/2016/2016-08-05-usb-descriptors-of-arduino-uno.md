@@ -4,7 +4,7 @@ title: USB Descriptors of Arduino UNO
 tags: usb arduino uno hardware
 ---
 
-I've been studying the USB interface of [Arduino UNO](https://www.adafruit.com/products/50) so that I can interface it to an embedded host. It appears as a serial port on Linux, OS X, and Windows 10, without need for custom drivers. The Arduino IDE can reprogram the device over the serial port. Makers also use it to output debug information.
+I've been studying the USB interface of [Arduino UNO](https://www.adafruit.com/products/50) so that I can interface it to an embedded host. It appears as a serial port on Linux, macOS, and Windows 10, without need for custom drivers. The Arduino IDE can reprogram the device over the serial port. Makers also use it to output debug information.
 
 ![uno.png](/assets/img/fritzing-arduino-uno.png)
 
