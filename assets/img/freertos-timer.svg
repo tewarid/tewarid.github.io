@@ -1,0 +1,23 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Timer</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_6" y="117.5" x="363" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">MAX</text>
+  <line id="svg_10" y2="30.42746" x2="168" y1="92.5" x1="168" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <rect stroke="#000000" id="svg_14" height="49" width="163" y="42.5" x="3" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff0000"/>
+  <line id="svg_1" y2="92.5" x2="397.52025" y1="92.5" x1="2.5" stroke-width="5" stroke="#000000" fill="none"/>
+  <line stroke="#000000" id="svg_17" y2="203.96373" x2="87" y1="266.03627" x1="87" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" fill="none"/>
+  <line id="svg_2" y2="267" x2="397.52025" y1="267" x1="2.5" stroke-width="5" stroke="#000000" fill="none"/>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_4" y="117.5" x="6" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">0</text>
+  <text id="svg_5" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="291.75" x="6" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">0</text>
+  <text id="svg_7" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="291.75" x="366.01563" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">MAX</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_8" y="21.5" x="172" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">startTick</text>
+  <text id="svg_9" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="22.75" x="304" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">tickUntil</text>
+  <line id="svg_11" y2="28.96373" x2="305" y1="91.03627" x1="305" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <rect stroke="#000000" id="svg_15" height="49" width="232" y="215.5" x="89.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff0000"/>
+  <rect stroke="#000000" id="svg_16" height="49" width="90" y="41.5" x="307.5" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ff0000"/>
+  <line id="svg_18" y2="202.96373" x2="323" y1="265.03627" x1="323" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="5" stroke="#000000" fill="none"/>
+  <text id="svg_19" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="194.75" x="326" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">startTick</text>
+  <text id="svg_20" xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" y="195.75" x="86.01563" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">tickUntil</text>
+ </g>
+</svg>
