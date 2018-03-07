@@ -8,6 +8,8 @@ I am a software engineer by profession, a maker by heart, and have a lovely fami
 
 ### Topics
 
+[Atmel AVR and AVR32]({% link avr.md %})
+
 [Documentation as Code with Markdown]({% link markdown.md %})
 
 [OpenSSL]({% link openssl.md %})

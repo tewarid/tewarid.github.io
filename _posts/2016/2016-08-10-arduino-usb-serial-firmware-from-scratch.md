@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Arduino USB Serial firmware from scratch
-tags: arduino usb serial hardware programming atmega16u2
+tags: arduino usb serial programming avr atmel studio
 ---
 
 I have need to change the USB descriptors of an Arduino Uno R3 acting as a peripheral to another device. This post describes how I built a [USB Serial firmware](https://github.com/tewarid/arduino-usb-serial) for the ATmega16U2 on an Arduino Uno R3, using Atmel Studio 7 and its LUFA Library extension. It can be flashed using the built-in DFU firmware and Atmel's [FLIP](http://www.microchip.com/developmenttools/productdetails.aspx?partno=flip) tool.

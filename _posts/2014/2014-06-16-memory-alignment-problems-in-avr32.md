@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Memory alignment problems in AVR32
-tags: c memory alignment programming atmel studio gnu
+tags: c programming atmel studio avr32
 ---
 
 This post summarizes some memory alignment problems I've had with AVR32 and Atmel's GNU toolchain that ships with Atmel Studio 6.2.
