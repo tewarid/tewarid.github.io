@@ -10,6 +10,8 @@ I am a software engineer by profession, a maker by heart, and have a lovely fami
 
 [Documentation as Code with Markdown]({% link markdown.md %})
 
+[OpenSSL]({% link openssl.md %})
+
 [Wireshark and Lua Dissectors]({% link lua-dissectors.md %})
 
 {% for post in site.posts  %}
