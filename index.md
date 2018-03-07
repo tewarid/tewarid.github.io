@@ -6,7 +6,7 @@ tags: update
 
 I am a software engineer by profession, a maker by heart, and have a lovely family at Recife, Brazil. You can find a [résumé](https://github.com/tewarid/resume) and some of my work at GitHub.
 
-### Posts by topic
+### Topics
 
 [Documentation as Code with Markdown]({% link markdown.md %})
 
