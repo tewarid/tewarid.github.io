@@ -26,4 +26,4 @@ Any output produced by the above could be a result of
 
 2. A bug - create a bug report with the output
 
-This should work on macOS, Linux, and on Windows in the git bash shell.
+This should work on macOS, Linux, and on Windows in the Git Bash shell.
