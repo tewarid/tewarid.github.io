@@ -56,4 +56,8 @@ Add private key to the appropriate key store and reconfigure server application.
 
 Add certificate file to trusted root authorities key store. Restart the browser. It should be happy with the certificate provided by the server.
 
-On Windows, PowerShell's [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate) command can also be used to automate self-signed certificate creation and installation.
+On Windows, PowerShell's [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate) command can also be used to automate self-signed certificate creation and installation
+
+```powershell
+New-SelfSignedCertificate -DnsName "localhost", "example.com" -CertStoreLocation "cert:\LocalMachine\My"
+```
