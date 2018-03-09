@@ -51,30 +51,25 @@ provide a cheaper alternative to Windows.
 
 The last decade saw the emergence of Java that brought a paradigm shift in how
 software was developed and consumed. Software could now be consumed over the
-Internet. Software did not need to be present on a personal computer. It could
-be downloaded, installed, and executed in a manner that was secure and usable.
-Java has since evolved. It is now used on servers and personal computers. Its
-main advantage seems to be a virtual machine specification which if implemented
-for a specific platform makes consumption of any Java software possible. Java
-gives us the true possibility of making application software a commodity. If you
-have the Java virtual machine, you can run the application software. That brings
-us to .NET - which provides essentially the same possibility. Just a possibility
-because so far Microsoft has seen no need to provide .NET on anything but
-Windows.
+Internet on the fly. Java has since evolved. It is now used on servers. Its main
+advantage seems to be a virtual machine specification which if implemented for a
+specific platform makes consumption of any Java software possible. Java gives us
+the true possibility of making application software a commodity. That brings us
+to .NET - which provides essentially the same possibility, bur Microsoft - so
+far - has seen no need to provide .NET on anything but Windows.
 
 ### Software as a Commodity
 
-Software and hardware are turning into commodities as several industry observers
-have been mentioning repeatedly. Nothing new there. Big companies are using
-large scale production to provide cheap products. This usually is a reasonable
-indicator of a mature industry. System software by its nature is costly to build
-but very cheap to spread. The question is - if hardware feature innovation
-stagnates will we ever need to upgrade system software? The answer to that may
-be the reason why Microsoft is being criticized for leading every company and
-home user to upgrade Windows. Microsoft, I am certain, is aware of that and is
-looking for more innovative ways to make money. Linux, in the meantime, is
-pushing into the systems software commodity market with a price tag that is hard
-to go unnoticed for long.
+Software and hardware are turning into commodities - as several industry
+observers have mentioned repeatedly. This usually is a reasonable indicator of a
+mature industry. System software by its nature is costly to build but very cheap
+to spread. The question is - if hardware feature innovation stagnates will we
+ever need to upgrade system software? The answer to that may be the reason why
+Microsoft is being criticized for leading every company and home user to upgrade
+Windows. Microsoft, I am certain, is aware of that and is looking for more
+innovative ways to make money. Linux, in the meantime, is pushing into the
+systems software commodity market with a price tag that is hard to go unnoticed
+for long.
 
 ### Future
 
