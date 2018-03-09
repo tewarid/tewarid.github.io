@@ -8,7 +8,7 @@ We'll stream live WebM video to the browser using GStreamer and Node.js, in this
 
 ### The code
 
-We spawn a GStreamer pipeline to mux a WebM stream, and stream it using the `tcpserversink` element. After we receive a request from the browser, at port 8001, we create a TCP client to receive the WebM stream, and forward it to the browser.
+We spawn a GStreamer pipeline to mux a WebM stream, and stream it using the `tcpserversink` element. After we receive a request at port 8001 from a browser, we create a TCP client socket to receive the WebM stream, and forward it to the browser.
 
 {% gist ebb075bbcbfb5c3d83dc7429647748a7 %}
 
