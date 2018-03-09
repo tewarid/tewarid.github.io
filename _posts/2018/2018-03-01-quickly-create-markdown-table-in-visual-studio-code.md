@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Quickly create Markdown table in Visual Studio Code
-tags: pandoc grid table visual studio plugin markdown
+tags: pandoc grid table visual studio code plugin markdown
 ---
 
-This is how you can create badly formatted table that is syntactically correct, using Pandoc's grid [table syntax](https://pandoc.org/MANUAL.html#tables)
+Here's a badly formatted table that is syntactically correct
 
 ```text
 : Table caption
@@ -19,7 +19,9 @@ This is how you can create badly formatted table that is syntactically correct, 
 +-+-+
 ```
 
-Then, use Code's [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter) plugin to format it so it looks like
+The table uses grid [table syntax](https://pandoc.org/MANUAL.html#tables), but the same procedure can be used with pipe tables.
+
+Use Code's [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter) plugin to format the table so it looks like
 
 ```text
 : Table caption
@@ -34,8 +36,6 @@ Then, use Code's [Table Formatter](https://marketplace.visualstudio.com/items?it
 +------------------------+--------------+
 ```
 
-The same procedure can be used with pipe tables.
-
-This is how the grid table looks when rendered to PDF
+This is how the grid table should look when rendered to PDF using the eisvogel latex template
 
 ![Grid Table rendered to PDF by Pandoc](/assets/img/pandoc-pdf-grid-table.png)
