@@ -12,4 +12,4 @@ The following tools can be used to create mock [SOAP 1.1](https://www.w3.org/TR/
 
 - [Castle Mock](https://github.com/castlemock/castlemock)
 
-    A [Tomcat](https://tomcat.apache.org/) based web application that can be used to mock SOAP and REST services. It can conveniently run in a [Docker](https://hub.docker.com/r/castlemock/castlemock/) container.
+    A [Tomcat](https://tomcat.apache.org/) based web application that conveniently runs in a [Docker](https://hub.docker.com/r/castlemock/castlemock/) container.
