@@ -46,13 +46,19 @@ I use a few additional plugins to make editing Markdown files more productive
 
 * [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter)
 
+### HTML in Markdown
+
+GFM allows [HTML blocks](https://github.github.com/gfm/#html-blocks) in Markdown. These get rendered when previewed in Code, GitHub, or GitLab. Pandoc suppresses raw HTML output to PDF format and hence HTML blocks get rendered as plain text. For example, `<sup>1</sup>` gets rendered as `1` instead of <sup>1</sup>. You can use `^text^` in Pandoc's Markdown syntax to render superscript.
+
+You can use [HTML character entities](https://dev.w3.org/html5/html-author/charref) to write out characters and symbols not available on the keyboard.
+
 ### Tables
 
 Pandoc will convert Word tables whose cells have a single line of text using the pipe table syntax. Column text alignment is not rendered, you'll have to add that back. Relative column widths may need to be adjusted using dashes.
 
 Tables whose cells have complex data such as lists and multiple lines, are converted to the HTML table syntax. It is not unusual for tables with complex layouts such as merged cells to be missing columns or rows. _Review all tables carefully_. I suggest simplifying complex tables in the original Word document before conversion.
 
-HTML tables in Markdown are not rendered to PDF, and pipe table cells with long text, or images, may [stretch beyond the page](https://github.com/jgm/pandoc/issues/4239). I've obtained nice results using grid tables in Pandoc's native Markdown format, but these tables are not rendered in Markdown preview in Code, GitHub, and GitLab.
+HTML tables in Markdown are rendered to PDF as text. Pipe table cells with long text, or images, may [stretch beyond the page](https://github.com/jgm/pandoc/issues/4239). I've obtained nice results using grid tables in Pandoc's native Markdown format, but these tables are not rendered in Markdown preview in Code, GitHub, and GitLab.
 
 ### Table of Contents
 
