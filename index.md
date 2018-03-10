@@ -12,7 +12,11 @@ Navigate posts by topic, chronologically, or use [Google Search](https://cse.goo
 
 [Atmel AVR and AVR32]({% link avr.md %})
 
+[Buildroot]({% link buildroot.md %})
+
 [Documentation as Code with Markdown]({% link markdown.md %})
+
+[GStreamer]({% link gstreamer.md %})
 
 [OpenSSL]({% link openssl.md %})
 
