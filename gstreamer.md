@@ -1,15 +1,7 @@
 ---
 layout: default
 title: GStreamer
-tags: topic
+tags: gstreamer
 ---
 
-{% for post in site.posts %}
-
-    {% if post.tags contains 'gstreamer' %}
-
-[{{ post.title }}]({{ post.url }})
-
-    {% endif %}
-
-{% endfor %}
+{% include_relative list-posts-by-tag.md %}

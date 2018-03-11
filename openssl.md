@@ -1,15 +1,7 @@
 ---
 layout: default
 title: OpenSSL
-tags: topic
+tags: openssl
 ---
 
-{% for post in site.posts %}
-
-    {% if post.tags contains 'openssl' %}
-
-[{{ post.title }}]({{ post.url }})
-
-    {% endif %}
-
-{% endfor %}
+{% include_relative list-posts-by-tag.md %}

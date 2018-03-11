@@ -8,7 +8,7 @@ I am a software engineer by profession, a maker by heart, and have a lovely fami
 
 Navigate posts by topic, chronologically, or use [Google Search](https://cse.google.com/cse/publicurl?cx=007972243254995935457:as_8bpaffdc).
 
-### Topics
+### Topic
 
 [Atmel AVR]({% link avr.md %})
 

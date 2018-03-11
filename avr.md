@@ -1,15 +1,7 @@
 ---
 layout: default
-title: Atmel AVR and AVR32
-tags: topic
+title: Atmel AVR
+tags: atmel avr
 ---
 
-{% for post in site.posts %}
-
-    {% if post.tags contains 'avr32' or post.tags contains 'avr' or post.tags contains 'atmel'  %}
-
-[{{ post.title }}]({{ post.url }})
-
-    {% endif %}
-
-{% endfor %}
+{% include_relative list-posts-by-tag.md %}

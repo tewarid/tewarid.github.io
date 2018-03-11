@@ -1,15 +1,7 @@
 ---
 layout: default
 title: Documentation as Code with Markdown
-tags: topic
+tags: markdown
 ---
 
-{% for post in site.posts %}
-
-    {% if post.tags contains 'markdown' %}
-
-[{{ post.title }}]({{ post.url }})
-
-    {% endif %}
-
-{% endfor %}
+{% include_relative list-posts-by-tag.md %}
