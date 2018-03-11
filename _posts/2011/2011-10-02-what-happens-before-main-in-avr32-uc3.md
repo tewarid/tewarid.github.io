@@ -1,7 +1,7 @@
 ---
 layout: default
 title: What happens before main in AVR32 UC3
-tags: main function avr32 
+tags: main function avr
 ---
 
 Example projects in AVR32 Studio use a two-step startup procedure that occurs in the following order

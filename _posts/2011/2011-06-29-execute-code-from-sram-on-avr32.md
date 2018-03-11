@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Execute code from SRAM on AVR32
-tags: sram avr32 linker script
+tags: sram avr linker script
 ---
 
 Atmel's [AVR32825: Executing code from external SDRAM](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591936) application note explains how to execute code from [SRAM](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591182) and [AVR32795: Using the GNU Linker Scripts on AVR UC3 Devices](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591310) explains how to use linker scripts. GNU [ld](http://sourceware.org/binutils/docs/ld/index.html) and [as](http://sourceware.org/binutils/docs/as/index.html) docs are also useful references.
