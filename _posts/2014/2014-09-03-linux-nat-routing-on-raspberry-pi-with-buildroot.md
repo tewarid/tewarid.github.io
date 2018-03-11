@@ -4,7 +4,7 @@ title: Linux NAT routing on Raspberry Pi with Buildroot
 tags: linux kernel nat routing buildroot raspberry pi
 ---
 
-This post documents the kernel modules and other packages required to build an embedded Linux NAT router using buildroot, for Raspberry Pi.
+This post documents the kernel modules and other packages required to build an embedded Linux NAT router using Buildroot, for Raspberry Pi.
 
 ### Modify Linux kernel configuration
 

@@ -14,7 +14,7 @@ sudo apt-get install ncurses-dev git g++
 
 I then obtained Buildroot release buildroot-2014.05.tar.gz and extracted it to a local folder using `tar xvzf buildroot-2014.05.tar.gz`. The procedure to perform the build and prepare an SD card is well documented in file `board/raspberrypi/readme.txt`.
 
-I headed into the buildroot-2014.05 folder and prepared the appropriate `.config` file required by buildroot
+I headed into the buildroot-2014.05 folder and prepared the appropriate `.config` file required by Buildroot
 
 ```bash
 cd buildroot-2014.05

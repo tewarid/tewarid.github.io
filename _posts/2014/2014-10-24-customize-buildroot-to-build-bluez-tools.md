@@ -14,7 +14,7 @@ Download source code of bluez-tools. I did this outside of the buildroot folder,
 git clone https://github.com/khvzak/bluez-tools.git
 ```
 
-Add an override rule to file local.mk, in the root folder of buildroot. That tells buildroot not to download package source from the internet, but to copy the source from the folder created above
+Add an override rule to file local.mk, in the root folder of buildroot. That tells Buildroot not to download package source from the internet, but to copy the source from the folder created above
 
 ```conf
 BLUEZ_TOOLS_OVERRIDE_SRCDIR = /home/parallels/github/bluez-tools/
