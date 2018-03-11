@@ -10,17 +10,17 @@ Navigate posts by topic, chronologically, or use [Google Search](https://cse.goo
 
 ### Topics
 
-[Atmel AVR and AVR32]({% link avr.md %})
+[Atmel AVR]({% link avr.md %})
 
 [Buildroot]({% link buildroot.md %})
 
-[Documentation as Code with Markdown]({% link markdown.md %})
-
 [GStreamer]({% link gstreamer.md %})
+
+[Markdown]({% link markdown.md %})
 
 [OpenSSL]({% link openssl.md %})
 
-[Wireshark and Lua Dissectors]({% link lua-dissectors.md %})
+[Wireshark]({% link wireshark.md %})
 
 {% for post in site.posts  %}
     {% capture this_year %}{{ post.date | date: "%Y" }}{% endcapture %}
