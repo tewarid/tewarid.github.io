@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Wireshark and Lua Dissectors
+title: Wireshark
 tags: wireshark lua
 ---
+
+I've been using Wireshark for debugging networking issues for quite some time, and done dissector development in Lua.
 
 {% include_relative list-posts-by-tag.md %}
