@@ -7,7 +7,7 @@ tags: laptop wish macos macbook pro
 I use my laptop for work. I also use my iPad for work, but also for play. If my laptop is to remain my primary computing device, it needs the following as soon as possible.
 
 * It has to be lighter
-* It needs to transfer less heat to my lap, in spite of heavy use
+* It needs to transfer less heat to my lap, despite heavy use
 * It has to have a screen with a resolution of 200 PPI or better
 * It needs to have lots of physical memory, but be responsive when swapping to disk
 * It needs to run all my Windows apps

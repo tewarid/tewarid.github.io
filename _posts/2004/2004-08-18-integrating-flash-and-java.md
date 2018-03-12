@@ -208,7 +208,7 @@ To test the Flash interface, just enter any values in the form fields and hit OK
 
 - Reuse of existing Web Services
 
-    In spite of the problems cited so far one big advantage of using SOAP based web services is the universality of these services. If you are simply reusing the any number of existing SOAP based web services, you may have no other option than to use the SOAP based web service support in Flash.
+    Despite the problems cited so far, one big advantage of using SOAP based web services is the universality of these services. If you are simply reusing the any number of existing SOAP based web services, you may have no other option than to use the SOAP based web service support in Flash.
 
 Flash Remoting \- discussed in the following section \- overcomes most of the limitations of the SOAP implementation in Flash.
 
