@@ -4,7 +4,7 @@ title: Add bitfield to dissection tree
 tags: bit field wireshark dissector lua
 ---
 
-Wireshark has a limitation in the Lua API. It only supports bitfields i.e. int fields with mask, when added to a `Proto` by setting `Proto.fields`, like so
+Wireshark has a limitation in its Lua API. It only supports bitfields - int fields with mask - when using ProtoField, like so
 
 ```lua
 -- create myproto protocol and its fields
@@ -14,7 +14,7 @@ local f_bitfield = ProtoField.uint8("myproto.bitfield", "Command", base.HEX,
 p_myproto.fields = {f_bitfield}
 ```
 
-This is cumbersome if you have a large protocol with several bitfields, you'll have to add all of them up front. Here's a helper function to add bitfields to the dissection tree. Its only limitation is that Wireshark will highlight all the octets that contain the bitfield, if you enable Bit View in the lowest (third) pane, Wireshark will not highlight only the bits pertaining to the bitfield.
+This is cumbersome if you have a large protocol with several bitfields - you'll have to add all of them up front. Here's a helper function to add bitfields to the dissection tree. Its only limitation is that Wireshark highlights all the octets containing the bitfield, in the _Packet Bytes_ pane - when viewing bytes as bits. When using ProtoField, Wireshark highlights just the bits selected by the mask.
 
 ```lua
 function bitfield_add(buf, subtree, offset, size, bitfieldstart, bitfieldlen,
@@ -58,5 +58,3 @@ name, valuestring, desc, format)
     subtree:add(ProtoField.uint8(name), buf(offset, size), desc)
 end
 ```
-
-Enjoy!
