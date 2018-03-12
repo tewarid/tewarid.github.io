@@ -4,8 +4,7 @@ title: Criteria to evaluate a good software course
 tags: opinion software course training
 ---
 
-The following criteria can be used to evaluate the quality of a good
-software course
+The following criteria can be used to evaluate the quality of a good software course
 
 - The quality of the handout
 
@@ -17,8 +16,7 @@ software course
 
     - **Illustrations** should be used but must be clear and concise
 
-    - Use a simple communicative **dialog** rather than a stiff
-        technical one
+    - Use a simple communicative **dialog** rather than a stiff technical one
 
 - The completeness of objectives
 
@@ -26,15 +24,13 @@ software course
 
     - No important topic should be left out
 
-    - Include **references** and **appendix** to explain off-topic
-        questions
+    - Include **references** and **appendix** to explain off-topic questions
 
 - The knowledge level of the trainer
 
     - The trainer should have a good grasp of the software
 
-    - The trainer should be certified and/or have a good working
-        knowledge
+    - The trainer should be certified and/or have a good working knowledge
 
 - The applicability to real-world scenarios
 
@@ -52,5 +48,4 @@ software course
 
     - Each topic must have a well thought out exercise
 
-    - Each section or topic must have review tests to promote
-        self-evaluation and participation
+    - Each section or topic must have review tests to promote self-evaluation and participation

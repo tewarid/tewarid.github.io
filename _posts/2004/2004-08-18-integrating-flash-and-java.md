@@ -4,23 +4,11 @@ title: Integrating Flash and Java
 tags: adobe flash java web service apache axis soap
 ---
 
-This is a short tutorial on integrating Flash and Java using Web Services and
-Flash Remoting. We start by constructing a short example for each approach and
-then point out the advantages and limitations of the approach. We will not be
-entering into much detail on how to configure the tools used in this tutorial -
-leaving that as an exercise for the reader. We do however link to sites where
-you can download these tools and seek help on configuring them.
+This is a short tutorial on integrating Flash and Java using Web Services and Flash Remoting. We start by constructing a short example for each approach and then point out the advantages and limitations of the approach. We will not be entering into much detail on how to configure the tools used in this tutorial - leaving that as an exercise for the reader. We do however link to sites where you can download these tools and seek help on configuring them.
 
 ### Publish a Java web service using Apache Axis
 
-Let us begin by publishing a simple web service using [Apache
-Axis](https://axis.apache.org/axis/). The example we will use in this section is
-a simple use case for creating a new customer with a name and address
-information. We will represent the customer using a Customer class shown below.
-The class follows the JavaBeans syntax for specifying getters and setters to
-expose private attributes. Only those attributes that have getters and setters
-will be serialized or de-serialized by Axis. The class would also need a default
-no arguments constructor if it had a constructor with arguments.
+Let us begin by publishing a simple web service using [Apache Axis](https://axis.apache.org/axis/). The example we will use in this section is a simple use case for creating a new customer with a name and address information. We will represent the customer using a Customer class shown below. The class follows the JavaBeans syntax for specifying getters and setters to expose private attributes. Only those attributes that have getters and setters will be serialized or de-serialized by Axis. The class would also need a default no arguments constructor if it had a constructor with arguments.
 
 ```java
 package flashjava;
@@ -85,10 +73,7 @@ public class Customer {
 }
 ```
 
-Next, let us construct a class called `ServiceFacade` that contains a
-method called `createCustomer` which receives a `Customer` instance. To keep
-our example simple we just echo back the `Customer` instance to the
-caller.
+Next, let us construct a class called `ServiceFacade` that contains a method called `createCustomer` which receives a `Customer` instance. To keep our example simple we just echo back the `Customer` instance to the caller.
 
 ```java
 package flashjava;
@@ -102,15 +87,7 @@ public class ServiceFacade {
 }
 ```
 
-Next, we will expose the `ServiceFacade` class to Flash using Apache Axis. We
-assume you have a J2EE web module with Apache Axis configured in [Apache
-Tomcat](https://tomcat.apache.org/). We will use a `wsdd` file \- as shown below
-\- to publish our simple web service using Axis. The service element in the
-`wsdd` file tells Axis that we are publishing a new web service called
-`flashjava`, the class providing the service is `ServiceFacade` and that all
-methods in the class should be exposed. The `beanMapping` element within the
-service element tells Axis that we want to publish a new custom type called
-`Customer` and the Java class it maps to is `flashjava.Customer`.
+Next, we will expose the `ServiceFacade` class to Flash using Apache Axis. We assume you have a J2EE web module with Apache Axis configured in [Apache Tomcat](https://tomcat.apache.org/). We will use a `wsdd` file \- as shown below \- to publish our simple web service using Axis. The service element in the `wsdd` file tells Axis that we are publishing a new web service called `flashjava`, the class providing the service is `ServiceFacade` and that all methods in the class should be exposed. The `beanMapping` element within the service element tells Axis that we want to publish a new custom type called `Customer` and the Java class it maps to is `flashjava.Customer`.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -175,25 +152,15 @@ To publish the web service using AdminClient, we issue the following command:
 java org.apache.axis.client.AdminClient -sflashjava/services/AdminService -p 8080 publish.wsdd
 ```
 
-You can also use the publish target of the Ant script build.xml,
-provided with the source code of this tutorial, to publish the web
-service. Access the URL <http://localhost/flashjava/services/> to verify
-that the flashjava web service is listed by Axis. We have used a web
-application context called flashjava in the call to AdminClient and in
-the URL.
+You can also use the publish target of the Ant script build.xml, provided with the source code of this tutorial, to publish the web service. Access the URL <http://localhost/flashjava/services/> to verify that the flashjava web service is listed by Axis. We have used a web application context called flashjava in the call to AdminClient and in the URL.
 
 ### Consume the web service in Flash
 
-We will now create a Flash client to consume the web service we published in the
-previous section. We will use Flash MX Professional 2004 to create a simple user
-interface to input information about a customer, as shown below.
+We will now create a Flash client to consume the web service we published in the previous section. We will use Flash MX Professional 2004 to create a simple user interface to input information about a customer, as shown below.
 
 ![Flash user interface to consume the Java web service](/assets/img/flash-form.png)
 
-The OK button event handler code that invokes the web service is shown below. To
-be able to compile the SWF the Flash document must have the WebServiceConnector
-in the library. Just drop a WebServiceConnector component onto a frame and
-delete it and Flash will add the component to the document library.
+The OK button event handler code that invokes the web service is shown below. To be able to compile the SWF the Flash document must have the WebServiceConnector in the library. Just drop a WebServiceConnector component onto a frame and delete it and Flash will add the component to the document library.
 
 ```javascript
 on (click) {
@@ -227,57 +194,29 @@ on (click) {
 }
 ```
 
-To test the Flash interface, just enter any values in the form fields
-and hit OK. If the service call goes through, the application will
-update the ID field with a positive integer value.
+To test the Flash interface, just enter any values in the form fields and hit OK. If the service call goes through, the application will update the ID field with a positive integer value.
 
 ### Advantages and Limitations of SOAP
 
 - Performance
 
-    Web service based access is very slow due to XML parsing and validation
-    overhead. Since Java to Java web service access is many times faster this
-    probably means that Macromedia has a bad implementation of SOAP web services
-    in the Flash player. The Flash player also exhibits memory leaks.
+    Web service based access is very slow due to XML parsing and validation overhead. Since Java to Java web service access is many times faster this probably means that Macromedia has a bad implementation of SOAP web services in the Flash player. The Flash player also exhibits memory leaks.
 
 - Object model
 
-    The object model may need to be tweaked when using web services. A web
-    service call fails when passing objects with circular references, for
-    example, a parent referencing a child object which in turn references the
-    parent. For a new application this can be taken into account when designing
-    new objects but for legacy applications it may not be possible to modify the
-    object model. A web service call also fails when you try to send a complex
-    object \- containing an array of objects \- as a parameter. To work
-    around this limitation you may opt to serialize a complex object as an xml
-    string, send that across to the server and use a framework like
-    [Castor](http://castor.exolab.org/xml-framework.html) to de-serialize the
-    objects.
+    The object model may need to be tweaked when using web services. A web service call fails when passing objects with circular references, for example, a parent referencing a child object which in turn references the parent. For a new application this can be taken into account when designing new objects but for legacy applications it may not be possible to modify the object model. A web service call also fails when you try to send a complex object \- containing an array of objects \- as a parameter. To work around this limitation you may opt to serialize a complex object as an xml string, send that across to the server and use a framework like [Castor](http://castor.exolab.org/xml-framework.html) to de-serialize the objects.
 
 - Reuse of existing Web Services
 
-    In spite of the problems cited so far one big advantage of using SOAP
-    based web services is the universality of these services. If you are
-    simply reusing the any number of existing SOAP based web services, you
-    may have no other option than to use the SOAP based web service support
-    in Flash.
+    In spite of the problems cited so far one big advantage of using SOAP based web services is the universality of these services. If you are simply reusing the any number of existing SOAP based web services, you may have no other option than to use the SOAP based web service support in Flash.
 
-Flash Remoting \- discussed in the following section \- overcomes most of the
-limitations of the SOAP implementation in Flash.
+Flash Remoting \- discussed in the following section \- overcomes most of the limitations of the SOAP implementation in Flash.
 
 ### Publish a Java class using OpenAMF
 
-[OpenAMF](https://sourceforge.net/projects/openamf/) is an open source Flash
-remoting framework that can be used to expose Java classes to Flash using Flash
-remoting. Flash remoting uses a native format for serializing and de-serializing
-Flash objects which results in much better performance as compared to calling
-SOAP based web services.
+[OpenAMF](https://sourceforge.net/projects/openamf/) is an open source Flash remoting framework that can be used to expose Java classes to Flash using Flash remoting. Flash remoting uses a native format for serializing and de-serializing Flash objects which results in much better performance as compared to calling SOAP based web services.
 
-Next, we will publish the `ServiceFacade` class using OpenAMF.
-To configure OpenAMF copy the libraries \- jar files \- from the OpenAMF
-distribution to the `lib` folder of your web module. Then, create an xml file
-called `openamf-config.xml` with the configuration shown below and place it in the
-`WEB-INF` folder of your web module.
+Next, we will publish the `ServiceFacade` class using OpenAMF. To configure OpenAMF copy the libraries \- jar files \- from the OpenAMF distribution to the `lib` folder of your web module. Then, create an xml file called `openamf-config.xml` with the configuration shown below and place it in the `WEB-INF` folder of your web module.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -308,9 +247,7 @@ called `openamf-config.xml` with the configuration shown below and place it in t
 </config>
 ```
 
-The web module configuration file \- `web.xml` \- also needs to be modified to
-publish the OpenAMF flash remoting gateway. The configuration required
-is shown below.
+The web module configuration file \- `web.xml` \- also needs to be modified to publish the OpenAMF flash remoting gateway. The configuration required is shown below.
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
@@ -381,12 +318,7 @@ This wraps up the configuration of the flash remoting gateway.
 
 ### Use Flash Remoting to interact with the Java class
 
-Let us now create a Flash client to interact with the remoting gateway we set up
-in the previous section. The Flash client is similar to the example used in the
-section on web services, the only difference being the code in the OK button
-event handler. The event handler code shown below uses Flash remoting to call
-the ServiceFacade class instead of the SOAP web service. You may need to install
-ActionScript APIs to invoke Flash remoting services.
+Let us now create a Flash client to interact with the remoting gateway we set up in the previous section. The Flash client is similar to the example used in the section on web services, the only difference being the code in the OK button event handler. The event handler code shown below uses Flash remoting to call the ServiceFacade class instead of the SOAP web service. You may need to install ActionScript APIs to invoke Flash remoting services.
 
 ```javascript
 on (click) {
@@ -421,8 +353,7 @@ on (click) {
 }
 ```
 
-The following points should help you overcome any potential problems when using
-OpenAMF:
+The following points should help you overcome any potential problems when using OpenAMF:
 
 - A Java object serialized by OpenAMF must:
 
@@ -438,31 +369,20 @@ OpenAMF:
 
 - A Flash ActionScript object must:
 
-    - Have a default no arguments constructor and the constructor must
-    not assign values to fields received through Flash remoting as
-    these values will be overwritten.
+    - Have a default no arguments constructor and the constructor must not assign values to fields received through Flash remoting as these values will be overwritten.
 
-    - Have attributes whose name and case match the name and case of
-    the attributes in the corresponding remote object.
+    - Have attributes whose name and case match the name and case of the attributes in the corresponding remote object.
 
-    - Be registered using the Object.registerClass method which
-    associates an ActionScript class to the type of an incoming
-    remote object.
+    - Be registered using the Object.registerClass method which associates an ActionScript class to the type of an incoming remote object.
 
 ### Advantages and Limitations of Flash Remoting
 
 - Performance
 
-    Flash remoting calls perform much better than Flash SOAP based web service
-    calls. The use of Flash remoting is highly recommended for transferring
-    large amounts of data.
+    Flash remoting calls perform much better than Flash SOAP based web service calls. The use of Flash remoting is highly recommended for transferring large amounts of data.
 
 - Object Model
 
-    Flash Remoting handles complex objects and object hierarchies with circular
-    references very well.
+    Flash Remoting handles complex objects and object hierarchies with circular references very well.
 
-The only disadvantage of Flash remoting is that it is not a universal standard
-like SOAP. This limits its use when consuming existing SOAP based web services,
-unless you consume the web service on the server and expose it as a flash
-remoting service.
+The only disadvantage of Flash remoting is that it is not a universal standard like SOAP. This limits its use when consuming existing SOAP based web services, unless you consume the web service on the server and expose it as a flash remoting service.
