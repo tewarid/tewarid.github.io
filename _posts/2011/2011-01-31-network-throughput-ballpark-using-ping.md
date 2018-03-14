@@ -11,16 +11,16 @@ I implemented a simple program in C# and compared the result with dedicated appl
 I then use the following formula to calculate the throughput in bits per second
 
 $$
-L \times 2 \times 1000 \times 8 \over (ts - tb)
+L \times 2 \times 1000 \times 8 \over (t_s - t_b)
 $$
 
-where
+Where
 
-$$L$$ is buffer length
-
-$$ts$$ is response time in milliseconds with small buffer size
-
-$$tb$$ is response time in milliseconds with big buffer size
+| Variable |                          is                          |
+| -------- | ---------------------------------------------------- |
+| $$L$$    | buffer length                                        |
+| $$t_s$$  | response time in milliseconds with small buffer size |
+| $$t_b$$  | response time in milliseconds with big buffer size   |
 
 Here's the source code
 
@@ -86,8 +86,9 @@ Throughput with a 32768 byte buffer: 87381333 bits/sec
 
 The result of throughput measured using [Ixia QCHECK](http://www.tomsguide.com/us/qcheck,review-124.html) is
 
-* TCP Throughput - 90.09 Mbps
-
-* UDP Throughput - 38.096 Mbps
+| Protocol | Throughput in Mbps |
+| -------- | -----------------: |
+| TCP      |             90.090 |
+| UDP      |             38.096 |
 
 I am wondering why the UDP throughput is consistently lower than the TCP throughput in those results. I'll leave that discovery for another post.
