@@ -14,13 +14,13 @@ Here's an iBeacon advertisement dissected using the nordic_ble Lua dissector, an
 
 Using data from the packet shown above, Apple's proprietary payload has the following [format](https://glimwormbeacons.com/learn/what-makes-an-ibeacon-an-ibeacon/)
 
-```text
-02 - ID
-15 - Length (21 bytes)
-3aa46f0c80784773be800255132aefda - 128-bit UUID
-e4f2 - major number
-e4c1 - minor number
-b6 - two's complement of calibrated TX power
-```
+|              Value               |               Description               |
+| -------------------------------- | --------------------------------------- |
+| 02                               | ID                                      |
+| 15                               | Length (21 bytes)                       |
+| 3aa46f0c80784773be800255132aefda | 128-bit UUID                            |
+| e4f2                             | major number                            |
+| e4c1                             | minor number                            |
+| b6                               | two's complement of calibrated TX power |
 
 A filter such as `btcommon.eir_ad.entry.data contains e4:f2:e4:c1` can be used to filter packets based on major and minor numbers.
