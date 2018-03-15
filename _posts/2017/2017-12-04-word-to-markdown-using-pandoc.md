@@ -48,7 +48,7 @@ I use a few additional plugins to make editing Markdown files more productive
 
 ### HTML in Markdown
 
-GFM allows [HTML blocks](https://github.github.com/gfm/#html-blocks) in Markdown. These get rendered when previewed in Code, GitHub, or GitLab. Pandoc suppresses raw HTML output to PDF format and hence HTML blocks get rendered as plain text. For example, `<sup>1</sup>` gets rendered as `1` instead of <sup>1</sup>. You can use `^text^` in Pandoc's Markdown syntax to render superscript.
+GFM allows [HTML blocks](https://github.github.com/gfm/#html-blocks) in Markdown. These get rendered when previewed in Code, GitHub, or GitLab. Pandoc suppresses raw HTML output to PDF format and hence HTML blocks get rendered as plain text. For example, `<sup>1</sup>` gets rendered as $$1$$ instead of $$^1$$. You can use `^text^` in Pandoc's Markdown syntax to render superscript.
 
 You can use [HTML character entities](https://dev.w3.org/html5/html-author/charref) to write out characters and symbols not available on the keyboard.
 
