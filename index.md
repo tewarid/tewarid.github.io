@@ -20,6 +20,8 @@ Navigate posts by topic, chronologically, or use [Google Search](https://cse.goo
 
 [OpenSSL]({% link openssl.md %})
 
+[Photography]({% link photography.md %})
+
 [Wireshark]({% link wireshark.md %})
 
 {% for post in site.posts  %}
