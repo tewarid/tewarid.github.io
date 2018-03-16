@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Photographing the moon
-tags:
+tags: moon photography
 comments: true
 ---
 
