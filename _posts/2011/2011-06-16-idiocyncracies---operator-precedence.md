@@ -2,6 +2,7 @@
 layout: default
 title: idioCyncracies - operator precedence
 tags:
+comments: true
 ---
 
 I get a tingle when I see C code such as

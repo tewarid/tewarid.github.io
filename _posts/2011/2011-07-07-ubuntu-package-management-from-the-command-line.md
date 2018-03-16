@@ -2,6 +2,7 @@
 layout: default
 title: Ubuntu package management from the command line
 tags: ubuntu apt dpkg
+comments: true
 ---
 
 These are the commands that I mostly use to manage packages from the CLI. See `man command` for more detailed help.

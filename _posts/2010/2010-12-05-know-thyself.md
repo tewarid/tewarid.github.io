@@ -2,6 +2,7 @@
 layout: default
 title: Know Thyself
 tags:
+comments: true
 ---
 
 This is a beginning of a series of posts where I will try to record my family's history. I have always liked the Greek aphorism, Know Thyself. I believe that records eventually become history. Ancient Indians have had a bad track record of recording. We have adopted foreign (Indian or not) languages and traditions, and quite successfully shed our cultural and ancestral roots.

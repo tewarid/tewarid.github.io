@@ -2,6 +2,7 @@
 layout: default
 title: Simple message dispatcher using event delegates
 tags: message messaging software design programming
+comments: true
 ---
 
 This post demonstrates a simple asynchronous message dispatcher that decouples message producers from consumers. It leverages event delegates.

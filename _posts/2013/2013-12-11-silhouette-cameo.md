@@ -2,6 +2,7 @@
 layout: default
 title: Silhouette Cameo
 tags: silhouette cameo paper cutter
+comments: true
 ---
 
 ![Cameo](http://www.silhouetteamerica.com/media/images/products/s/i/silhouette-cameo-3t_01-xl.jpg)

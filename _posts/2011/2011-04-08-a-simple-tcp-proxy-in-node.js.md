@@ -2,6 +2,7 @@
 layout: default
 title: A simple TCP proxy in Node.js
 tags: tcp proxy node nodejs
+comments: true
 ---
 
 A simple TCP proxy that may be used to access a service on another network.

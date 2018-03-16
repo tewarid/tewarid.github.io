@@ -2,6 +2,7 @@
 layout: default
 title: Office 365 Home Premium a tremendous success?
 tags: office 365 opinion
+comments: true
 ---
 
 Let me start with a story. At the end of last year Walmart.com.br kicked off its Black Friday deals. I went through the discounted products and found a gem. Office Home & Student 2010, priced at 45 Brazilian Reais (BRL) instead of its regular 199 BRL price tag, valid for three PCs. It also came with an offer to upgrade to the next version, whose launch was right around the corner. To get that free upgrade I had to register my e-mail at http://office.microsoft.com/en-us/offer/.

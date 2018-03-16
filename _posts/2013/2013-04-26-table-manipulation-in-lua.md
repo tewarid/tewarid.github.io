@@ -2,6 +2,7 @@
 layout: default
 title: Table manipulation in Lua
 tags: lua table programming
+comments: true
 ---
 
 In Lua, arrays are tables. Tables can be iterated over using built-in functions such as [`pairs`](http://www.lua.org/manual/5.1/manual.html#pdf-pairs). Tables can have [index](http://www.lua.org/pil/11.5.html) values that are non-numeric.

@@ -2,6 +2,7 @@
 layout: default
 title: Businesses disrupted by smartphones
 tags: smartphone business disrupt innovation
+comments: true
 ---
 
 Here's my list of some businesses that a smartphone has disrupted or is disrupting, in no particular order.  The potential to disrupt several other businesses is huge, so is the opportunity for incumbents to adopt the smartphone before more agile startups disrupt their business.

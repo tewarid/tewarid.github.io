@@ -2,6 +2,7 @@
 layout: default
 title: JavaScript style guides
 tags: javascript style guide
+comments: true
 ---
 
 There are several style guides for JavaScript but these are my personal favorites

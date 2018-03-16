@@ -2,6 +2,7 @@
 layout: default
 title: User-Centered Design by Travis Lowdermilk; O'Reilly Media
 tags: book review ucd user centered design
+comments: true
 ---
 
 ![User-Centered Design](http://akamaicovers.oreilly.com/images/0636920028741/lrg.jpg)

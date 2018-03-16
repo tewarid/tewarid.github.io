@@ -2,6 +2,7 @@
 layout: default
 title: Analyzing iBeacon traffic using nRF BLE Sniffer
 tags: ibeacon nrf bluetooth le ble sniffer nordic
+comments: true
 ---
 
 I've been troubleshooting iBeacons lately, and [Bluetooth LE Sniffer](https://www.adafruit.com/product/2269) from Adafruit is my go-to tool for sniffing Bluetooth LE (BLE) traffic such as iBeacon advertisements. iBeacon detection can vary a lot depending on advertisement interval and timing, and signal strength and its variance with distance, line of sight (or lack thereof), interference with other iBeacons etc.

@@ -2,6 +2,7 @@
 layout: default
 title: Working with multiple git remotes
 tags: git remote multiple
+comments: true
 ---
 
 This post discusses useful git commands when working with multiple git remotes such as to share code with distributed teams.

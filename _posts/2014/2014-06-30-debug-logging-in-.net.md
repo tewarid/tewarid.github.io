@@ -2,6 +2,7 @@
 layout: default
 title: Debug Logging in .NET
 tags: .net logging programming
+comments: true
 ---
 
 This post provides useful references for tackling debug logging in .NET. It does not delve deeply into any of them.

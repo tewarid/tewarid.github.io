@@ -2,6 +2,7 @@
 layout: default
 title: Link dynamic pads of demuxer
 tags: gstreamer dynamic pad link
+comments: true
 ---
 
 Demuxers do not have any pads till they receive the buffers to parse. As data is available to parse, pads are dynamically added based on the streams available.

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: 21st Century C by Ben Klemens; O'Reilly Media
-tags:
+tags: book review
+comments: true
 ---
 
 ![21st Century C](http://akamaicovers.oreilly.com/images/0636920025108/lrg.jpg)

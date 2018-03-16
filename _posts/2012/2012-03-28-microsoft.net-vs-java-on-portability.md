@@ -2,6 +2,7 @@
 layout: default
 title: Microsoft.NET vs Java on portability
 tags: .net c# java portability
+comments: true
 ---
 
 Portability is a much sought after objective of high-level (as opposed to machine-level) languages. Portability reached a water-shed moment with Java, which defined an intermediate language (IL) that programs can be compiled to (called byte code) and a Virtual Machine that executes the IL. By abstracting the machine-level aspects like memory, processor and operating system, Java brought portability to the mainstream.

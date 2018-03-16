@@ -2,6 +2,7 @@
 layout: default
 title: C language style guides
 tags: c style guide
+comments: true
 ---
 
 I don't have a particular style that I like, I do have a style that I use, frequently without being aware of it. Often, the style of the surrounding code determines my style. I tend to use as references links returned by Google for "c style guide". I have found the following useful:

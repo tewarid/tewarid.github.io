@@ -2,6 +2,7 @@
 layout: default
 title: VP8 video streaming over RTP using the rtpbin plugin of GStreamer
 tags: audio rtp stream rtpbin gstreamer vp8
+comments: true
 ---
 
 We have looked at streaming WebM VP8-encoded video using RTP in [Stream WebM video over RTP with GStreamer]({% link _posts/2011/2011-04-14-stream-webm-video-over-rtp-with-gstreamer.md %}). This post uses the gstrtpbin plugin of GStreamer, which eliminates the need to exchange RTP parameters out-of-band - using RTCP for that instead.

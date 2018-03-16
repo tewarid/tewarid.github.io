@@ -2,6 +2,7 @@
 layout: default
 title: Migrating an AVR32 Studio project to Atmel Studio 6
 tags: atmel avr studio
+comments: true
 ---
 
 Atmel has at two IDEs that I know of

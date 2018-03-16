@@ -2,6 +2,7 @@
 layout: default
 title: SSH and SFTP on the iPad
 tags: ssh ftp sftp app ipad
+comments: true
 ---
 
 I am using [Termius](https://itunes.apple.com/br/app/server-auditor-ssh-client/id549039908?l=en&mt=8) (previously called ServerAuditor), a wonderful and free SSH terminal app, on my iPad to access a Linux box. I needed to get the text contents (certificate) of a pem file into the app for authentication. I originally received the file by e-mail and had no app that would open the pem extension.

@@ -2,6 +2,7 @@
 layout: default
 title: Physical serial port redirection
 tags: serial port redirection
+comments: true
 ---
 
 I have previously posted about [Virtual serial port redirection on Windows]({% link _posts/2014/2014-01-21-virtual-serial-port-redirection-on-windows-8.md %}), to develop and test applications that use serial ports. I've found the available drivers increasingly buggy on Windows 8.1. This post shows how you can wire two USB-Serial cables to achieve the same objective.

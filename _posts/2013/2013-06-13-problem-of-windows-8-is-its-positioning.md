@@ -2,6 +2,7 @@
 layout: default
 title: Problem of Windows 8 is its positioning
 tags: windows 8 opinion
+comments: true
 ---
 
 I have said this before, I love Windows 8, but I spend most of my day on the desktop. I just don't have enough reason to adopt Windows 8 apps, yet. I have been using certain apps, just not that often.

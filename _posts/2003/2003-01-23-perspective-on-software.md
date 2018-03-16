@@ -2,6 +2,7 @@
 layout: default
 title: Perspective on software
 tags: opinion software
+comments: true
 ---
 
 We have just rung in 2003 - 2002 is already a good riddance to some and a nostalgic year to others. Several things have happened in the last few years in the software market. We have seen tremendous success - as in the case of the Internet - and tremendous disappointment - as in the case of stock value depreciation of several Internet age software companies.

@@ -2,6 +2,7 @@
 layout: default
 title: Enable support for RNDIS Ethernet devices in the Linux kernel
 tags: rndis linux kernel buildroot
+comments: true
 ---
 
 Use `make menuconfig` - or `linux-menuconfig` when using Buildroot - to invoke the kernel configuration wizard.

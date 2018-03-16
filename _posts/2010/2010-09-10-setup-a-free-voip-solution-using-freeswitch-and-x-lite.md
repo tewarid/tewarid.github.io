@@ -2,6 +2,7 @@
 layout: default
 title: Setup a free VoIP solution using FreeSWITCH and X-Lite
 tags:
+comments: true
 ---
 
 [FreeSWITCH](http://www.freeswitch.org/) is an alternative to the popular [Asterisk](http://www.asterisk.org/) VoIP solution. The advantage I see with FreeSWITCH is its ease of deployment on Windows, that is the only reason I decided to give it a quick whirl. I'll go through the steps required to [install](http://wiki.freeswitch.org/wiki/Getting_Started_Guide) FreeSWITCH and test it using the free [X-Lite](http://www.counterpath.net/x-lite.html) VoIP client from CounterPath. I tested with X-Lite version 4, which has just been released, but version 3 should also work.

@@ -2,6 +2,7 @@
 layout: default
 title: Bluetooth on Raspberry Pi with Buildroot
 tags: bluetooth buildroot raspberry pi linux kernel
+comments: true
 ---
 
 This post shows how to build Bluetooth support with Buildroot for a Raspberry Pi. You'll need a Bluetooth adapter such as the [Bluetooth 4.0 USB Module](http://www.adafruit.com/products/1327) from Adafruit. That adapter is also Bluetooth Smart (LE) ready.

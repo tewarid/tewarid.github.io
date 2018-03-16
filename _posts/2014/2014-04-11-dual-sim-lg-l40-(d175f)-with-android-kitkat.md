@@ -2,6 +2,7 @@
 layout: default
 title: Dual SIM LG L40 (D175F) with Android KitKat
 tags: lg l40 d175f kitkat android
+comments: true
 ---
 
 The cost-benefit of Android Smartphones continues to impress. LG L40 (D175F) is no Moto G, but it is cheaper, and a wonderful piece of hardware. I recently bought one for my wife. It currently retails for R$ 499 (Brazilian Reals) or about US $ 225.

@@ -2,6 +2,7 @@
 layout: default
 title: Make things smart with HomeKit and Raspberry Pi
 tags: homekit ios raspberry pi homebridge
+comments: true
 ---
 
 As an avid iOS user I have been keen on using [HomeKit](https://developer.apple.com/homekit/). That's when I read about a new - and currently free - HomeKit app in the iOS App Store called [Hesperus](https://itunes.apple.com/us/app/hesperus/id969348892?mt=8). I don't have a HomeKit compatible thing at home, but a quick internet search revealed that I could run a HomeKit compatible service called [homebridge](https://www.npmjs.com/package/homebridge) on a Raspberry Pi. This post only goes so far as configuring a fictitious light bulb plugin that can be controlled remotely.

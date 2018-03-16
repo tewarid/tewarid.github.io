@@ -2,6 +2,7 @@
 layout: default
 title: Access IMAP server from the command line using OpenSSL
 tags: imap command line openssl
+comments: true
 ---
 
 In this post, we'll use OpenSSL to gain access to an [IMAP](http://tools.ietf.org/html/rfc2060) mail server. The mail server we'll use is Google's GMail. If you are running Linux, you should have openssl installed. On Windows, obtain and install the [Win32 version](http://www.slproweb.com/products/Win32OpenSSL.html) of OpenSSL. If your IMAP server does not support SSL, you can use the excellent netcat utility on Linux, [Ncat](http://nmap.org/ncat/) utility that comes with [Nmap](http://nmap.org/) on Windows or regular telnet.

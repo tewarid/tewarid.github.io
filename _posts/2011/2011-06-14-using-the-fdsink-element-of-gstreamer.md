@@ -2,6 +2,7 @@
 layout: default
 title: Using the fdsink element of GStreamer
 tags: fdsink gstreamer native pipeline
+comments: true
 ---
 
 The `fdsink` element is useful because it can be used to write data directly to a socket. In this post, we'll see how to setup a listener for client connections and stream directly to the client socket using `fdsink`.

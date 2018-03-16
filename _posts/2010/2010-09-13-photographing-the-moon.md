@@ -2,6 +2,7 @@
 layout: default
 title: Photographing the moon
 tags:
+comments: true
 ---
 
 ![Full Moon on new year night 2010](/assets/img/moon.jpg)

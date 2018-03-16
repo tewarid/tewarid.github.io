@@ -2,6 +2,7 @@
 layout: default
 title: VMware Fusion vs Parallels Desktop 8
 tags: vmware fusion comparison parallels macos
+comments: true
 ---
 
 I am migrating to a MacBook Pro at work. I do lots of development that requires Windows 8 and Ubuntu Linux. I could use a dual boot setup but switching can get cumbersome pretty quickly. I decided to adopt a virtual PC setup. I tried three contenders - Parallels Desktop 8, VirtualBox, and VMware Fusion. The most critical aspects for me are, being able to store all the files on the host, and reliable access to USB devices from the virtual machines.

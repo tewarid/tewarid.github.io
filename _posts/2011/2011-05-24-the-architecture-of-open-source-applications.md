@@ -2,6 +2,7 @@
 layout: default
 title: The Architecture of Open Source Applications
 tags: aosa book
+comments: true
 ---
 
 A new book regarding the architecture of several prominent open source projects has been released. They have the whole book online at [http://www.aosabook.org/](http://www.aosabook.org/). It can be purchased from Lulu.com and Amazon.com. Considering that they'll be donating the royalties from the proceeds, buying from Lulu.com makes the most sense, see the breakdown of the proceeds of sale at their site for more details.

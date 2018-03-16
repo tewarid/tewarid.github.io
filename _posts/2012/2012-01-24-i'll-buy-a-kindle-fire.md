@@ -2,6 +2,7 @@
 layout: default
 title: I'll buy a Kindle Fire
 tags: kindle fire opinion
+comments: true
 ---
 
 ![Kindle Fire](/assets/img/amazon-kindle-fire.jpg)

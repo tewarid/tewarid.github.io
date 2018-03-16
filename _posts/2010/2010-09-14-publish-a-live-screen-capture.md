@@ -2,6 +2,7 @@
 layout: default
 title: Publish a live screen capture
 tags: live video screen capture
+comments: true
 ---
 
 There are several web-based conferencing solutions in the market, but if you would like to quickly screencast something on your own, this post may be helpful. Due to the tools we use, a Windows 32-bit PC is required.

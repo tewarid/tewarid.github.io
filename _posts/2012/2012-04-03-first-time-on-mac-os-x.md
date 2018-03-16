@@ -2,6 +2,7 @@
 layout: default
 title: First time on Mac OS X
 tags: macos noob
+comments: true
 ---
 
 If you have never used a Mac, you'll rightfully feel lost about several key aspects. As a first time Mac OS X user, after almost two decades with the PC, I required some time to adapt.

@@ -2,6 +2,7 @@
 layout: default
 title: Broadcast to all sockets
 tags: socket.io websocket node nodejs javascript web
+comments: true
 ---
 
 The broadcast server example from the socket.io [getting started article](https://socket.io/get-started/chat/) is reproduced below

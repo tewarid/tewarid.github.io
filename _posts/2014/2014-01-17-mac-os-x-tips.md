@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Mac OS X tips
-tags:
+tags: tips tricks mac
+comments: true
 ---
 
 This is an ever expanding list of tips for Mac OS X

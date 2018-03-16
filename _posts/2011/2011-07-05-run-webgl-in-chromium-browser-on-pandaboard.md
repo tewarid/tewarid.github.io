@@ -2,6 +2,7 @@
 layout: default
 title: Run WebGL in Chromium Browser on PandaBoard
 tags: webgl chromium pandaboard gpu acceleration
+comments: true
 ---
 
 These are the steps to get up and running

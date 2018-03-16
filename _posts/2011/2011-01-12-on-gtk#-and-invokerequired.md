@@ -2,6 +2,7 @@
 layout: default
 title: On GTK# and InvokeRequired
 tags: c# gtk invoke required user interface race condition .net
+comments: true
 ---
 
 Most user interface code is not thread safe. If multiple threads change UI components, unexpected things may happen. .NET Windows Forms programmers are familiar with the [InvokeRequired](http://msdn.microsoft.com/en-us/library/system.windows.forms.control.invokerequired.aspx) property present in all controls.

@@ -2,6 +2,7 @@
 layout: default
 title: Using hints inside text fields instead of labels
 tags: jquery hint text input html javascript programming
+comments: true
 ---
 
 The following code example demonstrates replacing labels with hints that appear as temporary values within text fields; akin to placeholder attribute in HTML5.

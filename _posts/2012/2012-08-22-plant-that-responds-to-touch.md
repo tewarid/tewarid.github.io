@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Plant that responds to touch
-tags:
+tags: plant biomimicry video youtube
+comments: true
 ---
 
 Check out how this plant responds to touch.

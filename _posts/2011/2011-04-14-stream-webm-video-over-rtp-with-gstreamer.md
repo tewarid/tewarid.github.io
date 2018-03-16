@@ -2,6 +2,7 @@
 layout: default
 title: Stream WebM video over RTP with GStreamer
 tags: webm gstreamer
+comments: true
 ---
 
 In post [Live WebM video streaming with Flumotion]({% link _posts/2011/2011-04-07-live-webm-video-streaming-with-flumotion.md %}) I discussed how to setup GStreamer with the appropriate WebM plugins, and use Flumotion to stream a live WebM feed over HTTP. In this post, we'll see how [WebM video](http://tools.ietf.org/html/draft-westin-payload-vp8-00) can be streamed over [RTP](http://www.ietf.org/rfc/rfc3550.txt) using the command line.

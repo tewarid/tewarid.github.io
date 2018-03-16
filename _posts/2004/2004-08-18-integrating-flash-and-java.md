@@ -2,6 +2,7 @@
 layout: default
 title: Integrating Flash and Java
 tags: adobe flash java web service apache axis soap
+comments: true
 ---
 
 This is a short tutorial on integrating Flash and Java using Web Services and Flash Remoting. We start by constructing a short example for each approach and then point out the advantages and limitations of the approach. We will not be entering into much detail on how to configure the tools used in this tutorial - leaving that as an exercise for the reader. We do however link to sites where you can download these tools and seek help on configuring them.

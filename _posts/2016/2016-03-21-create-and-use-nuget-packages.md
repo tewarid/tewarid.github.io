@@ -2,6 +2,7 @@
 layout: default
 title: Create and use NuGet packages
 tags: nuget .net
+comments: true
 ---
 
 To follow the brief instructions in this post, you'll need to [download](https://dist.nuget.org/index.html) NuGet.

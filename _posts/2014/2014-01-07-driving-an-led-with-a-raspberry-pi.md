@@ -2,6 +2,7 @@
 layout: default
 title: Driving an LED with a Raspberry Pi
 tags: gpio led raspberry pi python c# linux
+comments: true
 ---
 
 I recently began tinkering with a [Raspberry Pi Model B rev2](http://www.adafruit.com/products/998). This post shows how you can drive an LED using the GPIO pins on a Pi running Raspbian. If you are unfamiliar with Pi take a look at their [quick start guide](http://www.raspberrypi.org/technical-help-and-resource-documents).

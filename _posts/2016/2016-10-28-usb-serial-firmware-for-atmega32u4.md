@@ -2,6 +2,7 @@
 layout: default
 title: USB Serial firmware for ATmega32U4
 tags: usb serial avr adafruit atmel studio
+comments: true
 ---
 
 This post describes how to create USB Serial firmware for the ATmega32U4 found on Adrafruit's excellent [breakout board](https://www.adafruit.com/products/296), using Atmel Studio 7. The design of the breakout board is [available](https://github.com/adafruit/Atmega32u4-Breakout-Board) from GitHub, so is the [Fritzing part](https://github.com/adafruit/Fritzing-Library) used in the figure below. The source code of the firmware can be [forked](https://github.com/tewarid/atmega32u4-usb-serial) at GitHub.

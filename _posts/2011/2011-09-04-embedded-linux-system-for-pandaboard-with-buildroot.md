@@ -2,6 +2,7 @@
 layout: default
 title: Embedded Linux system for PandaBoard with Buildroot
 tags: buildroot pandaboard linux kernel file system
+comments: true
 ---
 
 My objective here is to build a custom embedded Linux system for PandaBoard, that runs off the SD card. [Buildroot](https://buildroot.org/) version used is [2011.08](https://buildroot.org/download.html). We'll use the first stage bootloader called X-loader with the board name `omap4430panda`. The second stage bootloader used is [U-Boot](http://www.denx.de/wiki/U-Boot), which is built using the `omap4_panda` board configuration. The Linux kernel `uImage` is based on kernel source version 2.6.39.4, it is built using the defconfig `omap2plus`. The system is configured to use the udev device manager, and to produce the login prompt on the `ttyO2` (with an O not zero) serial port. The default busybox package is used for commonly used command line utilities.

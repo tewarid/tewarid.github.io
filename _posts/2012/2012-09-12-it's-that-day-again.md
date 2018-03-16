@@ -1,7 +1,8 @@
 ---
 layout: default
 title: It's that day again
-tags:
+tags: apple product launch
+comments: true
 ---
 
 Apple knows how to build expectations, and during Steve Job's tenure it frequently exceeded them. The media covers their events assiduously.

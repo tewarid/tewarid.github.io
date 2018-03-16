@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Embedded Linux system for BeagleBoard-xM with Yocto Project
-tags:
+tags: linux yocto beagleboard
+comments: true
 ---
 
 I've mostly abandoned a BeagleBoard-xM that I have, and am using Raspberry Pi for most of my embedded Linux hacks. I have built a Linux system for BeagleBoard-xM using Yocto Project though, so thought I'd put the instructions out there.

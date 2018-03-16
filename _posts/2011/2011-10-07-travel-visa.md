@@ -2,6 +2,7 @@
 layout: default
 title: Travel visa
 tags: travel visa spain europe indian
+comments: true
 ---
 
 How much bureaucracy can there be in getting a travel visa you ask? Here's a list of requirements to apply for a Schengen visa at the Spanish consulate, so you get a feel for how much our countries mire us in endless paperwork.

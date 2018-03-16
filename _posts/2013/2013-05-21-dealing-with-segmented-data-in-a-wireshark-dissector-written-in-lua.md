@@ -2,6 +2,7 @@
 layout: default
 title: Dealing with segmented data in a Wireshark dissector written in Lua
 tags: wireshark segmentation tcp lua dissector programming
+comments: true
 ---
 
 Protocols based on stream-oriented transport protocols like TCP may get segmented i.e. the PDU boundaries may not be preserved. If you are not familiar with writing dissectors for Wireshark in Lua, read [Create a Wireshark dissector in Lua]({% link _posts/2010/2010-09-27-create-a-wireshark-dissector-in-lua.md %}).

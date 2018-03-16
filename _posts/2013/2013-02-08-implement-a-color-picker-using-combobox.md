@@ -2,6 +2,7 @@
 layout: default
 title: Implement a color picker using ComboBox
 tags: windows forms .net c# programming
+comments: true
 ---
 
 This post shows how you can custom draw items of a [`ComboBox`](http://msdn.microsoft.com/en-us/library/system.windows.forms.combobox.aspx) to implement a color picker. The implementation is mostly inspired by a [CodeProject article](http://www.codeproject.com/Articles/34332/Color-Picker-Combo-Box), but I had to adapt the code for the color bands to show adequately.

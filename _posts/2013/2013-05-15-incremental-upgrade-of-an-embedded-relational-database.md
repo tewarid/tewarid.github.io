@@ -2,6 +2,7 @@
 layout: default
 title: Incremental upgrade of an embedded relational database
 tags: database version control upgrade
+comments: true
 ---
 
 Several years ago I worked on a project that required incrementally upgrading an application and its embedded relational database. What follows is an overview of some best practices we used. Several open source projects, books and articles use or cite similar practices.

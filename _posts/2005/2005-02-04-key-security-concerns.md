@@ -2,6 +2,7 @@
 layout: default
 title: Key security concerns
 tags: security digital software
+comments: true
 ---
 
 |     Concern     |                           Meaning                            |                                     Mechanisms                                      |

@@ -2,6 +2,7 @@
 layout: default
 title: Learning Android by Marko Gargenta and Masumi Nakamura; O'Reilly Media
 tags: book android
+comments: true
 ---
 
 [![](http://akamaicovers.oreilly.com/images/0636920023456/lrg.jpg)](http://shop.oreilly.com/product/0636920023456.do)

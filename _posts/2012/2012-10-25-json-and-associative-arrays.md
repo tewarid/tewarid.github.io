@@ -2,6 +2,7 @@
 layout: default
 title: JSON and associative arrays
 tags: json javascript
+comments: true
 ---
 
 JSON does not support serialization of associative (key-value pair) arrays of the kind

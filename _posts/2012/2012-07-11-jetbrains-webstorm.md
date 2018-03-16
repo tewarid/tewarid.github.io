@@ -2,6 +2,7 @@
 layout: default
 title: JetBrains WebStorm
 tags: web ide html
+comments: true
 ---
 
 After a hiatus of almost eight years I have returned to doing development of web apps. The first thing I started searching for is a decent IDE. My search revealed Visual Studio .NET 2010, which I already had installed, JetBrains [WebStorm](http://www.jetbrains.com/webstorm) 4, which I am now evaluating, and [Aptana](http://www.aptana.com/products/studio3.html) Studio 3, a free alternative.

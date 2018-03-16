@@ -2,6 +2,7 @@
 layout: default
 title: Handling variable number of arguments in Lua
 tags: lua programming
+comments: true
 ---
 
 Here's a quick example of how variable number of arguments can be handled in Lua. It has been tested with Lua 5.1 and 5.2.

@@ -2,6 +2,7 @@
 layout: default
 title: git archive
 tags: git archive
+comments: true
 ---
 
 To quickly get a source distribution in zip format

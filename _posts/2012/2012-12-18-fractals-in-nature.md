@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Fractals in nature
-tags:
+tags: jaqueira recife photography
+comments: true
 ---
 
 Branches at Parque da Jaqueira

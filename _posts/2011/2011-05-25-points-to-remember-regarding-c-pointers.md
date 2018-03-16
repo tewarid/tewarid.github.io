@@ -2,6 +2,7 @@
 layout: default
 title: Points to remember regarding C pointers
 tags: c pointer
+comments: true
 ---
 
 Some points to remember regarding C pointers

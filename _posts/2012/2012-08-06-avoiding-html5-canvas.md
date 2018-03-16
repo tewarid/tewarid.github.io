@@ -2,6 +2,7 @@
 layout: default
 title: Avoiding HTML5 canvas
 tags:
+comments: true
 ---
 
 Browsers on certain Android devices do not have a hardware accelerated canvas. They do however pan images quite well. The code below modifies the image drag example from my [KineticJS post]({% link _posts/2012/2012-08-05-dragging-a-group-containing-image-and-shapes-using-kineticjs.md %}). This is of course quite a simple use case where Canvas is overkill.

@@ -2,6 +2,7 @@
 layout: default
 title: Stream WebM vorbis audio using GStreamer over TCP
 tags: vorbis stream webm tcp gstreamer
+comments: true
 ---
 
 A [Vorbis](https://xiph.org/vorbis/) audio stream has no metadata regarding the audio itself or any other timing information. It needs to be streamed within a container such as WebM or OGG, or using a protocol such as [RTP](http://cgit.freedesktop.org/gstreamer/gst-plugins-good/tree/tests/examples/rtp). In this post, we'll use GStreamer commands to stream Vorbis audio within the WebM container, over TCP.

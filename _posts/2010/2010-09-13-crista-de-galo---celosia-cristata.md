@@ -2,6 +2,7 @@
 layout: default
 title: Crista-de-galo - Celosia cristata
 tags: gravata celosia cristata galo pernambuco recife photography
+comments: true
 ---
 
 ![Celosia cristata](/assets/img/flower-celosia-cristata.jpg)

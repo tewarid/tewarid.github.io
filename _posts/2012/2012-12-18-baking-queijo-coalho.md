@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Baking queijo coalho
-tags:
+tags: itamaraca recife photography
+comments: true
 ---
 
 At Coroa do Avião, off Itamaracá, Igarassu

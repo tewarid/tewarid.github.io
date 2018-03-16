@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Apple app store favorites
-tags:
+tags: app ios opinion
+comments: true
 ---
 
 I didn't imagine I would find a device to be so much fun. An Apple iPod Touch 4 I bought last year has turned into one of my favorite time wasters, and my daughters love it too. It is also a wonderful productivity tool. My old Windows Mobile smartphone has seen its usage plummet, except occasionally as a GPS map, or for tethering my PC to the Web.

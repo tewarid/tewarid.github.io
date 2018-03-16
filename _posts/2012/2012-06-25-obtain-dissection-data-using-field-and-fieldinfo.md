@@ -2,6 +2,7 @@
 layout: default
 title: Obtain dissection data using Field and FieldInfo
 tags: wireshark dissector field information lua
+comments: true
 ---
 
 The Wireshark Lua API reference documents [Field](https://www.wireshark.org/docs/wsdg_html_chunked/lua_module_Field.html) in some detail, this post gives a concrete example to complement the official documentation. If you are not familiar with writing dissectors for Wireshark in Lua, I recommend reading the post [Create a Wireshark dissector in Lua]({% link _posts/2010/2010-09-27-create-a-wireshark-dissector-in-lua.md %}).

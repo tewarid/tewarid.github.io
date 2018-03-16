@@ -2,6 +2,7 @@
 layout: default
 title: Capture audio with GStreamer on PandaBoard
 tags: gstreamer pandaboard audio capture
+comments: true
 ---
 
 In this post I list some of the audio devices from where sound can be captured on the PandaBoard with Ubuntu 11.04.

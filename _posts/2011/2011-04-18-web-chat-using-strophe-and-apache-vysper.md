@@ -2,6 +2,7 @@
 layout: default
 title: Web chat using Strophe and Apache Vysper
 tags: apache vysper strophejs xmpp
+comments: true
 ---
 
 I was told about Apache Vysper by a colleague at work and thought I'd give it a try. It is very much in development, lacks documentation, and clustering support for those looking to scale.

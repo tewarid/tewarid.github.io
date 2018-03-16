@@ -2,6 +2,7 @@
 layout: default
 title: Sniff USB bus on Linux
 tags: sniff usb bus linux wireshark
+comments: true
 ---
 
 There are two ways.

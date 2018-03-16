@@ -1,7 +1,8 @@
 ---
 layout: default
 title: OpenCV with Ubuntu on PandaBoard
-tags:
+tags: opencv ubuntu pandaboard
+comments: true
 ---
 
 This post is for those unfamiliar with OpenCV to obtain and build it for Ubuntu on PandaBoard.

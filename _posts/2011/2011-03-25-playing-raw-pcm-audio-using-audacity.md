@@ -2,6 +2,7 @@
 layout: default
 title: Playing raw PCM audio using Audacity
 tags:
+comments: true
 ---
 
 [Audacity](http://audacity.sourceforge.net/) has always been my favorite tool to do simple sound editing. I turned to it to play raw PCM audio captured by a sniffer I am writing.

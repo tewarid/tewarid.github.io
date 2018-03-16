@@ -2,6 +2,7 @@
 layout: default
 title: Generating a unique ID for a Windows PC
 tags: wmi windows unique licensing programming
+comments: true
 ---
 
 Software licensing usually works by tying a product to a single PC. Identifying the PC in a unique manner usually requires generating some kind of unique ID.

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Install python and pip on Mac OS X
-tags:
+tags: python pip mac
+comments: true
 ---
 
 Mac OS X ships with python. You can see its version using

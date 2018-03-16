@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Install Firefox in the Android 4.0 emulator
-tags:
+tags: firefox android
+comments: true
 ---
 
 I was looking for a browser for Android that had support for WebSockets. I opened an online demo such as the one at [websocket.org](http://www.websocket.org/echo.html) in the default Web Browser on the Android device emulator, and was greeted with a message saying WebSockets are not supported.

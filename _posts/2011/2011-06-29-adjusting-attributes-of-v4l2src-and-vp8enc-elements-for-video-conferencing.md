@@ -2,6 +2,7 @@
 layout: default
 title: Adjusting attributes of v4l2src and vp8enc elements for video conferencing
 tags: real time video vp8 webm
+comments: true
 ---
 
 Video conferencing is real time in nature. The default encoding parameters of vp8enc element of GStreamer are not always appropriate. Let us start with the following pipeline

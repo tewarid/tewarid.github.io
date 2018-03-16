@@ -2,6 +2,7 @@
 layout: default
 title: Windows 8 Pro
 tags: windows 8 update review
+comments: true
 ---
 
 I have updated three PCs to Windows 8 Pro, so far. The Windows 8 upgrade tool that you download at windows.com makes buying, downloading, and installing or updating, a breeze. This post will not go into the nitty-gritty of the update procedure itself, but will cover my general impressions of Windows 8 Pro. All thoughts are from the point of view of a Windows 7 user accustomed to the mouse and keyboard.

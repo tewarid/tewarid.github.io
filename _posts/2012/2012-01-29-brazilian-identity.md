@@ -2,6 +2,7 @@
 layout: default
 title: Brazilian Identity
 tags: nationality
+comments: true
 ---
 
 How does a person become a citizen? How does living in another country change you? Shared language is surely a precursor to it all. Interaction with the natives comes next, followed by information spewed by popular media, books, movies, music, and other cultural events. One just becomes it, slowly and steadily.

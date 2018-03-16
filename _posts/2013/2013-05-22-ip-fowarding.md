@@ -2,6 +2,7 @@
 layout: default
 title: IP fowarding
 tags: ip forward network windows
+comments: true
 ---
 
 Normally, commercial operating systems do not act as [routers]({% link _posts/2011/2011-02-25-understanding-ip-subnets-and-routing.md %}). They discard any IP packet with a destination IP address not assigned to an active network interface. It is fairly easy to enable IP forwarding, there are instructions elsewhere to do so on [Windows](https://support.microsoft.com/en-us/kb/323339) and [Linux](http://www.ducea.com/2006/08/01/how-to-enable-ip-forwarding-in-linux/).

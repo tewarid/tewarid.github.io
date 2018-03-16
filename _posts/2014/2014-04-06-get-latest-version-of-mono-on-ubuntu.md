@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Get latest version of mono on Ubuntu
-tags:
+tags: mono ubuntu latest
+comments: true
 ---
 
 Execute following commands from terminal

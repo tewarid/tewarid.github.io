@@ -2,6 +2,7 @@
 layout: default
 title: jQuery html() does not retain form field values input by user
 tags: jquery html javascript
+comments: true
 ---
 
 A call to JQuery `html()` function results in a document that does not retain form field values input by user. Here's a snippet of code that sets the right attributes of the input and select form fields so that `html()` renders form fields with values input by the user. It can be improved to do the same for textarea and so on.

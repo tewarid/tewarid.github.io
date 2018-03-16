@@ -2,6 +2,7 @@
 layout: default
 title: Install AOSP build to PandaBoard
 tags: aosp android pandaboard install windows
+comments: true
 ---
 
 This post continues the post on building AOSP for PandaBoard. Read [that post]({% link _posts/2013/2013-05-17-building-android-open-source-project-for-the-pandaboard.md %}), if you haven't already. This post covers installing the AOSP images to PandaBoard. It is much more adventuresome that I initially imagined it would be. The procedure described here, with some variations, is based on instructions in the `device/ti/panda/README` file.

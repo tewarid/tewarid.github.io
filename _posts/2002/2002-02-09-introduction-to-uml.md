@@ -2,6 +2,7 @@
 layout: default
 title: Introduction to UML
 tags: uml software design
+comments: true
 ---
 
 This is a short introduction to UML diagrams and modeling - derived from OMG's [Unified Modeling Language Specification](https://www.omg.org/spec/UML/1.4/About-UML/), and online help in Rational Rose Enterprise Edition.

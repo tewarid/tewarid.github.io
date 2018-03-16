@@ -2,6 +2,7 @@
 layout: default
 title: WebKit/Gtk+ with WebGL on PandaBoard
 tags: webkit gtk+ webgl pandaboard
+comments: true
 ---
 
 Posting this to share the build and test procedure with [Ubuntu 11.04](https://wiki.ubuntu.com/ARM/OMAP) on the PandaBoard (OMAP4). If you have never built Webkit/Gtk+ before take a look at [WebKit/GTK+ on Ubuntu]({% link _posts/2011/2011-07-08-webkit-gtk+-on-ubuntu.md %}).

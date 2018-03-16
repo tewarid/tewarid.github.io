@@ -2,6 +2,7 @@
 layout: default
 title: Post-mortem debugging of .NET applications using WinDbg
 tags: post mortem debug c# .net windows
+comments: true
 ---
 
 Debugging is a skill you usually learn under pressure, when things are going awry with an application or service just gone live, and you are quite convinced that the code has no apparent bugs. It is never a pleasure to encounter such bugs, because although they happen quite frequently in your production environment, they are particularly hard to reproduce in your test environment.

@@ -2,6 +2,7 @@
 layout: default
 title: Add IIS Smooth Streaming support to Moodle's Multimedia Plugins Filter
 tags: moodle php
+comments: true
 ---
 
 We use the Smooth Streaming Player provided by the Silverlight Media Framework project at [https://smf.codeplex.com/](https://smf.codeplex.com/).

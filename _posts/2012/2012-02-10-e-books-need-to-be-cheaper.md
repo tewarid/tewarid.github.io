@@ -2,6 +2,7 @@
 layout: default
 title: E-books need to be cheaper
 tags: ebook price opinion
+comments: true
 ---
 
 I think that e-book pricing needs to change somehow to accommodate for the following facts

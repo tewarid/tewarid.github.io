@@ -2,6 +2,7 @@
 layout: default
 title: Stream WebM using GStreamer over TCP
 tags: webm gstreamer
+comments: true
 ---
 
 This is a quick post to record how audio/video encapsulated in WebM can be streamed over TCP, using GStreamer.

@@ -2,6 +2,7 @@
 layout: default
 title: Stream raw vorbis audio over UDP or TCP with GStreamer
 tags: audio vorbis stream tcp udp gstreamer
+comments: true
 ---
 
 I have [posted]({% link _posts/2011/2011-05-03-stream-webm-vorbis-audio-using-gstreamer-over-tcp.md %}) before about streaming a vorbis audio stream using TCP, muxed as WebM, so that the container header provides the necessary information regarding the audio stream to the receiver. I have also [posted]({% link _posts/2011/2011-05-11-audio-streaming-over-rtp-using-the-rtpbin-plugin-of-gstreamer.md %}) about streaming raw audio using RTP over UDP. All that works fine, but I wanted to try doing the same using just UDP or TCP, without resorting to a container format or other protocol.

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Message exchange between Chrome and Flumotion to establish live WebM streaming
-tags:
+tags: webm http request
+comments: true
 ---
 
 This post shows how Chrome requests a WebM stream, how an HTTP server such as Flumotion responds to the request, and the stream format used.

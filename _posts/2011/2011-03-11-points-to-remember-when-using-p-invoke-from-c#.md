@@ -2,6 +2,7 @@
 layout: default
 title: Points to remember when using p/invoke from C#
 tags: pinvoke c# .net
+comments: true
 ---
 
 This blog post tries to capture some essential points to remember when using p/invoke from C#.

@@ -2,6 +2,7 @@
 layout: default
 title: Self-signed code signing certificates
 tags: update
+comments: true
 ---
 
 Some setup and application executables need to be signed so that they are **not** [flagged as a security risk](https://www.symantec.com/security_response/writeup.jsp?docid=2010-090200-5010-99&tabid=2) by security software on Windows. Especially those that have virus-like behavior such as embedded executable resources that are extracted, and executed.

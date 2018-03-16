@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Packaging source code using Grunt
-tags:
+tags: grunt nodejs
+comments: true
 ---
 
 I have this very specific need to package source code of an Atmel Studio 6.2 project. For those not in the know, Atmel Studio 6.2 is based on Visual Studio Isolated Shell, and retains many of the features that make Visual Studio itself a neat IDE.

@@ -2,6 +2,7 @@
 layout: default
 title: Access control
 tags: access control design
+comments: true
 ---
 
 In this post I document a simple domain model that I have used to implement access control in my projects, the first time being sometime around 1998. I have since seen similar approaches to access control elsewhere, so you may already be familiar with it.

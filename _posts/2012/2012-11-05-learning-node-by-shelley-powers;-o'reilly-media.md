@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Learning Node by Shelley Powers; O'Reilly Media
-tags:
+tags: book review
+comments: true
 ---
 
 ![Learning Node](http://akamaicovers.oreilly.com/images/0636920024606/lrg.jpg)

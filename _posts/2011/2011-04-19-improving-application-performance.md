@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Improving application performance
-tags:
+tags: software performance profiling
+comments: true
 ---
 
 As Tom DeMarco [says](http://en.wikiquote.org/wiki/Tom_DeMarco)

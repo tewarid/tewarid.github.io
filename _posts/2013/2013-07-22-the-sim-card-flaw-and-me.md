@@ -2,6 +2,7 @@
 layout: default
 title: The SIM card flaw and me
 tags: opinion sim card security
+comments: true
 ---
 
 Recent news reports [from Forbes](http://www.forbes.com/sites/parmyolson/2013/07/21/sim-cards-have-finally-been-hacked-and-the-flaw-could-affect-millions-of-phones/) and other news outlets inform that security researcher Karsten Nohl has [discovered](https://srlabs.de/rooting-sim-cards/) a flaw in SIM cards that use the older DES encryption standard. I was wondering how the flaw affects me.

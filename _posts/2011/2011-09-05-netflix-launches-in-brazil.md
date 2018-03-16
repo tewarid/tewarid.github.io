@@ -2,6 +2,7 @@
 layout: default
 title: Netflix launches in Brazil
 tags: netflix
+comments: true
 ---
 
 Today Netflix launched in Brazil, an interesting milestone for internet streaming here.

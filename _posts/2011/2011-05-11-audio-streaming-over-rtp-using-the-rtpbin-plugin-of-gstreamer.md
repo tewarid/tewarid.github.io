@@ -2,6 +2,7 @@
 layout: default
 title: Audio streaming over RTP using the rtpbin plugin of GStreamer
 tags: audio rtp stream rtpbin gstreamer speex
+comments: true
 ---
 
 This post shows how you can do audio streaming over RTP using the gstrtpbin plugin, as discovered from the [RTP examples](http://cgit.freedesktop.org/gstreamer/gst-plugins-good/tree/tests/examples/rtp) published by GStreamer. I am using the [speex codec](http://www.speex.org/).

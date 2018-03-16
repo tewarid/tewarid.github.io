@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Siloed thinking with use cases
-tags:
+tags: use case
+comments: true
 ---
 
 Use cases by their very nature force separation of needs into silos. Design thinking forces you to take a holistic view at things, and take into consideration unspoken needs, branding, look and feel, information flow, usability, user delight, accessibility, and so on.

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Programming an Arduino using BlocklyDuino
-tags:
+tags: arduino scratch blocklyduino
+comments: true
 ---
 
 [Blockly](https://developers.google.com/blockly/) is an experimental drag-and-drop programming environment not unlike [Scratch](http://scratch.mit.edu/). [BlocklyDuino](http://blocklyduino.github.io/BlocklyDuino/blockly/apps/blocklyduino/) is based on Blockly and provides an [open source](https://github.com/BlocklyDuino/BlocklyDuino) drag-and-drop programming editor for Arduino. It doesn't yet build the resulting code, but you can copy-paste it into the Arduino IDE.

@@ -2,6 +2,7 @@
 layout: default
 title: What I need in my next laptop
 tags: laptop wish macos macbook pro
+comments: true
 ---
 
 I use my laptop for work. I also use my iPad for work, but also for play. If my laptop is to remain my primary computing device, it needs the following as soon as possible.

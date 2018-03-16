@@ -2,6 +2,7 @@
 layout: default
 title: Custom dissector for ethertype link layer and IP protocol
 tags: ethertype ethernet dissector wireshark lua
+comments: true
 ---
 
 This is how you can replace the default dissector for the IP protocol

@@ -2,6 +2,7 @@
 layout: default
 title: Android SDK path
 tags: android sdk install path
+comments: true
 ---
 
 I had a hard time building a Mono for Android project a while back. I thought I should share this.

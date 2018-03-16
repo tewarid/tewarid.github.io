@@ -2,6 +2,7 @@
 layout: default
 title: Useful Docker commands
 tags: docker linux
+comments: true
 ---
 
 Interactively run command in a new container based on a Docker image

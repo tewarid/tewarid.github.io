@@ -2,6 +2,7 @@
 layout: default
 title: Android on BeagleBoard-xM
 tags: android beagleboard xm ti
+comments: true
 ---
 
 I just crossed paths with a BeagleBoard-xM and thought I'd try Android on it. I tried pre-built binary images for Android 4.0.3 from Texas Instruments (TI), and Android 4.1.1 Jelly Bean image from project [rowboat](https://code.google.com/archive/p/rowboat/).

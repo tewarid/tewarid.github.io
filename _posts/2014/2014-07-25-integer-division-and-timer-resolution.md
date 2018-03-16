@@ -2,6 +2,7 @@
 layout: default
 title: Integer division and timer resolution
 tags: timer accuracy integer division c
+comments: true
 ---
 
 I have this very specific need to send a list of pre-timed messages from an embedded system. Each message has a specific time when it needs to be sent out. The time is specified in milliseconds (ms) with respect to the previous message in the list. The first message being at time zero.

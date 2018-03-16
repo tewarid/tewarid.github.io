@@ -2,6 +2,7 @@
 layout: default
 title: Git clients for iOS
 tags: git ios clone push
+comments: true
 ---
 
 I've tried the following Git clients on iOS, to edit this Jekyll blog on the go. I settled on Git2Go because you can push to public GitHub repositories with the free app.

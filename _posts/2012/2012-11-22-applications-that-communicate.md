@@ -2,6 +2,7 @@
 layout: default
 title: Applications that communicate
 tags: communication network application programming
+comments: true
 ---
 
 You are building an application that needs to communicate over a network, maybe you have decided to build your own communication protocol. I hope you're doing it because TCP over IP does not meet your needs. I cover some points to keep in mind when developing an application or protocol that communicates over a network.

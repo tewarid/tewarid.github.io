@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Comparison of Logic Analyzers
-tags:
+tags: logic analyzer comparison
+comments: true
 ---
 
 |           **Model name**           | **BS05 (Micro)** | **Logic 8** | **Logic 16** |    **MSO-19**     | **SX**  |

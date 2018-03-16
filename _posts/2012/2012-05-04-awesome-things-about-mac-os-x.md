@@ -2,6 +2,7 @@
 layout: default
 title: Awesome things about Mac OS X
 tags: macos opinion
+comments: true
 ---
 
 Mac OS X, like iOS, has the ability to grow upon you due to its painfully perfected visuals and tools. I mention a few of these below.

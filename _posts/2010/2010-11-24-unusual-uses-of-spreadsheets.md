@@ -2,6 +2,7 @@
 layout: default
 title: Unusual uses of spreadsheets
 tags: spreadsheet application
+comments: true
 ---
 
 Spreadsheets have several uses. Microsoft Excel is one of the most used applications for building spreadsheets, the other most probably is a similar application from the OpenOffice.org suite. I'll be presenting some unusual usage of spreadsheets using Microsoft Excel but it may be possible to apply the same concepts with OpenOffice.org.

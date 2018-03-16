@@ -2,6 +2,7 @@
 layout: default
 title: Lists and sorting in .NET
 tags: .net c# sorting programming
+comments: true
 ---
 
 .NET Framework provides a generic SortedList class that keeps objects sorted by Key while they are added. It requires Key to be unique, probably for performance reasons. The example below demonstrates the alternative List<T> class for sorting and searching, and the limitation of SortedList while trying to do the same thing. You'll probably get better performance out of SortedList. List has a BinarySearch method that can improve search performance significantly.

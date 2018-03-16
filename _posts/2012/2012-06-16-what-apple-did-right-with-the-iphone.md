@@ -2,6 +2,7 @@
 layout: default
 title: What Apple did right with the iPhone
 tags: iphone apple innovation
+comments: true
 ---
 
 I have been a Smartphone user since before iPhone and Android were nothing but rumors. Windows Mobile ruled then, and so did RIM BlackBerry and Nokia. They were resting on their laurels.

@@ -2,6 +2,7 @@
 layout: default
 title: I2C with Bus Pirate v4.0 on Windows 10
 tags: i2c bus pirate windows 
+comments: true
 ---
 
 In this post, I learn to use a [Bus Pirate v4.0](https://www.seeedstudio.com/bus-pirate-v4-p-740.html) to retrieve raw linear acceleration data from a [Tilt Compensated Compass Breakout](https://www.sparkfun.com/products/retired/10888) (LSM303DLMTR), over the [I2C bus](http://www.nxp.com/documents/user_manual/UM10204.pdf) (also referred to as TWI - two wire interface).

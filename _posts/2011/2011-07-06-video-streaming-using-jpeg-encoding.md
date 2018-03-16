@@ -2,6 +2,7 @@
 layout: default
 title: Video streaming using jpeg encoding
 tags: jpeg encoding live video gstreamer
+comments: true
 ---
 
 Here's an example of a GStreamer pipeline that produces a less CPU intensive and low latency video stream using jpeg encoding. Audio in vorbis is muxed, along with the video, into a matroska stream. I tested this on Ubuntu 11.04.

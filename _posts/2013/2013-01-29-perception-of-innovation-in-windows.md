@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Perception of innovation in Windows
-tags:
+tags: windows innovation
+comments: true
 ---
 
 Saw this infographic today

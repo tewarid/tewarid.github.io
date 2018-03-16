@@ -2,6 +2,7 @@
 layout: default
 title: Virtual serial port redirection on Windows 8
 tags: virtual serial windows
+comments: true
 ---
 
 Virtual serial ports are a convenient way to test software that accesses hardware over serial ports, particularly when that hardware is not available yet. They can also be useful for logging and tracing purposes.

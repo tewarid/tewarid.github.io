@@ -2,6 +2,7 @@
 layout: default
 title: USB CDC ACM driver for Windows
 tags: usb cdc acm windows driver
+comments: true
 ---
 
 The [LUFA](https://github.com/abcminiuser/lufa) library provides a template INF file that can be easily extended to create a serial port driver for your USB CDC ACM device. Here's the template with CatalogFile added by me

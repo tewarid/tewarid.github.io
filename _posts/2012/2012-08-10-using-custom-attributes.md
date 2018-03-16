@@ -2,6 +2,7 @@
 layout: default
 title: Using custom attributes
 tags: html custom attribute jquery javascript web programming
+comments: true
 ---
 
 In this post I build my own reusable validation mechanism to demonstrate the use of custom attributes. There exist [validation plugin](https://github.com/jzaefferer/jquery-validation)s for jQuery already, you may be better off using them. If other validation mechanisms do not serve your needs for whatever reason, you can use the code posted here as a guidepost.

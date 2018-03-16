@@ -2,6 +2,7 @@
 layout: default
 title: Adding lots of source files to a WiX installer script
 tags: wix tool installer setup windows xml node nodejs
+comments: true
 ---
 
 Now that Visual Studio has dropped support for creating installers, I have taken to studying the [WiX Toolset](http://wixtoolset.org/) quite earnestly. Manually editing the WiX script is all right as long you have a handful of files. A particular installer I am working on has over nine hundred. I need to bundle the Node.js [executable](http://nodejs.org/dist/latest/node.exe) along with all the modules.

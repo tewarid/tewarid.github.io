@@ -2,6 +2,7 @@
 layout: default
 title: Spiritual dream?
 tags:
+comments: true
 ---
 
 ![half open door](/assets/img/half_open_door.jpg)

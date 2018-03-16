@@ -2,6 +2,7 @@
 layout: default
 title: First impressions with Lua
 tags: lua programming
+comments: true
 ---
 
 I am not a big fan of arcane languages. When possible, I like to stick to mainstream languages. Sometimes, though, our work does drive us to some strange languages. Like [Visual TCL](http://www.amazon.com/exec/obidos/ISBN=013461674X/u/7141-5908756-107481), a toolkit for the SCO Unix operating system that I used in the final year of my BE degree.

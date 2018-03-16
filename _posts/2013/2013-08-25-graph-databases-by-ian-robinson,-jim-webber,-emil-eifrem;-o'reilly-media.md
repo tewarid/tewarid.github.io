@@ -2,6 +2,7 @@
 layout: default
 title: Graph Databases by Ian Robinson, Jim Webber, Emil Eifrem; O'Reilly Media
 tags: book review graph database nosql neo4j
+comments: true
 ---
 
 ![Graph Databases](http://akamaicovers.oreilly.com/images/0636920028246/lrg.jpg)

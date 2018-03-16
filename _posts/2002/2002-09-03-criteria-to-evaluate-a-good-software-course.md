@@ -2,6 +2,7 @@
 layout: default
 title: Criteria to evaluate a good software course
 tags: opinion software course training
+comments: true
 ---
 
 The following criteria can be used to evaluate the quality of a good software course

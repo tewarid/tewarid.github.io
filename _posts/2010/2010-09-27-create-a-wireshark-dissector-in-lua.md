@@ -2,6 +2,7 @@
 layout: default
 title: Create a Wireshark dissector in Lua
 tags: wireshark lua dissector programming
+comments: true
 ---
 
 You have a custom protocol and would like to give your users the ability to visualize it in Wireshark? If your answer is yes, this post is for you.

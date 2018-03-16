@@ -2,6 +2,7 @@
 layout: default
 title: Data applications on MOTOTRBO radios
 tags: mototrbo application development
+comments: true
 ---
 
 MOTOTRBO two-way radios implement the [Digital Mobile Radio](http://dmrassociation.org/) (DMR) standard. They use a channel bandwidth of 6.25 KHz. Small IP datagrams can be sent between radios over the air. This air data network is called the Common Air Interface (CAI) network. A 24-bit radio ID is used along with an 8-bit CAI network ID to form a unique IP v4 address for each radio. Radios that have the same channel configuration can then exchange datagrams using IP addresses.

@@ -2,6 +2,7 @@
 layout: default
 title: Wireshark dissector in Lua for custom protocol over WebSockets
 tags: update
+comments: true
 ---
 
 It is fairly easy to write a Wireshark dissector in Lua for your custom protocol over WebSockets. To understand the basics of writing, and using, dissectors for Wireshark in Lua, see [Create a Wireshark dissector in Lua]({% link _posts/2010/2010-09-27-create-a-wireshark-dissector-in-lua.md %}).

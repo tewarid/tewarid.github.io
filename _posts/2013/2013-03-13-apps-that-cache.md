@@ -2,6 +2,7 @@
 layout: default
 title: Apps that cache
 tags: app rant cache
+comments: true
 ---
 
 I am fed up with having to track which apps cache data without my consent. Here's a list of iOS apps that cache relentlessly and don't give me an option to clear the cache. It is easy to know which apps are caching by looking at their storage space usage in settings.

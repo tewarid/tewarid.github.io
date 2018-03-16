@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Getting started with Apache Cordova
-tags:
+tags: apache cordova
+comments: true
 ---
 
 Apache Cordova, or PhoneGap, is a cross-platform HTML5 app development framework. It allows creation of offline HTML5 and hybrid applications. This post recounts my brief experience getting started with Apache Cordova. It is relevant for Android and iOS, and assumes you are developing on a Mac.

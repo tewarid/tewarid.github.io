@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Scripting for the .NET CLR
-tags:
+tags: .net clr c# scripting
+comments: true
 ---
 
 This post documents the pros and cons of some of the popular scripting options for the .NET Common Language Runtime (CLR).

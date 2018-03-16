@@ -2,6 +2,7 @@
 layout: default
 title: Check if C# object is an array and iterate over it
 tags: c# array check .net
+comments: true
 ---
 
 Sometimes, you want to know if an object is an array. One way to do it is

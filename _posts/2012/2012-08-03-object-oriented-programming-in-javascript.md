@@ -2,6 +2,7 @@
 layout: default
 title: Object-oriented programming in JavaScript
 tags: javascript object orientation
+comments: true
 ---
 
 After reading several articles all over the internet, I have arrived at the conclusion that for most cases a class should be created...

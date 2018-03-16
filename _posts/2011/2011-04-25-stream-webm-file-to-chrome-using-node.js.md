@@ -2,6 +2,7 @@
 layout: default
 title: Stream WebM file to Chrome using Node.js
 tags: webm file http stream nodejs
+comments: true
 ---
 
 Node.js can be used to stream arbitrary data to a browser such as Chrome over HTTP. In this post we'll use latest version of [express](http://expressjs.com/index.html) middleware to stream a WebM file to the browser.

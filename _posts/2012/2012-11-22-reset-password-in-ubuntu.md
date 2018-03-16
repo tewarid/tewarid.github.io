@@ -2,6 +2,7 @@
 layout: default
 title: Reset password in Ubuntu
 tags: grub ubuntu reset password
+comments: true
 ---
 
 If you have forgotten the root password you can reset it quite easily by booting into single-user mode. Reboot the PC and press ESC. You'll get the GRUB screen below.

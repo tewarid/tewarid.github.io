@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Spider-man spider
-tags:
+tags: spider man photography gravata
+comments: true
 ---
 
 Taken at Gravatá, Pernambuco, with an iPhone 4S

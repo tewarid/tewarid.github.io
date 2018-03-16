@@ -2,6 +2,7 @@
 layout: default
 title: Google's acquisition of Motorola Mobility
 tags: google motorola mobility
+comments: true
 ---
 
 I didn't see that coming, but it seems such a natural thing for Google and Motorola Mobility to have done.

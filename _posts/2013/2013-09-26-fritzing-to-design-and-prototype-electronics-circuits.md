@@ -2,6 +2,7 @@
 layout: default
 title: Fritzing to design and prototype electronics circuits
 tags: fritzing circuit pcb design
+comments: true
 ---
 
 I have been playing with [Fritzing](http://fritzing.org/) lately, and I have to say I am impressed. It is seductively easy to create and document electronics designs, and turn them into beautiful working circuits.

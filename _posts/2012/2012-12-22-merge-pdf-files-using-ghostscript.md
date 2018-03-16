@@ -2,6 +2,7 @@
 layout: default
 title: Merge pdf files using ghostscript
 tags: ghostscript pdf merge windows gsview
+comments: true
 ---
 
 To merge or join pdf files with [ghostscript](http://www.ghostscript.com/), from the command line

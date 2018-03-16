@@ -2,6 +2,7 @@
 layout: default
 title: View USB device descriptors on Windows
 tags: usb descriptor windows
+comments: true
 ---
 
 I have occasionally fired up a Linux virtual machine just to view USB descriptors of devices using `lsusb -v`. This post briefly describes a couple of tools for Windows that can be used to view descriptors of USB devices.

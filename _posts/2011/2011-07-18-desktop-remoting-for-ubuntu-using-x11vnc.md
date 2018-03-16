@@ -2,6 +2,7 @@
 layout: default
 title: Desktop remoting for Ubuntu using x11vnc
 tags: x11vnc ubuntu
+comments: true
 ---
 
 [x11vnc](http://www.karlrunge.com/x11vnc/) is a neat way to remote an existing X11 session to another machine. You can use a regular VNC client on the remote machine to interact with your Ubuntu Desktop.

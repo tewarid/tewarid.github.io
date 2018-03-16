@@ -2,6 +2,7 @@
 layout: default
 title: Thinking in shades of gray
 tags: design opinion software simulation
+comments: true
 ---
 
 There is black and there is white. That is how monochrome displays represented colors, maybe the white was sometimes green, but it was white nevertheless. Shades of gray began to appear, the grayscale display was born. It wouldn't be long before color displays sprung up. That is how technology evolves, from the bottom, whatever is possible, up to a point it becomes like clay. You make whatever you want to out of it, just get your hands dirty and keep an open mind.

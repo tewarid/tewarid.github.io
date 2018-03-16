@@ -2,6 +2,7 @@
 layout: default
 title: SQL Server deadlock
 tags:
+comments: true
 ---
 
 You have written a very useful enterprise application. All of a sudden users complain that data they entered is lost. You hurriedly start taking a look at the [SQL Server log](http://msdn.microsoft.com/en-us/library/ms187885.aspx) or run a trace using [SQL Profiler](http://msdn.microsoft.com/en-us/library/ms181091.aspx), and see the dreaded message:

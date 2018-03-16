@@ -2,6 +2,7 @@
 layout: default
 title: Krakow - Poland
 tags: krakow poland photography
+comments: true
 ---
 
 ![Wawel Royal Castle Entrance Path](/assets/img/krakow-wawel-castle-entrance.jpg)

@@ -2,6 +2,7 @@
 layout: default
 title: Arduino USB DFU firmware from scratch
 tags: arduino usb dfu avr atmel studio
+comments: true
 ---
 
 The Device Firmware Upgrade (DFU) firmware for the ATmega16U2 on Arduino Uno R3 is used to flash the USB Serial firmware, among [others](https://www.arduino.cc/en/Hacking/MidiWith8U2Firmware), using Atmel's [FLIP](http://www.microchip.com/developmenttools/productdetails.aspx?partno=flip) tool.

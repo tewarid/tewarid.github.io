@@ -2,6 +2,7 @@
 layout: default
 title: Learning Python by Mark Lutz; O'Reilly Media
 tags: book review python
+comments: true
 ---
 
 ![Learning Python](http://akamaicovers.oreilly.com/images/0636920028154/lrg.jpg)

@@ -2,6 +2,7 @@
 layout: default
 title: Falling out of love with the iPhone?
 tags: iphone innovation apple
+comments: true
 ---
 
 ...not so soon.

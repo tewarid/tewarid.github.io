@@ -2,6 +2,7 @@
 layout: default
 title: The power of oversight based on continuous forecasting
 tags: oversight forecast
+comments: true
 ---
 
 Knowing that you'll have too little or too much of something is always a challenge. It can be time, money, people, equipment or just about anything that can be quantified. Do it badly and you face grave consequences, do it well and you gain efficiency and predictability. It is hard to justify forecasting for a whole year since nowadays change seems to happen in a matter of days and weeks, instead of months and years.

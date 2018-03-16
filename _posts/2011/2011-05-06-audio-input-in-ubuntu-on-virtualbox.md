@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Audio input in Ubuntu in VirtualBox
-tags:
+tags: virtualbox
+comments: true
 ---
 
 Works with the setting _Audio Controller as Intel HD Audio_

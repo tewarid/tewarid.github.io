@@ -2,6 +2,7 @@
 layout: default
 title: MeeGo - an alternative to Android?
 tags: android meego nokia intel
+comments: true
 ---
 
 [MeeGo](http://meego.com/) is an initiative by Nokia and Intel, to create what looks like an alternative to Android. Both Nokia and Intel have been dabbling with Linux. Nokia with its [Maemo](https://en.wikipedia.org/wiki/Maemo) initiative and Intel with its [Moblin](https://www.tizen.org/) initiative. Maemo is present in Nokia tablet devices that pre-date the iPad. Why they have not been as successful is an ongoing debate.

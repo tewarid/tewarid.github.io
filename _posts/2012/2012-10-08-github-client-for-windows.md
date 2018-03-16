@@ -2,6 +2,7 @@
 layout: default
 title: GitHub client for Windows
 tags: github investment windows client
+comments: true
 ---
 
 ![GitHub Client for Windows](/assets/img/git-windows-github-client.png)

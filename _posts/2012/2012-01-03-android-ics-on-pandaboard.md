@@ -2,6 +2,7 @@
 layout: default
 title: Android ICS on PandaBoard
 tags: aosp ics pandaboard
+comments: true
 ---
 
 PandaBoard has been graced with Android 4 ICS (Ice Cream Sandwich). Thanks to linaro.org it is fairly easy to obtain and try for yourself, their [download](http://www.linaro.org/downloads/) page provides images for different ARM SoC development [boards](https://wiki.linaro.org/Boards) including [PandaBoard](https://en.wikipedia.org/wiki/PandaBoard).

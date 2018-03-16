@@ -2,6 +2,7 @@
 layout: default
 title: TCP socket connection from the web browser
 tags: tcp websocket browser web html javascript
+comments: true
 ---
 
 Web browsers do not support communicating with TCP hosts, other than web servers. In this post I take a different tack. I demonstrate a relay written with Node.js, that receives data from the browser over [websockets](http://www.w3.org/TR/websockets/), and sends it to a TCP socket. Data received over the TCP socket is similarly relayed back to the browser. This approach can also be used with UDP and other IP protocols.

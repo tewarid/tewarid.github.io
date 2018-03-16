@@ -2,6 +2,7 @@
 layout: default
 title: GRASP SOLID for effective object-oriented programming
 tags: object programming grasp solid
+comments: true
 ---
 
 Objects are responsible for their state and behavior. Assigning responsibilities to objects effectively makes maintenance of a program less cumbersome.

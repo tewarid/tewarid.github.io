@@ -2,6 +2,7 @@
 layout: default
 title: Live WebM video streaming with Flumotion
 tags: webm gstreamer flumotion
+comments: true
 ---
 
 The objective of this post is to setup live WebM streaming using Flumotion on a Linux box running Ubuntu 10.04.

@@ -2,6 +2,7 @@
 layout: default
 title: Dubrovnik - Croatia
 tags: update
+comments: true
 ---
 
 ![Old Town Pier](/assets/img/dubrovnik-boat-excursions.jpg)

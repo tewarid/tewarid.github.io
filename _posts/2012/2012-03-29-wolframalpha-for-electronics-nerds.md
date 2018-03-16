@@ -1,7 +1,8 @@
 ---
 layout: default
 title: WolframAlpha for electronics nerds
-tags:
+tags: wolfram alpha electronics
+comments: true
 ---
 
 Here's what searching for 150 ohm resistor gets you. Awesome!

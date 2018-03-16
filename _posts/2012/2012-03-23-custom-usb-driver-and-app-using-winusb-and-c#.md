@@ -2,6 +2,7 @@
 layout: default
 title: Custom USB driver and app using WinUSB and C#
 tags: winusb usb bulk c# .net programming
+comments: true
 ---
 
 Writing USB drivers used to be a tough proposition before [WinUSB](http://msdn.microsoft.com/en-us/library/ff540196.aspx). There are other frameworks like the [WinDriver](http://www.jungo.com/st/windriver_usb_pci_driver_development_software.html) toolkit from Jungo that have existed before WinUSB, but they can easily cost several thousand dollars in developer licenses. You can target Windows XP SP3 and beyond with WinUSB. If you are new to USB I suggest reading Jack Ganssle's [USB Overview](http://www.ganssle.com/articles/usb.htm).

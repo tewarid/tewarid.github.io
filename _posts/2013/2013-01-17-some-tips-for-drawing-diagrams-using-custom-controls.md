@@ -2,6 +2,7 @@
 layout: default
 title: Some tips for drawing diagrams using custom controls
 tags: windows forms .net c# programming
+comments: true
 ---
 
 Making diagrams the main UI for your application is easier than it may seem at first. The Windows Forms API provides mechanisms such as [overriding the `OnPaint`](http://msdn.microsoft.com/en-us/library/cksxshce.aspx) method, and drawing primitive shapes using methods of the [`Graphics`](http://msdn.microsoft.com/en-us/library/system.drawing.graphics.aspx) object, that make the task relatively easy.

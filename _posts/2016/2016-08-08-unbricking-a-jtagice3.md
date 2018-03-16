@@ -2,6 +2,7 @@
 layout: default
 title: Unbricking a JTAGICE3
 tags: jtagice jtagice3 jtag ice unbrick
+comments: true
 ---
 
 Atmel Studio 7 prompted me to upgrade a JTAGICE3 tool recently. I went ahead with the upgrade since I couldn't use the tool without it, and I have done it with the JTAGICE mkII on several occasions. After the upgrade was successfully completed, I found the JTAGICE3 in a state that is generally referred as bricked.

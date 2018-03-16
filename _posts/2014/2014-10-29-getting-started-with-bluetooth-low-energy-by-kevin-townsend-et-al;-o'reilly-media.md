@@ -2,6 +2,7 @@
 layout: default
 title: Getting Started with Bluetooth Low Energy by Kevin Townsend et al; O'Reilly Media
 tags: book review bluetooth le low energy smart
+comments: true
 ---
 
 ![Getting Started with Bluetooth Low Energy, Tools and Techniques for Low-Power Networking](http://akamaicovers.oreilly.com/images/0636920033011/lrg.jpg)

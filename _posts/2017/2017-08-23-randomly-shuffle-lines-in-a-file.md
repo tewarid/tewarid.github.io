@@ -2,6 +2,7 @@
 layout: default
 title: Randomly shuffle lines in a file
 tags: shuf macos homebrew
+comments: true
 ---
 
 ```bash

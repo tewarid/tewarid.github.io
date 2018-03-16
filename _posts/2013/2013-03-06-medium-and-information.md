@@ -2,6 +2,7 @@
 layout: default
 title: Medium and information
 tags: physics information
+comments: true
 ---
 
 I have been thinking about medium and information lately. Everything around us can be distilled into these two broad categories. Medium represents something physical, having characteristics derived from the material, but whose reason for existence is to sustain information. Due to the fact that it exists, medium assumes a life of its own.

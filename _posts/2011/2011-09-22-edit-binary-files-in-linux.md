@@ -2,6 +2,7 @@
 layout: default
 title: Edit binary files in Linux
 tags: edit binary linux xxd
+comments: true
 ---
 
 In this post I'll mention how to edit binary files using vi and the utility xxd that is a part of vi.

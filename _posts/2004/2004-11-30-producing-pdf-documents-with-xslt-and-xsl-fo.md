@@ -2,6 +2,7 @@
 layout: default
 title: Producing PDF documents with XSLT and XSL:FO
 tags: xsl xslt xsl:fo xml pdf
+comments: true
 ---
 
 [XSLT](https://www.w3.org/TR/xslt) and [XSL:FO](https://www.w3.org/TR/xsl/) are W3C standards that can be used in conjunction to create production quality PDF documents on the fly. The document generation process can be depicted using a simple flow diagram:

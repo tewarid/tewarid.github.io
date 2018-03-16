@@ -2,6 +2,7 @@
 layout: default
 title: Embedding the Browser
 tags: browser component embed
+comments: true
 ---
 
 This post discusses different options to embed the web browser into an app, on different platforms.

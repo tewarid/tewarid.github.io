@@ -2,6 +2,7 @@
 layout: default
 title: JSON syntax highlighting in ScintillaNET
 tags: update
+comments: true
 ---
 
 I am studying the excellent [ScintillaNET](https://www.nuget.org/packages/jacobslusser.ScintillaNET/) code editing component, to enable basic JSON editing in a .NET application.

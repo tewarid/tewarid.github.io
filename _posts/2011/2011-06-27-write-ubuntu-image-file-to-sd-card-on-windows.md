@@ -2,6 +2,7 @@
 layout: default
 title: Write Ubuntu image file to SD card on Windows
 tags: ubuntu image pandaboard sd card linux
+comments: true
 ---
 
 I use an 8 GB class 4 SD Card to run the Ubuntu distribution for OMAP4 on a [PandaBoard](https://en.wikipedia.org/wiki/PandaBoard). This post details the procedure I use to prepare the SD Card on Windows.

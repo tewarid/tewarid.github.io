@@ -2,6 +2,7 @@
 layout: default
 title: USB Serial
 tags: usb serial macos linux
+comments: true
 ---
 
 Serial port access can be very useful during embedded systems development.

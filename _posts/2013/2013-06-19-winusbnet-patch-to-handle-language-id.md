@@ -2,6 +2,7 @@
 layout: default
 title: winusbnet patch to handle language id
 tags: winusb .net c# usb programming windows
+comments: true
 ---
 
 [winusbnet](https://github.com/madwizard-thomas/winusbnet/) throws an exception when reading string descriptors using the WinUsb_GetDescriptor call. Basically, that WinUsb call returns false as it is called with a [Language ID](http://www.usb.org/developers/docs/USB_LANGIDs.pdf) of 0, a reserved value.

@@ -2,6 +2,7 @@
 layout: default
 title: Windows IoT Core application using Xamarin Forms
 tags: windows iot xamarin uwp
+comments: true
 ---
 
 ![Screenshot of my first Windows 10 IoT Core Xamarin Forms application running on a Raspberry Pi 3](/assets/img/xamarin-forms-uwp.jpg)

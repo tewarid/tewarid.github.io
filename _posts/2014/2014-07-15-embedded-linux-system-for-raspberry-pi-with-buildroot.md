@@ -2,6 +2,7 @@
 layout: default
 title: Embedded Linux system for Raspberry Pi with Buildroot
 tags: buildroot linux build kernel programming
+comments: true
 ---
 
 This post shows how easy it is to make a custom embedded Linux system for Raspberry Pi using Buildroot. I used an Ubuntu 13.04 VM for Parallels Desktop 9 to perform the build.

@@ -2,6 +2,7 @@
 layout: default
 title: Mocking SOAP services
 tags: soap http mocking java
+comments: true
 ---
 
 The following tools can be used to create mock [SOAP 1.1](https://www.w3.org/TR/2000/NOTE-SOAP-20000508/) web services

@@ -2,6 +2,7 @@
 layout: default
 title: Use Tile Studio to construct tiled maps
 tags: tile studio game 2d map
+comments: true
 ---
 
 [Tile Studio](http://tilestudio.sourceforge.net/) is a free and open source utility for making tile based games. 

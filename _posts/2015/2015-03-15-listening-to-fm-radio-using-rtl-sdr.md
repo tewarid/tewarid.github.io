@@ -2,6 +2,7 @@
 layout: default
 title: Listening to FM radio using RTL-SDR
 tags: sdr software radio fm rtl-sdr sdr#
+comments: true
 ---
 
 I am tinkering with an [RTL-SDR dongle](http://www.adafruit.com/products/1497) to listen to FM radio, on a MacBook Pro with OS X Yosemite, and a Windows 8.1 VM running on Parallels Desktop 10\. There are several software options available. I'll go into those that I tried, others that I didn't, and one that is surprisingly good.

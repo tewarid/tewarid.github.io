@@ -2,6 +2,7 @@
 layout: default
 title: Apple needs a larger phone
 tags: apple iphone ipad large screen
+comments: true
 ---
 
 Or a smaller iPad? iPad Micro?

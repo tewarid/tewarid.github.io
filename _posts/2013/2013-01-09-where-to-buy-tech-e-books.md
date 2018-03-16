@@ -2,6 +2,7 @@
 layout: default
 title: Where to buy tech e-books
 tags: ebook e-book online web
+comments: true
 ---
 
 I have adopted e-books in a big way. This is a quick post to register which publishers are selling tech e-books, and where. Most e-books they sell are more expensive than the Kindle versions sold at amazon.com, but are DRM-free and in several different formats such as EPUB, PDF, and MOBI. Some give lifetime e-book updates, will archive your e-books at services such as Dropbox, and give much cheaper e-book upgrades for print books.

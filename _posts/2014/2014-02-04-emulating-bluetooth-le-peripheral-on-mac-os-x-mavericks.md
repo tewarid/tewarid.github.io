@@ -2,6 +2,7 @@
 layout: default
 title: Emulating Bluetooth LE Peripheral on Mac OS X Mavericks
 tags: bluetooth le emulate macos
+comments: true
 ---
 
 This post documents some interesting Mac OS X Bluetooth LE peripheral examples I have found.

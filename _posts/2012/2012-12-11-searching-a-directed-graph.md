@@ -2,6 +2,7 @@
 layout: default
 title: Searching a directed graph
 tags: directed graph .net c# algorithm
+comments: true
 ---
 
 This post briefly describes a generic [directed graph](https://github.com/tewarid/net-directed-graph) depth-first search algorithm I wrote in C#.

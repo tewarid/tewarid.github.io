@@ -2,6 +2,7 @@
 layout: default
 title: Install latest version of Firefox on Ubuntu
 tags: firefox latest ubuntu
+comments: true
 ---
 
 Execute the following commands

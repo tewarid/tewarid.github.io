@@ -2,6 +2,7 @@
 layout: default
 title: What woes Samsung?
 tags: samsung opinion
+comments: true
 ---
 
 Samsung announced a rather [lackluster](http://techcrunch.com/2014/07/17/sad-sung/) quarter (compared to last year). What woes it? I am willing to hazard it is software. I was recently in the market for a cheap Android phone. Even though Samsung had an impressive lineup of hardware, none had Android 4.4 (KitKat) on it.

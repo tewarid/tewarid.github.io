@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Industrial Engineering
-tags:
+tags: industrial engineering
+comments: true
 ---
 
 I have come to the striking realization that I need to understand other industries, and become acquainted with different aspects of industrial engineering.

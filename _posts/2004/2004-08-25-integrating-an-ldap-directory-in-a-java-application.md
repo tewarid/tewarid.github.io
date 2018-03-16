@@ -2,6 +2,7 @@
 layout: default
 title: Integrating an LDAP Directory in a Java Application
 tags: ldap java
+comments: true
 ---
 
 [Lightweight Directory Access Protocol](https://tools.ietf.org/html/rfc4511) (LDAP) is a protocol for accessing directory services over the internet using TCP/IP. Various commercial directories like Active Directory from Microsoft and Oracle Internet Directory provide LDAP interfaces. [OpenLDAP](https://www.openldap.org/) is an open source LDAP directory distributed with almost every Linux distribution. We will use OpenLDAP in our examples throughout this article.

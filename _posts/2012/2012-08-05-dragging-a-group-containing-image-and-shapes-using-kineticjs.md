@@ -2,6 +2,7 @@
 layout: default
 title: Dragging a group containing image and shapes using kineticjs
 tags: kineticjs javascript jquery programming web
+comments: true
 ---
 
 The code below demonstrates dragging an image that is larger than the stage. Tap or click at a point to add a circle there. The circles and image can be dragged as a group. The group is bound inside the stage so that the entire stage is always occupied by some portion of the image.

@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Serving static web content using WCF
-tags:
+tags: wcf static content .net c# programming
+comments: true
 ---
 
 This post demonstrates how static web content can be served from a WCF service using WebHttpBinding and webHttp behavior.

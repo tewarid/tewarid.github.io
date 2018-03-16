@@ -2,6 +2,7 @@
 layout: default
 title: Customize Buildroot to build bluez-tools
 tags: bluez tools buildroot custom package linux raspberry pi
+comments: true
 ---
 
 I am building Bluetooth support into my custom embedded Linux system with Buildroot, but couldn't find basic command line tools that work with newer versions of BlueZ. That is when I came across [bluez-tools](https://code.google.com/p/bluez-tools/), a GSoC project that is able to fill the gap.

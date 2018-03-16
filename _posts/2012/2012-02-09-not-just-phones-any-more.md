@@ -2,6 +2,7 @@
 layout: default
 title: Not just phones any more
 tags: smartphone use app
+comments: true
 ---
 
 Here's a list of unusual applications involving smartphones

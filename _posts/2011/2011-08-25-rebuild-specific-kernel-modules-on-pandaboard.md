@@ -2,6 +2,7 @@
 layout: default
 title: Rebuild specific kernel modules on PandaBoard
 tags: kernel build usbnet pandaboard linux
+comments: true
 ---
 
 This procedure rebuilds the kernel modules for usb networking, to fix a regression in the usbnet driver reported [here](https://patchwork.kernel.org/patch/693971/), but the same procedure can be applied to other modules as well.

@@ -2,6 +2,7 @@
 layout: default
 title: Integrating a C# app with Moodle using XML-RPC
 tags: c# .net moodle xml rpc mnet
+comments: true
 ---
 
 We'll make RPC calls to Moodle using MNet with a simple example. Our objective is to check if a username and password combination is valid, using the email auth plugin.

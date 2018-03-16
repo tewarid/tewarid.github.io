@@ -2,6 +2,7 @@
 layout: default
 title: Web chat using Strophe and Openfire
 tags: openfire xmpp bosh javascript strophejs
+comments: true
 ---
 
 [XMPP](http://xmpp.org/about-xmpp/) is now widely used to implement messaging and presence services. Popular applications and services such as Jabber, Google Voice, and Google Talk are based on it. [Openfire](http://xmpp.org/about-xmpp/) is one really popular cross-platform Java server infrastructure for XMPP. On the client side there is an increasing trend towards applications done in HTML and JavaScript. There now exist some pure JavaScript client libraries such as [Strophe](https://github.com/metajack/strophejs) that support this trend. These work with the [BOSH](http://xmpp.org/extensions/xep-0124.html) HTTP binding provided by Openfire.

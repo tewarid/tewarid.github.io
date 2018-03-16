@@ -2,6 +2,7 @@
 layout: default
 title: SparkFun FTDI Basic with Raspberry Pi
 tags: sparkfun make ftdi pi raspberry buildroot
+comments: true
 ---
 
 The following diagram shows how you can connect an [FTDI Basic](https://www.sparkfun.com/products/9873) (USB to serial) breakout board to Raspberry Pi's GPIO connector. If you've configured VCC to output 5 Volts, you can also power the Raspberry Pi by connecting its 5V header pin to VCC.

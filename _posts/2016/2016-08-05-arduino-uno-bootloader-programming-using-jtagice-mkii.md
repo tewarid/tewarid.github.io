@@ -2,6 +2,8 @@
 layout: default
 title: Arduino Uno bootloader programming using JTAGICE mkII
 tags: arduino uno avr bootloader jtag
+comments: true
+comments: true
 ---
 
 Arduino Uno comes with an ATmega328 microcontroller. Like all AVR MCUs it can be programmed using an [in-system programming](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591739) interface (ISP or ICSP). This can be useful to upgrade the [bootloader](https://www.arduino.cc/en/Hacking/Bootloader), or to completely replace it and use the full program space on the MCU.

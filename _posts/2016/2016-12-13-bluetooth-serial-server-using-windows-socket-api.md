@@ -2,6 +2,7 @@
 layout: default
 title: Bluetooth serial server using Windows socket API
 tags: bluetooth socket api windows server serial spp
+comments: true
 ---
 
 This post describes a means to simulate a Bluetooth serial device on Windows. This can be useful to test Bluetooth applications running on Android and Windows, that use a virtual serial port to communicate with devices.

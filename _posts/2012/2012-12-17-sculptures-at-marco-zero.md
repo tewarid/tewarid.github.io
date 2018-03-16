@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Sculptures at Marco Zero
-tags:
+tags: brennand sculpture recife photography
+comments: true
 ---
 
 Ceramic Sculptures by Francisco Brennand

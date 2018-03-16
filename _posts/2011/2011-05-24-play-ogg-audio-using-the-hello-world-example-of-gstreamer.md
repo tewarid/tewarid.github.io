@@ -2,6 +2,7 @@
 layout: default
 title: Play ogg audio using the Hello World example of GStreamer
 tags: gstreamer c build hello world
+comments: true
 ---
 
 In this post, we see how to build the [hello world](https://gstreamer.freedesktop.org/documentation/application-development/basics/helloworld.html) example in C that can be found in the GStreamer application development manual.

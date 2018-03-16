@@ -2,6 +2,7 @@
 layout: default
 title: Enable Debugging on Raspberry Pi with Buildroot
 tags: gdb gdbserver buildroot linux raspberry pi
+comments: true
 ---
 
 This is a quick post that shows how to enable gdb and/or gdbserver on the Raspberry Pi when using Buildroot.

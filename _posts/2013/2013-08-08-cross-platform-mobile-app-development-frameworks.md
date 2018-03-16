@@ -2,6 +2,7 @@
 layout: default
 title: Cross-platform mobile app development frameworks
 tags: cross platform app development
+comments: true
 ---
 
 Development of applications for all the different mobile devices out there is becoming increasingly costly, especially for small teams. Reusing widespread knowledge of web app development to develop mobile apps is an attractive proposition. A quick survey of cross-platform mobile app development frameworks follows.

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Will threads become a relic?
-tags:
+tags: thread task
 ---
 
 Newer concurrency APIs have hidden the concept of threads. They instead expose task parallelism by applying the thread pool pattern, making migration from thread pools to other means of task parallelism easier. Some implementations expose asynchronous calls, doing away with the need to even create tasks. If the process has a single thread of execution, as in the case of Node.js, you don't have to bother with locks. Scaling is achieved using multiple processes and shared data.

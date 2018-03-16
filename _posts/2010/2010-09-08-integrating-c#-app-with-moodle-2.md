@@ -2,6 +2,7 @@
 layout: default
 title: Integrating C# app with Moodle 2
 tags: c# .net moodle 2 web service
+comments: true
 ---
 
 Moodle 2 exposes the same service methods using several protocols like XML-RPC, AMF and SOAP. In this post, we'll use XML-RPC. The examples below use existing Moodle 2 services. These are very few but I believe the Moodle 2 team will add more as time goes by.

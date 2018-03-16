@@ -2,6 +2,7 @@
 layout: default
 title: Upgrade to Ubuntu 14.04 on Parallels Desktop 9
 tags: ubuntu parallels macos
+comments: true
 ---
 
 Ubuntu 13.10 is no longer officially supported so decided to bite the bullet and go ahead with the upgrade to Ubuntu 14.04, on Parallels Desktop 9\. I'm running Parallels on an early 2013 MackBook Pro with Retina Display. The MAC OS X version is 10.10 (Yosemite) Public Beta. I installed the public beta after encountering problems running Parallels with Developer Preview beta 6.

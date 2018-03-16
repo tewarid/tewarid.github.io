@@ -2,6 +2,7 @@
 layout: default
 title: Run Buildroot in a Docker Container
 tags: buildroot docker windows linux
+comments: true
 ---
 
 This post explores how you can run Buildroot in a Docker container. Follow the [getting started](https://docs.docker.com/docker-for-windows/) to install Docker. I prefer using Docker with the PowerShell prompt on Windows 10.

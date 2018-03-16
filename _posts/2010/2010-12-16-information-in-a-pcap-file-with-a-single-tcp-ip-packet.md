@@ -2,6 +2,7 @@
 layout: default
 title: Information in a PCAP file with a single TCP/IP packet
 tags: pcap tcp format
+comments: true
 ---
 
 If you need to create packets for your protocol so that you can test a Wireshark dissector, the following information may be useful to you. The PCAP [file format](http://wiki.wireshark.org/Development/LibpcapFileFormat) is well documented in the Wireshark Wiki.

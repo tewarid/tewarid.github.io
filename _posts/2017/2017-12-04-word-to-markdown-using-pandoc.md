@@ -2,6 +2,7 @@
 layout: default
 title: Word to Markdown using Pandoc
 tags: word markdown pandoc
+comments: true
 ---
 
 Markdown has become the _de-facto_ standard for [writing software documentation](https://www.amazon.com/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS). This post discusses converting Word documents to Markdown using Pandoc, and rendering them to PDF.

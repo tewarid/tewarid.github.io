@@ -2,6 +2,7 @@
 layout: default
 title: Random numbers and Math on AVR32
 tags: math random c avr
+comments: true
 ---
 
 Probably not a very useful post for veterans but might be useful for those like me who are new to AVR32\. In this post, I show how to use the USART example application supplied with AVR32 Studio 2.6, to calculate and print a natural log of random numbers to the serial port.

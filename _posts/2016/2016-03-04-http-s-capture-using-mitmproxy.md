@@ -2,6 +2,7 @@
 layout: default
 title: HTTP/S capture using mitmproxy
 tags: http https mitmproxy sniffer macos
+comments: true
 ---
 
 This post shows how to install mitmproxy on Mac OS X (El Capitan) to capture HTTP/S traffic, especially useful when debugging applications.

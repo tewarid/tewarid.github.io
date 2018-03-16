@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Upgrading to a newer version of Atmel Software Framework
-tags:
+tags: atmel asf software framework avr
+comments: true
 ---
 
 This post is a brief description of the procedure that I follow to upgrade to a newer version of the Atmel Software Framework (ASF).

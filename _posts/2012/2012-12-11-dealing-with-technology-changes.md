@@ -2,6 +2,7 @@
 layout: default
 title: Dealing with technology changes
 tags: technology innovation change
+comments: true
 ---
 
 I forget the number of times I have written the same code in a different language. Technology changes all the time. If you are a professional developer, it may change from one project or task to another. How can we learn, use, and unlearn stuff so rapidly? I present a few points to ponder in no particular order.

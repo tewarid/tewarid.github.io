@@ -2,6 +2,7 @@
 layout: default
 title: Understanding IP subnets and routing
 tags: ip route routing network
+comments: true
 ---
 
 This post is an attempt to remind myself about IP routing when I come back to it after a gap of a year or two.

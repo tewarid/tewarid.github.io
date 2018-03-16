@@ -2,6 +2,7 @@
 layout: default
 title: Building Android Open Source Project for the PandaBoard
 tags: aosp android pandaboard build linux
+comments: true
 ---
 
 If you ever decide to build [AOSP](https://source.android.com/) on a Virtual Machine you'll need tonnes of patience. This post describes how to build the AOSP on a Ubuntu 13.04 VM, for the PandaBoard.

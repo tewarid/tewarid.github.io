@@ -2,6 +2,7 @@
 layout: default
 title: Stream live WebM video to browser using Node.js and GStreamer
 tags: webm http live stream nodejs
+comments: true
 ---
 
 We'll stream live WebM video to the browser using GStreamer and Node.js, in this post. Follow the procedure at [Build and install VP8 plugin and GStreamer]({% link _posts/2011/2011-04-07-live-webm-video-streaming-with-flumotion.md %}#build-and-install-vp8-plugin-and-gstreamer) to setup GStreamer 0.10.32. We'll use Node.js with the express middleware, that we used previously to [stream a WebM file]({% link _posts/2011/2011-04-25-stream-webm-file-to-chrome-using-node.js.md %}).

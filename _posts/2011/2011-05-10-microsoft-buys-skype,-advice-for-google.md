@@ -2,6 +2,7 @@
 layout: default
 title: Microsoft buys Skype, advice for Google
 tags: voip google everywhere ios android web
+comments: true
 ---
 
 I thought Google or Facebook would buy Skype when I read some [rumors](http://www.engadget.com/2011/05/05/facebook-google-rumored-to-be-vying-for-skype-deal/) to that effect. So, I was rather surprised to hear that Microsoft was in the fray and has now [closed a deal](http://www.businessinsider.com/microsoft-buying-skype-2011-5).

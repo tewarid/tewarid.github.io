@@ -2,6 +2,7 @@
 layout: default
 title: Use the Motorola Symbol CS3070 barcode scanner on a PC
 tags: bluetooth symbol cs3070 scanner pc windows pair
+comments: true
 ---
 
 This post shows the different means to read scanned barcodes using a CS3070 barcode scanner, on a Windows 7 PC. These instructions may also serve as breadcrumbs for Windows XP and other operating systems.

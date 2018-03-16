@@ -2,6 +2,7 @@
 layout: default
 title: Build a custom embedded Linux system using Buildroot
 tags: buildroot x86 virtual box linux kernel root file system
+comments: true
 ---
 
 In this post I build a custom embedded Linux bootable CD that I can run in an x86 VM. I would like to appreciate the help I received from the official [documentation](https://buildroot.org/docs.html).

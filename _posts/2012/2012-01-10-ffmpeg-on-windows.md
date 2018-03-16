@@ -2,6 +2,7 @@
 layout: default
 title: FFmpeg on Windows
 tags: ffmpeg windows
+comments: true
 ---
 
 A quick post to document how audio and video can be captured on Windows using [FFmpeg](http://ffmpeg.zeranoe.com/builds/) into different container formats like MKV, MP4 and WebM.

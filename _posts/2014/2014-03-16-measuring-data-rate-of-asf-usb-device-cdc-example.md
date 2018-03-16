@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Measuring data rate of ASF USB Device CDC example
-tags: data rate asf usb cdc
+tags: data rate asf usb cdc avr
+comments: true
 ---
 
 Atmel Studio 6.1 provides an example project for Atmel Software Framework (ASF) 3.12.1, called _USB Device CDC Example - EVK1101_. EVK1101 is an evaluation kit for the AT32UC3B0256 part, that has 256 KB of flash memory. The example though is equally valid for other variants of that part, with more or less flash memory.

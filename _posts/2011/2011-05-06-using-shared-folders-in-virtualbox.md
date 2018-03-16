@@ -2,6 +2,7 @@
 layout: default
 title: Using shared folders in VirtualBox
 tags: vbox virtualbox shared folder
+comments: true
 ---
 
 The shared folder concept in VirtualBox is extremely useful for sharing files between the host and guest OS. To be able to use shared folders on the guest OS, you need to install VirtualBox guest additions. This is usually achieved by using the _Install Guest Additions..._ option from the Devices menu. The next step is to create a shared folder using the _Shared Folder..._ option from the _Devices_ menu.

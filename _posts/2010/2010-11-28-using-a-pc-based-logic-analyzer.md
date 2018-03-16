@@ -2,6 +2,7 @@
 layout: default
 title: Using a PC based Logic Analyzer
 tags: logic analyzer programming saleae logic c# .net
+comments: true
 ---
 
 PC based Logic Analyzers (LAs) allow studying signals in digital circuits. These LAs sample the circuit under study at frequencies that vary from 1 MHz to about 50 MHz, and plot the resulting data as a timing diagram. The software that accompanies the LAs usually allows further analysis of the data, and can interpret busses such as CAN, I2C, I2S, RS-232, and SPI.

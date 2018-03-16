@@ -2,6 +2,7 @@
 layout: default
 title: Some other things I have learnt about programming
 tags: programming
+comments: true
 ---
 
 Inspired by and adding to the [post](http://blog.jgc.org/2012/07/some-things-ive-learnt-about.html) by John Graham-Cumming on programming, I add a few of my own lessons learned.

@@ -2,6 +2,7 @@
 layout: default
 title: Python on Raspberry Pi with Buildroot
 tags: python buildroot raspberry pi linux
+comments: true
 ---
 
 I'm in need of python on my custom embedded Linux system for Raspberry Pi. This post shows how I enable it. For some reason python build was failing with errors such as

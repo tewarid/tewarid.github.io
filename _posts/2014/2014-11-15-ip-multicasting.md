@@ -2,6 +2,7 @@
 layout: default
 title: IP multicasting
 tags: multicast udp linux raspberry pi
+comments: true
 ---
 
 IP multicasting is used to target a group of hosts by sending a single datagram. IP addresses in the range 224.0.0.0 through 239.255.255.255 are [reserved](http://www.iana.org/assignments/multicast-addresses/multicast-addresses.xhtml) for multicasting.

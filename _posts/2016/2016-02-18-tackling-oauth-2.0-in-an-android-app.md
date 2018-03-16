@@ -2,6 +2,7 @@
 layout: default
 title: Tackling OAuth 2.0 in an Android app
 tags: oauth2 android
+comments: true
 ---
 
 This post shows how to perform OAuth 2.0 authorization in an Android app using WebView. It is meant for those who need to tackle OAuth 2.0 themselves, probably because their identity provider does not provide an Android library.

@@ -2,6 +2,7 @@
 layout: default
 title: Read and write raw PCM using GStreamer
 tags: pcm wav gstreamer
+comments: true
 ---
 
 Embedded developers have a frequent need to encode or decode PCM audio. In this post I show some GStreamer pipelines that can help with that task.

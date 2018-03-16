@@ -2,6 +2,7 @@
 layout: default
 title: Search for a personal finance app
 tags: personal finance ios pocketmoney
+comments: true
 ---
 
 These are just some features I look for in a personal finance app

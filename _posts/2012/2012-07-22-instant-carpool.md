@@ -2,6 +2,7 @@
 layout: default
 title: Instant Carpool
 tags: carpool startup
+comments: true
 ---
 
 Instant [Carpool](http://en.wikipedia.org/wiki/Carpool) (aka instapool) is my stealth startup. Oops, not so stealth any more. I am revealing it so that the idea catches, and before long, all cities have such a service. Its aim is to let everyone carpool, whether they are first-time, occasional or every-day travelers in a city.

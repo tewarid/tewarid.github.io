@@ -2,6 +2,7 @@
 layout: default
 title: Transfer VP8 video stream over UDP using GStreamer
 tags: vp8 stream udp gstreamer
+comments: true
 ---
 
 This post shows GStreamer commands required to stream VP8 video using UDP.

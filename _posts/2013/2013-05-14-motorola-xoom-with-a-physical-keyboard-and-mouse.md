@@ -2,6 +2,7 @@
 layout: default
 title: Motorola Xoom with a physical Keyboard and Mouse
 tags: android tablet usb mouse keyboard
+comments: true
 ---
 
 The Motorola Xoom (model MZ605) with Android 4.0.4 (Ice Cream Sandwich - API Level 15) is the first Android tablet I have used. I have to say that the on-screen keyboard is seriously bad. There are times I am in editing mode and the cursor jumps to a spot I haven't touched, spurious characters appear when scrolling, and sometimes key presses do not register at all. I am also a regular iPad user and haven't had any such issues with the on-screen keyboard.

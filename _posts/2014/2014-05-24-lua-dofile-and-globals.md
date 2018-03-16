@@ -2,6 +2,7 @@
 layout: default
 title: Lua dofile and globals
 tags: lua programming
+comments: true
 ---
 
 I have been doing dissector development for Wireshark in Lua for a while now. Lua's mechanism for reusing code organized across multiple files comes in two flavors, `dofile` and [`require`](http://www.lua.org/pil/8.1.html). For historical reasons, we've been using `dofile` quite exclusively.

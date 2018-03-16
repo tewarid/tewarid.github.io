@@ -2,6 +2,7 @@
 layout: default
 title: Create valid self-signed certificates using OpenSSL
 tags: ssl openssl tls
+comments: true
 ---
 
 I was debugging a WebSocket connection failing with error `net::ERR_INSECURE_RESPONSE`, in Chrome, when I learnt that the self-signed certificate I was using was missing [subject alternative names](https://tools.ietf.org/html/rfc5280). This post brings together information I found in several different places, to create valid self-signed server certificates, using OpenSSL, that work with internet browsers such as Chrome.

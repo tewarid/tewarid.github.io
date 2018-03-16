@@ -2,6 +2,7 @@
 layout: default
 title: GStreamer pipeline with Tee
 tags: gstreamer tee tcp web stream
+comments: true
 ---
 
 The [`tee`](http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gstreamer-plugins/html/gstreamer-plugins-tee.html) element is useful to branch a data flow so that it can be fed to multiple elements. In this post, we'll use the `tee` element to split live, encoded, test video and audio sources, mux the output as live WebM, and stream the result using the [`tcpclientsink`](http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-base-plugins/html/gst-plugins-base-plugins-tcpclientsink.html) element. This procedure can be repeated several times to stream to multiple clients, the only limit being CPU usage and network bandwidth. By encoding only once, we avoid taxing the CPU - encoding being the most intensive operation it must perform. The code presented below has been tested with GStreamer 0.10.32.

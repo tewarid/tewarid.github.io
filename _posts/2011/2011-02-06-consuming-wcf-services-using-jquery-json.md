@@ -2,6 +2,7 @@
 layout: default
 title: Consuming WCF services using JQuery JSON
 tags:
+comments: true
 ---
 
 In this post we'll use the WebHttpBinding for communication between a browser application and a service.

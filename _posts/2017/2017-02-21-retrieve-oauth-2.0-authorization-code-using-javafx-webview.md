@@ -2,6 +2,7 @@
 layout: default
 title: Retrieve OAuth 2.0 authorization code using JavaFX WebView
 tags: update
+comments: true
 ---
 
 This post documents a snippet of code that can be added to Browser class in [JavaFX WebView sample](https://gist.github.com/tewarid/59c5b91c6c4c89d7beda207144978470), to extract OAuth 2.0 authorization code.

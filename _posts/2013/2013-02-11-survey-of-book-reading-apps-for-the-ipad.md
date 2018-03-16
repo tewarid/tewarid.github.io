@@ -2,6 +2,7 @@
 layout: default
 title: Survey of book reading apps for the iPad
 tags: book ebook app ipad survey
+comments: true
 ---
 
 Check the table below for a comparison of reading apps based on features they support.

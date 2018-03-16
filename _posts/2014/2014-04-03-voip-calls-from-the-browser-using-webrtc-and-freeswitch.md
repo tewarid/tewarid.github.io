@@ -2,6 +2,7 @@
 layout: default
 title: VoIP calls from the browser using WebRTC and FreeSWITCH
 tags: voi sip webrtc freeswitch
+comments: true
 ---
 
 There was a time when making phone calls from the browser would have meant installing a native extension. Thanks to WebRTC, we can now make phone calls from the browser. This post is my recent experiment with doing exactly that, using readily available open source components.

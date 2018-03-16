@@ -2,6 +2,7 @@
 layout: default
 title: Handling TCP keep-alive
 tags: tcp keepalive network programming python
+comments: true
 ---
 
 Keep-alives are useful in scenarios where either end of a TCP connection disappears without closing the session.

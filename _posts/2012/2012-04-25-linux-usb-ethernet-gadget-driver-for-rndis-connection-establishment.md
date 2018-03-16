@@ -2,6 +2,7 @@
 layout: default
 title: Linux USB ethernet gadget driver for RNDIS connection establishment
 tags: rndis message sequence
+comments: true
 ---
 
 In this post I'll document the RNDIS control message sequence between the USB RNDIS gadget driver and the device.

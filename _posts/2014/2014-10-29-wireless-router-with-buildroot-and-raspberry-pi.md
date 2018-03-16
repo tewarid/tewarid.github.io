@@ -2,6 +2,7 @@
 layout: default
 title: Wireless Router with Buildroot and Raspberry Pi
 tags: wireless wifi wi-fi router buildroot raspberry pi linux
+comments: true
 ---
 
 This post shows how to build a basic wireless router, using the Raspberry Pi. It is driven by a custom Linux system built with Buildroot 2014.08, that boots up in no time at all.

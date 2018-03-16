@@ -2,6 +2,7 @@
 layout: default
 title: WebKit/GTK+ on Ubuntu
 tags: webkit gtk ubuntu
+comments: true
 ---
 
 Ubuntu has fairly good independent browsers - FireFox and Chromium come to mind. If you want a cutting-edge WebKit port that is deeply integrated with the Ubuntu Desktop, [WebKit/Gtk+](http://live.gnome.org/WebKitGtk) is worth taking a look at. Its UI is based on Gtk and the multimedia playback is based on GStreamer.

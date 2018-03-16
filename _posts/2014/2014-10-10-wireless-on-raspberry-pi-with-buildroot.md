@@ -2,6 +2,7 @@
 layout: default
 title: Wireless on Raspberry Pi with Buildroot
 tags: wireless wifi wi-fi raspberry pi buildroot kernel linux
+comments: true
 ---
 
 Raspberry Pi does not have Wi-Fi on board. You'll need to use a Wi-Fi dongle and discover the driver to build into the kernel. One way to find the driver is to plug the dongle into a Raspberry Pi running Raspbian, and run `lsmod` to see which module gets loaded. The following text assumes you're building a custom embedded Linux system using Buildroot.

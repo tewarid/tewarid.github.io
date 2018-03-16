@@ -2,6 +2,7 @@
 layout: default
 title: Cleaner JSON from a WCF service with webHttp behavior
 tags: json wcf c# html jquery
+comments: true
 ---
 
 This post improves on an earlier post, [Consuming WCF services using JQuery JSON]({% link _posts/2011/2011-02-06-consuming-wcf-services-using-jquery-json.md %}). The JSON serialized by the WCF service in that post is wrapped inside a [d property](http://haacked.com/archive/2008/11/20/anatomy-of-a-subtle-json-vulnerability.aspx). In this post we modify the service to return cleaner JSON by using [webHttp behavior](http://msdn.microsoft.com/en-us/library/bb924425.aspx), and [WebInvokeAttribute](http://msdn.microsoft.com/en-us/library/system.servicemodel.web.webinvokeattribute.aspx) class.

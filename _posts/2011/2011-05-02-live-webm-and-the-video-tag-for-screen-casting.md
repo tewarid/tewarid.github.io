@@ -2,6 +2,7 @@
 layout: default
 title: Live WebM and the video tag for screen casting
 tags: screen cast webm live stream nodejs javascript
+comments: true
 ---
 
 In this post, I modify the Node.js script introduced in post [Stream live WebM video to browser using Node.js and GStreamer]({% link _posts/2011/2011-04-26-stream-live-webm-video-to-browser-using-node.js-and-gstreamer.md %}) to stream a screen cast using the following players on Windows 7 and Ubuntu 11
