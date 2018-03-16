@@ -9,4 +9,4 @@ defaults:
 plugins:
   - jekyll-sitemap
   - jekyll-feed
-  
+repository: tewarid/tewarid.github.io
