@@ -59,7 +59,7 @@ df_grouped = df.groupby(by='result')['result'].count()
 print(df_grouped)
 ```
 
-Finally, I plotted that data
+Finally, I plotted that grouped data - after I removed students who scored 0
 
 ```python
 %matplotlib inline
