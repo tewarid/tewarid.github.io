@@ -52,14 +52,14 @@ df=df.sort_values(by=['result', 'name'])
 print(df.tail())
 ```
 
-Next, I grouped students by their results to find how many had the same result as my daughter's
+Next, I grouped students by their score to find how many had the same score as my daughter's
 
 ```python
 df_grouped = df.groupby(by='result')['result'].count()
 print(df_grouped)
 ```
 
-Finally, I plotted that grouped data - after I removed students who scored 0
+Finally, I plotted the grouped data - after I removed students who scored 0
 
 ```python
 %matplotlib inline
