@@ -17,7 +17,9 @@ I got the first hints of where the problem could be when
 
 * Analyzing the data transmitted by the SSC using a [Saleae Logic 16](https://www.saleae.com/logic16), I noted that only the first two DMA transfers were actually occurring. These were programmed at initialization, hinting at the fact that the interrupt handler is the source of the problem.
 
-I got a hint for the solution from the [AVR32006 : Getting started with GCC for AVR32](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591128) application note. Adding `__attribute__((interrupt("full")))` to the function definition solves the problem. That tells the compiler to return from the function using the special `rete` instruction. You can also use the `ISR` macro to define the interrupt handler function. An example follows
+I got a hint for the solution from the [AVR32006 : Getting started with GCC for AVR32](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591128) application note. Adding `__attribute__((interrupt("full")))` to the function definition solves the problem. That tells the compiler to return from the function using the special `rete` instruction. You can also use the `ISR` macro to define the interrupt handler function.
+
+An example follows
 
 ```c
 __attribute__((interrupt("full"))) void pdca_interrupt_handler(void)
@@ -26,7 +28,7 @@ __attribute__((interrupt("full"))) void pdca_interrupt_handler(void)
 }
 ```
 
-This is how the interrupt handler is registered.
+This is how the interrupt handler is registered
 
 ```c
 INTC_register_interrupt( (__int_handler) &pdca_interrupt_handler, AVR32_PDCA_IRQ_1, AVR32_INTC_INT0);
