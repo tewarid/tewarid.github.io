@@ -43,8 +43,6 @@ I use a few additional plugins to make editing Markdown files more productive
 
 * [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 
-* [SpellChecker](https://marketplace.visualstudio.com/items?itemName=swyphcosmo.spellchecker)
-
 * [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter)
 
 ### HTML in Markdown
