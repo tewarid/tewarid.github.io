@@ -8,5 +8,7 @@ comments: true
 Who changed what, and when, in a file or folder in a Git repo? The following simple command is usually enough
 
 ```bash
-git log -p --decorate=full path
+git log --follow -p --decorate=full pathspec
 ```
+
+Remove `-p` option if you don't want change diff.
