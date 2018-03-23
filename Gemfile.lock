@@ -238,6 +238,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-theme-slate
 
 BUNDLED WITH
    1.16.1
