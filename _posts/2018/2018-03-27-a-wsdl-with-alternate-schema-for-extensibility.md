@@ -37,6 +37,10 @@ The SOAP response looks like
 </soapenv:Envelope>
 ```
 
-The standalone WSDL file is shown in listing `example-standalone.wsdl`. The alternate schema can be in a separate file as shown in listing `alternate.xsd`. A WSDL file that uses the schema file is shown in listing `example.wsdl`. Note the use of `import` element from `wsdl` namespace.
+The standalone WSDL file is shown in listing `example-standalone.wsdl`.
+
+{% gist 9eb5a30e37cc8f3d6ff35333229b927e %}
+
+The alternate schema can be in a separate file, as shown in listing `alternate.xsd`. A WSDL file that uses the schema file is shown in listing `example.wsdl`. Note the use of `import` element from `wsdl` namespace.
 
 {% gist 319bfa08fd6b3072d19ddd2d421cdfe6 %}
