@@ -5,6 +5,8 @@ tags: xml timeline
 comments: true
 ---
 
+_I have [posted]({% link _posts/2018/2018-03-23-status-of-popular-markup-language-standards.md %}) an updated table._
+
 |          | 1996 | 1997 |  1998   |  1999   |  2000   | 2001 | 2002 |
 | -------- | ---- | ---- | ------- | ------- | ------- | ---- | ---- |
 | CSS      | 1.0  |      | 2.0     |         |         |      |      |
