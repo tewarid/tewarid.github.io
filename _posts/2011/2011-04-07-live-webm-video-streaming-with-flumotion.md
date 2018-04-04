@@ -7,7 +7,7 @@ comments: true
 
 The objective of this post is to setup live WebM streaming using Flumotion on a Linux box running Ubuntu 10.04.
 
-[WebM](http://www.webmproject.org) is a codec and container format based on the matroska container, and uses the Vorbis codec for audio and the VP8 codec for video. It is a royalty-free format for the Web. H.264 is an open standard but is encumbered with patents. Although Ogg is quite similar to WebM, Ogg suffers from FUD regarding its royalty-free standing.
+[WebM](http://www.webmproject.org) is a video format based on the matroska container, that uses the Vorbis codec for audio and VP8 codec for video. It is an open standard and, unlike H.264, a royalty-free format unencumbered by patents. Although Ogg is quite similar to WebM, Ogg suffers from FUD about being royalty-free.
 
 ### Install Flumotion
 
@@ -45,14 +45,17 @@ Install the following in the same manner
 
 ### Prepare GStreamer
 
-`make install` puts libraries under `/usr/local/lib`. We'll have to add that path to the `LD_LIBRARY_PATH` environment variable. You can configure make to install libraries and binaries to `/usr` instead of `/usr/local` by passing `--prefix=/usr` option to the configure commands issued above.
-
-We'll need to rebuild the GStreamer plugins registry.
-
-Open a terminal and execute
+`make install` puts libraries under `/usr/local/lib`. We'll have to add that path to the `LD_LIBRARY_PATH` environment variable
 
 ```bash
 export LD_LIBRARY_PATH=/usr/local/lib
+```
+
+You can configure make to install libraries and binaries to `/usr` instead of `/usr/local`, by passing `--prefix=/usr` option to the configure commands issued above.
+
+We need to rebuild GStreamer's plugins registry. Open a terminal and execute
+
+```bash
 export GST_PLUGIN_SYSTEM_PATH=/usr/local/lib/gstreamer-0.10
 rm ~/.gstreamer/registry*
 gst-inspect
