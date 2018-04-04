@@ -5,11 +5,11 @@ tags: webm http live stream nodejs
 comments: true
 ---
 
-We'll stream live WebM video to the browser using GStreamer and Node.js, in this post. Follow the procedure at [Build and install VP8 plugin and GStreamer]({% link _posts/2011/2011-04-07-live-webm-video-streaming-with-flumotion.md %}#build-and-install-vp8-plugin-and-gstreamer) to setup GStreamer 0.10.32. We'll use Node.js with the express middleware, that we used previously to [stream a WebM file]({% link _posts/2011/2011-04-25-stream-webm-file-to-chrome-using-node.js.md %}).
+This post shows how to stream live WebM video to the browser using GStreamer and Node.js. To setup GStreamer, follow the procedure at [Build and install VP8 plugin and GStreamer]({% link _posts/2011/2011-04-07-live-webm-video-streaming-with-flumotion.md %}#build-and-install-vp8-plugin-and-gstreamer). We'll use Node.js with the Express middleware, used by us to [stream a WebM file]({% link _posts/2011/2011-04-25-stream-webm-file-to-chrome-using-node.js.md %}) in the past.
 
 ### The code
 
-We spawn a GStreamer pipeline to mux a WebM stream, and stream it using the `tcpserversink` element. After we receive a request at port 8001 from a browser, we create a TCP client socket to receive the WebM stream, and forward it to the browser.
+The code spawns a GStreamer pipeline to create and send a WebM stream using the `tcpserversink` element. It then listens for HTTP requests at port 8001. When it receives an HTTP request, it creates a new TCP socket to receive the WebM stream, and writes it out to the browser.
 
 {% gist ebb075bbcbfb5c3d83dc7429647748a7 %}
 
