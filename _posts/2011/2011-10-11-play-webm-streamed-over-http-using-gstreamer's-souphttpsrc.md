@@ -8,7 +8,7 @@ comments: true
 The pipeline below receives WebM video using `souphttpsrc` and plays it
 
 ```bash
-gst-launch souphttpsrc location=http://127.0.0.1:9001 ! matroskademux ! vp8dec ! ffmpegcolorspace ! ximagesink
+gst-launch-1.0 souphttpsrc location=http://127.0.0.1:9001 ! matroskademux ! vp8dec ! videoconvert ! autovideosink
 ```
 
-Check the manual page for `souphttpsrc` or the `gst-inspect` output for the element, for further details.
+Check the manual page for `souphttpsrc` or the `gst-inspect-1.0` output for the element, for further details.

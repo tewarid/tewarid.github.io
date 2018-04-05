@@ -10,25 +10,30 @@ Embedded developers have a frequent need to encode or decode PCM audio. In this 
 ### Convert WAV to PCM
 
 ```bash
-gst-launch filesrc location=file.wav ! wavparse ! audioresample ! audioconvert ! audio/x-raw-int, rate=8000, channels=1, endianness=4321, width=16, depth=16, signed=true ! filesink location=file.pcm
+gst-launch-1.0 filesrc location=file.wav ! wavparse ! audioresample ! audioconvert ! audio/x-raw,format=S16BE,channels=1,rate=8000 ! filesink location=file.pcm
 ```
 
-For bulk conversion
+For additional raw formats, see [Raw Audio Media Types](https://gstreamer.freedesktop.org/documentation/design/mediatype-audio-raw.html).
+
+For bulk conversion, try
 
 ```bash
-ls *.wav | xargs -i -n 1 gst-launch filesrc location='{}' ! wavparse ! audioresample ! audioconvert ! audio/x-raw-int, rate=8000, channels=1, endianness=4321, width=16, depth=16, signed=true ! filesink location='{}'.pcm
+find *.wav -exec gst-launch-1.0 filesrc location={} ! wavparse ! audioresample ! audioconvert ! audio/x-raw,format=S16BE,channels=1,rate=8000 ! filesink location={}.pcm \;
 ```
+
+This should also work fine from Git Bash shell on Windows.
 
 ### Convert PCM to WAV
 
 ```bash
-gst-launch filesrc location=file.pcm ! audio/x-raw-int, rate=8000, channels=1, endianness=4321, width=16, depth=16, signed=true ! audioconvert ! audio/x-raw-int, rate=8000, channels=1, endianness=1234, width=16, depth=16, signed=true ! wavenc ! filesink location=file.wav
+gst-launch-1.0 filesrc location=file.pcm ! audio/x-raw,format=S16BE,channels=1,rate=8000 ! audioconvert ! audio/x-raw,format=S16LE,channels=1,rate=8000 ! wavenc ! filesink location=file.wav
 ```
 
 ### Play PCM
 
 ```bash
-gst-launch filesrc location=file.pcm ! audio/x-raw-int, rate=8000, channels=1, endianness=4321, width=16, depth=16, signed=true ! pulsesink
+gst-launch-1.0 filesrc location=file.pcm ! audio/x-raw,format=S16BE,channels=1,rate=8000 !
+audioconvert ! audioresample ! autoaudiosink
 ```
 
 ### Use xxd to create C array of PCM data
