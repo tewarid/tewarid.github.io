@@ -9,17 +9,17 @@ The following are some [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252
 
 `\x85` (ellipsis …) replace with three dots ...
 
-`\x91` (curved quote ‘) replace with normal quote '
+`\x91` (open curly quote ‘) replace with normal quote &apos;
 
-`\x92` (curved quote ’) replace with normal quote '
+`\x92` (close curly quote ’) replace with normal quote &apos;
 
-`\x93` (curved quote “) replace with normal quote "
+`\x93` (open curly double quote “) replace with normal quote &quot;
 
-`\x94` (curved quote ”) replace with normal quote "
+`\x94` (close curly double quote ”) replace with normal quote &quot;
 
-`\x96` (dash –) replace with normal -
+`\x96` (ndash –) replace with normal -
 
-`\x97` (dash —) replace with normal -
+`\x97` (mdash —) replace with normal -
 
 `\xa0` (NBSP) replace with normal space
 
