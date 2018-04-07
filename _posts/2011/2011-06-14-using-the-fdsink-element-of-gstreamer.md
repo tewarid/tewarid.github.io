@@ -78,7 +78,7 @@ server_thread(gpointer data)
 
 ### Create listener in its own thread
 
-The server above can be executed in its own thread - we use glib, thus
+The server above can be executed in its own thread&mdash;we use glib&mdash;thus
 
 ```c
   sthread = g_thread_create(server_thread, NULL, TRUE, NULL);
