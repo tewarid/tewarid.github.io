@@ -60,8 +60,8 @@ We create a sub-pipeline using a bin. Creating a new branch from the `tee`, on a
   GstPad *sinkpadvideo, *srcpadvideo, *sinkpadaudio, *srcpadaudio;
 
   bin = gst_bin_new (NULL);
-  videoq = gst_element_factory_make ("queue2", NULL);
-  audioq = gst_element_factory_make ("queue2", NULL);
+  videoq = gst_element_factory_make ("queue", NULL);
+  audioq = gst_element_factory_make ("queue", NULL);
   muxer = gst_element_factory_make ("webmmux", NULL);
   sink = gst_element_factory_make ("tcpclientsink", NULL);
 
