@@ -14,6 +14,4 @@ tags: topic
 
 [OpenSSL]({% link openssl.md %})
 
-[Photography]({% link photography.md %})
-
 [Wireshark]({% link wireshark.md %})
