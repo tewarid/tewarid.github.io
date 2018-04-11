@@ -78,7 +78,19 @@ In our example, we will use the following XML document
 
 This document corresponds to the following object model
 
-![Object Model](/assets/img/xml-example-class-model.png)
+<div class="mermaid" style="height:400px;">
+classDiagram
+    Client "1" --> "many" Order : places
+    Order "1" --> "many" Item : has
+    Order : string reference
+    Client : string name
+    Client : string address
+    Item : string reference
+    Item : string description
+    Item : int quantity
+    Item : double unitPrice
+    Item : string image
+</div>
 
 ### The XSL Template
 
