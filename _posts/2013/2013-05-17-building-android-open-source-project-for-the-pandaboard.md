@@ -9,11 +9,11 @@ If you ever decide to build [AOSP](https://source.android.com/) on a Virtual Mac
 
 ### Preparing the VM
 
-I created a VirtualBox (4.2.12) VM with a 100 GB virtual drive on a laptop that has an Intel Core i5 dual core CPU with four logical processors. I configured the VM to use all four logical processors. The amount of physical memory available to the guest OS was configured to four GiB, but you may be able to do with less if you use `make` with less parallel jobs. The host laptop has 8 GB of DDR3 SDRAM. I then installed Ubuntu 13.04 64-bit version from an ISO file.
+I created a VirtualBox&mdash;version 4.2.12&mdash;VM with a 100 GB virtual disk on a laptop that has an Intel Core i5 dual core CPU with four logical processors. I configured the VM to use all four logical processors. The amount of physical memory available to the guest OS was configured to 4 GB, but you may be able to do with less if you use `make` with less parallel jobs. The host laptop has 8 GB of DDR3 SDRAM. I then installed Ubuntu 13.04 64-bit version from an ISO file.
 
 ### Download AOSP source code
 
-This is a lengthy and bandwidth-intensive procedure. I don't want to describe it all since it's [well documented](https://nathanpfry.com/how-to-configure-ubuntu-13-04-raring-ringtail-for-properly-compiling-android-roms/) elsewhere. I chose to build the `android-4.2.2_r1` branch. You may want to add the `-j 20` option to `repo sync` if you have lots of available bandwidth. You'll need a big virtual drive. `du -h` shows that I have used up 13 GB after downloading the source! You'll obviously need much more than that once you are done building, the same folder swelled up to about 35 GB in my case.
+This is a lengthy and bandwidth-intensive procedure. I won't describe it all since it's [well documented](https://source.android.com/setup/build/downloading) elsewhere. I chose to build the `android-4.2.2_r1` branch. You may want to add the `-j 20` option to `repo sync`, if you have lots of available bandwidth. You'll need a big virtual drive. `du -h` shows that I have used up 13 GB after downloading the source! You'll obviously need much more than that once you are done building&mdash;the same folder swelled up to about 35 GB in my case.
 
 ### Building AOSP
 
