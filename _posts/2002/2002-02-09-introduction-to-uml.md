@@ -5,7 +5,7 @@ tags: uml software design
 comments: true
 ---
 
-This is a short introduction to UML diagrams and modeling - derived from OMG's [Unified Modeling Language Specification](https://www.omg.org/spec/UML/1.4/About-UML/), and online help in Rational Rose Enterprise Edition.
+This is a short introduction to UML diagrams, based on OMG's [Unified Modeling Language Specification](https://www.omg.org/spec/UML/1.4/About-UML/), and the online help in Rational Rose Enterprise Edition.
 
 ### Class diagrams
 
@@ -70,7 +70,7 @@ Draw a dependency relationship between two classes, or between a class and an in
 
 A three-tiered diagram is a Class Diagram that is divided into three tiers. Each tier corresponds to a logical package, which in turn corresponds to a service layer: User Services, Business Services, and Data Services.
 
-### Use case model
+### Use case diagrams
 
 Use-case diagrams graphically depict system behavior (use cases). These diagrams present a high level view of how the system is used as viewed from an outsider’s (actor’s) perspective. A use-case diagram may depict all or some of the use cases of a system.
 
