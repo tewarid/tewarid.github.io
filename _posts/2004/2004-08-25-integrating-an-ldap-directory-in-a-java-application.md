@@ -420,7 +420,7 @@ A sample properties file used by loadConfiguration to configure LDAPUtil is show
 
 ```conf
 # LDAP server URL e.g. ldap://localhost:389
-ldapServer = ldap://andromeda.cesar.org.br:389
+ldapServer = ldap://example.com:389
 # Whether secure access must be used
 secure = false
 # LDAP Initial Context Factory
@@ -428,9 +428,9 @@ ldapContextFactory = com.sun.jndi.ldap.LdapCtxFactory
 # LDAP authentication type - use "simple" or "none"
 authenticationType = simple
 # User to bind to the directory
-securityPrincipal = 
+securityPrincipal = login
 # Password of securityPrincipal
-password = 
+password = p@ssw0rd
 # Base DN for querying users
 userSearchContext = dc=my-domain,dc=com
 # Attribute for unique user id
