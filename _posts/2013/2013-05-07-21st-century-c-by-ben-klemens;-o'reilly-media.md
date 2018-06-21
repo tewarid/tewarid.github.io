@@ -7,7 +7,7 @@ comments: true
 
 ![21st Century C](http://akamaicovers.oreilly.com/images/0636920025108/lrg.jpg)
 
-21st Century C is a useful read for the budding Linux hacker, due to its focus on the GNU toolchain. Among its highlights is the constant reminder of improvements to the C language since the original ANSI C standard (C89). It covers a wide range of topics - you may want to skim particular topics and return to them when you see the need.
+21st Century C is a useful read for the budding Linux hacker, due to its focus on the GNU toolchain. Among its highlights is the constant reminder of improvements to the C language since the original ANSI C standard (C89). It covers a wide range of topics&mdash;you may want to skim particular topics and return to them when you see the need.
 
 The book is divided into two parts. Part 1 starts with mundane things like installing a C compiler and compiling your C program. It then moves on to useful topics such as debugging using GDB, checking for errors using Valgrind, unit testing, building documentation using Doxygen and CWEB, and packaging your project using Autotools. If you have executed "./configure" and then "make install", but never looked under the hood, now is the time to do that. The chapter on version control using Git is probably the best coverage of Git I have seen in any book.
 
