@@ -5,7 +5,7 @@ tags: dotnet .net c# entity framework linq
 comments: true
 ---
 
-These are some lessons I learned when improving query performance of an application written in C#, that uses Entity Framework Code First, LINQ, and SQL Server
+These are some lessons I learned when improving query performance of an application written in C#, that uses Entity Framework [Code First](https://msdn.microsoft.com/en-us/library/jj193542.aspx), LINQ, and SQL Server
 
 1. Databases cache query plans&mdash;the first request may take longer, but subsequent requests are much faster. A LINQ to SQL query is an IQueryable, reuse it when possible.
 
