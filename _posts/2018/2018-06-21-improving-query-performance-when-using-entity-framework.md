@@ -19,4 +19,6 @@ These are some lessons I learned when improving query performance of an applicat
 
 6. Pagination can be used to further reduce the data returned, using Skip method of IQueryable to skip records you don't need, followed by Take method to pick the records you do need.
 
+7. If you want to use string value of an Enum in a query, use ToString() method on Enum object. LINQ to SQL sends string values of Enum to the database, hence the query suffers no significant performance issues.
+
 See [Performance Considerations](https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/ef/performance-considerations) for more.
