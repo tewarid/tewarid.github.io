@@ -13,7 +13,7 @@ Here's a list of unusual applications involving smartphones
 
 * Body monitoring [[techcrunch](http://techcrunch.com/2011/05/24/smartheart-turns-your-mobile-phone-into-a-heart-monitor/)]
 
-* Credit card reader [[wired](http://www.wired.com/reviews/2010/02/pr_square_iphone)]
+* Credit card reader [[wired](https://www.wired.com/2010/02/the-death-of-cash-squares-personal-iphone-credit-card-reader/)]
 
 * Infrared photography [[macworld](http://www.macworld.com/article/145531/2010/01/shooting_infrared.html)]
 
