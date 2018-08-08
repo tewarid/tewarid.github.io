@@ -16,3 +16,13 @@ Then, enable the following modules under Device Drivers, Network device support,
 ![Host for RNDIS and ActiveSync devices](/assets/img/buildroot-kernel-driver-rndis.png)
 
 If the device you're using provides an IP address using DHCP, there's a [bug](https://patchwork.kernel.org/patch/693971/) in some Linux kernel versions that hinders obtaining an IP address from the device. You might want to patch or upgrade the kernel.
+
+### Update
+
+Recent kernel versions require the following modules to be enabled
+
+* cdc_ether
+* cfg80211
+* rndis_host
+* rndis_wlan
+* usbnet
