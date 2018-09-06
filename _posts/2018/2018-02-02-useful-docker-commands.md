@@ -34,7 +34,7 @@ docker start -a -i 2edf9d536e3c
 Execute a command in a running container&mdash;command in example below lists all network interfaces on Linux containers
 
 ```bash
-docker exec container ip addr show
+docker exec -t -i container ip addr show
 ```
 
 Remove a container
