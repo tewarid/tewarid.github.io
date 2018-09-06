@@ -1,6 +1,7 @@
-theme: jekyll-theme-slate
 title: Devendra's Log
+description: Devendra's Log
 google_analytics: UA-114405074-1
+theme: jekyll-theme-slate
 defaults:
   - scope:
       path: "assets/img"
@@ -10,3 +11,4 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 repository: tewarid/tewarid.github.io
+

@@ -5,10 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <meta name="description" content="{{ site.title | default: site.github.repository_name }} : {{ site.description | default: site.github.project_tagline }}">
-    <meta name="google-site-verification" content="QSZMHxiLvfOcV3e2g3bortRTYX4IfO7cy0SLN8C3XOk" />
-    <meta name="msvalidate.01" content="B480E3567DAC7EBA3CCA8AA0A13C41DA" />
-
+    {% include meta.html %}
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
 
 {% seo %}
@@ -21,7 +18,7 @@
         <header class="inner">
           <a id="forkme_banner" href="{{ site.github.repository_url }}">View on GitHub</a>
 
-          <a href="/" style="text-decoration: none"><h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1></a>
+          <h1 id="project_title">{{ site.title | default: site.github.repository_name }}</h1>
           <h2 id="project_tagline">{{ page.title | default: site.github.project_tagline }}</h2>
 
           {% if site.show_downloads %}
@@ -37,26 +34,6 @@
     <div id="main_content_wrap" class="outer">
       <section id="main_content" class="inner" style="overflow-x: auto">
         {{ content }}
-
-        {% if page.comments %}
-        <div id="disqus_thread"></div>
-        <script>
-          /**
-          *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-          *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-          var disqus_config = function () {
-            this.page.url = "{{ site.baseurl }}"; // Replace PAGE_URL with your page's canonical URL variable
-            this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-          };
-          (function () { // DON'T EDIT BELOW THIS LINE
-            var d = document, s = d.createElement('script');
-            s.src = 'https://tewarid.disqus.com/embed.js';
-            s.setAttribute('data-timestamp', +new Date());
-            (d.head || d.body).appendChild(s);
-          })();
-        </script>
-        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-        {% endif %}
       </section>
     </div>
 
@@ -72,7 +49,7 @@
     </div>
 
     {% if site.google_analytics %}
-      <script type="text/javascript">
+      <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -81,10 +58,7 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    <script type="text/javascript"
-      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
-    </script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/7.1.2/mermaid.min.js">
-    </script>
+    {% include mathjax.html %}
+    {% include mermaid.html %}
   </body>
 </html>
