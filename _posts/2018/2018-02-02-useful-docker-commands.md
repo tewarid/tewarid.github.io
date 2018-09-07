@@ -8,7 +8,7 @@ comments: true
 Interactively run command in a new container based on a Docker image
 
 ```bash
-docker run -t -i -v `pwd`:/workdir -w /workdir 90e5ddae9277 /bin/bash
+docker run -it -v `pwd`:/workdir -w /workdir 90e5ddae9277 /bin/bash
 ```
 
 You can specify an image id, name, or name:tag. Image is downloaded from a [configured registry](https://docs.docker.com/registry/configuration/), if needed. The current directory on the host is mapped to `/workdir` in the container. `/bin/bash` is started in that directory.
@@ -34,7 +34,7 @@ docker start -a -i 2edf9d536e3c
 Execute a command in a running container&mdash;command in example below lists all network interfaces on Linux containers
 
 ```bash
-docker exec -t -i container ip addr show
+docker exec -it container ip addr show
 ```
 
 Remove a container
