@@ -10,7 +10,7 @@ This post shows how you can use some basic command line utilities, and [tshark](
 Create baseline test result
 
 ```bash
-find . -name "*.pcap" -print -exec tshark -r {} -V \; > result.txt
+for f in *.pcap; do echo $f; tshark -r "$f" -V; done > result.txt
 ```
 
 This will run tshark on files in the current directory with the pcap extension, and write the output to `result.txt`.
@@ -18,7 +18,7 @@ This will run tshark on files in the current directory with the pcap extension, 
 To test regression, use diff
 
 ```bash
-diff result.txt <(find . -name "*.pcap" -print -exec tshark -r {} -V \;)
+diff result.txt <(for f in *.pcap; do echo $f; tshark -r "$f" -V; done)
 ```
 
 Any output produced by the above could be a result of
