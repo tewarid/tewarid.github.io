@@ -53,7 +53,7 @@ You can use [HTML character entities](https://dev.w3.org/html5/html-author/charr
 
 ### Tables
 
-Pandoc will convert Word tables whose cells have a single line of text using the pipe table syntax. Column text alignment is not rendered, you'll have to add that back. Relative column widths may need to be adjusted using dashes.
+Pandoc will convert Word tables whose cells have a single line of text using the pipe table syntax. Column text alignment is not rendered&mdash;you'll have to add that back using semicolons. Relative column widths can be specified using dashes.
 
 Tables whose cells have complex data such as lists and multiple lines, are converted to the HTML table syntax. It is not unusual for tables with complex layouts such as merged cells to be missing columns or rows. _Review all tables carefully_. I suggest simplifying complex tables in the original Word document before conversion.
 
