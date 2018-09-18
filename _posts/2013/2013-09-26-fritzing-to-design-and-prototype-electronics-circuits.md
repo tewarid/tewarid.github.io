@@ -5,7 +5,7 @@ tags: fritzing circuit pcb design
 comments: true
 ---
 
-I have been playing with [Fritzing](http://fritzing.org/) lately, and I have to say I am impressed. It is seductively easy to create and document electronics designs, and turn them into beautiful working circuits.
+I have been playing with [Fritzing](http://fritzing.org/) lately, and I have to say I am impressed. It is very easy to create and document electronic designs, and turn them into beautiful working circuits.
 
 Here's an example of an Arduino project documented using the Breadboard view. The components are all available from the parts library built into the tool. [SparkFun](https://www.sparkfun.com/) is a huge contributor, as is [Adafruit](https://github.com/adafruit/Fritzing-Library/).
 
