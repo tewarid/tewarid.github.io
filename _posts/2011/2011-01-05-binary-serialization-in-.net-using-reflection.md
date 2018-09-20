@@ -5,16 +5,21 @@ tags:
 comments: true
 ---
 
-C programmers frequently use [Winsock](http://msdn.microsoft.com/en-us/library/ms741394.aspx) helper functions such as htonl to change the [byte ordering](http://msdn.microsoft.com/en-us/library/3thek09d.aspx) of elements of a struct, and memcpy to transfer the struct to an output buffer. Migrating this kind of code can be a pain, because succinct code in C translates to a lot of code in languages that don't support pointers.
+C programmers frequently use [Winsock helper functions](https://msdn.microsoft.com/en-us/library/ms741394.aspx) such as htonl to change the [byte ordering](https://msdn.microsoft.com/en-us/library/3thek09d.aspx) of elements of a struct, and memcpy to transfer the struct to an output buffer. Migrating that kind of code can be a pain, because succinct code in C translates to a lot of code in languages that don’t support pointers.
 
-.NET has structs and reflection. These make for a really potent combination for reading and writing data to the network. [`System.Runtime.InteropServices.Marshal`](http://msdn.microsoft.com/en-us/library/System.Runtime.InteropServices.Marshal.aspx) provides methods such as Copy and PtrToStructure that can be very useful, and perform much better than the approach described here. This facility is used by .NET to access unmanaged code. If all your custom types are based on struct, you probably should use Marshal, but it will not work if you have class based types. If you are creating new types, you should be aware that structs don't support inheritance. They are extended by means of composition. The approach described in this post works with structs and classes.
+.NET has structs and reflection. These make for a really potent combination for reading and writing data to the network. [`System.Runtime.InteropServices.Marshal`](https://msdn.microsoft.com/en-us/library/System.Runtime.InteropServices.Marshal.aspx) provides methods such as `Copy` and `PtrToStructure` that can be very useful. This facility is used by .NET to access unmanaged code.
 
-The code below contains two major methods. One writes an arbitrary object to byte array and the other reads an object from byte array. The object's properties need to be decorated with DataMemberAttribute from System.Runtime.Serialization namespace. The Order property of the attribute can be specified, and determines the order in which the properties of the object will be read, or written.
+If all your custom types are based on `struct`, you probably should use Marshal, but it will not work if you have class based types. If you are creating new types, you should be aware that `struct`s don’t support inheritance. They are extended by means of composition. This library works with `struct`s and classes.
 
-An example follows
+## Getting Started
+
+You can add the latest version of this library to your .NET project using [NuGet](https://www.nuget.org/packages/NetMemoryCopy/).
+
+Here's a short example of how to use this library to annotate your types, and read from binary. See unit tests for more usage scenarios.
 
 ```c#
 using System;
+using System.IO;
 using System.Runtime.Serialization;
 
 class FixedHeader
@@ -40,23 +45,25 @@ class Program
     public static void Main()
     {
         byte[] data = { 0x0, 0x1, 0x0, 0x5, 0x01, 0x02, 0x03, 0x04, 0x05 };
+        MemoryStream stream = new MemoryStream(data);
+
         MemoryCopy.MemoryCopy copy = new MemoryCopy.MemoryCopy();
         copy.ByteOrder = ByteOrder.BigEndian; // default
 
         FixedHeader h;
         int startIndex = 0;
-        h = copy.Read(typeof(FixedHeader), data, ref startIndex, true);
+        h = copy.Read(typeof(FixedHeader), stream, true);
 
         VariableHeader varh;
-        varh = copy.Read(typeof(VariableHeader), data, ref startIndex, false);
+        varh = copy.Read(typeof(VariableHeader), stream, false);
         Console.WriteLine("{0:x} {1:x}", h.Id, varh.Size);
         Console.ReadLine();
     }
 }
 ```
 
-The Read method sets the properties of an object that are annotated using the DataMember attribute, using data extracted from an array of bytes. The Write method writes out annotated properties into an array of bytes.
+The `Read` method sets the properties of an object that are annotated using the `DataMember` attribute, using data extracted from a stream of bytes. The `Write` method writes out annotated properties into a byte stream.
 
-According to official documentation, [GetProperties](http://msdn.microsoft.com/en-us/library/kyaxdd3x.aspx) method of Type may return properties in any particular order. You need to use the Order property of DataMember to enforce the order in which values will be read. If the object inherits from another type that also has annotated properties, the inherited properties are read or ignored based on the inherit parameter. They can also be masked in subclasses, by specifying the same value for Order.
+According to official documentation, [`GetProperties`](http://msdn.microsoft.com/en-us/library/kyaxdd3x.aspx) method of `Type` may return properties in any particular order. You need to use the `Order` property of `DataMember` to enforce the order in which values will be read. If the object inherits from another type that also has annotated properties, the inherited properties are read or ignored based on the `inherit` parameter. They can also be masked in subclasses, by specifying the same value for `Order`.
 
 The [class library](https://www.nuget.org/packages/NetMemoryCopy/) is available from NuGet. You can get the source code, and contribute to its development, at [GitHub](https://github.com/tewarid/net-memory-copy).
