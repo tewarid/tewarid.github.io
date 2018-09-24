@@ -11,7 +11,7 @@ This post summarizes the GRASP patterns and SOLID principles. They may be though
 
 ### GRASP Patterns
 
-General Responsibility Assignment Principles or GRASP patterns were popularized by Craig Larman in his book _Applying UML and Patterns_. They help with identifying objects required by a program, and their responsibilities.
+General Responsibility Assignment Principles or GRASP patterns were popularized by Craig Larman in his book _Applying UML and Patterns_ (2001). They help with identifying objects required by a program, and their responsibilities.
 
 _Creator_
 
@@ -35,7 +35,7 @@ Assign responsibility to object that has related information.
 
 _Low Coupling (LC)_
 
-Creation, inheritance, type reference, and message passing, all result in coupling. Assign responsibility such that coupling is low.
+Creation, inheritance, type reference, and message passing, all result in coupling. Assign responsibility such that coupling is low between objects that are not closely related in state and behavior.
 
 _Polymorphism_
 
@@ -51,7 +51,7 @@ Assign responsibility to a new object not derived from the domain to ensure LC a
 
 ### SOLID Principles
 
-SOLID are more generalized principles popularized by Robert Martin aka Uncle Bob in his book _Agile Software Development: Principles, Patterns, and Practices_.
+SOLID are more generalized principles popularized by Robert Martin aka Uncle Bob in his book _Agile Software Development: Principles, Patterns, and Practices_ (2002).
 
 _Single-Responsibility Principle (SRP)_
 
