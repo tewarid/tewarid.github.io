@@ -9,6 +9,6 @@ I've tried the following Git clients on iOS, to edit this Jekyll blog on the go.
 
 - [Clone](https://itunes.apple.com/us/app/clone-advanced-mobile-client/id1037881290?mt=8)
 
-- [Git2Go](https://itunes.apple.com/us/app/git2go-git-client-you-always/id963577401?mt=8)
+- [Git2Go](https://itunes.apple.com/us/app/git2go-git-client-you-always/id963577401?mt=8) (currently unavailable)
 
 - [Working Copy](https://itunes.apple.com/us/app/working-copy/id896694807?mt=8)
