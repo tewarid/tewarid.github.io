@@ -16,7 +16,9 @@ Navigate posts chronologically, by [topic]({% link topics/topic.md %}), or use [
 ### {{this_year}}
     {% endif %}
 
+    {% if post.languages == nil or post.languages contains "en" %}
 [{{ post.title }}]({{ post.url }})
+    {% endif %}
 
     {% if forloop.last %}
     {% else %}

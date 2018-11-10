@@ -12,7 +12,7 @@ Some useful tips to work with this Jekyll blog
 
     This works well but I've run into a situation where the Docker container [uses excessive CPU time](https://github.com/docker/for-mac/issues/1759) on macOS while idling.
 
-* Use `rename.sh` Bash script to rename all posts in a folder using title specified in Front Matter
+* Use `rename.sh` Bash script to rename all posts in a folder using title specified in Front Matter.
 
 * mermaid.js diagrams can be inserted as follows
 
@@ -32,3 +32,7 @@ Some useful tips to work with this Jekyll blog
     \LaTeX
     $$
     ```
+
+* Section heading in posts start at level 3 i.e. three successive #. Level 1 and 2 are reserved for blog title and post title, respectively.
+
+* [Don´t use](https://github.com/jekyll/jekyll/issues/429) UTF-8 characters in file name of posts.
