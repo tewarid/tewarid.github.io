@@ -7,7 +7,7 @@ languages:
   - pt
 ---
 
-de John Crace
+[de John Crace no The Guardian](https://www.theguardian.com/books/2018/jan/28/12-rules-for-life-an-antidote-to-chaos-by-jordan-b-peterson-digested-read)
 
 Apenas alguns anos atrás, eu era um professor desconhecido escrevendo livros acadêmicos que ninguém leu. Então, com a ajuda de Deus, decidi parar de sentir pena de mim mesmo e desenvolver meu potencial. Pinkos e esquerdistas liberais tinham monopolizado o mercado da psicologia, então imaginei que deveria haver uma grande fome por um livro de auto-ajuda, apoiado em religião, mitologia, LETRAS MAIÚSCULAS e afirmando o óbvio - um dirigido a pessoas responsáveis e preocupadas com bem-estar social que almejam alguma ideologia pseudointelectual para sustentar suas crenças. E bingo! Aqui estão as minhas 12 regras para a vida.
 
@@ -58,5 +58,3 @@ Esta é a regra que é o verdadeiro gatilho para os direitistas em todos os luga
 ### 12. Acaricie um gato quando você encontrar um na rua
 
 ESTÁ BEM. Então eu realmente estou raspando o fundo do barril agora. Nós todos vamos morrer. Provavelmente dolorosamente. Então, basta aproveitar ao máximo o que você tem. Se você ver um gato, acaricie-o. Você pode se sentir melhor. Embora provavelmente não seja. E se não houver gatos, acaricie outra coisa. Como um cachorro.
-
-Fonte: https://www.theguardian.com/books/2018/jan/28/12-rules-for-life-an-antidote-to-chaos-by-jordan-b-peterson-digested-read
