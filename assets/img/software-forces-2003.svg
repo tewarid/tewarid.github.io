@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="svgroot" overflow="visible" xlinkns="http://www.w3.org/1999/xlink" width="640" height="480">
+    <svg xmlns="http://www.w3.org/2000/svg" xmlns:se="http://svg-edit.googlecode.com" xmlns:xlink="http://www.w3.org/1999/xlink" id="svgcontent" overflow="visible">
+<!--Created with SVG-edit - https://github.com/SVG-Edit/svgedit-->
+        <g class="layer" style="pointer-events:all">
+            <title style="pointer-events:inherit">
+                Layer 1
+            </title>
+            <text id="svg_11" x="215.5" y="129.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" style="cursor:move" text-anchor="middle" xml:space="preserve">
+                EMBEDDED
+            </text>
+            <text id="svg_12" x="212.5" y="153.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" style="cursor:move" text-anchor="middle" xml:space="preserve">
+                SYSTEMS
+            </text>
+            <text id="svg_13" x="369.5" y="114.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" style="pointer-events:inherit;cursor:move" text-anchor="middle" xml:space="preserve">
+                JAVA
+            </text>
+            <text id="svg_14" x="364.5" y="138.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" text-anchor="middle" xml:space="preserve">
+                J2EE
+            </text>
+            <text id="svg_15" x="455.5" y="185.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" text-anchor="middle" xml:space="preserve">
+                .NET
+            </text>
+            <text id="svg_16" x="461.5" y="270.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" style="pointer-events:inherit;cursor:move" text-anchor="middle" xml:space="preserve">
+                COBOL
+            </text>
+            <text id="svg_17" x="461.5" y="294.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" text-anchor="middle" xml:space="preserve">
+                LEGACY
+            </text>
+            <text id="svg_18" x="157.5" y="269.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" text-anchor="middle" xml:space="preserve">
+                UNIX
+            </text>
+            <text id="svg_19" x="161.5" y="294.5" fill="#000000" fill-opacity="1" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-opacity="1" stroke-width="0" font-family="serif" font-size="24" text-anchor="middle" xml:space="preserve">
+                LINUX
+            </text>
+            <text id="svg_20" x="300.5" y="390.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" text-anchor="middle" xml:space="preserve">
+                DOS
+            </text>
+            <text id="svg_21" x="299.5" y="366.5" fill="#000000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="0" font-family="serif" font-size="24" text-anchor="middle" xml:space="preserve">
+                WINDOWS
+            </text>
+            <path id="svg_22" fill="#ff0000" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" d="M284.4700012207031,221.1993865966797 L336.4700012207031,221.1993865966797 M310.58880615234375,243.51943969726562 L335.9951477050781,268.45062255859375 M310.58880615234375,243.28065490722656 L286.8444519042969,268.45062255859375 M310.469970703125,213.60055541992188 L310.469970703125,243.28065490722656 M318.36334228515625,205.58499145507812 C318.36334228515625,209.94509887695312 314.8291931152344,213.4783477783203 310.469970703125,213.4783477783203 C306.1107177734375,213.4783477783203 302.57666015625,209.94509887695312 302.57666015625,205.58499145507812 C302.57666015625,201.2265167236328 306.1107177734375,197.6925048828125 310.469970703125,197.6925048828125 C314.8291931152344,197.6925048828125 318.36334228515625,201.2265167236328 318.36334228515625,205.58499145507812 z"/>
+            <line id="svg_26" x1="250.5" x2="284.5" y1="166.5" y2="200.5" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" style="pointer-events:inherit"/>
+            <line id="svg_27" x1="349.5" x2="323.5" y1="149.5" y2="187.5" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+            <line id="svg_28" x1="412.49999862909317" x2="359.5" y1="189.8278680404679" y2="218.5" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+            <line id="svg_29" x1="400.5" x2="345.5" y1="273.5" y2="250.5" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" style="pointer-events:inherit"/>
+            <line id="svg_30" x1="301.5" x2="308.5" y1="335.5" y2="280.5" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" style="pointer-events:inherit"/>
+            <path id="svg_32" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" d="M 272.67 239.79 L 265.435 232.547 L 270.2 232.547 L 277.435 239.79 L 270.2 247.033 L 265.435 247.033 L 272.67 239.79 Z" transform="rotate(-16.9646 271.435 239.79)"/>
+            <line id="svg_31" x1="213.50000131130219" x2="269.5" y1="259.77868807315826" y2="240.5" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5"/>
+            <path id="svg_35" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" d="M 310.292 281.944 L 303.057 274.701 L 307.822 274.701 L 315.057 281.944 L 307.822 289.188 L 303.057 289.188 L 310.292 281.944 Z" transform="rotate(-81.7243 309.057 281.944)"/>
+            <path id="svg_36" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" d="M 284.292 198.944 L 277.057 191.701 L 281.822 191.701 L 289.057 198.944 L 281.822 206.188 L 277.057 206.188 L 284.292 198.944 Z" transform="rotate(44.9982 283.057 198.945)"/>
+            <path id="svg_37" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" d="M 360.292 218.944 L 353.057 211.701 L 357.822 211.701 L 365.057 218.944 L 357.822 226.188 L 353.057 226.188 L 360.292 218.944 Z" transform="rotate(153.067 359.057 218.944)"/>
+            <path id="svg_38" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" d="M 351.292 251.944 L 344.057 244.701 L 348.822 244.701 L 356.057 251.944 L 348.822 259.188 L 344.057 259.188 L 351.292 251.944 Z" transform="rotate(-156.074 350.057 251.944)"/>
+            <path id="svg_39" fill="none" stroke="#000000" stroke-dasharray="null" stroke-linecap="null" stroke-linejoin="null" stroke-width="5" d="M 324.292 183.944 L 317.057 176.701 L 321.822 176.701 L 329.057 183.944 L 321.822 191.188 L 317.057 191.188 L 324.292 183.944 Z" transform="rotate(118.557 323.057 185.944)"/>
+        </g>
+    </svg>
+    <g id="selectorParentGroup">
+        <rect id="selectorRubberBand" fill="#22C" fill-opacity="0.15" stroke="#22C" stroke-width="0.5" display="none" style="pointer-events:none"/>
+        <g id="selectorGroup0" display="none" transform="">
+            <path id="selectedBox0" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M121.171875,270 L201.828125,270 201.828125,303.5 121.171875,303.5z" style="pointer-events:none"/>
+            <g display="none">
+                <circle id="selectorGrip_resize_nw" cx="121.171875" cy="270" r="4" fill="#22C" stroke-width="2" pointer-events="all" style="cursor:nw-resize"/>
+                <circle id="selectorGrip_resize_n" cx="161.5" cy="270" r="4" fill="#22C" stroke-width="2" pointer-events="all" style="cursor:n-resize"/>
+                <circle id="selectorGrip_resize_ne" cx="201.828125" cy="270" r="4" fill="#22C" stroke-width="2" pointer-events="all" style="cursor:ne-resize"/>
+                <circle id="selectorGrip_resize_e" cx="201.828125" cy="286.75" r="4" fill="#22C" stroke-width="2" pointer-events="all" style="cursor:e-resize"/>
+                <circle id="selectorGrip_resize_se" cx="201.828125" cy="303.5" r="4" fill="#22C" stroke-width="2" pointer-events="all" style="cursor:se-resize"/>
+                <circle id="selectorGrip_resize_s" cx="161.5" cy="303.5" r="4" fill="#22C" stroke-width="2" pointer-events="all" style="cursor:s-resize"/>
+                <circle id="selectorGrip_resize_sw" cx="121.171875" cy="303.5" r="4" fill="#22C" stroke-width="2" pointer-events="all" style="cursor:sw-resize"/>
+                <circle id="selectorGrip_resize_w" cx="121.171875" cy="286.75" r="4" fill="#22C" stroke-width="2" pointer-events="all" style="cursor:w-resize"/>
+                <line id="selectorGrip_rotateconnector" x1="161.5" x2="161.5" y1="270" y2="250" stroke="#22C"/>
+                <circle id="selectorGrip_rotate" cx="161.5" cy="250" r="4" fill="lime" stroke="#22C" stroke-width="2" style="cursor:url(images/rotate.png) 12 12, auto"/>
+            </g>
+        </g>
+        <line id="text_cursor" x1="142.482421875" x2="142.482421875" y1="134" y2="161.5" stroke="#333" stroke-width="1" display="inline" visibility="hidden"/>
+        <path id="text_selectblock" fill="green" d="" display="none" opacity="0.5" style="pointer-events:none"/>
+        <g id="selectorGroup1" display="none" transform="">
+            <path id="selectedBox1" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M145.828125,105 L285.171875,105 285.171875,138.5 145.828125,138.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup2" display="none" transform="">
+            <path id="selectedBox2" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M210,237 L273,237 273,263.2786865234375 210,263.2786865234375z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup3" display="none" transform="">
+            <path id="selectedBox3" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M247,163 L288,163 288,204 247,204z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup4" display="none" transform="rotate(44.998199462890625,283.0566711425781,198.94448852539057)">
+            <path id="selectedBox4" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M273.55667114257807,188.2014770507812 L292.55667114257807,188.2014770507812 292.55667114257807,209.6875 273.55667114257807,209.6875z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup5" display="none" transform="rotate(-16.964632034301758,271.4350868852132,239.79003176509815)">
+            <path id="selectedBox5" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M261.93508911132807,229.04747009277344 L280.93508911132807,229.04747009277344 280.93508911132807,250.5325927734375 261.93508911132807,250.5325927734375z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup6" display="none" transform="">
+            <path id="selectedBox6" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M280.9700012207031,194.1925048828125 L339.9700012207031,194.1925048828125 339.9700012207031,271.95062255859375 280.9700012207031,271.95062255859375z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup7" display="none" transform="">
+            <path id="selectedBox7" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M124.5,245 L190.5,245 190.5,278.5 124.5,278.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup8" display="none" transform="rotate(118.55699920654297,324.8134224083787,186.89953756052074)">
+            <path id="selectedBox8" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M315.31341349199954,176.15651793180984 L334.31341349199954,176.15651793180984 334.31341349199954,197.6425408810287 315.31341349199954,197.6425408810287z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup9" display="none" transform="rotate(-156.07440185546875,350.05667114257807,251.94448852539065)">
+            <path id="selectedBox9" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M340.5566711425781,241.20147705078122 L359.5566711425781,241.20147705078122 359.5566711425781,262.6875 340.5566711425781,262.6875z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup10" display="none" transform="rotate(153.06692504882812,359.0566711425781,218.94448852539062)">
+            <path id="selectedBox10" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M349.5566711425781,208.20147705078136 L368.55667114257824,208.20147705078136 368.55667114257824,229.6875000000001 349.5566711425781,229.6875000000001z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup11" display="none" transform="rotate(-81.72432708740234,309.0566711425781,281.9444885253906)">
+            <path id="selectedBox11" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M299.5566711425781,271.2014770507813 L318.5566711425782,271.2014770507813 318.5566711425782,292.6875 299.5566711425781,292.6875z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup12" display="none" transform="">
+            <path id="selectedBox12" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M298,277 L312,277 312,339 298,339z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup13" display="none" transform="">
+            <path id="selectedBox13" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M342,247 L404,247 404,277 342,277z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup14" display="none" transform="">
+            <path id="selectedBox14" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M320,146 L353,146 353,191 320,191z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup15" display="none" transform="">
+            <path id="selectedBox15" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M121.171875,270 L201.828125,270 201.828125,303.5 121.171875,303.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup16" display="none" transform="">
+            <path id="selectedBox16" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M336.15625,114 L392.84375,114 392.84375,147.5 336.15625,147.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup17" display="none" transform="">
+            <path id="selectedBox17" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M335.828125,90 L403.171875,90 403.171875,123.5 335.828125,123.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup18" display="none" transform="">
+            <path id="selectedBox18" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M356,186.32786560058594 L416,186.32786560058594 416,222 356,222z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup19" display="none" transform="">
+            <path id="selectedBox19" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M409.828125,270 L513.171875,270 513.171875,303.5 409.828125,303.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup20" display="none" transform="">
+            <path id="selectedBox20" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M417.828125,246 L505.171875,246 505.171875,279.5 417.828125,279.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup21" display="none" transform="">
+            <path id="selectedBox21" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M426.171875,161 L484.828125,161 484.828125,194.5 426.171875,194.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup22" display="none" transform="">
+            <path id="selectedBox22" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M237.171875,342 L361.828125,342 361.828125,375.5 237.171875,375.5z" style="pointer-events:none"/>
+        </g>
+        <g id="selectorGroup23" display="none" transform="">
+            <path id="selectedBox23" fill="none" stroke="#22C" stroke-dasharray="5,5" d="M273.484375,366 L327.515625,366 327.515625,399.5 273.484375,399.5z" style="pointer-events:none"/>
+        </g>
+    </g>
+</svg>

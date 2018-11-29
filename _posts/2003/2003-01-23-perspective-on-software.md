@@ -17,7 +17,7 @@ That is slowly changing and giving way to a new awareness. Now that basic IT inf
 
 Let us take a look at the software technology forces in the market vying for success&mdash;touting innovations in reliability, security, and use.
 
-![software technology forces in the market vying for success](/assets/img/software-forces-2003.png)
+![software technology forces in the market vying for success](/assets/img/software-forces-2003.svg)
 
 Legacy systems made in COBOL and running on older mainframes still run in several big name companies, but these have mostly been replaced by Unix servers in most companies throughout the past two decades. That brings us to Unix servers&mdash;most of these run some variant of Unix and use specialized hardware to do anything from data crunching to print serving. Most of the Internet infrastructure runs on these sturdy and powerful servers. Linux&mdash;a Unix variant&mdash;is a recent entry in the systems software scenario but has reached maturity relatively fast due to its strong roots in the Unix community.
 
