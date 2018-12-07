@@ -7,10 +7,14 @@ comments: true
 
 .NET Core is Microsoft's new cross-platform Command Language Runtime (CLR). This post is an elementary getting started guide where I create, build and run a "Hello World!" console application with .NET Core.
 
-Let's begin by downloading and installing [.NET Core](https://www.microsoft.com/net/core) for your platform. To create a new console applications run
+Let's begin by downloading and installing [.NET Core](https://www.microsoft.com/net/core) for your platform.
+
+To create a new console application, run
 
 ```bash
-dotnet new
+mkdir project
+cd project
+dotnet new console
 ```
 
 That will create two files - project.csproj and Program.cs. Edit Program.cs using your favorite editor.
