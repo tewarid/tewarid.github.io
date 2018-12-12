@@ -5,35 +5,29 @@ tags: post mortem debug c# .net windows
 comments: true
 ---
 
-Debugging is a skill you usually learn under pressure, when things are going awry with an application or service just gone live, and you are quite convinced that the code has no apparent bugs. It is never a pleasure to encounter such bugs, because although they happen quite frequently in your production environment, they are particularly hard to reproduce in your test environment.
+Debugging is a skill you usually learn under pressure, when things are going awry with an application or service just gone live. It is never a pleasure to encounter such bugs because, although they happen quite frequently in your production environment, they are particularly hard to reproduce in your test environment.
 
-For managed applications, you can learn a new skill that will save you some face, called post-mortem debugging. WinDbg is a splendid tool that is often used to debug running processes, but can also be used to analyze process crash dumps.
+For managed applications, you can learn a new skill that will save you some face, called post-mortem debugging. [WinDbg](http://www.microsoft.com/whdc/devtools/debugging/installx86.mspx) is a splendid tool that is often used to debug running processes, but can also be used to analyze process crash dumps.
 
 ### Dump process memory
 
-Process memory can be dumped quite easily using
-
-* WinDbg
-
-    * [Install](http://www.microsoft.com/whdc/devtools/debugging/installx86.mspx) WinDbg
-
-    * Attach to a process
-
-    * Break on the required exception
-
-    * Dump memory from the command line or the _File_ menu. From the command line, type
-
-        ```text
-        .dump /ma filename.dmp
-        ```
-
-        You need to have enough disk space because `dmp` files can be rather big.
+Process memory can be dumped quite easily.
 
 * Task Manager
 
-    Right click on a process and select _Create dump file_
+    Right click on a process and select _Create dump file_.
 
-There are several other ways documented [elsewhere](https://www.wintellect.com/how-to-capture-a-minidump-let-me-count-the-ways/), but the above should suffice for most purposes.
+* WinDbg
+
+    Attach to a process and dump memory from the _File_ menu, or the command line
+
+    ```text
+    .dump /ma filename.dmp
+    ```
+
+You need to have enough disk space because `dmp` files can be rather big.
+
+There are [more ways](https://www.wintellect.com/how-to-capture-a-minidump-let-me-count-the-ways/) documented elsewhere, but the above should suffice for most purposes.
 
 ### WinDbg commands
 
