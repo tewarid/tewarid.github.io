@@ -7,18 +7,26 @@ comments: true
 
 The secure file transmission mechanism, depicted in the diagram below, has the following properties
 
-* Authentication:
+* Authentication
+
     Alice has a unique securely-held private key
-* Non-repudiation:
+
+* Non-repudiation
+
     Alice has a unique securely-held private key
-* Data Integrity:
+
+* Data Integrity
+
     Program signs data using Alice's private key
-* Data Confidentiality:
+
+* Data Confidentiality
+
     Program encrypts data using Alice's private key
 
 <div class="mermaid">
 graph LR
-    Program-->Server
+    Program-->data["Encrypted Data"]
+    data-->Server
     subgraph Alice
     priva["Alice's Private Key"]-->Program
     pubb["Server's Public Key"]-->Program
