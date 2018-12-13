@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Welcome!
+title: GitHub Pages
 tags: update
 ---
 
