@@ -38,7 +38,7 @@ b. Elementos XML deveriam ser corretamente aninhados
 c. Marcador XML é sensível ao caso  
 d. Todas as opções em cima  
 
-6. O documento XML a seguir está correto?  
+6. O documento XML a seguir está correto  
     ```xml
     <?xml version="1.0"?>
     <nota>
@@ -50,7 +50,7 @@ d. Todas as opções em cima
     a. Verdadeiro  
     b. Falso  
 
-7. Escolha os nomes de elementos inválidos?  
+7. Escolha os nomes de elementos inválidos  
 a. `<Nota>`  
 b. `<xmldocumento>`  
 c. `<17agosto>`  
@@ -102,7 +102,7 @@ b. Node
 c. Attr  
 d. Document  
 
-16. Que objetos do DOM herdam do objeto Node:  
+16. Que objetos do DOM herdam do objeto Node?  
 a. Element  
 b. Attr  
 c. Document  
@@ -127,7 +127,7 @@ c. `&amp;`
 d. `&quot;`
 
 20. Para que o código XSLT a seguir  
-    ```xsl
+    ```xml
     <xsl:text disable-output-escaping="?">Editora A &amp; B</xsl:text>
     ```
     Gere o texto a seguir na saída
@@ -195,7 +195,7 @@ a. Verdadeiro
 b. Falso  
 
 31. O exemplo a seguir é um exemplo válido de definição de tipo complexo  
-    ```xsd
+    ```xml
     <xs:complexType name="tipoLivro">
         <xs:sequence>
             <xs:element name="autor" type="xs:string"/>
@@ -229,7 +229,7 @@ c. `maxOccurs="infinite"`
 d. Nenhuma das opções em cima
 
 37. Se um esquema XML iniciar com o elemento a seguir, como podemos declarar um elemento ou atributo do tipo texto  
-    ```xsd
+    ```xml
     <schema xmlns="http://www.w3.org/2001/XMLSchema">
     ```
     a. `type="xs:string"`  
@@ -238,7 +238,7 @@ d. Nenhuma das opções em cima
     d. `type="string"`
 
 38. Para um elemento declarado como  
-    ```xsd
+    ```xml
     <xs:element name="livro">
         <xs:complexType>
             <xs:choice minOccurs="0" maxOccurs="unbounded">
@@ -277,7 +277,7 @@ d. Nenhuma das opções em cima
     </livro>
     ```
     Se utilizarmos o template a seguir para transformar o documento
-    ```xsl
+    ```xml
     <xsl:template match="livro">
         <xsl:if test="autor[text()='XYZ']">
             <xsl:value-of select="@nome"/>
