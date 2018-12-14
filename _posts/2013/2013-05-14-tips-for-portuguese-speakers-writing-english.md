@@ -3,6 +3,9 @@ layout: default
 title: Tips for Portuguese speakers writing English
 tags:
 comments: true
+languages:
+  - en
+  - pt
 ---
 
 I have seen Portuguese speakers repeat the same mistakes very often when writing English. This post tries to document these mistakes with links to worthwhile references.
