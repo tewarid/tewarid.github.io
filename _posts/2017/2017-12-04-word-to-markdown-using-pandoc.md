@@ -29,7 +29,7 @@ Remove `--toc` option if you don't want Pandoc to create a table of contents. Re
 
 ### Markdown Editor
 
-You'll need a text editor to edit a Markdown file. I use Visual Studio Code (Code) which has built-in support for editing and previewing Markdown files.
+You'll need a text editor to edit a Markdown file. I use Visual Studio Code which has built-in support for editing and previewing Markdown files.
 
 I use a few additional plugins to make editing Markdown files more productive
 
@@ -37,11 +37,13 @@ I use a few additional plugins to make editing Markdown files more productive
 
 * [markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint)
 
-* [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
+* [Markdown+Math](https://marketplace.visualstudio.com/items?itemName=goessner.mdmath)
+
+* [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
 
 * [Markdown Shortcuts](https://marketplace.visualstudio.com/items?itemName=mdickin.markdown-shortcuts)
 
-* [Markdown Preview Mermaid Support](https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid)
+* [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
 
 * [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter)
 

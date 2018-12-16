@@ -1,10 +1,12 @@
-# My Blog
+# My Mutable Blog (mog)
 
-Head over to https://tewarid.github.io to view the blog.
+Head over to https://tewarid.github.io to view the mog.
 
 Some useful tips to work with this Jekyll blog
 
-* Run blog locally in a Docker container at http://localhost:4000
+* [I use](_posts\2017\2017-12-04-word-to-markdown-using-pandoc.md#markdown-editor) VS Code, and its myriad plugins, to edit this mog
+
+* Run mog locally in a Docker container at http://localhost:4000
 
     ```bash
     ./run-docker.sh
@@ -33,6 +35,12 @@ Some useful tips to work with this Jekyll blog
     $$
     ```
 
-* Section heading in posts start at level 3 i.e. three successive #. Level 1 and 2 are reserved for blog title and post title, respectively.
+    Code can be used to preview using the following setting for Markdown+Math plugin
+
+    ```json
+    "mdmath.delimiters": "kramdown",
+    ```
+
+* Section heading in posts start at level 3 i.e. three successive `#`. Level 1 and 2 are reserved for mog title and post title, respectively.
 
 * [Don´t use](https://github.com/jekyll/jekyll/issues/429) UTF-8 characters in file name of posts.
