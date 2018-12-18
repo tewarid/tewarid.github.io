@@ -1,5 +1,5 @@
-title: Devendra's Mog
-description: Devendra's Mutable Log (Mog)
+title: A Mutable Log
+description: A Mutable Log
 google_analytics: UA-114405074-1
 theme: jekyll-theme-slate
 defaults:
@@ -11,4 +11,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
 repository: tewarid/tewarid.github.io
-

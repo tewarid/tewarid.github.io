@@ -1,12 +1,12 @@
-# My Mutable Blog (mog)
+# A Mutable Log
 
-Head over to https://tewarid.github.io to view the mog.
+Head over to https://tewarid.github.io to view the log.
 
 Some useful tips to work with this Jekyll blog
 
-* [I use](_posts\2017\2017-12-04-word-to-markdown-using-pandoc.md#markdown-editor) VS Code, and its myriad plugins, to edit this mog
+* [I use](_posts\2017\2017-12-04-word-to-markdown-using-pandoc.md#markdown-editor) VS Code, and its myriad plugins, to edit this log
 
-* Run mog locally in a Docker container at http://localhost:4000
+* Run log locally in a Docker container at http://localhost:4000
 
     ```bash
     ./run-docker.sh
