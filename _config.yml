@@ -1,7 +1,7 @@
 title: A Mutable Log
 description: A Mutable Log
 google_analytics: UA-114405074-1
-theme: jekyll-theme-slate
+remote_theme: tewarid/slate
 defaults:
   - scope:
       path: "assets/img"
