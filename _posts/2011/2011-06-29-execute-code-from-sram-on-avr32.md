@@ -4,10 +4,11 @@ title: Execute code from SRAM on AVR32
 tags: sram avr linker script
 comments: true
 ---
+# Execute code from SRAM on AVR32
 
 Atmel's [AVR32825: Executing code from external SDRAM](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591936) application note explains how to execute code from [SRAM](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591182) and [AVR32795: Using the GNU Linker Scripts on AVR UC3 Devices](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591310) explains how to use linker scripts. GNU [ld](http://sourceware.org/binutils/docs/ld/index.html) and [as](http://sourceware.org/binutils/docs/as/index.html) docs are also useful references.
 
-### Create a new section
+## Create a new section
 
 Add the following section in the SECTIONS of linker script, probably after the `.data` section. The location pointer should be in the SRAM, usually indicated by a statement such as `. = ORIGIN(SRAM)`
 
@@ -20,7 +21,7 @@ Add the following section in the SECTIONS of linker script, probably after the `
 
 The `MEMORY` spec in the linker script should place `SRAM` and `FLASH` used above in the appropriate memory regions.
 
-### Modify functions
+## Modify functions
 
 Add the following attribute to the functions that will be located in the SRAM
 
@@ -28,7 +29,7 @@ Add the following attribute to the functions that will be located in the SRAM
 __attribute__((__section__(".text_sram")))
 ```
 
-### Use objdump and nm to check the resulting elf
+## Use objdump and nm to check the resulting elf
 
 Execute `avr32-objdump` on the elf
 
@@ -63,7 +64,7 @@ This lists something like
 
 The function `func` is loaded into FLASH but executed from SRAM.
 
-### A note on writing to flash memory
+## A note on writing to flash memory
 
 One reason you'll want to run code from SRAM is when you need to update flash memory. There are couple of situations when this can fail
 

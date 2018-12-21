@@ -4,6 +4,7 @@ title: Poor quality starts at the base
 tags: quality plastic samsung tv base
 comments: true
 ---
+# Poor quality starts at the base
 
 A high-definition TV, or HDTV for short, is now compelling enough to buy in Brazil. At least two Brazilian TV companies, SBT and Globo, broadcast free over-the-air HDTV content. I decided to get myself a 32 inch 720p HDTV set with an LCD screen.
 

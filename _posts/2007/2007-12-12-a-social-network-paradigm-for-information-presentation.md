@@ -4,6 +4,7 @@ title: A social network paradigm for information presentation
 tags: social network graph federation
 comments: true
 ---
+# A social network paradigm for information presentation
 
 Information overload is not exactly news any more. It is happening right now with you and me. I have been pondering on organizing information so that, for example, we don't miss that critical issue when we get in touch with someone.
 

@@ -4,6 +4,7 @@ title: A matter of opinion
 tags: opinion
 comments: true
 ---
+# A matter of opinion
 
 A man is a wolf in sheep's clothing, as long as he doesn't speak, he is not discovered.
 

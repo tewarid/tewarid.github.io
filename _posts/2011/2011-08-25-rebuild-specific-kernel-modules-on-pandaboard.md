@@ -4,14 +4,15 @@ title: Rebuild specific kernel modules on PandaBoard
 tags: kernel build usbnet pandaboard linux
 comments: true
 ---
+# Rebuild specific kernel modules on PandaBoard
 
 This procedure rebuilds the kernel modules for usb networking, to fix a regression in the usbnet driver reported [here](https://patchwork.kernel.org/patch/693971/), but the same procedure can be applied to other modules as well.
 
-### Environment
+## Environment
 
 I am running Ubuntu 11.04 preinstalled netbook image for [OMAP4](https://wiki.ubuntu.com/ARM/OMAP).
 
-### Obtain Kernel Source
+## Obtain Kernel Source
 
 [Download](https://launchpad.net/ubuntu/natty/i386/linux-source-2.6.38/2.6.38-11.48) debian package from launchpad. I could not `apt-get` it for some reason. So I installed the deb package using
 
@@ -19,7 +20,7 @@ I am running Ubuntu 11.04 preinstalled netbook image for [OMAP4](https://wiki.ub
 sudo dpkg -i linux-source-2.6.38_2.6.38-11.48_all.deb
 ```
 
-### Extract kernel source
+## Extract kernel source
 
 After installation, the compressed kernel source is available at `/usr/src/linux-source-2.6.38`. You can extract the kernel source to your home folder like this
 
@@ -27,7 +28,7 @@ After installation, the compressed kernel source is available at `/usr/src/linux
 tar xjf /usr/src/linux-source-2.6.38/linux-source-2.6.38.tar.bz2
 ```
 
-### Obtain Kernel Headers
+## Obtain Kernel Headers
 
 You may already have the kernel headers installed, otherwise
 
@@ -35,7 +36,7 @@ You may already have the kernel headers installed, otherwise
 sudo apt-get linux-headers-omap4
 ```
 
-### Rebuild module
+## Rebuild module
 
 Head over to the folder of the module
 
@@ -49,7 +50,7 @@ Rebuild using `make`
 make -C /usr/src/linux-headers-2.6.38-1208-omap4 M=`pwd`
 ```
 
-### Replace modules
+## Replace modules
 
 Backup existing module objects in case something goes wrong. Replace them
 

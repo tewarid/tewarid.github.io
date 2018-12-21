@@ -4,10 +4,11 @@ title: Integrating an LDAP Directory in a Java Application
 tags: ldap java
 comments: true
 ---
+# Integrating an LDAP Directory in a Java Application
 
 [Lightweight Directory Access Protocol](https://tools.ietf.org/html/rfc4511) (LDAP) is a protocol for accessing directory services over the internet using TCP/IP. Various commercial directories like Active Directory from Microsoft and Oracle Internet Directory provide LDAP interfaces. [OpenLDAP](https://www.openldap.org/) is an open source LDAP directory distributed with almost every Linux distribution. We will use OpenLDAP in our examples throughout this article.
 
-### Install OpenLDAP on Linux
+## Install OpenLDAP on Linux
 
 Check to see if OpenLDAP is already running on your Linux machine issuing the command:
 
@@ -23,7 +24,7 @@ slapd (pid 11424 11421 11420 11419) is running...
 
 To install OpenLDAP get the latest installation package and follow the standard installation procedure for your distribution.
 
-### Configure OpenLDAP
+## Configure OpenLDAP
 
 The daemon slapd reads directory configuration information from the file `/etc/openldap/slapd.conf`. We will add an ldbm database configuration as shown below to the end of this file.
 
@@ -52,7 +53,7 @@ Restart the slapd daemon executing the following command:
 service slapd restart
 ```
 
-### Add Directory Information
+## Add Directory Information
 
 We will now add information to the LDAP directory. The easiest way to do this is to create a Lightweight Directory Interchange Format (LDIF) file and use the ldapadd command, passing the file as an argument. Let us create an LDIF file called `data.ldif` with the content shown below.
 
@@ -103,7 +104,7 @@ ldapsearch -x -b 'dc=my-domain,dc=com' '(sn=*)'
 
 Softerra offers a free windows-based browser called [LDAPBrowser](http://www.ldapbrowser.com/info_softerra-ldap-browser.htm) that can be used to explore an LDAP directory. Another option is the open source Java LDAP browser called [JXplorer](http://jxplorer.org/). JXplorer also lets you create new entries in an LDAP directory.
 
-### Access the LDAP Directory from Java
+## Access the LDAP Directory from Java
 
 Java provides inbuilt support to access information from LDAP directories. We will create a class called LDAPUtil whose primary purpose is to access an LDAP directory and retrieve user information (id or login, name and email). The source code of the class LDAPUtil is reproduced below.
 

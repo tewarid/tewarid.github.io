@@ -4,6 +4,7 @@ title: Using ping to determine MTU size
 tags: ping mtu size
 comments: true
 ---
+# Using ping to determine MTU size
 
 ping is a ubiquitous and versatile utility available from the command line of most operating systems. Here's how it can be used to determine maximum transmission unit (MTU) size i.e. the maximum amount of data the network will forward in a single data packet.
 

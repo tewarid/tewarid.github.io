@@ -4,6 +4,7 @@ title: Virtual serial port redirection using socat
 tags: virtual serial socat netcat
 comments: true
 ---
+# Virtual serial port redirection using socat
 
 Here's how socat can be used to redirect one serial port to another on Ubuntu
 

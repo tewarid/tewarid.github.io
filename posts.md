@@ -14,7 +14,7 @@
 
     {% if lang contains include.lang %}
         {% if write_year %}
-### {{this_year}}
+## {{this_year}}
             {% assign write_year = false %}
         {% endif %}
 [{{ post.title }}]({{ post.url }})

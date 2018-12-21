@@ -4,6 +4,7 @@ title: How taxes in Brazil hamper innovation
 tags: tax brasil brazil prototype board
 comments: true
 ---
+# How taxes in Brazil hamper innovation
 
 I am doing a research and development project for a client outside Brazil. They sent us, via a well known courier service, a prototype development board with a declared value of USD 326.00 or BRL 520.30. Here's the breakdown of the taxes charged by the tax office of our state, Pernambuco, on entry
 

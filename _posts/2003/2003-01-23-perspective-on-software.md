@@ -4,16 +4,17 @@ title: Perspective on software
 tags: opinion software
 comments: true
 ---
+# Perspective on software
 
 We have just rung in 2003&mdash;2002 is already a good riddance to some and a nostalgic year to others. Several things have happened in the last few years in the software market. We have seen tremendous success&mdash;as in the case of the Internet&mdash;and tremendous disappointment&mdash;as in the case of stock value depreciation of several Internet age software companies.
 
-### Change
+## Change
 
 The software world is in flux&mdash;again. A decade ago, only the bigger companies could afford to use IT. Today, every company and household does so. There is only one problem&mdash;software is still very expensive. Every two or three years, most companies and households have seen the need to upgrade most software&mdash;from the accounting package to the operating system (OS). This has created the impression that software and hardware upgrades are a necessity.
 
 That is slowly changing and giving way to a new awareness. Now that basic IT infrastructure needs have been met, most companies see no reason to be on a constant upgrade path without a decent explanation of the good new software will do to the bottom-line, and bottom-lines are hurt by a bad economic climate.
 
-### Market Forces
+## Market Forces
 
 Let us take a look at the software technology forces in the market vying for success&mdash;touting innovations in reliability, security, and use.
 
@@ -25,11 +26,11 @@ DOS&mdash;the predecessor of Windows&mdash;started out as a personal OS. It wasn
 
 The last decade saw the emergence of Java that brought a paradigm shift in how software is developed and consumed. Software can now be consumed over the Internet. Java has since evolved. It is now used on servers as well. Its main advantage seems to be a virtual machine specification which, if implemented for a particular platform, makes consumption of any Java software possible. Java gives us the true possibility of making application software a commodity. That brings us to .NET&mdash;which provides essentially the same possibility, but Microsoft&mdash;so far&mdash; has seen no need to provide .NET on anything but Windows.
 
-### Software as a Commodity
+## Software as a Commodity
 
 Software and hardware are turning into commodities&mdash;as several industry observers have mentioned repeatedly. This usually is a reasonable indicator of a mature industry. System software by its nature is costly to build but very cheap to spread. The question is&mdash;if hardware feature innovation stagnates will we ever need to upgrade system software? The answer to that may be the reason why Microsoft is being criticized for leading every company and home user to upgrade Windows. Microsoft, I am certain, is aware of that and is looking for more innovative ways to make money. Linux, in the meantime, is pushing into the systems software commodity market with a price tag that is hard to go unnoticed for long.
 
-### Future
+## Future
 
 Personal computing is also progressing into increasingly smaller devices. Embedded systems&mdash;in which a personal computing device has been married to a modern telecommunications network&mdash;ought to ring in a new era of computing, forcing businesses to adapt their server side resources to service this new market. Once again, a personal computing revolution will be driving changes on the business side and not vice-versa.
 

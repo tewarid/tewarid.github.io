@@ -4,6 +4,7 @@ title: Common calls in a communications API
 tags: software design
 comments: true
 ---
+# Common calls in a communications API
 
 Inspired by several generic interfaces in the Unix/Linux world such as the socket API, and event-driven programming, I have been using the following calls (functions or methods, and event notifications) in my communications APIs
 

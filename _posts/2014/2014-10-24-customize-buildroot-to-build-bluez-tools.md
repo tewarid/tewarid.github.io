@@ -4,6 +4,7 @@ title: Customize Buildroot to build bluez-tools
 tags: bluez tools buildroot custom package linux raspberry pi
 comments: true
 ---
+# Customize Buildroot to build bluez-tools
 
 I am building Bluetooth support into my custom embedded Linux system with Buildroot, but couldn't find basic command line tools that work with newer versions of BlueZ. That is when I came across [bluez-tools](https://code.google.com/p/bluez-tools/), a GSoC project that is able to fill the gap.
 
@@ -37,6 +38,7 @@ layout: default
 title: bluez-tools
 tags:
 ---
+# bluez-tools
 #
 ################################################################################
 
@@ -113,6 +115,7 @@ layout: default
 title: bt-device -c 5C:0E:8B:03:6E:4E
 tags:
 ---
+# bt-device -c 5C:0E:8B:03:6E:4E
 Connecting to: 5C:0E:8B:03:6E:4E
 Device: CS3070:10172522500886 (5C:0E:8B:03:6E:4E)
 Enter passkey: 1234

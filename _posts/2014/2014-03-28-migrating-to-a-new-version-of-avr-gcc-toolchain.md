@@ -4,6 +4,7 @@ title: Migrating to a new version of AVR-GCC toolchain
 tags: asf atmel studio programming c avr
 comments: true
 ---
+# Migrating to a new version of AVR-GCC toolchain
 
 I have posted in the past about [migrating]({% link _posts/2012/2012-08-29-migrating-an-avr32-studio-project-to-atmel-studio-6.md %}) from AVR32 Studio to Atmel Studio 6. In that post, I mention that I am having issues with newer version of the toolchain. In this post, I explain why.
 

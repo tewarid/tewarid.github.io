@@ -4,6 +4,7 @@ title: Instant Carpool
 tags: carpool startup
 comments: true
 ---
+# Instant Carpool
 
 Instant [Carpool](http://en.wikipedia.org/wiki/Carpool) (aka instapool) is my stealth startup. Oops, not so stealth any more. I am revealing it so that the idea catches, and before long, all cities have such a service. Its aim is to let everyone carpool, whether they are first-time, occasional or every-day travelers in a city.
 
@@ -11,15 +12,15 @@ Instant [Carpool](http://en.wikipedia.org/wiki/Carpool) (aka instapool) is my st
 
 _Source: Wikipedia_
 
-### Carpool Stops
+## Carpool Stops
 
 The service provides stops along the roads, just like bus stops, only better maintained. Legislation permitting, stops show ads at prominent locations, and provide services for busy people to [buy stuff](http://articles.chicagotribune.com/2012-05-04/business/ct-biz-0504-peapod-20120504_1_peapod-mobile-app-online-grocer) over the internet. They also provide cheap Wi-Fi access. They are maintained using earnings from services and ads, and donations from philanthropists.
 
-### Signs
+## Signs
 
 Hitchers can borrow signs at the stops to show their destination to passing cars. The signs themselves are ad-enabled.
 
-### IOU
+## IOU
 
 The hitcher can buy an IOU token, over the internet, using a PC or Smartphone. Hitcher gives car owner a token number written on a piece of paper, by bumping Smartphone, or using plastic. Car owner can cash the tokens for real money, or use them for rides.
 

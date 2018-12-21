@@ -4,6 +4,7 @@ title: Join multi-user chat with node-xmpp-client
 tags: xmpp node node.js javascript
 comments: true
 ---
+# Join multi-user chat with node-xmpp-client
 
 [XEP-0045](http://xmpp.org/extensions/xep-0045.html) defines the XMPP protocol extensions required to join multi-user chat rooms, and receive and post messages. In this post, I use the [node-xmpp-client](https://www.npmjs.com/package/node-xmpp-client) library to join a multi-user chat room. Messages sent to the chat room are received but are not parsed.
 

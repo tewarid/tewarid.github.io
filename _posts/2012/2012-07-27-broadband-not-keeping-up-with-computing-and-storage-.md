@@ -4,6 +4,7 @@ title: Broadband not keeping up with computing and storage?
 tags: broadband speed google fiber
 comments: true
 ---
+# Broadband not keeping up with computing and storage?
 
 ![Growth in Technology Innovation](https://gigaom2.files.wordpress.com/2012/07/imag0317-e1343335997170.jpg)
 

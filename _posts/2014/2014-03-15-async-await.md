@@ -4,6 +4,7 @@ title: async await
 tags: c# .net programming async
 comments: true
 ---
+# async await
 
 async/await makes asynchronous programming tremendously easy, that is, if you are a .NET programmer. It has taken me a while to get around to learning to use them. I wanted to share their power with a simple example, based on a Windows Forms app that has just two buttons. One button does something, the other cancels it. 
 

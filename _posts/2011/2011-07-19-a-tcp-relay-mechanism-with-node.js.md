@@ -4,6 +4,7 @@ title: A TCP relay mechanism with Node.js
 tags: nat tcp relay traversal nodejs
 comments: true
 ---
+# A TCP relay mechanism with Node.js
 
 The TCP relay scripts shown here can be used to expose any TCP/IP service running behind a NAT. This includes services that use HTTP, SSH, and so on. The latest source code is available at [GitHub](https://github.com/tewarid/node-tcp-relay). Use [npm](https://www.npmjs.com/package/node-tcp-relay) to install.
 
@@ -36,7 +37,7 @@ One external module is used in these scripts to parse commands line options. It 
 sudo npm -g install optimist@latest
 ```
 
-### Programming Interface
+## Programming Interface
 
 Create and start a relay client thus
 

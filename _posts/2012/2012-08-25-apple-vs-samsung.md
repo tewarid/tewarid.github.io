@@ -4,6 +4,7 @@ title: Apple vs Samsung
 tags: apple samsung trial innovation
 comments: true
 ---
+# Apple vs Samsung
 
 Apple [has won](http://www.theverge.com/2012/8/24/3266571/apple-decisively-wins-samsung-trial-what-it-means). Now what?
 

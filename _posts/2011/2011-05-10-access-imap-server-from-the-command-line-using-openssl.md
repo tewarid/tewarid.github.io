@@ -4,10 +4,11 @@ title: Access IMAP server from the command line using OpenSSL
 tags: imap command line openssl
 comments: true
 ---
+# Access IMAP server from the command line using OpenSSL
 
 In this post, we'll use OpenSSL to gain access to an [IMAP](http://tools.ietf.org/html/rfc2060) mail server. The mail server we'll use is Google's GMail. If you are running Linux, you should have openssl installed. On Windows, obtain and install the [Win32 version](http://www.slproweb.com/products/Win32OpenSSL.html) of OpenSSL. If your IMAP server does not support SSL, you can use the excellent netcat utility on Linux, [Ncat](http://nmap.org/ncat/) utility that comes with [Nmap](http://nmap.org/) on Windows or regular telnet.
 
-### Connect
+## Connect
 
 Issue the following command to begin an SSL session with the IMAP server
 
@@ -92,7 +93,7 @@ SSL-Session:
 * OK Gimap ready for requests from 200.199.23.105 o16if3544685ybc.111
 ```
 
-### Login
+## Login
 
 To login, issue the following command
 
@@ -109,7 +110,7 @@ If that works you'll see an output such as
 tag OK user@gmail.com User authenticated (Success)
 ```
 
-### List Mailboxes
+## List Mailboxes
 
 Issue the following command
 
@@ -131,7 +132,7 @@ This produce an output such as
 * LIST (\HasChildren \HasNoChildren) "/" "[Gmail]/Trash"
 ```
 
-### Select a mailbox
+## Select a mailbox
 
 Issue the following command to select the INBOX
 
@@ -151,7 +152,7 @@ This produces an output such as
 tag OK [READ-WRITE] INBOX selected. (Success)
 ```
 
-### Mailbox status
+## Mailbox status
 
 Execute the following command to get the total number of messages in the selected Mailbox
 
@@ -165,7 +166,7 @@ The result is an output such as
 * STATUS "INBOX" (MESSAGES 6388)
 ```
 
-### Fetch headers of last ten messages
+## Fetch headers of last ten messages
 
 Execute the command
 
@@ -173,7 +174,7 @@ Execute the command
 tag FETCH 6378:6388 (BODY[HEADER])
 ```
 
-### Fetch message body
+## Fetch message body
 
 Execute the following command
 
@@ -191,7 +192,7 @@ tag FETCH 6388 (BODY[n])
 
 `n` is a zero-indexed part number.
 
-### Log out
+## Log out
 
 Finally, to close the IMAP session
 

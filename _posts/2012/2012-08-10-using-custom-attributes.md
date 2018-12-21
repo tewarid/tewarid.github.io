@@ -4,12 +4,13 @@ title: Using custom attributes
 tags: html custom attribute jquery javascript web programming
 comments: true
 ---
+# Using custom attributes
 
 In this post I build my own reusable validation mechanism to demonstrate the use of custom attributes. There exist [validation plugin](https://github.com/jzaefferer/jquery-validation)s for jQuery already, you may be better off using them. If other validation mechanisms do not serve your needs for whatever reason, you can use the code posted here as a guidepost.
 
 The mechanism demonstrated here can use just about any HTML tag with inline text as a field. Data entry does require the use of the input and select elements. I also build a utility function than can transfer data from fields into an object. Similarly, another utility function can transfer object properties to fields, in a specified output format. I leverage the jQuery [Globalize](https://github.com/jquery/globalize) library contributed by Microsoft for formatting culture specific values. To keep things simple mapping is done for value properties only. Mapping of objects and collections is the logical next step.
 
-### A test page
+## A test page
 
 The code below lists the HTML file used for testing. It should run quite all right in all major browsers. I did have an issue with Internet Explorer embedded in a .NET application using the WebBrowser control. A jQuery selector like `$(span[for="foo"])` would return no elements, even though there was a matching span with the attribute _for_ in the markup. Changing the attribute name to input, or to data-input as I did, was the only viable alternative. Go figure.
 
@@ -63,7 +64,7 @@ The code below lists the HTML file used for testing. It should run quite all rig
 </html>
 ```
 
-### The validation mechanism
+## The validation mechanism
 
 The following code shows the listing of input.js.
 
@@ -129,7 +130,7 @@ function validate(selector, attribute) {
 }
 ```
 
-### Data binding
+## Data binding
 
 Finally, here's the code for binding.js. You'll get better results from well regarded libraries such as [AngularJS](https://angularjs.org/) and [Knockout](http://knockoutjs.com/), they leverage custom attributes and are well documented.
 

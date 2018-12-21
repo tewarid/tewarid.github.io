@@ -4,6 +4,7 @@ title: Unlocked iPhone 3GS/4/4S pricing
 tags: iphone android price
 comments: true
 ---
+# Unlocked iPhone 3GS/4/4S pricing
 
 Apple may be driving SmartPhone buyers to Android. Competition in the Android SmartPhone market is fierce and that drives down prices, even for the premium handsets, except maybe for the exclusive devices from Google.
 

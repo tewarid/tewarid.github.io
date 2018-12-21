@@ -4,6 +4,7 @@ title: Read ICMP packets in C# using raw sockets
 tags: icmp raw socket c# .net windows network programming
 comments: true
 ---
+# Read ICMP packets in C# using raw sockets
 
 Raw sockets are useful when you want to read all details of a network packet such as the IP header, protocol header, and payload. They can also be used to communicate using protocols that don't have a higher level API, which means most protocols that are not UDP or TCP based. Reading [ICMP protocol](http://www.ietf.org/rfc/rfc792.txt) packets is one useful example.
 

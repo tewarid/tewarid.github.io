@@ -4,12 +4,13 @@ title: Apple app store favorites
 tags: app ios opinion
 comments: true
 ---
+# Apple app store favorites
 
 I didn't imagine I would find a device to be so much fun. An Apple iPod Touch 4 I bought last year has turned into one of my favorite time wasters, and my daughters love it too. It is also a wonderful productivity tool. My old Windows Mobile smartphone has seen its usage plummet, except occasionally as a GPS map, or for tethering my PC to the Web.
 
 I have listed some of my favorite Game and non-Game apps below. It is hard to place them in any particular order, so I have just ordered them alphabetically. I have also mentioned the price I purchased the app for, if it wasn't free.
 
-### Games
+## Games
 
 * [Angry Birds](https://itunes.apple.com/us/app/angry-birds/id343200656) (99c)
 
@@ -43,7 +44,7 @@ I have listed some of my favorite Game and non-Game apps below. It is hard to pl
 
     This one is a favorite with my younger daughter. She loves poking the cat, talking or laughing at it, hear it repeat all of it back at her, you get the idea...
 
-### Non-Games
+## Non-Games
 
 * [Documents To Go](https://itunes.apple.com/us/app/documents-to-go-office-suite/id317117961) (9.99)
 

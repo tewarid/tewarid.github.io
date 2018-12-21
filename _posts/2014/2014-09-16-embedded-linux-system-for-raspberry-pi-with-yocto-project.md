@@ -4,6 +4,7 @@ title: Embedded Linux system for Raspberry Pi with Yocto Project
 tags: yocto linux kernel raspberry pi
 comments: true
 ---
+# Embedded Linux system for Raspberry Pi with Yocto Project
 
 Yocto Project, and OpenEmbedded, have been making news lately as the toolchain to build custom embedded Linux systems. I decided to try and get a working Linux system up and running on a Raspberry Pi.
 

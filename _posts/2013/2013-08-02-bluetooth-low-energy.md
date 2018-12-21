@@ -4,6 +4,7 @@ title: Bluetooth Low Energy
 tags: bluetooth le low energy smart
 comments: true
 ---
+# Bluetooth Low Energy
 
 For those who still think Bluetooth on iOS is hard to do, you haven't been paying attention to Bluetooth Low Energy. Apple's Developer portal provides specs and sample code to build accessories that use Bluetooth LE.
 

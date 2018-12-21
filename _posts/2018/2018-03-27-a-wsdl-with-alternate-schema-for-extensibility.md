@@ -4,6 +4,7 @@ title: A WSDL with alternate schema for extensibility
 tags: soap wsdl schema xml
 comments: true
 ---
+# A WSDL with alternate schema for extensibility
 
 This post presents a [SOAP](https://www.w3.org/TR/2000/NOTE-SOAP-20000508/) [WSDL](https://www.w3.org/TR/2001/NOTE-wsdl-20010315) in the [document/literal style](https://www.ibm.com/developerworks/webservices/library/ws-whichwsdl/), using qualified elements from an alternate schema to support [extensibility](https://www.w3.org/2005/07/xml-schema-patterns.html).
 

@@ -4,6 +4,7 @@ title: Network throughput ballpark using Ping
 tags: network throughput ping
 comments: true
 ---
+# Network throughput ballpark using Ping
 
 Can the humble ping (ICMP echo) be used to measure network throughput? There is  no good standard way to measure network throughput. Using different networking protocols and routers in the network can affect throughput considerably. I recently conducted a simple experiment to measure network throughput using ping.
 

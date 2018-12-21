@@ -4,6 +4,7 @@ title: Audio on PandaBoard
 tags: audio pandaboard alsa
 comments: true
 ---
+# Audio on PandaBoard
 
 There is a [workaround](http://groups.google.com/group/pandaboard/browse_thread/thread/e8f149e21d9b5a12) to enable audio on PandaBoard.
 

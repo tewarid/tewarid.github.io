@@ -4,6 +4,7 @@ title: Enable support for RNDIS Ethernet devices in the Linux kernel
 tags: rndis linux kernel buildroot
 comments: true
 ---
+# Enable support for RNDIS Ethernet devices in the Linux kernel
 
 Use `make menuconfig` - or `linux-menuconfig` when using Buildroot - to invoke the kernel configuration wizard.
 
@@ -17,7 +18,7 @@ Then, enable the following modules under Device Drivers, Network device support,
 
 If the device you're using provides an IP address using DHCP, there's a [bug](https://patchwork.kernel.org/patch/693971/) in some Linux kernel versions that hinders obtaining an IP address from the device. You might want to patch or upgrade the kernel.
 
-### Update
+## Update
 
 Recent kernel versions require the following modules to be enabled
 

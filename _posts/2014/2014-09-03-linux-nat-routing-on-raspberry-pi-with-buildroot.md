@@ -4,10 +4,11 @@ title: Linux NAT routing on Raspberry Pi with Buildroot
 tags: linux kernel nat routing buildroot raspberry pi
 comments: true
 ---
+# Linux NAT routing on Raspberry Pi with Buildroot
 
 This post documents the kernel modules and other packages required to build an embedded Linux NAT router using Buildroot, for Raspberry Pi.
 
-### Modify Linux kernel configuration
+## Modify Linux kernel configuration
 
 Invoke `make linux-menuconfig` in buildroot folder to initiate kernel configuration utility. Select modules shown in the figures below.
 
@@ -48,7 +49,7 @@ Enable other targets if you want to do sophisticated filtering.
 
 ![IPv4 packet filtering and NAT](/assets/img/buildroot-kernel-networking-netfilter-config-ip.png)
 
-### Modify Buildroot Configuration
+## Modify Buildroot Configuration
 
 Include iptables utility package shown in the figure below, using the configuration utility invoked by executing `make menuconfig`. Include tcpdump if you want to sniff network data.
 
@@ -56,7 +57,7 @@ Include iptables utility package shown in the figure below, using the configurat
 
 Now, just execute make to build the system, and copy the kernel image and root file system to SD card.
 
-### Perform NAT routing
+## Perform NAT routing
 
 I use the following commands to bring up the network interfaces and setup NAT forwarding. Any packets received on interface eth0 are forwarded to usb0\. Only packets for connections already established are forwarded back to eth0\. usb0 is a USB CDC ethernet interface of the kind seen in modems.
 

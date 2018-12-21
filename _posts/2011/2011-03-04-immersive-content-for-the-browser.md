@@ -4,6 +4,7 @@ title: Immersive content for the Browser
 tags: content virtual reality 3d immersive web browser
 comments: true
 ---
+# Immersive content for the Browser
 
 Second life is probably the best example of a 3D simulated universe, a highly immersive experience.
 

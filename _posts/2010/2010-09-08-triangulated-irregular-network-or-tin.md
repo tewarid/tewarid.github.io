@@ -4,6 +4,7 @@ title: Triangulated irregular network or TIN
 tags: tin
 comments: true
 ---
+# Triangulated irregular network or TIN
 
 Triangulated irregular network or TIN is used to represent a surface digitally, using non-overlapping triangles, where each node has x, y and z information. For the surface of the Earth, it is common to have the original data in the form of a digital elevation model or DEM, composed of 2D points and their elevation information. This information requires more bandwidth to transmit and store, especially if the terrains are relatively smooth. Converting this information to TIN can reduce storage space.
 

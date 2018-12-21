@@ -4,6 +4,7 @@ title: Transfer lots of data between PCs
 tags: data transfer ethernet
 comments: true
 ---
+# Transfer lots of data between PCs
 
 So, you just bought a new PC and are wondering how you'll transfer tons of data from one to the other?
 

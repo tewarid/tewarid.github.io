@@ -4,6 +4,7 @@ title: Why Apple should do more
 tags: apple iphone rant macbook
 comments: true
 ---
+# Why Apple should do more
 
 Apple is a phenomenally successful company. It does not behoove it to be stingy in fixing inherent problems in its devices. Why did it take so long and a class action suite to instate the [MacBook Pro Repair Extension Program for Video Issues](http://www.apple.com/support/macbookpro-videoissues/)? This is not the only instance where they've actually messed up but not fessed up.
 

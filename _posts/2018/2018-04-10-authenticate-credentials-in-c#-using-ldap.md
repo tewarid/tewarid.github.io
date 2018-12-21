@@ -4,6 +4,7 @@ title: Authenticate credentials in C# using LDAP
 tags: c# ldap .net
 comments: true
 ---
+# Authenticate credentials in C# using LDAP
 
 In this post, we'll use the [C# interactive shell](https://github.com/dotnet/roslyn/wiki/Interactive-Window) to authenticate a user's credentials against an LDAP directory service such as Active Directory.
 

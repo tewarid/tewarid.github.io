@@ -4,6 +4,7 @@ title: File virtualization in Windows
 tags: windows file permission system virtual store
 comments: true
 ---
+# File virtualization in Windows
 
 Windows versions since Vista have a feature in which files with administrative privileges in `Program Files` and other folders, may be masked by a version of the file in user's Virtual Store. The Virtual Store is located at `C:\Users\User_name\AppData\Local\VirtualStore`.
 

@@ -4,6 +4,7 @@ title: Python Cookbook by David Beazley, Brian K. Jones; O'Reilly Media
 tags: book review python
 comments: true
 ---
+# Python Cookbook by David Beazley, Brian K. Jones; O'Reilly Media
 
 ![Python Cookbook](http://akamaicovers.oreilly.com/images/0636920027072/lrg.jpg)
 

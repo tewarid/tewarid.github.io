@@ -4,6 +4,7 @@ title: Kindle vs iBooks
 tags: kindle ibooks comparison
 comments: true
 ---
+# Kindle vs iBooks
 
 ![Kindle vs iBooks](/assets/img/ios-ibooks-kindle.jpg)
 

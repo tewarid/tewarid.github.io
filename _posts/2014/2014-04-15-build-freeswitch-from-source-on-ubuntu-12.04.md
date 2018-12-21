@@ -4,6 +4,7 @@ title: Build FreeSWITCH from source on Ubuntu 12.04
 tags: freeswitch build ubuntu
 comments: true
 ---
+# Build FreeSWITCH from source on Ubuntu 12.04
 
 FreeSWITCH has a fairly detailed Wiki page on [download and installation](https://freeswitch.org/confluence/display/FREESWITCH/Ubuntu+Quick+Start). This post cuts to the chaff.
 

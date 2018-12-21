@@ -4,6 +4,7 @@ title: git branch
 tags: git branch
 comments: true
 ---
+# git branch
 
 This post lists some useful Git commands related to branching and merging. _remote_ is used as a generic placeholder for remote name below. It may be origin. _branch_ is used for branch name.
 
@@ -95,7 +96,7 @@ Permanently delete branch ref from remote (use caution)
 
 ```bash
 git push remote --delete branch
-### OR
+## OR
 git push remote :branch
 ```
 

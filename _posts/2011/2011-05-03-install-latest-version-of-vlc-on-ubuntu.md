@@ -4,6 +4,7 @@ title: Install latest version of VLC on Ubuntu
 tags: vlc latest ubuntu
 comments: true
 ---
+# Install latest version of VLC on Ubuntu
 
 Execute the following commands:
 

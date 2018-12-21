@@ -4,6 +4,7 @@ title: Our most unique trait
 tags: nature innovation knowledge action
 comments: true
 ---
+# Our most unique trait
 
 All that science does is explain that which exists. All that is will not suddenly become different because of our understanding of it. What makes science interesting is that in understanding our universe we create.
 

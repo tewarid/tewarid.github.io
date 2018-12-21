@@ -4,6 +4,7 @@ title: USB device information using WMI
 tags: wmi windows usb
 comments: true
 ---
+# USB device information using WMI
 
 The System.Management namespace of the .NET framework has some Windows-specific features for recovering information regarding a USB device. The following list of [Windows Management Instrumentation](http://technet.microsoft.com/en-us/library/ee692772.aspx) (WMI) classes are enough to recover almost all information one could need regarding the device.
 

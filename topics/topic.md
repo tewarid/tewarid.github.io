@@ -3,6 +3,7 @@ layout: default
 title: Topics
 tags: topic
 ---
+# Topics
 
 [Atmel AVR]({% link topics/avr.md %})
 

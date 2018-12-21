@@ -4,6 +4,7 @@ title: Living the past from memory
 tags: memoir
 comments: true
 ---
+# Living the past from memory
 
 Our parents shape us. They give us our early aspirations, a safe environment to grow in, and lots of love. My early memory of my parents are lost in time but snapshots of a few poignant moments resurface from time to time.
 

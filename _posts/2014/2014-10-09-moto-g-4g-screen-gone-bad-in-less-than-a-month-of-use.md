@@ -4,6 +4,7 @@ title: Moto G 4G screen gone bad in less than a month of use
 tags: moto g 4g screen bad rant
 comments: true
 ---
+# Moto G 4G screen gone bad in less than a month of use
 
 ![Moto G 4G screen gone bad](/assets/img/moto-g-4g-bad.jpg)
 

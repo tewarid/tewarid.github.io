@@ -4,6 +4,7 @@ title: USB bulk data transfer
 tags: usb bulk transfer
 comments: true
 ---
+# USB bulk data transfer
 
 [USB bulk data transfers](http://www.beyondlogic.org/usbnutshell/usb4.shtml#Bulk) are the more commonly used method of communication between a USB host and a peripheral. In this post, I'll show how you can analyze bulk data transfers captured using a Total Phase Beagle USB 480.
 

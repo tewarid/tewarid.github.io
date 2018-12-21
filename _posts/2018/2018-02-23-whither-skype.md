@@ -4,6 +4,7 @@ title: Whither Skype
 tags: skype whatsapp stat opinion
 comments: true
 ---
+# Whither Skype
 
 There was a time I would buy hardware depending on whether it ran Skype, or not. These days, I only use Skype for international landline calls, once a week or so.
 

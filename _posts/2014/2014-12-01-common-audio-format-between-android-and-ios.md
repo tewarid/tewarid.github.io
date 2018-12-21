@@ -4,6 +4,7 @@ title: Common audio format between Android and iOS
 tags: audio playback ios android programming
 comments: true
 ---
+# Common audio format between Android and iOS
 
 If you need a common audio format between Android and iOS, try AAC codec with container format MP4\. The file extension used is mp4.
 

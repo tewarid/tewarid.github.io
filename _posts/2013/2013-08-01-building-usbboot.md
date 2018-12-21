@@ -4,12 +4,13 @@ title: Building usbboot
 tags: usbboot usb boot pandaboard arm android aosp
 comments: true
 ---
+# Building usbboot
 
 I have mentioned usbboot in the post [Install AOSP build to PandaBoard]({% link _posts/2013/2013-05-29-install-aosp-build-to-pandaboard.md %}). In this post I show how you can tweak the usbboot utility and build it from [source](https://github.com/swetland/omap4boot). I am running Ubuntu 12.04 within Parallels on Mac OS X.
 
 To begin, clone omap4boot from GitHub.
 
-### Obtain toolchain
+## Obtain toolchain
 
 The build procedure requires the gcc cross-compiler for ARM. It can be obtained as follows
 
@@ -17,7 +18,7 @@ The build procedure requires the gcc cross-compiler for ARM. It can be obtained 
 sudo apt-get install gcc-arm-linux-gnueabi
 ```
 
-### Build
+## Build
 
 Execute make
 
@@ -31,7 +32,7 @@ I had to [patch](https://github.com/oblique/omap4boot/commit/a58a6ed43391693427e
 trusted.S:10: Error: selected processor does not support ARM mode `smc 1'
 ```
 
-### Execute
+## Execute
 
 It is rather straightforward to execute the newly baked usbboot. Here's how you can use it in place of the binary that ships with AOSP
 
@@ -41,7 +42,7 @@ sudo <omap4boot folder>/out/panda/usbboot <aosp folder>/device/ti/panda/bootload
 
 Unfortunately, still does not work with PandaBoard Rev A2.
 
-### Debug using serial port
+## Debug using serial port
 
 The second stage loader that usbboot sends to PandaBoard writes some useful debug information to the serial port. You can view that information using a terminal emulator on Ubuntu
 

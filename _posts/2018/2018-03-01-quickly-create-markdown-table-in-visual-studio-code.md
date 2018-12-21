@@ -4,6 +4,7 @@ title: Quickly create Markdown table in Visual Studio Code
 tags: pandoc grid table visual studio code plugin markdown
 comments: true
 ---
+# Quickly create Markdown table in Visual Studio Code
 
 Here's a badly formatted table that is syntactically correct
 

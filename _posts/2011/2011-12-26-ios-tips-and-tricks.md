@@ -4,6 +4,7 @@ title: iOS Tips and Tricks
 tags: ios tip
 comments: true
 ---
+# iOS Tips and Tricks
 
 Inspired by the article at [Techcrunch](http://techcrunch.com/2011/12/26/ios-tips-and-tricks-iphone-ipad/) here are some more tips:
 

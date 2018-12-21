@@ -4,6 +4,7 @@ title: A new car experience - costs in Brazil
 tags: car cost brazil brasil
 comments: true
 ---
+# A new car experience - costs in Brazil
 
 I am not much of a connoisseur of cars. I like any car, as long as it has a good fuel economy and is reliable. The first time I bought a new car, not a used car, was two years back, a beautiful black Siena Fire model 2008 from Fiat.
 

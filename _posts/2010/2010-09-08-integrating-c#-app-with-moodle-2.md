@@ -4,10 +4,11 @@ title: Integrating C# app with Moodle 2
 tags: c# .net moodle 2 web service
 comments: true
 ---
+# Integrating C# app with Moodle 2
 
 Moodle 2 exposes the same service methods using several protocols like XML-RPC, AMF and SOAP. In this post, we'll use XML-RPC. The examples below use existing Moodle 2 services. These are very few but I believe the Moodle 2 team will add more as time goes by.
 
-### Configure web services
+## Configure web services
 
 To expose web service methods for Moodle 2 use the following documentation: [https://docs.moodle.org/dev/Web_services](https://docs.moodle.org/dev/Web_services). Since this documentation is sparse, we'll list the basic steps required to configure a user that can access existing web service methods.
 
@@ -53,7 +54,7 @@ To expose web service methods for Moodle 2 use the following documentation: [htt
 
     If the user has any capabilities missing, you will be prompted about missing capabilities. Add these capabilities as shown in step 2.
 
-### Create C# App
+## Create C# App
 
 We'll create an interface for the [XMLRPC.net](http://xml-rpc.net/) framework. Here's the interface:
 
@@ -113,7 +114,7 @@ fullname=Course Fullname 101,visible=1,groupmode=0,;
 
 Next, we'll see how we can recover a list of courses where each course is represented by an object.
 
-### Returning objects
+## Returning objects
 
 Parameters and return values can be of a specific type. A Moodle course object can be represented by a struct such as:
 
@@ -169,7 +170,7 @@ Course[] GetCourses();
 
 Now, instead of a generic hash table for each object, we get a proper Course object.
 
-### Authentication using tokens
+## Authentication using tokens
 
 Tokens are hard to decipher values that can be used for authentication, instead of username and password. Go to Site administration, Plugins, Web services, Manage tokens. Add a token for service test and user `wsuser`.
 

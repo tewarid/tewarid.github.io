@@ -4,6 +4,7 @@ title: Case for Raspberry Pi printed with MakerBot Replicator 2
 tags: 3d printing makerbot raspberry pi
 comments: true
 ---
+# Case for Raspberry Pi printed with MakerBot Replicator 2
 
 Being able to cheaply produce 3D prototypes makes MakerBot Replicator amazing. We recently acquired a [Replicator 2](http://store.makerbot.com/replicator2) at work, which we used to print a [case](http://www.thingiverse.com/thing:61532) for Raspberry Pi Model B Rev 2.
 

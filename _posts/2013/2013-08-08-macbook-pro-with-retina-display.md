@@ -4,6 +4,7 @@ title: MacBook Pro with Retina display
 tags: macbook pro review opinion
 comments: true
 ---
+# MacBook Pro with Retina display
 
 The 15 inch MackBook Pro with Retina display is the best laptop I have used. Here's what I like about it
 

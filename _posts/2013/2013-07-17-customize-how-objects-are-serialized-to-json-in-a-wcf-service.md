@@ -4,10 +4,11 @@ title: Customize how objects are serialized to JSON in a WCF service
 tags: json wcf c# html javascript .net
 comments: true
 ---
+# Customize how objects are serialized to JSON in a WCF service
 
 This post presents an improved version of the service presented in [Cleaner JSON from a WCF service with webHttp behavior]({% link _posts/2013/2013-06-26-cleaner-json-from-a-wcf-service-with-webhttp-behavior.md %}). I demonstrate how to customize serialization of an object to JSON.
 
-### Custom object
+## Custom object
 
 I define a new `Person` class, annotated using the `DataContract` attribute. The `DataMember` attribute applied to each attribute of the class allows us to specify an alternative name for the attribute, whether it is required to be present, the order in which it is serialized, and so on.
 
@@ -33,7 +34,7 @@ namespace RestService
 }
 ```
 
-### Service interface
+## Service interface
 
 The `IRestService` interface is modified to add additional method signatures that consume and return `Person` objects.
 
@@ -58,7 +59,7 @@ namespace RestService
 }
 ```
 
-### Service implementation
+## Service implementation
 
 The service method `Person` receives an instance of `Person` using HTTP POST to URI `/Person`. WCF handles conversion of JSON to the `Person` object, and vice-versa. The service method `GetPerson` handles requests to retrieve details of a `Person` using an ID.
 
@@ -114,7 +115,7 @@ namespace RestService
 }
 ```
 
-### App.config
+## App.config
 
 The `app.config` doesn't need to be changed. It states for instance that our service endpoint is http://localhost:8002/restservice. Note the use of custom behavior `webHttpCORS`, that allows the service to accessed from other domains.
 
@@ -152,7 +153,7 @@ The `app.config` doesn't need to be changed. It states for instance that our ser
 </configuration>
 ```
 
-### Hosting the service
+## Hosting the service
 
 The service can be hosted in a console app as follows
 
@@ -176,7 +177,7 @@ namespace WebHttp
 }
 ```
 
-### Testing with Fiddler
+## Testing with Fiddler
 
 [Fiddler](http://www.telerik.com/fiddler) is a powerful Web debugger written in .NET. It can be used to send HTTP requests and observe HTTP responses. The following figure shows the raw request and response when creating a new Person called John. It is important to set the Content-Type header to `application/json`. Try and send the JSON shown in the request pane using the Composer tab. The service responds with the identifier of the Person added or updated.
 
@@ -186,7 +187,7 @@ The following figure shows a query to read Person with id 1\. Try the GET reques
 
 ![Fiddler Get Request](/assets/img/windows-fiddler-get.png)
 
-### Using jQuery to access the service
+## Using jQuery to access the service
 
 Here's a simple web page that uses jQuery to interact with the service
 
@@ -245,6 +246,6 @@ Here's a simple web page that uses jQuery to interact with the service
 </html>
 ```
 
-### Further Reading
+## Further Reading
 
 I refer you to [Stand-Alone JSON Serialization](https://docs.microsoft.com/en-us/dotnet/framework/wcf/feature-details/stand-alone-json-serialization) for reading further about how JSON serialization works for complex types, but I strongly suggest keeping things simple for maximum portability.

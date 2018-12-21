@@ -4,6 +4,7 @@ title: Test robustness of your networked applications using netem
 tags: linux kernel netem chaos engineering testing buildroot
 comments: true
 ---
+# Test robustness of your networked applications using netem
 
 Adverse network conditions that cause corrupt, delayed, dropped, and out-of-order packets, can play havoc with distributed applications.
 

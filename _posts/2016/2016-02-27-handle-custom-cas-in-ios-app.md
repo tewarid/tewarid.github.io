@@ -4,6 +4,7 @@ title: Handle custom CAs in iOS app
 tags: ca ios objc openssl alamofire
 comments: true
 ---
+# Handle custom CAs in iOS app
 
 This post discusses how to handle custom CAs in a Swift 2 iOS app that uses [Alamofire](https://github.com/Alamofire/Alamofire).
 

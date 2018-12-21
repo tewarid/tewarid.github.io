@@ -4,6 +4,7 @@ title: Next Windows will support ARM SoCs
 tags: windows arm again
 comments: true
 ---
+# Next Windows will support ARM SoCs
 
 A while  back I wrote about [MeeGo]({% link _posts/2010/2010-09-16-meego---an-alternative-to-android-.md %}) and how it mainly seemed like a push against Android and ARM, at least in openness.
 

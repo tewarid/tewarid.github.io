@@ -4,6 +4,7 @@ title: Improving query performance in Entity Framework
 tags: dotnet .net c# entity framework linq
 comments: true
 ---
+# Improving query performance in Entity Framework
 
 These are some lessons I learned when improving query performance of an application written in C#, that uses Entity Framework [Code First](https://msdn.microsoft.com/en-us/library/jj193542.aspx) with SQL Server. A LINQ to SQL query is an `IQueryable`, and can be reused when two queries are quite similar but differ somewhat in the `where`, `group`, `orderby`, or `select` clauses.
 

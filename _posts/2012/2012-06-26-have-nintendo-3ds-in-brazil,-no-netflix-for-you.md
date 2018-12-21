@@ -4,6 +4,7 @@ title: Have Nintendo 3DS in Brazil, no Netflix for you
 tags: 3ds netflix bug
 comments: true
 ---
+# Have Nintendo 3DS in Brazil, no Netflix for you
 
 My daughter asked me to buy her a Nintendo DS on my last business trip. My business trips to the US of A usually turn into small disasters for my personal finance. My kids, wife, and myself included, take the opportunity to delve into buying stuff that is more expensive or hard to find in Brazil.
 

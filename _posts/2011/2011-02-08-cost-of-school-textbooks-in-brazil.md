@@ -4,6 +4,7 @@ title: Cost of school textbooks in Brazil
 tags: cos textbooks brasil brazil
 comments: true
 ---
+# Cost of school textbooks in Brazil
 
 My elder daugther has just begun fourth grade. I reproduce below the expenses incurred on textbooks in Brazil. I have recorded prices based on the following exchange rates
 

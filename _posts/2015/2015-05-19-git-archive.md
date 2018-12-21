@@ -4,6 +4,7 @@ title: git archive
 tags: git archive
 comments: true
 ---
+# git archive
 
 To quickly get a source distribution in zip format
 

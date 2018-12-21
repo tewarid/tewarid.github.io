@@ -4,6 +4,7 @@ title: Apps should support multiple accounts
 tags: app multiple account
 comments: true
 ---
+# Apps should support multiple accounts
 
 Apps that are backed by some kind of service in the cloud should support multiple accounts. This is a no-brainer but several apps fail to provide this convenience feature. I'm particularly frustrated by the Kindle app. Though it could apply to other apps like Netflix. 
 

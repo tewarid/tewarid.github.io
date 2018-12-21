@@ -4,6 +4,7 @@ title: Specify a different ssh key for each host
 tags: ssh key config
 comments: true
 ---
+# Specify a different ssh key for each host
 
 The `~/.ssh/config` file can be edited to specify a different key/identity for each host. This is useful when you have different ssh keys setup on different git servers.
 

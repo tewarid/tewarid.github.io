@@ -4,6 +4,7 @@ title: Use Tile Studio to construct tiled maps
 tags: tile studio game 2d map
 comments: true
 ---
+# Use Tile Studio to construct tiled maps
 
 [Tile Studio](http://tilestudio.sourceforge.net/) is a free and open source utility for making tile based games. 
 
@@ -27,7 +28,7 @@ The key features of Tile Studio are
 
 ![tilestudio](/assets/img/tilestudio.jpg)
 
-### Exporting the tile map
+## Exporting the tile map
 
 Tile Studio provides means to export map data to files by means of templates that can produce complete source code or just simple text or binary files.
 
@@ -65,7 +66,7 @@ The image files created by Tile Studio can and should be optimized further using
 #end tileset
 ```
 
-### Compressing map data
+## Compressing map data
 
 The binary file exported from Tile Studio can be optimized further to reduce size of resources of games and applications. Unfortunately, the template language provided by the tool itself is quite limited. We built a Java utility `TileStudioUtil.java` that is reproduced below. Have a look at the javadoc of the `writeSparseMatrix` method, to get a notion of the format used in the output file created by the utility.
 

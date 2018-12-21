@@ -4,6 +4,7 @@ title: Scripting for the .NET CLR
 tags: .net clr c# scripting
 comments: true
 ---
+# Scripting for the .NET CLR
 
 This post documents the pros and cons of some of the popular scripting options for the .NET Common Language Runtime (CLR).
 

@@ -4,6 +4,7 @@ title: Operator precedence
 tags: c operator precedence programming
 comments: true
 ---
+# Operator precedence
 
 Programmers should use parentheses more often. The following C language snippets are mind-blowing examples of when operator precedence is not obvious and can bite you.
 

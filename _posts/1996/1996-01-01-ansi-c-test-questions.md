@@ -4,6 +4,7 @@ title: ANSI C Test Questions
 tags: ansi c test
 comments: true
 ---
+# ANSI C Test Questions
 
 See answers below.
 
@@ -415,6 +416,6 @@ See answers below.
     c. Garbage value  
     d. None of the above  
 
-### Answers
+## Answers
 
 1a  2d  3b  4b  5b  6b  7a  8c  9d  10a  11c  12d  13a  14d  15e  16c  17b  18c  19d  20c  21a  22c  23d  24b  25d  26c  27a  28d  29d  30d  31d  32a  33d  34b  35a  36c  37b  38c  39d  40d  41a  42a  43c  44d  45c  46a  47c  48b  49a  50c  51c  52b  53a  54a  55d  56d  57b  58a  59c  60c  61b  62b  63b  64d  65d  66a  67a  68b  69b  70b  71b  

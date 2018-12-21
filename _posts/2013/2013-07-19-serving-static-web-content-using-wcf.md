@@ -4,10 +4,11 @@ title: Serving static web content using WCF
 tags: wcf static content .net c# programming
 comments: true
 ---
+# Serving static web content using WCF
 
 This post demonstrates how static web content can be served from a WCF service using WebHttpBinding and webHttp behavior.
 
-### Service Interface
+## Service Interface
 
 The service has just one method in its interface called StaticContent.
 
@@ -26,7 +27,7 @@ namespace WwwService
 }
 ```
 
-### Service Implementation
+## Service Implementation
 
 The implementation of the service is shown below. The StaticContent method returns a FileStream with the content of the requested resource, and sets the content type and HTTP status code.
 
@@ -92,7 +93,7 @@ namespace WwwService
 
 You may want to add additional content types to the switch statement above, or implement an [externally configurable](http://refactoringaspnet.blogspot.com.br/2008/11/how-to-get-content-type-mimetype-of.html) mapping scheme.
 
-### Hosting the service
+## Hosting the service
 
 Here's the App.config for the service.
 
@@ -146,6 +147,6 @@ namespace WwwService
 }
 ```
 
-### Where to put static content
+## Where to put static content
 
 Create a folder called www inside the folder where the service is started, store your static content there, and name the default web page index.html. Then, when the browser requests content starting with the URL http://localhost:8003/wwwservice, it will be served static content by the StaticContent method, or returned a Not Found status code.

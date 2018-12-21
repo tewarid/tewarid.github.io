@@ -4,6 +4,7 @@ title: Get latest version of mono on Ubuntu
 tags: mono ubuntu latest
 comments: true
 ---
+# Get latest version of mono on Ubuntu
 
 Execute following commands from terminal
 

@@ -4,6 +4,7 @@ title: Install latest version of Firefox on Ubuntu
 tags: firefox latest ubuntu
 comments: true
 ---
+# Install latest version of Firefox on Ubuntu
 
 Execute the following commands
 

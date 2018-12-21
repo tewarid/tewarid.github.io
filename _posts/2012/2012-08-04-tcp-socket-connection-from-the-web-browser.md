@@ -4,6 +4,7 @@ title: TCP socket connection from the web browser
 tags: tcp websocket browser web html javascript
 comments: true
 ---
+# TCP socket connection from the web browser
 
 Web browsers do not support communicating with TCP hosts, other than web servers. In this post I take a different tack. I demonstrate a relay written with Node.js, that receives data from the browser over [websockets](http://www.w3.org/TR/websockets/), and sends it to a TCP socket. Data received over the TCP socket is similarly relayed back to the browser. This approach can also be used with UDP and other IP protocols.
 
@@ -15,7 +16,7 @@ The websockets implementation used by the relay is based on the [ws](https://git
 npm -g install ws
 ```
 
-### The client
+## The client
 
 Here's the implementation of a test client. It requests the relay to open a new socket connection to www.google.com at port 80\. It then sends an HTTP GET request, and shows the response to the GET request in a DIV element.
 
@@ -71,7 +72,7 @@ You'll need some familiarity with [jQuery](http://docs.jquery.com/How_jQuery_Wor
 </html>
 ```
 
-### The relay
+## The relay
 
 The relay implementation receives a message from the client containing an open request followed by the remote host and port. After a connection is established with the remote host, it sends a connected message to the client. After that, all messages from the client are simply relayed to the host, and vice-versa.
 
@@ -117,6 +118,6 @@ wss.on('connection', function(ws) {
 });
 ```
 
-### Some considerations
+## Some considerations
 
 The data being sent and received is UTF-8, Blob support is [currently limited](http://caniuse.com/blobbuilder) to Firefox and WebKit based browsers for the desktop. The relay mechanism can be extended to support other protocols like UDP.

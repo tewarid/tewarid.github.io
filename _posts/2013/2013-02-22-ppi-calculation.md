@@ -4,6 +4,7 @@ title: PPI calculation
 tags: ppi latex screen resolution
 comments: true
 ---
+# PPI calculation
 
 Have the screen resolution (width and height) in pixels and the diagonal length in inches, and want to calculate the PPI? Pretty simple really. The iPad 4 has a screen resolution of 2048 by 1536 pixels, and a diagonal length of 9.7 inches.
 

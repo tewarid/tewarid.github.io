@@ -4,6 +4,7 @@ title: Favorite discourses from I Am That
 tags: i am that nisargadatta
 comments: true
 ---
+# Favorite discourses from I Am That
 
 Here are some of my favorite discourses from the book [I Am That](http://www.amazon.com/Am-That-Talks-Sri-Nisargadatta/dp/0893860220) by Nisargadatta Maharaj. A PDF file can be found [here](http://www.anandavala.info/miscl/I_Am_That.pdf).
 

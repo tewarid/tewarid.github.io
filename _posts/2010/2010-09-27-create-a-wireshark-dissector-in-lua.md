@@ -4,6 +4,7 @@ title: Create a Wireshark dissector in Lua
 tags: wireshark lua dissector programming
 comments: true
 ---
+# Create a Wireshark dissector in Lua
 
 You have a custom protocol and would like to give your users the ability to visualize it in Wireshark? If your answer is yes, this post is for you.
 
@@ -11,13 +12,13 @@ I recommend using Wireshark's embedded Lua interpreter, and its [API](https://ww
 
 Let us begin with some sample code.
 
-### Protocol dissector script in Lua
+## Protocol dissector script in Lua
 
 We use a chained dissector. A chained dissector dissects payload of an existing protocol such as payload of a protocol message destined to a particular TCP port. It receives the payload as an input parameter of the dissector function.
 
 {% gist 300cd9b377774598478a5ab852ae4d7e %}
 
-### Running the Lua script in Wireshark
+## Running the Lua script in Wireshark
 
 These are the steps required to test the code above
 

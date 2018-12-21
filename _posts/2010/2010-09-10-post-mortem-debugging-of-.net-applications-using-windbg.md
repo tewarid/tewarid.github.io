@@ -4,12 +4,13 @@ title: Post-mortem debugging of .NET applications using WinDbg
 tags: post mortem debug c# .net windows
 comments: true
 ---
+# Post-mortem debugging of .NET applications using WinDbg
 
 Debugging is a skill you usually learn under pressure, when things are going awry with an application or service just gone live. It is never a pleasure to encounter such bugs because, although they happen quite frequently in your production environment, they are particularly hard to reproduce in your test environment.
 
 For managed applications, you can learn a new skill that will save you some face, called post-mortem debugging. [WinDbg](http://www.microsoft.com/whdc/devtools/debugging/installx86.mspx) is a splendid tool that is often used to debug running processes, but can also be used to analyze process crash dumps.
 
-### Dump process memory
+## Dump process memory
 
 Process memory can be dumped quite easily.
 
@@ -29,7 +30,7 @@ You need to have enough disk space because `dmp` files can be rather big.
 
 There are [more ways](https://www.wintellect.com/how-to-capture-a-minidump-let-me-count-the-ways/) documented elsewhere, but the above should suffice for most purposes.
 
-### WinDbg commands
+## WinDbg commands
 
 Once you have the crash dump file, you can open it with WinDbg, and examine it with several useful commands
 
@@ -53,7 +54,7 @@ Once you have the crash dump file, you can open it with WinDbg, and examine it w
 
     Sets the thread with ID `n` as the current thread.
 
-### Extensions
+## Extensions
 
 WinDbg is most useful for debugging managed application using the following extensions
 
@@ -69,7 +70,7 @@ WinDbg is most useful for debugging managed application using the following exte
 
     Has several useful commands, especially commands for debugging ASP.NET applications. Load it using the `.load` command e.g. `.load c:\psscor2\x86\psscor2.dll`.
 
-### SOS extension
+## SOS extension
 
 The SOS extension has several useful commands, particularly
 
@@ -89,7 +90,7 @@ The SOS extension has several useful commands, particularly
 
     Prints information about an array
 
-### SOSEX extension
+## SOSEX extension
 
 The SOSEX extension has the following commands that are particularly useful
 
@@ -101,7 +102,7 @@ The SOSEX extension has the following commands that are particularly useful
 
     Searches for possible deadlocks.
 
-### Psscor2 extension
+## Psscor2 extension
 
 The Psscor2 extension has one particularly useful command, among several others, that can come in handy when troubleshooting network related issues
 

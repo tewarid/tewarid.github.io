@@ -4,6 +4,7 @@ title: Convert ASCII Hex text to binary
 tags:
 comments: true
 ---
+# Convert ASCII Hex text to binary
 
 Debugging sometimes means dumping a hex stream to the console, or to a log file, something like 0x0a 0xff...
 

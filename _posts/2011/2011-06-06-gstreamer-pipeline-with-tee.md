@@ -4,10 +4,11 @@ title: GStreamer pipeline with Tee
 tags: gstreamer tee tcp web stream
 comments: true
 ---
+# GStreamer pipeline with Tee
 
 The [`tee`](http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gstreamer-plugins/html/gstreamer-plugins-tee.html) element is useful to branch a data flow so that it can be fed to multiple elements. In this post, we'll use the `tee` element to split live, encoded, test video and audio sources, mux the output as live WebM, and stream the result using the [`tcpclientsink`](http://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-base-plugins/html/gst-plugins-base-plugins-tcpclientsink.html) element. This procedure can be repeated several times to stream to multiple clients, the only limit being CPU usage and network bandwidth. By encoding only once, we avoid taxing the CPU - encoding being the most intensive operation it must perform. The code presented below has been tested with GStreamer 0.10.32.
 
-### Creating a pipeline with Tee
+## Creating a pipeline with Tee
 
 Example C code that creates a dynamic GStreamer pipeline using `tee` follows
 
@@ -49,7 +50,7 @@ Example C code that creates a dynamic GStreamer pipeline using `tee` follows
     audiotee, NULL);
 ```
 
-### Branching from a Tee on a running Pipeline
+## Branching from a Tee on a running Pipeline
 
 We create a sub-pipeline using a bin. Creating a new branch from the `tee`, on a running pipeline, can be achieved thus
 
@@ -117,7 +118,7 @@ We create a sub-pipeline using a bin. Creating a new branch from the `tee`, on a
   gst_element_set_state (pipeline, GST_STATE_PLAYING);
 ```
 
-### Removing the branch from a running pipeline
+## Removing the branch from a running pipeline
 
 The following code illustrates how to remove the sub-pipeline.
 

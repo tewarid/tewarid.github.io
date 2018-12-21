@@ -4,6 +4,7 @@ title: Applying the observer pattern for protocol parsing and handling
 tags: observer network programming design
 comments: true
 ---
+# Applying the observer pattern for protocol parsing and handling
 
 If you have done any network programming, interfacing two computing devices using some kind of network, you have had to deal with a protocol of some kind. Most protocols have a standard, fixed-size, header, and a variable payload, which may itself contain another protocol.
 

@@ -4,6 +4,7 @@ title: A Kindle for your eyes
 tags: kindle paperwhite review
 comments: true
 ---
+# A Kindle for your eyes
 
 I have gone from reading on the Smartphone to reading on a Kindle Paperwhite (second generation).
 

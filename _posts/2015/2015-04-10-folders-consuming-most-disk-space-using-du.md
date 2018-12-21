@@ -4,6 +4,7 @@ title: Folders consuming most disk space using du
 tags: du disk usage macos linux
 comments: true
 ---
+# Folders consuming most disk space using du
 
 du is available natively on almost all Linux distributions, and on Mac OS X. If you are in need of reclaiming disk space, and want to quickly find which folders to focus your attention on, run the following command
 

@@ -4,6 +4,7 @@ title: Secure file transmission using asymmetric cryptography
 tags: crypto cryptography web data network asymmetric public key
 comments: true
 ---
+# Secure file transmission using asymmetric cryptography
 
 The secure file transmission mechanism, depicted in the diagram below, has the following properties
 

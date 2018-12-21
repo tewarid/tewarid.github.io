@@ -4,6 +4,7 @@ title: USB Serial
 tags: usb serial macos linux
 comments: true
 ---
+# USB Serial
 
 Serial port access can be very useful during embedded systems development.
 

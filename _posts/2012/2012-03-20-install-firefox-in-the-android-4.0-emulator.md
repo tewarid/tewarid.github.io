@@ -4,6 +4,7 @@ title: Install Firefox in the Android 4.0 emulator
 tags: firefox android
 comments: true
 ---
+# Install Firefox in the Android 4.0 emulator
 
 I was looking for a browser for Android that had support for WebSockets. I opened an online demo such as the one at [websocket.org](http://www.websocket.org/echo.html) in the default Web Browser on the Android device emulator, and was greeted with a message saying WebSockets are not supported.
 
@@ -13,7 +14,7 @@ Let's get to installing Firefox. Download the apk for the latest version for And
 
 Start the Android Emulator for ICS (Android 4.0) using AVD Manager.
 
-### Use adb to install the apk
+## Use adb to install the apk
 
 Run adb with the install option, e.g.
 
@@ -21,7 +22,7 @@ Run adb with the install option, e.g.
 \platform-tools\adb.exe install fennec-10.0.3esr.multi.android-arm.apk
 ```
 
-### Use DDMS to install the apk
+## Use DDMS to install the apk
 
 Run ddms
 

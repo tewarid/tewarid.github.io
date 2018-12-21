@@ -4,6 +4,7 @@ title: Mocking SOAP services
 tags: soap http mocking java
 comments: true
 ---
+# Mocking SOAP services
 
 The following tools can be used to create mock [SOAP 1.1](https://www.w3.org/TR/2000/NOTE-SOAP-20000508/) web services
 

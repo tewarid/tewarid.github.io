@@ -4,6 +4,7 @@ title: Not just phones any more
 tags: smartphone use app
 comments: true
 ---
+# Not just phones any more
 
 Here's a list of unusual applications involving smartphones
 

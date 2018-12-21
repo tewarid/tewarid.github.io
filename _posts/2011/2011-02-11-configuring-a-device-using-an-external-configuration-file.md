@@ -4,6 +4,7 @@ title: Configuring a device using an external configuration file
 tags:
 comments: true
 ---
+# Configuring a device using an external configuration file
 
 This post discusses a very simple scheme that I used to configure a TopCon GPS device by issuing commands from an external configuration file. This has the advantage of not requiring to recompile the app if you need to quickly change something. This pattern can be quite generally applied to configure any device that presents a command line interface.
 

@@ -4,6 +4,7 @@ title: Randomly shuffle lines in a file
 tags: shuf macos homebrew
 comments: true
 ---
+# Randomly shuffle lines in a file
 
 ```bash
 shuf -o output.txt input.txt

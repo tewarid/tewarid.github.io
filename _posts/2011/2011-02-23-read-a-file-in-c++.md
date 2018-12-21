@@ -4,6 +4,7 @@ title: Read a file in C++
 tags: c++ cpp read file
 comments: true
 ---
+# Read a file in C++
 
 I have returned to C++ programming. In the past I have read about it and practiced it as a theoretical exercise, but never for anything serious beyond that.
 

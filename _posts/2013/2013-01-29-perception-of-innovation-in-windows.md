@@ -4,6 +4,7 @@ title: Perception of innovation in Windows
 tags: windows innovation
 comments: true
 ---
+# Perception of innovation in Windows
 
 Saw this infographic today
 

@@ -4,6 +4,7 @@ title: Play WebM streamed over HTTP using GStreamer's souphttpsrc
 tags: http stream souphttpsrc
 comments: true
 ---
+# Play WebM streamed over HTTP using GStreamer's souphttpsrc
 
 The pipeline below receives WebM video using `souphttpsrc` and plays it
 

@@ -4,6 +4,7 @@ title: Prepare HTML document for printing
 tags: print web jquery javascript programming
 comments: true
 ---
+# Prepare HTML document for printing
 
 Print style sheets should work with most modern browsers, unless they don't. I've had problems with IE 7 and 8 in particular. The following code snippet demonstrates how I massage my document before writing it out to an empty document or iframe.
 

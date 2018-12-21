@@ -4,6 +4,7 @@ title: Use eisvogel custom template with Pandoc
 tags: ctan tlmgr eisvogel pandoc macos linux markdown
 comments: true
 ---
+# Use eisvogel custom template with Pandoc
 
 On macOS, the preinstalled tlmgr command is used to install $$\TeX$$ packages from [CTAN](https://ctan.org/).
 

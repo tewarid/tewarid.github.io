@@ -4,6 +4,7 @@ title: What my iPad needs
 tags: ipad wish apple
 comments: true
 ---
+# What my iPad needs
 
 I love my iPad. The retina display is all I was hoping it would be. Print replica books and magazines appear really nice, and there is no need to perennially zoom in and out. I can see why Apple used the form factor it did. It makes a lot of sense.
 

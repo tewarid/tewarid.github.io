@@ -4,6 +4,7 @@ title: GitHub client for Windows
 tags: github investment windows client
 comments: true
 ---
+# GitHub client for Windows
 
 ![GitHub Client for Windows](https://s3.amazonaws.com/github-images/blog/2012/gh4w/dashboard.PNG)
 

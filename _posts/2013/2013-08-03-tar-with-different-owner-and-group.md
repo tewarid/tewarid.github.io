@@ -4,6 +4,7 @@ title: tar with different owner and group
 tags: tar owner
 comments: true
 ---
+# tar with different owner and group
 
 I needed to tar a folder and set all files and folders to owner/group 0/0\. After a few man page perusals and internet searches, this is what worked
 

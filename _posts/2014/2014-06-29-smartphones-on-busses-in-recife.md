@@ -4,6 +4,7 @@ title: Smartphones on busses in Recife
 tags: smartphone travel bus
 comments: true
 ---
+# Smartphones on busses in Recife
 
 Those who can afford cars in Recife love to hate busses. They'll tell you busses are noisy, over-crowded, infrequent, uncomfortably hot inside... you get the picture. I've been using busses for the past couple of years for several reasons. I don't like driving, busses are cheaper, and the congested streets have one less car due to me.
 

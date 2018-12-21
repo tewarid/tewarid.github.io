@@ -4,6 +4,7 @@ title: The holy trinity of sustainability or the CMD cycle
 tags:
 comments: true
 ---
+# The holy trinity of sustainability or the CMD cycle
 
 The holy trinity exists in several religions. In the Hindu religion, in particular, it is represented by Brahma-Vishnu-Shiva. Brahma is known as the creator, Vishnu the preserver, and Shiva the destroyer.
 

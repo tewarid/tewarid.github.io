@@ -4,10 +4,11 @@ title: winusbnet patch to handle language id
 tags: winusb .net c# usb programming windows
 comments: true
 ---
+# winusbnet patch to handle language id
 
 [winusbnet](https://github.com/madwizard-thomas/winusbnet/) throws an exception when reading string descriptors using the WinUsb_GetDescriptor call. Basically, that WinUsb call returns false as it is called with a [Language ID](http://www.usb.org/developers/docs/USB_LANGIDs.pdf) of 0, a reserved value.
 
-### Patch GetStringDescriptor in WinUSBDevice.cs
+## Patch GetStringDescriptor in WinUSBDevice.cs
 
 The `GetStringDescriptor` method does not accept a language ID, so we need to patch it to fix that. That change is reproduced below.
 
@@ -29,7 +30,7 @@ public string GetStringDescriptor(byte index, ushort languageID)
 }
 ```
 
-### Patch GetDeviceDescriptor in USBDevice.cs
+## Patch GetDeviceDescriptor in USBDevice.cs
 
 Tha patched `GetDeviceDescriptor` queries the available languages by calling `GetStringDescriptor` with an index of 0\. It then uses the first language ID to recover other string descriptors.
 

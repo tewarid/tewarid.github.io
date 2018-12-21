@@ -4,10 +4,11 @@ title: Dealing with segmented data in a Wireshark dissector written in Lua
 tags: wireshark segmentation tcp lua dissector programming
 comments: true
 ---
+# Dealing with segmented data in a Wireshark dissector written in Lua
 
 Protocols based on stream-oriented transport protocols like TCP may get segmented i.e. the PDU boundaries may not be preserved. If you are not familiar with writing dissectors for Wireshark in Lua, read [Create a Wireshark dissector in Lua]({% link _posts/2010/2010-09-27-create-a-wireshark-dissector-in-lua.md %}).
 
-### Protocols based on TCP
+## Protocols based on TCP
 
 You can simply let the TCP dissector [reassemble](http://stackoverflow.com/questions/13138088/how-do-i-reassemble-tcp-packet-in-lua-dissector) segments by telling it how much data the dissector function still needs.
 
@@ -37,7 +38,7 @@ until i >= buf:len()
 
 The TCP dissector calls the dissector function with progressively larger chunks of data taken by aggregating data from the following TCP segments. Once data has been aggregated, your dissector function will proceed as usual.
 
-### Protocols not based on TCP
+## Protocols not based on TCP
 
 If your protocol is not based on TCP, you will have to handle segmentation on your own. It bears to keep in mind that Wireshark will call the dissector function for each packet, from first to the last, when you first open a capture file. This knowledge can be used to preprocess each packet, and save some state information such as whether it is segmented or not. If it is segmented, its raw data can be appended to a global byte array. This process will repeat until the whole message is ascertained to have been read. A new Tvb can then be created and used for dissection. The final byte array is saved in state of the last packet in sequence.
 

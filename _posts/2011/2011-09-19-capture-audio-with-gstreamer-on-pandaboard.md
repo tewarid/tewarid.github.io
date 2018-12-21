@@ -4,10 +4,11 @@ title: Capture audio with GStreamer on PandaBoard
 tags: gstreamer pandaboard audio capture
 comments: true
 ---
+# Capture audio with GStreamer on PandaBoard
 
 In this post I list some of the audio devices from where sound can be captured on the PandaBoard with Ubuntu 11.04.
 
-### Capture from a USB WebCam
+## Capture from a USB WebCam
 
 To see the audio devices run the following command, or see cards listed by `pactl list`
 
@@ -27,7 +28,7 @@ To capture using the `pulsesrc` element, switch to the appropriate audio input d
 gst-launch -v ! pulsesrc ! audioconvert ! vorbisenc ! webmmux ! filesink location=audio.mkv
 ```
 
-### Capture from desktop
+## Capture from desktop
 
 Capture any sound currently being played. See sources listed by `pactl list` for device id.
 
@@ -43,7 +44,7 @@ To capture HDMI audio output source, you'll need to switch to PandaHDMI Analog S
 gst-launch -v ! pulsesrc device=alsa_output.platform-soc-audio.1.analog-stereo.monitor ! audioconvert ! vorbisenc ! webmmux ! filesink location=audio.mkv
 ```
 
-### Capture from Line In
+## Capture from Line In
 
 You'll need to switch to SDP4430 Analog Stereo sound input device in Sound Preferences. To capture sound from line in (upper 3.5 mm jack of the audio connector) execute
 

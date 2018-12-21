@@ -4,6 +4,7 @@ title: Measuring data rate of ASF USB Device CDC example
 tags: data rate asf usb cdc avr
 comments: true
 ---
+# Measuring data rate of ASF USB Device CDC example
 
 Atmel Studio 6.1 provides an example project for Atmel Software Framework (ASF) 3.12.1, called _USB Device CDC Example - EVK1101_. EVK1101 is an evaluation kit for the AT32UC3B0256 part, that has 256 KB of flash memory. The example though is equally valid for other variants of that part, with more or less flash memory.
 
@@ -37,7 +38,7 @@ Measuring data rate is then a matter of sending a known amount of data and divid
 
 The average data rate that I was able to measure is in the range of 3200 bytes per seconds or just shy of 26000 bits per second. Pretty lame, I think.
 
-### Improving data rate
+## Improving data rate
 
 The trick to improving the data rate is to use alternate functions that receive/transmit multiple bytes per read/write. Atmel's [AVR4907: ASF - USB Device CDC Application](http://www.microchip.com/wwwappnotes/appnotes.aspx?appnote=en591824) note hints to the existence of these functions in `udi_cdc.h`.
 

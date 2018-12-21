@@ -4,6 +4,7 @@ title: Points to remember regarding C pointers
 tags: c pointer
 comments: true
 ---
+# Points to remember regarding C pointers
 
 Some points to remember regarding C pointers
 

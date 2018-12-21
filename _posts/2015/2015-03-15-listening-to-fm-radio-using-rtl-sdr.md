@@ -4,10 +4,11 @@ title: Listening to FM radio using RTL-SDR
 tags: sdr software radio fm rtl-sdr sdr#
 comments: true
 ---
+# Listening to FM radio using RTL-SDR
 
 I am tinkering with an [RTL-SDR dongle](http://www.adafruit.com/products/1497) to listen to FM radio, on a MacBook Pro with OS X Yosemite, and a Windows 8.1 VM running on Parallels Desktop 10\. There are several software options available. I'll go into those that I tried, others that I didn't, and one that is surprisingly good.
 
-### librtlsdr
+## librtlsdr
 
 This is a multi-platform library available as [open source](https://github.com/steve-m/librtlsdr). On Mac OS X, you can obtain it using homebrew
 
@@ -23,7 +24,7 @@ rtl_fm -f 88700000 -M wbfm - | ffmpeg -f s16le -ar 17000 -ac 2 -i - wbfm.wav
 
 I pipe the output of rtl_fm, which is in signed 16-bit little-endian [PCM](http://wiki.audacityteam.org/wiki/WAV) format, to ffmpeg to produce a WAV file. The WAV file can then be played using Audacity, or any music player of your choice.
 
-### SDR\#
+## SDR\#
 
 [SDR#](http://sdrsharp.com/) is a Windows freeware that used to be open source in the past. It is fairly easy to listen to FM radio by following the [SDR# FM radio](https://learn.adafruit.com/getting-started-with-rtl-sdr-and-sdr-sharp/sdr-number-fm-radio) tutorial from Adafruit. The quality of audio is not so good on a Windows VM.
 
@@ -31,7 +32,7 @@ I attempted to build an older open source version of SDR# using Xamarin Studio f
 
 There's [HDSDR](http://www.hdsdr.de/index.html), another Windows freeware, that I haven't tried. A Mac OS X port of [gnuradio](http://gnuradio.org/) is something else I want to try, but it is only available through MacPorts. I don't use MacPorts, and building gnuradio from source looks daunting due to the number of dependencies.
 
-### Radio Receiver Chrome App
+## Radio Receiver Chrome App
 
 ![Radio Receiver](/assets/img/chrome-radio-receiver.png)
 

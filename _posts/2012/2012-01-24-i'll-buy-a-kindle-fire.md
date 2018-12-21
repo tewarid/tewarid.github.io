@@ -4,6 +4,7 @@ title: I'll buy a Kindle Fire
 tags: kindle fire opinion
 comments: true
 ---
+# I'll buy a Kindle Fire
 
 ![Kindle Fire](/assets/img/amazon-kindle-fire.jpg)
 

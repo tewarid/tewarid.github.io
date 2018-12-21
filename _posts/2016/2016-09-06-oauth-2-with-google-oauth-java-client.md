@@ -4,6 +4,7 @@ title: OAUTH 2 with google-oauth-java-client
 tags: google oauth2 oauth java
 comments: true
 ---
+# OAUTH 2 with google-oauth-java-client
 
 This post is a quick reference for running the [dailymotion-cmdline-sample](https://github.com/google/google-oauth-java-client/tree/master/samples/dailymotion-cmdline-sample), a Java console sample app for the [google-oauth-java-client](https://github.com/google/google-oauth-java-client) OAUTH 2 library.
 

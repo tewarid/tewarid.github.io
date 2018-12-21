@@ -4,6 +4,7 @@ title: Survey of book reading apps for the iPad
 tags: book ebook app ipad survey
 comments: true
 ---
+# Survey of book reading apps for the iPad
 
 Check the table below for a comparison of reading apps based on features they support.
 
@@ -32,7 +33,7 @@ $$^1$$ Books have a copy quota
 
 _Last updated on July 21, 2013_
 
-### Some observations
+## Some observations
 
 Adobe Reader supports the most features. If it had EPUB format support it would be unbeatable.
 
@@ -40,7 +41,7 @@ Documents by Readdle has the best cloud integration. It is an indispensable app 
 
 Readdle is another competent reading app. It is very polished and has one feature that no other app has so far. It tracks your reading time, and tells you how much time you have left to finish the book. The only significant feature missing is search.
 
-### Portability
+## Portability
 
 If you have an Android device and want cross-platform support, Adobe Reader seems to be the best option, but PDF books are unwieldy on small screens.
 

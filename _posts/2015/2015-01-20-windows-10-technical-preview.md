@@ -4,6 +4,7 @@ title: Windows 10 Technical Preview
 tags: windows 10
 comments: true
 ---
+# Windows 10 Technical Preview
 
 ![Windows 10 Technical Preview](/assets/img/windows-10-preview.png)
 

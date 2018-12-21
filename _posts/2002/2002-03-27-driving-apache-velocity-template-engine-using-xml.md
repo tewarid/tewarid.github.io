@@ -4,6 +4,7 @@ title: Driving Apache Velocity template engine using XML
 tags: xml apache velocity template
 comments: true
 ---
+# Driving Apache Velocity template engine using XML
 
 The [Apache Velocity Runner](https://gist.github.com/tewarid/095b5dcfbaa6ebce7bd04829ada33951) merges an XML document such as
 

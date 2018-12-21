@@ -4,6 +4,7 @@ title: Piping information within the browser
 tags: browser page pipe data cloud
 comments: true
 ---
+# Piping information within the browser
 
 Every time I download a big file using a mobile browser, say a book, to upload it to another site, say Dropbox, I wish I could do it without requiring to touch the file system. There are some book sellers who provide Dropbox integration, but the number of cloud storage services has skyrocketed, and I don't think the sellers can integrate with each one of them. Some other standard mechanism is required.
 

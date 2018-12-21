@@ -4,6 +4,7 @@ title: Using a PC based Logic Analyzer
 tags: logic analyzer programming saleae logic c# .net
 comments: true
 ---
+# Using a PC based Logic Analyzer
 
 PC based Logic Analyzers (LAs) allow studying signals in digital circuits. These LAs sample the circuit under study at frequencies that vary from 1 MHz to about 50 MHz, and plot the resulting data as a timing diagram. The software that accompanies the LAs usually allows further analysis of the data, and can interpret busses such as CAN, I2C, I2S, RS-232, and SPI.
 
@@ -13,7 +14,7 @@ There are commercial LAs such as [Logic](https://www.sparkfun.com/products/13195
 
 I'll use Logic from Saleae to demonstrate how these LAs can be used. In our demonstration, I'll create a simple C# app that reads a binary file exported by Saleae Logic, and calculates the frequency of a square wave signal under study.
 
-### Generating and exporting a waveform
+## Generating and exporting a waveform
 
 Square wave signals can be generated using oscillator circuits. The use of a [555](http://www.falstad.com/circuit/e-555square.html) timer IC is an easy way to build one. Lab waveform generators, like the one's from Agilent, can also be used.
 
@@ -23,7 +24,7 @@ Connect the first input pin (gray wire of the accompanying 8-pin connector) of L
 
 ![Saleae Logic Data Export dialog](/assets/img/logic-analyzer-saleae-data-export.png)
 
-### Programming your own analyzer
+## Programming your own analyzer
 
 Here's a simple C# program that reads the binary file and calculates the frequency of the input signal
 

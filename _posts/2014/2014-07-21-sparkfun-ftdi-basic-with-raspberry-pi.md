@@ -4,6 +4,7 @@ title: SparkFun FTDI Basic with Raspberry Pi
 tags: sparkfun make ftdi pi raspberry buildroot
 comments: true
 ---
+# SparkFun FTDI Basic with Raspberry Pi
 
 The following diagram shows how you can connect an [FTDI Basic](https://www.sparkfun.com/products/9873) (USB to serial) breakout board to Raspberry Pi's GPIO connector. If you've configured VCC to output 5 Volts, you can also power the Raspberry Pi by connecting its 5V header pin to VCC.
 
@@ -11,7 +12,7 @@ The following diagram shows how you can connect an [FTDI Basic](https://www.spar
 
 If you've got Adafruit's [USB to Serial TTL cable](https://www.adafruit.com/products/954), you can follow their [lesson](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable) on using it.
 
-### Output kernel log to console
+## Output kernel log to console
 
 For the kernel log to appear on the serial port, console should be set to ttyAMA0.
 

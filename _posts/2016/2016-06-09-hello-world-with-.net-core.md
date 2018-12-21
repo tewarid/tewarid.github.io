@@ -4,6 +4,7 @@ title: Hello World with .NET Core
 tags: .net core c# vscode
 comments: true
 ---
+# Hello World with .NET Core
 
 .NET Core is Microsoft's new cross-platform Command Language Runtime (CLR). This post is an elementary getting started guide where I create, build and run a "Hello World!" console application with .NET Core.
 

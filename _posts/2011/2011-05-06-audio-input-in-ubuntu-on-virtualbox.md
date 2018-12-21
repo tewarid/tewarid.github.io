@@ -4,6 +4,7 @@ title: Audio input in Ubuntu in VirtualBox
 tags: virtualbox
 comments: true
 ---
+# Audio input in Ubuntu in VirtualBox
 
 Works with the setting _Audio Controller as Intel HD Audio_
 

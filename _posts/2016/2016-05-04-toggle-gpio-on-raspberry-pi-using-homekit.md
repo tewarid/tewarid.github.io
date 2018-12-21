@@ -4,10 +4,11 @@ title: Toggle GPIO on Raspberry Pi using HomeKit
 tags: homekit ios raspberry pi homebridge
 comments: true
 ---
+# Toggle GPIO on Raspberry Pi using HomeKit
 
 In this post, I take my HomeKit Raspberry Pi integration a step further, by turning on/off a LED using the [homebridge-gpio-wpi](https://www.npmjs.com/package/homebridge-gpio-wpi) plugin. With the ability to control the [GPIO](https://www.raspberrypi.org/documentation/usage/gpio/) pins, I should be able to turn on/off much bigger things using [solid state relays](https://www.sparkfun.com/products/13015) and such.
 
-### Install homebridge-gpio-wpi plugin
+## Install homebridge-gpio-wpi plugin
 
 The installation should be pretty straightforward. Assuming you are at the command line in the home folder, run
 
@@ -61,7 +62,7 @@ homebridge
 
 See also how to [run homebridge as a service upon reboot]({% link _posts/2016/2016-05-10-run-homebridge-as-a-service-upon-reboot.md %}).
 
-### Test with HomeKit
+## Test with HomeKit
 
 If you've configured the Homebridge peripheral in an iOS app such as [Hesperus](https://itunes.apple.com/us/app/hesperus/id969348892?mt=8), it should now show you a new device called GPIO2, and allow you to switch it on/off.
 

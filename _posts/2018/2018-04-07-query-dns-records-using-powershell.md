@@ -4,6 +4,7 @@ title: Query DNS records using PowerShell
 tags: dns powershell
 comments: true
 ---
+# Query DNS records using PowerShell
 
 Using the [Resolve-DnsName](https://docs.microsoft.com/en-us/powershell/module/dnsclient/resolve-dnsname?view=winserver2012r2-ps)
 

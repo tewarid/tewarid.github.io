@@ -4,6 +4,7 @@ title: Getting Started with the ESP-03
 tags: esp8266 esp-03 esp03 arduino adafruit wi-fi wifi
 comments: true
 ---
+# Getting Started with the ESP-03
 
 The [ESP-03](http://www.electrodragon.com/product/esp8266-wifi-board-full-ios-smd/) is a very affordable Wi-Fi module built around the ESP8266EX chip by [Espressif](http://espressif.com/). The ESP8266 has become very popular among makers who want to add wireless smarts to things at home and work.
 

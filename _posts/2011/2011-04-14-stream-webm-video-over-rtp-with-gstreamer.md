@@ -4,10 +4,11 @@ title: Stream WebM video over RTP with GStreamer
 tags: webm gstreamer
 comments: true
 ---
+# Stream WebM video over RTP with GStreamer
 
 In this post, we'll see how [WebM video](https://tools.ietf.org/html/rfc7741) can be streamed over [RTP](https://tools.ietf.org/html/rfc3550) using the command line.
 
-### Stream WebM video over RTP/UDP
+## Stream WebM video over RTP/UDP
 
 Issue the following command to start streaming. We're using the test video source, but you can use any other source.
 
@@ -23,7 +24,7 @@ Take note of the following information output to the console. We'll need that to
 
 In a peer-to-peer application you will probably transmit the parameters after caps above using RTCP, or some other signaling mechanism such as SIP or XMPP.
 
-### Receive and play the stream
+## Receive and play the stream
 
 Issue the following command to play the video stream
 

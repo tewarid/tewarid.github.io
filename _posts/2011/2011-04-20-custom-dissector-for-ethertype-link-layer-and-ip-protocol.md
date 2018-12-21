@@ -4,6 +4,7 @@ title: Custom dissector for ethertype link layer and IP protocol
 tags: ethertype ethernet dissector wireshark lua
 comments: true
 ---
+# Custom dissector for ethertype link layer and IP protocol
 
 This is how you can replace the default dissector for the IP protocol
 

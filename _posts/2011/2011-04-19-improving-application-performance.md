@@ -4,6 +4,7 @@ title: Improving application performance
 tags: software performance profiling
 comments: true
 ---
+# Improving application performance
 
 As Tom DeMarco [says](http://en.wikiquote.org/wiki/Tom_DeMarco)
 

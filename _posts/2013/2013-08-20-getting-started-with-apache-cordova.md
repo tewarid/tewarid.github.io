@@ -4,14 +4,15 @@ title: Getting started with Apache Cordova
 tags: apache cordova
 comments: true
 ---
+# Getting started with Apache Cordova
 
 Apache Cordova, or PhoneGap, is a cross-platform HTML5 app development framework. It allows creation of offline HTML5 and hybrid applications. This post recounts my brief experience getting started with Apache Cordova. It is relevant for Android and iOS, and assumes you are developing on a Mac.
 
-### Install Node
+## Install Node
 
 Grab the [Node](http://nodejs.org/) installer for Mac and install it. You'll need it for installing Cordova. The cordova command line utility is based on Node.
 
-### Install Cordova
+## Install Cordova
 
 After Node has been installed, use npm to install Cordova
 
@@ -25,7 +26,7 @@ Use `cordova --version` to check the version of Cordova. In my case it's current
 3.0.6
 ```
 
-### Create HTML5 app
+## Create HTML5 app
 
 A new Cordova HTML5 app can be created as follows
 
@@ -35,7 +36,7 @@ cordova create myapp com.mycompany.MyApp MyApp
 
 A new folder called myapp is created, and the HTML5 resources are created under myapp/www.
 
-### Create platform-specific apps
+## Create platform-specific apps
 
 An iOS app to build and deploy the HTML5 app can be created thus
 
@@ -61,7 +62,7 @@ export PATH=$PATH:/Applications/Android\ Studio.app/sdk/tools:/Applications/Andr
 
 The Android project structure under myapp/platforms/android does not work with Android Studio, but builds with `ant`. Eclipse ADT can be used to [migrate](http://developer.android.com/sdk/installing/migrate.html) the project to Gradle and Android Studio. A Gradle based build setup is [under consideration](https://issues.apache.org/jira/browse/CB-3445) but may not happen soon.
 
-### Build and test platform-specific apps
+## Build and test platform-specific apps
 
 The iOS app can be built and deployed using the Xcode project under myapp/platforms/ios.
 
@@ -77,7 +78,7 @@ Deploy using adb
 adb install -r bin/MyApp-debug.apk
 ```
 
-### Iterate and build
+## Iterate and build
 
 Every time you change the app in myapp/www, you'll need to run
 

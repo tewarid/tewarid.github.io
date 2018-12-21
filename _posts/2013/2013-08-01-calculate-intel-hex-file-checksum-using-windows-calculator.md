@@ -4,6 +4,7 @@ title: Calculate Intel HEX file checksum using Windows Calculator
 tags: intel hex file format checksum
 comments: true
 ---
+# Calculate Intel HEX file checksum using Windows Calculator
 
 Intel HEX file format is well documented by [KEIL](http://www.keil.com/support/docs/1584/). Here's how you can calculate the checksum if you only have the Windows 7/8 calculator. Let's suppose you have the following data record (ending with the checksum 0xF0)
 

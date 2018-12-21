@@ -4,6 +4,7 @@ title: Getting GPS coordinates from a picture
 tags: gps photo picture exif
 comments: true
 ---
+# Getting GPS coordinates from a picture 
 
 Most mobile phones tag pictures with GPS coordinates. It is fairly easy to obtain that information and see where that picture was taken, on Google Maps for instance. Let me go through how you can do that if you are a Windows user.
 

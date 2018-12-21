@@ -4,6 +4,7 @@ title: WolframAlpha for electronics nerds
 tags: wolfram alpha electronics
 comments: true
 ---
+# WolframAlpha for electronics nerds
 
 Here's what searching for 150 ohm resistor gets you. Awesome!
 

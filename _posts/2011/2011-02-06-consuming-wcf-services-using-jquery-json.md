@@ -4,10 +4,11 @@ title: Consuming WCF services using JQuery JSON
 tags:
 comments: true
 ---
+# Consuming WCF services using JQuery JSON
 
 In this post we'll use the WebHttpBinding for communication between a browser application and a service.
 
-### Test App
+## Test App
 
 We'll use the following assemblies and the corresponding namespaces from the .NET Framework version 3.5.
 
@@ -66,7 +67,7 @@ class Program
 }
 ```
 
-### App.Config
+## App.Config
 
 We specify the service endpoint and behavior configuration in the application configuration file, it can also be done in code. If you intend to run your service under IIS, you can copy the system.serviceModel element to your Web.config.
 
@@ -99,7 +100,7 @@ We specify the service endpoint and behavior configuration in the application co
 </configuration>
 ```
 
-### Netsh
+## Netsh
 
 You must allow a user without admin privileges to register a URL. If you don't do this, you'll get the following exception when you run the app:
 
@@ -116,7 +117,7 @@ Run the netsh command as follows to grant your user permission to access the URL
 netsh http add urlacl url=http://+:8003/myservice user=DOMAIN\user
 ```
 
-### Test the service
+## Test the service
 
 Launch a browser and go to `http://localhost:8003/myservice/SetSomething?something=hello%20world`. It calls the `SetSomething` method.
 
@@ -128,7 +129,7 @@ The following text should appear in the browser window
 hello world
 ```
 
-### JQuery JSON app
+## JQuery JSON app
 
 The following application built using JQuery repeats the previous test. Most modern browsers will not allow cross-origin requests unless authorized by the server. It is fairly easy to [enable](http://joshuamcginnis.com/2011/02/28/how-to-disable-same-origin-policy-in-chrome/) cross-origin requests in Chrome.
 

@@ -4,6 +4,7 @@ title: Tackling OAuth 2.0 in iOS 9 with Swift 2
 tags: oauth2 ios swift
 comments: true
 ---
+# Tackling OAuth 2.0 in iOS 9 with Swift 2
 
 In an earlier post I discussed how to [tackle OAuth 2.0 in an Android app]({% link _posts/2016/2016-02-18-tackling-oauth-2.0-in-an-android-app.md %}). This post discusses how to do that in iOS 9 with Swift 2.
 

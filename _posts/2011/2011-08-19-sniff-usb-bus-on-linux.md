@@ -4,10 +4,11 @@ title: Sniff USB bus on Linux
 tags: sniff usb bus linux wireshark
 comments: true
 ---
+# Sniff USB bus on Linux
 
 There are two ways.
 
-### Using usbmon
+## Using usbmon
 
 Load the [usbmon](http://people.redhat.com/zaitcev/linux/OLS05_zaitcev.pdf) module
 
@@ -21,6 +22,6 @@ The following command then prints data going to and fro on a bus
 sudo cat /sys/kernel/debug/usb/usbmon/1u
 ```
 
-### Using Wireshark
+## Using Wireshark
 
 I refer you to their [USB wiki](http://wiki.wireshark.org/CaptureSetup/USB).

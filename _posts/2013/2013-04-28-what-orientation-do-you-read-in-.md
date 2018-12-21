@@ -4,6 +4,7 @@ title: What orientation do you read in?
 tags: opinion iphone ipad pc orientation
 comments: true
 ---
+# What orientation do you read in?
 
 I have made a strange observation after extensive reading on iPhone and iPad. I am most comfortable reading, a novel for instance, on the iPhone, in portrait orientation, using the night theme, and turning pages instead of scrolling. On the iPad, I like to read, a PDF document for instance, in landscape mode, using the day theme (i.e. white background), and using scrolling instead of page turning.
 

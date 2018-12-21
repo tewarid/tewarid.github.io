@@ -4,6 +4,7 @@ title: Search for a personal finance app
 tags: personal finance ios pocketmoney
 comments: true
 ---
+# Search for a personal finance app
 
 These are just some features I look for in a personal finance app
 

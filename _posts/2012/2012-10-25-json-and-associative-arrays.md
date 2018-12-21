@@ -4,6 +4,7 @@ title: JSON and associative arrays
 tags: json javascript
 comments: true
 ---
+# JSON and associative arrays
 
 JSON does not support serialization of associative (key-value pair) arrays of the kind
 

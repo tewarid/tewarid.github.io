@@ -4,6 +4,7 @@ title: Clone multiple GitLab projects the hard way
 tags: git gitlab clone
 comments: true
 ---
+# Clone multiple GitLab projects the hard way
 
 We have this really big list of projects in a GitLab group/namespace hosted at&mdash;let's say&mdash;https://example.com/groups/bigone. I wanted to clone all the projects there, and do some additional housekeeping in the cloned repository such as configure the email address, and add another remote location.
 

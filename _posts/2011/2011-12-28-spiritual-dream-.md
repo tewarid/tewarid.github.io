@@ -4,6 +4,7 @@ title: Spiritual dream?
 tags:
 comments: true
 ---
+# Spiritual dream?
 
 ![half open door](/assets/img/half_open_door.jpg)
 

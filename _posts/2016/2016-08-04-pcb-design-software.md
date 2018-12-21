@@ -4,6 +4,7 @@ title: PCB Design Software
 tags: altium pcb gerbv fritzing eagle design 3d
 comments: true
 ---
+# PCB Design Software
 
 [Altium Designer](http://www.altium.com/altium-designer/) is the design software that I've been using on a regular basis because we've got a license at work. It doesn't come with too many components but more can be downloaded [online](https://designcontent.live.altium.com/). Creating new components is pretty easy too. Components can contain embedded 3D models, which makes it easy to review pad alignment and such. The final PCB can be viewed in 3D too making it really easy to review mechanical constraints.
 

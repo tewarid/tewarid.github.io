@@ -4,6 +4,7 @@ title: Binary serialization in .NET using reflection
 tags:
 comments: true
 ---
+# Binary serialization in .NET using reflection
 
 C programmers frequently use [Winsock helper functions](https://msdn.microsoft.com/en-us/library/ms741394.aspx) such as htonl to change the [byte ordering](https://msdn.microsoft.com/en-us/library/3thek09d.aspx) of elements of a struct, and memcpy to transfer the struct to an output buffer. Migrating that kind of code can be a pain, because succinct code in C translates to a lot of code in languages that don’t support pointers.
 

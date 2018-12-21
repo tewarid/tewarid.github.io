@@ -4,6 +4,7 @@ title: Enable Ubuntu Unity
 tags: parallels desktop ubuntu unity
 comments: true
 ---
+# Enable Ubuntu Unity
 
 I have been having problems using Ubuntu Unity on my Parallels VM, that I was finally able to resolve with help from the Ubuntu forums. It turns out Ubuntu Unity Plugins was disabled for some reason. Use the following sequence of commands to run [CompizConfig Settings Manager](https://apps.ubuntu.com/cat/applications/compizconfig-settings-manager/).
 

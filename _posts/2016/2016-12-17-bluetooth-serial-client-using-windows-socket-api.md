@@ -4,6 +4,7 @@ title: Bluetooth serial client using Windows socket API
 tags: bluetooth serial client windows spp socket
 comments: true
 ---
+# Bluetooth serial client using Windows socket API
 
 This post shows how you can discover paired Bluetooth devices, and communicate with them, using Windows socket API. The Windows socket API is available in .NET through the excellent [32feet.NET](https://www.nuget.org/packages/32feet.NET/) library.
 

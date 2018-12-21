@@ -4,6 +4,7 @@ title: Comparison of Personal Finance Apps
 tags: personal finance apps
 comments: true
 ---
+# Comparison of Personal Finance Apps
 
 Here's a comparison of personal finance based on features I've come to consider as necessary. After using Pocket Money for three years, I have chosen Account Tracker as my app of choice.
 

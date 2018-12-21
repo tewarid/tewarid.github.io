@@ -4,6 +4,7 @@ title: Windows-1252 charset codes
 tags: pandoc windows word html markdown
 comments: true
 ---
+# Windows-1252 charset codes
 
 The following are some [Windows-1252](https://en.wikipedia.org/wiki/Windows-1252) (ISO 8859-1) charset codes I've seen in legacy HTML documents created in Word. The replacement suggestions are for conversion to UTF-8 characters available on the keyboard. Alternatively, you may want to use HTML [character entities](https://dev.w3.org/html5/html-author/charref).
 

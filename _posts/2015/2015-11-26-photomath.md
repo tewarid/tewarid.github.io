@@ -4,6 +4,7 @@ title: PhotoMath
 tags: photomath ios app
 comments: true
 ---
+# PhotoMath
 
 PhotoMath, by MicroBlink Ltd., is a neat little utility available from the [iOS App Store](https://appsto.re/us/UPcY2.i), and [Android Play Store](https://play.google.com/store/apps/details?id=com.microblink.photomath), that can make solving elementary Math homework less of a chore. Besides giving the answer outright, it provides a detailed step-by-step procedure for arriving at the answer.
 

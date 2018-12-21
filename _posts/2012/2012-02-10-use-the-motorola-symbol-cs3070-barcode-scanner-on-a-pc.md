@@ -4,12 +4,13 @@ title: Use the Motorola Symbol CS3070 barcode scanner on a PC
 tags: bluetooth symbol cs3070 scanner pc windows pair
 comments: true
 ---
+# Use the Motorola Symbol CS3070 barcode scanner on a PC
 
 This post shows the different means to read scanned barcodes using a CS3070 barcode scanner, on a Windows 7 PC. These instructions may also serve as breadcrumbs for Windows XP and other operating systems.
 
 We recommend downloading and printing the [CS3000 Series Quick Reference Guide](http://www.google.com/search?ix=seb&sourceid=chrome&ie=UTF-8&q=CS3000+Series+Quick+Reference+Guide) (QRG). It has some barcodes we'll need in the procedures below.
 
-### Using the Bluetooth Serial Port Profile (SPP)
+## Using the Bluetooth Serial Port Profile (SPP)
 
 Follow these steps so that the barcode scanner can be read over a Serial (COM) Port:
 
@@ -21,7 +22,7 @@ Follow these steps so that the barcode scanner can be read over a Serial (COM) P
 6. PC should pair with the scanner, the scanner will emit a beep and the blue LED (Bluetooth button) will start blinking less rapidly. PC will and add a COM port, you can obtain the port number in Device Manager.
 7. Use a serial port terminal (like [putty](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html) or [teraterm](http://ttssh2.sourceforge.jp/)) to read data from the serial port, set the baud rate to 9600.
 
-### Pair as a Bluetooth Keyboard (HID)
+## Pair as a Bluetooth Keyboard (HID)
 
 Follow these steps to add to a PC as a Bluetooth Keyboard (aka HID - Human Interface Device):
 

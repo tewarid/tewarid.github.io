@@ -4,6 +4,7 @@ title: iPhone 5 is an evolution, not revolution
 tags: iphone 5 ipod review
 comments: true
 ---
+# iPhone 5 is an evolution, not revolution
 
 The iPhone 5 has launched. It is evolutionary, not revolutionary, which is probably as it should be. As an iPhone 4S user, the bigger screen is the only thing that attracts me right now.
 

@@ -4,6 +4,7 @@ title: It's that day again
 tags: apple product launch
 comments: true
 ---
+# It's that day again
 
 Apple knows how to build expectations, and during Steve Job's tenure it frequently exceeded them. The media covers their events assiduously.
 

@@ -4,10 +4,11 @@ title: Using the fdsink element of GStreamer
 tags: fdsink gstreamer native pipeline
 comments: true
 ---
+# Using the fdsink element of GStreamer
 
 The `fdsink` element is useful because it can be used to write data directly to a socket. In this post, we'll see how to setup a listener for client connections and stream directly to the client socket using `fdsink`.
 
-### Listen for incoming connections
+## Listen for incoming connections
 
 The code below sets up a server socket to listen for incoming client connections. Once a client connects, we send the appropriate HTTP headers, and call the function that will stream data to the client socket using `fdsink`. You can find the [`make_socket`](https://www.gnu.org/s/libc/manual/html_node/Inet-Example.html) function in the GNU libc manual.
 
@@ -76,7 +77,7 @@ server_thread(gpointer data)
 }
 ```
 
-### Create listener in its own thread
+## Create listener in its own thread
 
 The server above can be executed in its own thread&mdash;we use glib&mdash;thus
 
@@ -84,7 +85,7 @@ The server above can be executed in its own thread&mdash;we use glib&mdash;thus
   sthread = g_thread_create(server_thread, NULL, TRUE, NULL);
 ```
 
-### Use fdsink to stream to socket
+## Use fdsink to stream to socket
 
 The following code snippet demonstrates how `fdsink` can be setup
 
@@ -93,7 +94,7 @@ The following code snippet demonstrates how `fdsink` can be setup
   g_object_set (G_OBJECT (sink), "fd", client, NULL);
 ```
 
-### Handling client removal in a dynamic pipeline
+## Handling client removal in a dynamic pipeline
 
 A client can disconnect without a warning, `fdsink` does not provide any mechanism to handle such as situation. The whole pipeline can end if a single client disconnects. Luckily, the `multifdsink` can be used in such a scenario, as it handles client disconnection more gracefully. The `num-fds` property can be polled to detect that there are no pending clients.
 
@@ -111,7 +112,7 @@ After starting the pipeline, add a new socket fd thus
 
 The `multifdsink` element has a [bug](https://bugzilla.gnome.org/show_bug.cgi?id=645746) that causes 100% CPU usage, but has been fixed in version 0.10.33 of GStreamer.
 
-### Headers
+## Headers
 
 The following headers contain the declarations required to compile the code above
 

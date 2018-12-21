@@ -4,6 +4,7 @@ title: A 7 inch tablet is a compelling device
 tags: 7 inch ipad ipod
 comments: true
 ---
+# A 7 inch tablet is a compelling device
 
 It has been a while since I purchased an iPod Touch. That device has been a quiet success alongside the iPhone. I don't have any research to quote but I suspect it is also responsible for leading casual gamers away from Nintendo DS and the Sony PSP.
 

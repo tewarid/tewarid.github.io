@@ -4,6 +4,7 @@ title: C# Custom Attributes Example
 tags: c# .net custom attribute programming
 comments: true
 ---
+# C# Custom Attributes Example
 
 The following example uses Linq to find all types in an assembly adorned with a particular custom attribute type. It should build and run on .NET Framework 3.5 and beyond. Note the use of AllowMultiple AttributeUsage.
 

@@ -4,6 +4,7 @@ title: Apple needs a larger phone
 tags: apple iphone ipad large screen
 comments: true
 ---
+# Apple needs a larger phone
 
 Or a smaller iPad? iPad Micro?
 

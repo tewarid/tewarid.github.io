@@ -4,6 +4,7 @@ title: Logging to Syslog using NLog
 tags: nlog syslog .net c#
 comments: true
 ---
+# Logging to Syslog using NLog
 
 [NLog](https://github.com/NLog/NLog)'s [Network]() [target](https://github.com/NLog/NLog/wiki/Targets) can be used to stream to [Syslog](https://tools.ietf.org/html/rfc5424), using a target definition such as
 

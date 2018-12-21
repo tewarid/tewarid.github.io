@@ -4,6 +4,7 @@ title: Use JavaFX in a Swing or console app
 tags: update
 comments: true
 ---
+# Use JavaFX in a Swing or console app
 
 This short post explores how to integrate JavaFX into a legacy console or Swing application.
 

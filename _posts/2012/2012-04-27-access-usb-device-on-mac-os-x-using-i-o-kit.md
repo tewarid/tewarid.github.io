@@ -4,6 +4,7 @@ title: Access USB device on Mac OS X using I/O Kit
 tags: macos usb bulk transfer c
 comments: true
 ---
+# Access USB device on Mac OS X using I/O Kit
 
 This post shows how you can access a USB device from user space on Mac OS X. I used Xcode 4.3.2 on Mac OS X Lion (10.7.3) for testing the code.
 

@@ -4,6 +4,7 @@ title: IPv4 Network Calculator
 tags: ipv4 ip subnet calculation
 comments: true
 ---
+# IPv4 Network Calculator
 
 There is a plethora of online calculators. I couldn't find one that met my needs so I decided to write something simple in JavaScript based on Node.js. The code should be easy to adapt to run inside the browser.
 

@@ -4,6 +4,7 @@ title: Getting started with Corona SDK
 tags: corona ios macos
 comments: true
 ---
+# Getting started with Corona SDK
 
 This post has links and references for getting started with Corona SDK on a Mac, and running your apps on an iOS device.
 

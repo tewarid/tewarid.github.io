@@ -4,6 +4,7 @@ title: 21st Century C by Ben Klemens; O'Reilly Media
 tags: book review
 comments: true
 ---
+# 21st Century C by Ben Klemens; O'Reilly Media
 
 ![21st Century C](http://akamaicovers.oreilly.com/images/0636920025108/lrg.jpg)
 

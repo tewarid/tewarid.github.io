@@ -4,6 +4,7 @@ title: Android ICS on PandaBoard
 tags: aosp ics pandaboard
 comments: true
 ---
+# Android ICS on PandaBoard
 
 PandaBoard has been graced with Android 4 ICS (Ice Cream Sandwich). Thanks to linaro.org it is fairly easy to obtain and try for yourself, their [download](http://www.linaro.org/downloads/) page provides images for different ARM SoC development [boards](https://wiki.linaro.org/Boards) including [PandaBoard](https://en.wikipedia.org/wiki/PandaBoard).
 
@@ -24,7 +25,7 @@ The [tracking](https://releases.linaro.org/archive/11.12/android/images/tracking
 
 I'll be anxiously awaiting new updates. I wish I could delve into the source code but I don't have a build machine with the adequate [specs](http://source.android.com/source/initializing.html). Linaro does have daily AOSP build binaries for PandaBoard but the last successful build is almost a month old.
 
-### Gingerbread
+## Gingerbread
 
 The older Linaro [11.11 build](https://releases.linaro.org/archive/11.11/android/leb-panda/) (Android 2.3.7) boots up nicely. The graphics are snappy.
 
@@ -45,7 +46,7 @@ These are some of the issues I have observed
 8. USB flash drives are detected correctly but the device file is not created under `/dev` and no mount point is available to access it.
 9. VPN does not work. I tried PPTP and L2TP/IPSec with several subscription based VPNs but with no success.
 
-### Conclusions
+## Conclusions
 
 Things are at an early experimental stage with Android on PandaBoard. Gingerbread is more mature when compared to ICS, but I wouldn't hurry to replace Ubuntu with Android yet, unless I am willing to put in some significant development effort.
 

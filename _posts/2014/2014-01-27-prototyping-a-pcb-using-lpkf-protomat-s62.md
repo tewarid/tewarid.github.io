@@ -4,6 +4,7 @@ title: Prototyping a PCB using LPKF ProtoMat S62
 tags: pcb prototyping lpkf
 comments: true
 ---
+# Prototyping a PCB using LPKF ProtoMat S62
 
 The last time I designed my own PCB, in 1995, I used parchment (butter) paper and stickers. The fabrication was contracted out to a third-party. Times have changed, we now have simple circuit design software such as [Fritzing]({% link _posts/2013/2013-09-26-fritzing-to-design-and-prototype-electronics-circuits.md %}), and rapid PCB prototyping machines such as the LPKF ProtoMat S62\. Though the latter doesn't come cheap, it is totally worth it.
 

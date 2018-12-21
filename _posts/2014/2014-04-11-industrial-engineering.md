@@ -4,6 +4,7 @@ title: Industrial Engineering
 tags: industrial engineering
 comments: true
 ---
+# Industrial Engineering
 
 I have come to the striking realization that I need to understand other industries, and become acquainted with different aspects of industrial engineering.
 

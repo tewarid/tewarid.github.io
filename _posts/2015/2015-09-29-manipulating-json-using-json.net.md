@@ -4,6 +4,7 @@ title: Manipulating JSON using Json.NET
 tags: json json.net .net javascript c# programming
 comments: true
 ---
+# Manipulating JSON using Json.NET
 
 [Json.NET](https://github.com/JamesNK/Newtonsoft.Json) makes it convenient to manipulate [JSON](https://tools.ietf.org/html/rfc7159) in C# using dynamic programming. Let's start with a JSON representation we want to create
 

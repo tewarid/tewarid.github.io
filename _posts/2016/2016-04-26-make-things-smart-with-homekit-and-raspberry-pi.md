@@ -4,10 +4,11 @@ title: Make things smart with HomeKit and Raspberry Pi
 tags: homekit ios raspberry pi homebridge
 comments: true
 ---
+# Make things smart with HomeKit and Raspberry Pi
 
 As an avid iOS user I have been keen on using [HomeKit](https://developer.apple.com/homekit/). That's when I read about a new - and currently free - HomeKit app in the iOS App Store called [Hesperus](https://itunes.apple.com/us/app/hesperus/id969348892?mt=8). I don't have a HomeKit compatible thing at home, but a quick internet search revealed that I could run a HomeKit compatible service called [homebridge](https://www.npmjs.com/package/homebridge) on a Raspberry Pi. This post only goes so far as configuring a fictitious light bulb plugin that can be controlled remotely.
 
-### Setup Raspberry Pi Image
+## Setup Raspberry Pi Image
 
 I decided to download a headless (console-only) version of Raspbian called [RASPBIAN JESSIE LITE](https://www.raspberrypi.org/downloads/raspbian/). Instructions for setting up an SD card appropriately can be found [here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). I use Win32 Disk Imager on Windows to [write]({% link _posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md %}) images.
 
@@ -17,7 +18,7 @@ I didn't want to use an HDMI display with the Raspberry Pi, and wanted to power 
 screen /dev/ttyUSB0
 ```
 
-### Configuring Wi-Fi
+## Configuring Wi-Fi
 
 RASPBIAN JESSIE LITE lacks a full-fledged user interface, making Wi-Fi configuration slightly painful. I am using a Wi-Fi stick and had some issues getting the driver to work. Hopefully, you've got a Raspberry Pi 3, or a compatible Wi-Fi stick that does not require too much tinkering. You can also use Ethernet. The following can be used to check whether your network interface can be listed
 
@@ -41,7 +42,7 @@ sudo vi /etc/wpa_supplicant/wpa_supplicant.conf
 
 Having done that, Wi-Fi was up and running. I had internet access, and could access the Raspberry Pi on the local network via ssh.
 
-### Install Linux packages
+## Install Linux packages
 
 A few additional Linux packages and configuration steps are required before homebridge may be installed. Packages can be installed thus
 
@@ -57,7 +58,7 @@ sudo npm install -g n
 sudo n stable
 ```
 
-### Install homebridge
+## Install homebridge
 
 homebridge can be [installed](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi) using npm thus
 
@@ -96,7 +97,7 @@ Its [sample configuration file](https://github.com/schemish/homebridge-fakebulb/
 }
 ```
 
-### Use with HomeKit
+## Use with HomeKit
 
 Apple's HomeKit has been app-less since launch. Siri is the only way you were able to control HomeKit devices. HomeKit has a rich API and it didn't take long for paid apps to appear in the App Store. Hesperus is a new free app that I opted to use to control homebridge.
 

@@ -4,6 +4,7 @@ title: Add bitfield to dissection tree
 tags: bit field wireshark dissector lua
 comments: true
 ---
+# Add bitfield to dissection tree
 
 Wireshark has a limitation in its Lua API. It only supports bitfields - int fields with mask - when using ProtoField, like so
 

@@ -4,6 +4,7 @@ title: Getting latest version of Chromium Browser on Ubuntu
 tags: chrome latest ubuntu
 comments: true
 ---
+# Getting latest version of Chromium Browser on Ubuntu
 
 Add package source `ppa:chromium-daily/stable` to the repository in Synaptic Package Manager or using the CLI
 

@@ -4,6 +4,7 @@ title: The God Dependency
 tags: god
 comments: true
 ---
+# The God Dependency
 
 I have a God dependency. It appears when I am going through trying times, a turbulent flight for instance. It mostly leads me to happiness, on rare occassions it leads me to sadness, and sometimes to guilt. For some, it can be obsessive in nature, to the point of making them slave to it, making them want to depend on the will of God for everything.
 

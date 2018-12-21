@@ -4,10 +4,11 @@ title: Implement a color picker using ComboBox
 tags: windows forms .net c# programming
 comments: true
 ---
+# Implement a color picker using ComboBox
 
 This post shows how you can custom draw items of a [`ComboBox`](http://msdn.microsoft.com/en-us/library/system.windows.forms.combobox.aspx) to implement a color picker. The implementation is mostly inspired by a [CodeProject article](http://www.codeproject.com/Articles/34332/Color-Picker-Combo-Box), but I had to adapt the code for the color bands to show adequately.
 
-### Register for DrawItem event
+## Register for DrawItem event
 
 Here's how you can register for [`DrawItem`](http://msdn.microsoft.com/en-us/library/system.windows.forms.combobox.drawitem.aspx). The event handler is called for each item that the ComboBox requires painting. The first line enables custom drawing.
 
@@ -16,7 +17,7 @@ combobox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
 combobox.DrawItem += new System.Windows.Forms.DrawItemEventHandler(this.eventhandler);
 ```
 
-### Event handler implementation
+## Event handler implementation
 
 Here's one simple implementation for the event handler:
 
@@ -57,7 +58,7 @@ string[] colorNames =
 
 You can [pick colors](http://web.forret.com/tools/color_palette.asp) of your own choice.
 
-### Locating a color and setting its index
+## Locating a color and setting its index
 
 Here's one way to locate the index of a color by its ARGB value, and set the SelectedIndex property of the ComboBox:
 

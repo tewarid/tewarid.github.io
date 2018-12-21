@@ -4,14 +4,15 @@ title: Edit binary files in Linux
 tags: edit binary linux xxd
 comments: true
 ---
+# Edit binary files in Linux
 
 In this post I'll mention how to edit binary files using vi and the utility xxd that is a part of vi.
 
-### vi in hex mode
+## vi in hex mode
 
 Use the xxd command by typing `:%!xxd`. Edit hex data. Quit hex mode with `:%!xxd -r`.
 
-### Using xxd command
+## Using xxd command
 
 You can use the xxd command outside vi. If you have an existing binary file, you can convert it to hex
 

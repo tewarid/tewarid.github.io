@@ -4,6 +4,7 @@ title: Setup a free VoIP solution using FreeSWITCH and X-Lite
 tags:
 comments: true
 ---
+# Setup a free VoIP solution using FreeSWITCH and X-Lite
 
 [FreeSWITCH](https://freeswitch.com) is an alternative to the popular [Asterisk](https://www.asterisk.org/) VoIP solution. The advantage I see with FreeSWITCH is its ease of deployment on Windows, that is the only reason I decided to give it a quick whirl. I'll go through the steps required to [install](https://freeswitch.org/confluence/display/FREESWITCH/FreeSWITCH+First+Steps) FreeSWITCH and test it using the free [X-Lite](https://www.counterpath.com/x-lite/) VoIP client from CounterPath. I tested with X-Lite version 4, which has just been released, but version 3 should also work.
 

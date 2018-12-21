@@ -4,6 +4,7 @@ title: A simple configuration mechanism in Node.js
 tags: config nodejs node javascript json
 comments: true
 ---
+# A simple configuration mechanism in Node.js
 
 Node.js provides a neat mechanism to read JSON, you can simply require the JSON file
 

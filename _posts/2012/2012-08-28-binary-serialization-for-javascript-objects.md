@@ -4,6 +4,7 @@ title: Binary serialization for JavaScript objects
 tags: binary serialization javascript programming
 comments: true
 ---
+# Binary serialization for JavaScript objects
 
 One particular mechanism I find lacking in JavaScript is an easy, reusable, way to parse binary data. I have leveraged [custom attributes]({% link _posts/2011/2011-01-05-binary-serialization-in-.net-using-reflection.md %}) in the past in .NET. JavaScript does not provide custom attributes. One means of specifying the format of binary data is to use JSON. I tend to favor declarative mechanisms for writing reusable code.
 

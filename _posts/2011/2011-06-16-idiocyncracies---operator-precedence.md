@@ -4,6 +4,7 @@ title: idioCyncracies - operator precedence
 tags:
 comments: true
 ---
+# idioCyncracies - operator precedence
 
 I get a tingle when I see C code such as
 

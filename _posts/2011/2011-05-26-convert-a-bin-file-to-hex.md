@@ -4,6 +4,7 @@ title: Convert a bin file to hex
 tags: bin hex srecord
 comments: true
 ---
+# Convert a bin file to hex
 
 I was doing some work today that required converting a raw bin file, read from flash memory using JTAG, to hex.
 

@@ -4,6 +4,7 @@ title: Move a form without borders in C#
 tags: c# borderless windows forms programming
 comments: true
 ---
+# Move a form without borders in C#
 
 The following code snippet that demonstrates how to move around a borderless form, by using the mouse events of the form or other control contained in it. The code assumes you have a form with a label called `label1`, and have hooked the mouse down, mouse move, and mouse up events of the label appropriately.
 

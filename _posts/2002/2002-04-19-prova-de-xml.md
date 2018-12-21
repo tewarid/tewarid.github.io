@@ -290,6 +290,6 @@ d. Nenhuma das opções em cima
     c. XYZ  
     d. Não vai aparecer nada na saída
 
-### Gabarito
+## Gabarito
 
 1a 2bc 3b 4b 5d 6b 7bcd 8c 9ab 10c 11c 12b 13ac 14d 15d 16d 17bd 18abc 19a 20b 21c 22c 23b 24ab 25ac 26a 27c 28a 29b 30b 31b 32b 33a 34a 35b 36a 37d 38a 39b 40b

@@ -4,6 +4,7 @@ title: Convert WAV to PCM using FFmpeg
 tags: wav pcm ffmpeg
 comments: true
 ---
+# Convert WAV to PCM using FFmpeg
 
 [FFmpeg](http://ffmpeg.org/) has binaries for [Windows](http://ffmpeg.zeranoe.com/builds/). It is also available for Linux and other operating systems. That makes it more ubiquitous than GStreamer, which I have used for [PCM to WAV conversion]({% link _posts/2011/2011-10-04-read-and-write-raw-pcm-using-gstreamer.md %}) in the past.
 

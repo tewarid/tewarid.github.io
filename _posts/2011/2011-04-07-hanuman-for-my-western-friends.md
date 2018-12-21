@@ -4,6 +4,7 @@ title: Hanuman for my western friends
 tags: hanuman mythology india
 comments: true
 ---
+# Hanuman for my western friends
 
 It would be a rare Indian child who doesn't grow up loving the mythological creature, God figure among the natives, called [Hanuman](http://en.wikipedia.org/wiki/Hanuman). He is one of the center pieces in the epic tale of [Ramayana](http://en.wikipedia.org/wiki/Ramayana) and has several temples throughout India devoted to him.
 

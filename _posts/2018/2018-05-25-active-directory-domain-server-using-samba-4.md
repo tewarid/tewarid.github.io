@@ -4,6 +4,7 @@ title: Active Directory domain server using Samba 4
 tags: active directory ad ldap samba docker
 comments: true
 ---
+# Active Directory domain server using Samba 4
 
 I was in need of an Active Directory domain server, to test an application that authenticates users using LDAP and checks that they belong to a particular group.
 

@@ -4,6 +4,7 @@ title: Run homebridge as a service upon reboot
 tags: homebridge raspberry pi ios homekit upstart
 comments: true
 ---
+# Run homebridge as a service upon reboot
 
 This post shows how to run [homebridge](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi) automatically upon reboot using [upstart](http://upstart.ubuntu.com/cookbook/). If you're using [systemd](https://www.freedesktop.org/wiki/Software/systemd/), the default initialization system these days, see [Running Homebridge on Bootup (systemd)](https://github.com/nfarina/homebridge/wiki/Running-HomeBridge-on-a-Raspberry-Pi#running-homebridge-on-bootup-systemd).
 

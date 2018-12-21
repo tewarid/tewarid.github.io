@@ -4,6 +4,7 @@ title: The Linux Programming Interface by Michael Kerrisk; O'Reilly Media
 tags: book review
 comments: true
 ---
+# The Linux Programming Interface by Michael Kerrisk; O'Reilly Media
 
 [![](http://akamaicovers.oreilly.com/images/9781593272203/lrg.jpg)](http://shop.oreilly.com/product/9781593272203.do)
 

@@ -4,6 +4,7 @@ title: JavaScript style guides
 tags: javascript style guide
 comments: true
 ---
+# JavaScript style guides
 
 There are several style guides for JavaScript but these are my personal favorites
 

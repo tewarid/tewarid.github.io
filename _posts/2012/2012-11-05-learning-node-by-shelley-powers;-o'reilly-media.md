@@ -4,6 +4,7 @@ title: Learning Node by Shelley Powers; O'Reilly Media
 tags: book review
 comments: true
 ---
+# Learning Node by Shelley Powers; O'Reilly Media
 
 ![Learning Node](http://akamaicovers.oreilly.com/images/0636920024606/lrg.jpg)
 

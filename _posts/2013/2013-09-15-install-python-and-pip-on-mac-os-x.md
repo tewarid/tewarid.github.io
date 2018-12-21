@@ -4,6 +4,7 @@ title: Install python and pip on Mac OS X
 tags: python pip mac
 comments: true
 ---
+# Install python and pip on Mac OS X
 
 Mac OS X ships with python. You can see its version using
 

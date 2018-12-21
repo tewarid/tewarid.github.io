@@ -4,6 +4,7 @@ title: Communicate with USB device in C# using LibUsbDotNet
 tags: libusb .net mono c# macos programming
 comments: true
 ---
+# Communicate with USB device in C# using LibUsbDotNet
 
 [LibUsbDotNet](http://sourceforge.net/projects/libusbdotnet/) is a cross-platform library. The source code below has been tested on Mac OS X (version 10.6.8 to be precise) using the Mono .NET run-time. On Linux and Mac LibUsbDotNet requires [libusb](http://www.libusb.org/).
 

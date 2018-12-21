@@ -4,6 +4,7 @@ title: FreeRTOS task control block and stack in AVR32
 tags: freertos tcb avr
 comments: true
 ---
+# FreeRTOS task control block and stack in AVR32
 
 FreeRTOS allocates memory for the task's control block (TCB) structure (`tskTCB` type in `tasks.c`), followed by memory for its stack, when your code calls `xTaskCreate` to create a new task. To find the TCB of the currently executing task look at `pxCurrentTCB` in `tasks.c`. A color coded view of how the `tskTCB` structure looks in memory follows. What you see will vary based on which fields are enabled in your port.
 

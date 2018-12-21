@@ -4,6 +4,7 @@ title: What's up with the Flash plugin in Chrome?
 tags: flash chrome rant
 comments: true
 ---
+# What's up with the Flash plugin in Chrome?
 
 ![Flash Plugin](/assets/img/chrome-flash-plugin.gif)
 

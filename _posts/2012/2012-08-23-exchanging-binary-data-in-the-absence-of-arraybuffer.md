@@ -4,6 +4,7 @@ title: Exchanging binary data in the absence of ArrayBuffer
 tags:
 comments: true
 ---
+# Exchanging binary data in the absence of ArrayBuffer
 
 You want to use jQuery to send binary data using `get()` or `post()`, and discover that it cannot send binary data without a [patch](http://blog.vjeux.com/2011/javascript/jquery-binary-ajax.html). You use the patch and discover that your JavaScript implementation does not support `ArrayBuffer` for some strange reason.
 

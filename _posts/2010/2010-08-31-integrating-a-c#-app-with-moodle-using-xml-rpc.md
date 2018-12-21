@@ -4,10 +4,11 @@ title: Integrating a C# app with Moodle using XML-RPC
 tags: c# .net moodle xml rpc mnet
 comments: true
 ---
+# Integrating a C# app with Moodle using XML-RPC
 
 We'll make RPC calls to Moodle using MNet with a simple example. Our objective is to check if a username and password combination is valid, using the email auth plugin.
 
-### What we need
+## What we need
 
 We'll be using the following tools in this post
 
@@ -19,15 +20,15 @@ We'll be using the following tools in this post
 
 * Moodle installation (version 1.9.9+) using an external database (we use SQL Server 2008 Express)
 
-### Enable MNet networking in Moodle
+## Enable MNet networking in Moodle
 
 Use the admin page to enable MNet networking. Instructions to do so are provided in the Moodle Docs at [https://docs.moodle.org/32/en/MNet](https://docs.moodle.org/32/en/MNet).
 
-### Add Trusted Hosts
+## Add Trusted Hosts
 
 Add the IP address from where you'll make the calls, to the list of trusted hosts. You then don't need to use encryption in XML-RPC calls, but don't use this over a public network. On the site administration page navigate to Networking, XML-RPC hosts.
 
-### Publish methods through MNet
+## Publish methods through MNet
 
 Modify the auth email plugin located at `auth\email\auth.php`, to publish its methods through MNet
 
@@ -49,7 +50,7 @@ function mnet_publishes() {
 }
 ```
 
-### Add RPC calls to the Moodle database
+## Add RPC calls to the Moodle database
 
 Update MNet service database tables to allow RPC calls. Run the following SQL statements using SQL Server Management Studio. If you use any other database, you may need to tweak the SQL syntax a bit. 
 
@@ -88,7 +89,7 @@ VALUES
 GO
 ```
 
-### Create C# app
+## Create C# app
 
 The following code shows how you can use XML-RPC to call the method `user_login`.
 

@@ -4,6 +4,7 @@ title: Using Python to analyze data in a PDF file
 tags: python data analysis pandas pypdf2 macos
 comments: true
 ---
+# Using Python to analyze data in a PDF file
 
 The state university my daughter wants to study at just announced their [entrance exam results](http://processodeingresso.upe.pe.gov.br/arquivos/SSA1/SSA1_2018_Publicacao_v3.pdf) via a PDF file. I wanted to get additional insights from the data, and decided it was time to use Python&mdash;I've got [Jupyter Notebook](http://jupyter.org/) installed on macOS&mdash;to do the data extraction and analysis.
 

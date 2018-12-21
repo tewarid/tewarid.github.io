@@ -4,10 +4,11 @@ title: Install AOSP build to PandaBoard
 tags: aosp android pandaboard install windows
 comments: true
 ---
+# Install AOSP build to PandaBoard
 
 This post continues the post on building AOSP for PandaBoard. Read [that post]({% link _posts/2013/2013-05-17-building-android-open-source-project-for-the-pandaboard.md %}), if you haven't already. This post covers installing the AOSP images to PandaBoard. It is much more adventuresome that I initially imagined it would be. The procedure described here, with some variations, is based on instructions in the `device/ti/panda/README` file.
 
-### usbboot
+## usbboot
 
 PandaBoard's usbboot boot loader runs when no SD card is provided. In this mode, the board can receive the next stage boot loader over the USB bus, using the [usbboot](https://github.com/swetland/omap4boot) utility located under `device/ti/panda`. Unfortunately, VirtualBox Ubuntu VM is able to use the PandaBoard only after Windows host has loaded a valid driver for it. I [modified](https://github.com/tewarid/pandaboard-usb-driver) Google's USB driver to work with PandaBoard's usbboot mode.
 
@@ -79,7 +80,7 @@ Finally, here's the command you need to run so that usbboot puts PandaBoard in f
 sudo ./device/ti/panda/usbboot device/ti/panda/bootloader.bin
 ```
 
-### fastboot
+## fastboot
 
 Android's `fastboot` command line utility can flash Android to a device when it is in fastboot mode. Build of `fastboot` from source under `out/host/linux-x86/bin` didn't work, until I installed the Oracle VM VirtualBox Extension Pack and enabled USB 2.0 support. If you want to avoid installing that extension pack, Android SDK for Windows installs `fastboot` in the `platform-tools` folder. You can use that instead of using the one built from source.
 
@@ -111,7 +112,7 @@ At this point, you can reset the PandaBoard so that it loads Android!
 
 To boot into fastboot mode ever again, hold the GPIO_121 button (furthest button from SD card) and press and release the PWRON_RESET button. Release the GPIO_121 button after a while.
 
-### Proprietary binaries for PowerVR
+## Proprietary binaries for PowerVR
 
 Android failed to load on PandaBoard after my first build. The serial port console printed the following message.
 
@@ -142,7 +143,7 @@ OpenGL ES GLSL ES 1.00 build 1.8@905891
 
 The solution was to clobber and build again with the [correct version](https://dl.google.com/dl/android/aosp/imgtec-panda-20120430-67545da7.tgz) of the proprietary driver.
 
-### Does it work?
+## Does it work?
 
 This Android build is painfully slow. `adb shell dmesg` shows repeating `omapfb` message below.
 

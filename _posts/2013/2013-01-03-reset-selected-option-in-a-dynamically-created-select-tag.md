@@ -4,6 +4,7 @@ title: Reset selected option in a dynamically created select tag
 tags: html select bug
 comments: true
 ---
+# Reset selected option in a dynamically created select tag
 
 I have noted a strange issue in Chrome with the select tag. I use code like the following to dynamically create options for a select tag with jQuery
 

@@ -4,6 +4,7 @@ title: DOS Test Questions
 tags: dos test
 comments: true
 ---
+# DOS Test Questions
 
 See answers at the end.
 
@@ -127,6 +128,6 @@ See answers at the end.
      c. ?  
      d. Both a and c above  
 
-### Answers
+## Answers
 
 1a 2d 3c 4c 5a 6b 7d 8b 9c 10a 11b 12a 13a 14d 15a 16d 17b 18a 19c 20d

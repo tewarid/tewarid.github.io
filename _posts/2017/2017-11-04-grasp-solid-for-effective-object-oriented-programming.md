@@ -4,12 +4,13 @@ title: GRASP SOLID for effective object-oriented programming
 tags: object programming grasp solid
 comments: true
 ---
+# GRASP SOLID for effective object-oriented programming
 
 Objects are responsible for their state and behavior. Assigning responsibilities to objects effectively makes maintenance of a program less cumbersome.
 
 This post summarizes the GRASP patterns and SOLID principles. They may be thought as the principles and patterns underlying the design patterns described in _Design Patterns: Elements of Reusable Object-Oriented Software_.
 
-### GRASP Patterns
+## GRASP Patterns
 
 General Responsibility Assignment Principles or GRASP patterns were popularized by Craig Larman in his book _Applying UML and Patterns_ (2001). They help with identifying objects required by a program, and their responsibilities.
 
@@ -49,7 +50,7 @@ _Pure Fabrication (PF)_
 
 Assign responsibility to a new object not derived from the domain to ensure LC and HC.
 
-### SOLID Principles
+## SOLID Principles
 
 SOLID are more generalized principles popularized by Robert Martin aka Uncle Bob in his book _Agile Software Development: Principles, Patterns, and Practices_ (2002).
 

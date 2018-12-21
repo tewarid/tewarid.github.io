@@ -4,6 +4,7 @@ title: Skeuomorphism
 tags: life style design skeuomorphism opinion
 comments: true
 ---
+# Skeuomorphism
 
 Scientists like big words, engineers like acronyms. Designers, well, they like elegance, good ideas, simplicity, style, and so on. They don't use big words. So when I see a word like _skeuomorphism_ being thrown around, I imagine scientists not designers doing it. And scientists know zilch about selling. If they do know anything about selling, they are men of business not scientists any more.
 
