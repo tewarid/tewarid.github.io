@@ -9,14 +9,14 @@ languages:
 
 O padrão MVC isola as responsabilidades de um aplicativo em tres partes para facilitar o desenvolvimento.
 
-<div class="mermaid" style="height:200px;">
+```mermaid
 graph LR
     Visão --> Modelo
     Visão --> Controlador
     Controlador --> Visão
     Controlador --> Modelo
     Modelo -.-> Visão
-</div>
+```
 
 ## Modelo
 

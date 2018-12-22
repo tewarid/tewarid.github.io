@@ -24,7 +24,7 @@ The secure file transmission mechanism, depicted in the diagram below, has the f
 
     Program encrypts data using Alice's private key
 
-<div class="mermaid">
+```mermaid
 graph LR
     Program-->data["Encrypted Data"]
     data-->Server
@@ -38,7 +38,7 @@ graph LR
     puba["Alice's Public Key"]-->Server
     Server-->file2["File"]
     end
-</div>
+```
 
 Here's how the mechanism works
 

@@ -8,7 +8,7 @@ comments: true
 
 [XSLT](https://www.w3.org/TR/xslt) and [XSL:FO](https://www.w3.org/TR/xsl/) are W3C standards that can be used in conjunction to create production quality PDF documents on the fly. The document generation process can be depicted using a simple flow diagram
 
-<div class="mermaid">
+```mermaid
 graph LR
   xml[XML Data]
   xsl[XSL Template]
@@ -23,7 +23,7 @@ graph LR
   xslt --> xslfo
   xslfo --> fop
   fop --> pdf
-</div>
+```
 
 The document generation process occurs in the following steps
 
@@ -79,7 +79,7 @@ In our example, we will use the following XML document
 
 This document corresponds to the following object model
 
-<div class="mermaid" style="height:400px;">
+```mermaid
 classDiagram
     Client "1" --> "many" Order : places
     Order "1" --> "many" Item : has
@@ -91,7 +91,7 @@ classDiagram
     Item : int quantity
     Item : double unitPrice
     Item : string image
-</div>
+```
 
 ## The XSL Template
 

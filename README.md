@@ -18,14 +18,14 @@ Some useful tips to work with this log
 
 * mermaid.js diagrams can be inserted as follows
 
-    ```html
-    <div class="mermaid" style="height:300px;">
+    ````text
+    ```mermaid
     classDiagram
         Primate <|-- Gorilla : is a
         Primate : int id
         Primate : brainSize()
-    </div>
     ```
+    ````
 
 * LaTeX can be inserted inline `$$\LaTeX$$` or as a block
 
