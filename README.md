@@ -16,6 +16,20 @@ Some useful tips to work with this log
 
 * Use `rename.sh` Bash script to rename all posts in a folder using title specified in Front Matter
 
+* Using Jekyll filters and tags in markdown makes it less portable, I suggest using them only in the following situations
+
+    * Add link to a post as follows
+
+    ```liquid
+    [posted]({% link _posts/2018/2018-03-23-status-of-popular-markup-language-standards.md %})
+    ```
+
+    * Insert source code from a GitHub gist as follows
+
+    ```liquid
+    {% gist 300cd9b377774598478a5ab852ae4d7e %}
+    ```
+
 * mermaid.js diagrams can be inserted as follows
 
     ````text
