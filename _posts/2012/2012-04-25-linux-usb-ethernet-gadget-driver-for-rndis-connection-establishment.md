@@ -8,7 +8,7 @@ comments: true
 
 In this post I'll document the RNDIS control message sequence between the USB RNDIS gadget driver and the device.
 
-For those who are not familiar with RNDIS I refer you to Microsoft's [RNDIS](http://msdn.microsoft.com/en-us/library/ff570660.aspx) page or the downloadable [spec](http://msdn.microsoft.com/en-us/library/ee524902.aspx). In particular, you'll need to become familiar with how RNDIS is [mapped to USB](http://msdn.microsoft.com/en-us/library/ff570657.aspx). You'll also need to have good familiarity with the [USB](http://www.ganssle.com/articles/usb.htm).
+For those who are not familiar with RNDIS I refer you to Microsoft's [RNDIS](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/remote-ndis--rndis-2) page or the downloadable [spec](https://msdn.microsoft.com/en-us/library/ee524902.aspx). In particular, you'll need to become familiar with how RNDIS is [mapped to USB](https://docs.microsoft.com/en-us/windows-hardware/drivers/network/remote-ndis-to-usb-mapping). You'll also need to have good familiarity with the [USB](http://www.ganssle.com/articles/usb.htm).
 
 This list summarizes the mapping
 

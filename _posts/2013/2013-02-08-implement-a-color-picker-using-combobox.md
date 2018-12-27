@@ -6,11 +6,11 @@ comments: true
 ---
 # Implement a color picker using ComboBox
 
-This post shows how you can custom draw items of a [`ComboBox`](http://msdn.microsoft.com/en-us/library/system.windows.forms.combobox.aspx) to implement a color picker. The implementation is mostly inspired by a [CodeProject article](http://www.codeproject.com/Articles/34332/Color-Picker-Combo-Box), but I had to adapt the code for the color bands to show adequately.
+This post shows how you can custom draw items of a [`ComboBox`](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.combobox) to implement a color picker. The implementation is mostly inspired by a [CodeProject article](https://www.codeproject.com/Articles/34332/Color-Picker-Combo-Box), but I had to adapt the code for the color bands to show adequately.
 
 ## Register for DrawItem event
 
-Here's how you can register for [`DrawItem`](http://msdn.microsoft.com/en-us/library/system.windows.forms.combobox.drawitem.aspx). The event handler is called for each item that the ComboBox requires painting. The first line enables custom drawing.
+Here's how you can register for [`DrawItem`](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.combobox.drawitem). The event handler is called for each item that the ComboBox requires painting. The first line enables custom drawing.
 
 ```c#
 combobox.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
@@ -72,4 +72,4 @@ for (int i = 0; i < colors.Length; i++)
 }
 ```
 
-Here, color is an instance of the [`Color`](http://msdn.microsoft.com/en-us/library/system.drawing.color.aspx) structure.
+Here, color is an instance of the [`Color`](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.color) structure.

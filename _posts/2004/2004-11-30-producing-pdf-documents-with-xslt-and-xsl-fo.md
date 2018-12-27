@@ -29,7 +29,7 @@ The document generation process occurs in the following steps
 
 1. XSL Transformation
 
-    In this step an XSL template containing XSLT instructions is used to process XML data and generate output in a technology independent formatting scheme called XSL:FO. XSL:FO contains enough content and formatting information to produce documents in a variety of different formats such as PDF, PostScript, RTF, and so on. This step is carried out by an XSLT processor such as [Xalan Java](https://xml.apache.org/xalan-j/) or [msxml](http://msdn.microsoft.com/xml/).
+    In this step an XSL template containing XSLT instructions is used to process XML data and generate output in a technology independent formatting scheme called XSL:FO. XSL:FO contains enough content and formatting information to produce documents in a variety of different formats such as PDF, PostScript, RTF, and so on. This step is carried out by an XSLT processor such as [Xalan Java](https://xml.apache.org/xalan-j/) or MSXML.
 
 2. XSL:FO processing
 

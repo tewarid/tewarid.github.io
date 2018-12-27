@@ -6,7 +6,7 @@ comments: true
 ---
 # WebSockets with WCF
 
-This post demonstrates an elementary chat service constructed using WCF and WebSockets. A custom binding that leverages WebSocket support in [httpTransport](https://msdn.microsoft.com/en-us/library/ms731364.aspx) is used. JSON is serialized and deserialized using byteStreamMessageEncoding encoding. Use httpsTransport for secure transport.
+This post demonstrates an elementary chat service constructed using WCF and WebSockets. A custom binding that leverages WebSocket support in [httpTransport](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/wcf/httptransport) is used. JSON is serialized and deserialized using byteStreamMessageEncoding encoding. Use httpsTransport for secure transport.
 
 ## Service interface
 

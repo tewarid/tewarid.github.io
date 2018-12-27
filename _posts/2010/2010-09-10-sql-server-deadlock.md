@@ -6,14 +6,14 @@ comments: true
 ---
 # SQL Server deadlock
 
-You have written a very useful enterprise application. All of a sudden users complain that data they entered is lost. You hurriedly start taking a look at the [SQL Server log](http://msdn.microsoft.com/en-us/library/ms187885.aspx) or run a trace using [SQL Profiler](http://msdn.microsoft.com/en-us/library/ms181091.aspx), and see the dreaded message:
+You have written a very useful enterprise application. All of a sudden users complain that data they entered is lost. You hurriedly start taking a look at the [SQL Server log](https://docs.microsoft.com/en-us/sql/tools/configuration-manager/viewing-the-sql-server-error-log) or run a trace using [SQL Profiler](https://docs.microsoft.com/en-us/sql/tools/sql-server-profiler/start-sql-server-profiler), and see the dreaded message:
 
 ```text
 Error 1205 : Transaction (Process ID) was deadlocked on resources with another process 
 and has been chosen as the deadlock victim. Rerun the transaction.
 ```
 
-Quite obviously your code does not expect this error and does not rerun that transaction. You start [analyzing](http://msdn.microsoft.com/en-us/library/ms188246.aspx) the deadlock scenario, if you can reproduce it. After a while you reach the conclusion that you just can't change anything in those complex stored procedures that write data to the database.
+Quite obviously your code does not expect this error and does not rerun that transaction. You start [analyzing](https://docs.microsoft.com/en-us/sql/tools/sql-server-profiler/analyze-deadlocks-with-sql-server-profiler) the deadlock scenario, if you can reproduce it. After a while you reach the conclusion that you just can't change anything in those complex stored procedures that write data to the database.
 
 In this particular scenario, one solution that did help me was to [lock](http://technet.microsoft.com/en-us/library/ms187373.aspx) the entire table using TABLOCK or TABLOCKX. It might seems like something really drastic to do, but if you have long running procedures, that hopefully do not exceed the timeout period of your database transaction, then it can be one quick-fix alternative.
 

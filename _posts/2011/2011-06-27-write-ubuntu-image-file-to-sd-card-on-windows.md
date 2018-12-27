@@ -37,7 +37,7 @@ The SD Card will be partitioned after the procedure above. To restore it to its 
 
 ## Patch for version 0.3 of Win32 Disk Imager
 
-Version 0.3 binary of Win32 Disk Imager has a bug in a call to Win32 `[SetFilePointer](http://msdn.microsoft.com/en-us/library/aa365541.aspx)` function. The image read is about half the size of my 8 GB SD Card. I built it from source using [QT Creator](http://qt-project.org/wiki/Category:Tools::QtCreator) after patching the following two functions in `disk.cpp`
+Version 0.3 binary of Win32 Disk Imager has a bug in a call to Win32 [`SetFilePointer`](https://docs.microsoft.com/en-us/windows/desktop/api/fileapi/nf-fileapi-setfilepointer) function. The image read is about half the size of my 8 GB SD Card. I built it from source using [QT Creator](https://wiki.qt.io/Qt_Creator) after patching the following two functions in `disk.cpp`
 
 ```c
 char *readSectorDataFromHandle(HANDLE handle, unsigned long long startsector, unsigned long long numsectors, unsigned long long sectorsize)

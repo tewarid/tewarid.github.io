@@ -6,11 +6,11 @@ comments: true
 ---
 # Cleaner JSON from a WCF service with webHttp behavior
 
-This post improves on an earlier post, [Consuming WCF services using JQuery JSON]({% link _posts/2011/2011-02-06-consuming-wcf-services-using-jquery-json.md %}). The JSON serialized by the WCF service in that post is wrapped inside a [d property](http://haacked.com/archive/2008/11/20/anatomy-of-a-subtle-json-vulnerability.aspx). In this post we modify the service to return cleaner JSON by using [webHttp behavior](http://msdn.microsoft.com/en-us/library/bb924425.aspx), and [WebInvokeAttribute](http://msdn.microsoft.com/en-us/library/system.servicemodel.web.webinvokeattribute.aspx) class.
+This post improves on an earlier post, [Consuming WCF services using JQuery JSON]({% link _posts/2011/2011-02-06-consuming-wcf-services-using-jquery-json.md %}). The JSON serialized by the WCF service in that post is wrapped inside a [d property](https://haacked.com/archive/2008/11/20/anatomy-of-a-subtle-json-vulnerability.aspx/). In this post we modify the service to return cleaner JSON by using [webHttp behavior](https://docs.microsoft.com/en-us/dotnet/framework/configure-apps/file-schema/wcf/webhttp), and [WebInvokeAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.servicemodel.web.webinvokeattribute) class.
 
 ## Self-hosted WCF service
 
-The code example follows. Note that we have removed the [WebGetAttribute](http://msdn.microsoft.com/en-us/library/system.servicemodel.web.webgetattribute.aspx) class from the methods in the service contract interface, and added WebInvoke attribute to the methods in the service implementation.
+The code example follows. Note that we have removed the [WebGetAttribute](https://docs.microsoft.com/en-us/dotnet/api/system.servicemodel.web.webgetattribute) class from the methods in the service contract interface, and added WebInvoke attribute to the methods in the service implementation.
 
 <!-- highlight 24,25,26,32,33,34 -->
 

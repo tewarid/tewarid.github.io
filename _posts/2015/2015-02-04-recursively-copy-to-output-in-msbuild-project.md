@@ -22,4 +22,4 @@ I have this very specific need to copy all files and folders from a source folde
   </Target>
 ```
 
-It uses [MSBuild transforms](https://msdn.microsoft.com/en-us/library/ms171476.aspx).
+It uses [MSBuild transforms](https://docs.microsoft.com/en-us/visualstudio/msbuild/msbuild-transforms).

@@ -48,7 +48,7 @@ Once you have the crash dump file, you can open it with WinDbg, and examine it w
 
 * `!uniqstack`
 
-    Displays all stacks of all the threads of the current process. You can also see the stack trace of a single thread using the [`k`](http://msdn.microsoft.com/en-us/library/ff551943.aspx) commands.
+    Displays all stacks of all the threads of the current process. You can also see the stack trace of a single thread using the [`k`](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-) commands.
 
 * `~ns`
 
@@ -58,7 +58,7 @@ Once you have the crash dump file, you can open it with WinDbg, and examine it w
 
 WinDbg is most useful for debugging managed application using the following extensions
 
-* [SOS](http://msdn.microsoft.com/en-us/library/bb190764.aspx)
+* [SOS](https://docs.microsoft.com/en-us/dotnet/framework/tools/sos-dll-sos-debugging-extension)
 
     This extension is distributed along with the .NET framework can be loaded using the following command: `.loadby sos mscorwks` or `.loadby sos clr` for .NET 4.
 
@@ -108,7 +108,7 @@ The Psscor2 extension has one particularly useful command, among several others,
 
 * `!PrintIPAddress`
 
-    Prints the IP address of the specified [IPAddress](http://msdn.microsoft.com/en-us/library/system.net.ipaddress.aspx) instance.
+    Prints the IP address of the specified [IPAddress](https://docs.microsoft.com/en-us/dotnet/api/system.net.ipaddress) instance.
 
 This short post is meant to whet your appetite for post-mortem debugging and to point you in the right direction.
 

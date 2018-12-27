@@ -6,29 +6,29 @@ comments: true
 ---
 # Some tips for drawing diagrams using custom controls
 
-Making diagrams the main UI for your application is easier than it may seem at first. The Windows Forms API provides mechanisms such as [overriding the `OnPaint`](http://msdn.microsoft.com/en-us/library/cksxshce.aspx) method, and drawing primitive shapes using methods of the [`Graphics`](http://msdn.microsoft.com/en-us/library/system.drawing.graphics.aspx) object, that make the task relatively easy.
+Making diagrams the main UI for your application is easier than it may seem at first. The Windows Forms API provides mechanisms such as [overriding the `OnPaint`](https://docs.microsoft.com/en-us/dotnet/framework/winforms/controls/overriding-the-onpaint-method) method, and drawing primitive shapes using methods of the [`Graphics`](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.graphics) object, that make the task relatively easy.
 
 ## Ordering of the controls
 
-The order in which controls are added to the parent control's Controls collection, determines the order in which they'll appear. Thus, if you want to show one control over the other, just change its [ordering](http://msdn.microsoft.com/en-us/library/system.windows.forms.control.controlcollection.setchildindex.aspx) in the [Controls](http://msdn.microsoft.com/en-us/library/system.windows.forms.control.controls.aspx) collection.
+The order in which controls are added to the parent control's Controls collection, determines the order in which they'll appear. Thus, if you want to show one control over the other, just change its [ordering](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.controlcollection.setchildindex) in the [Controls](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.controls) collection.
 
 ## Eliminating flicker
 
-It is possible to get [flicker-free](http://www.codeproject.com/Articles/12870/Don-t-Flicker-Double-Buffer) performance by setting the [`DoubleBuffered`](http://msdn.microsoft.com/en-us/library/system.windows.forms.control.doublebuffered.aspx) property of the UserControls to true. Now, if you go about moving the controls and repainting, you'll see much less flickering.
+It is possible to get [flicker-free](https://www.codeproject.com/Articles/12870/Don-t-Flicker-Double-Buffer) performance by setting the [`DoubleBuffered`](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.doublebuffered) property of the UserControls to true. Now, if you go about moving the controls and repainting, you'll see much less flickering.
 
 ## Custom Shapes
 
-You can leverage the [`GraphicsPath`](http://msdn.microsoft.com/en-us/library/system.drawing.drawing2d.graphicspath.aspx) class to create custom shapes such as [rectangles with rounded corners](http://www.gutgames.com/post/Drawing-a-Box-With-Rounded-Corners-in-C.aspx).
+You can leverage the [`GraphicsPath`](https://docs.microsoft.com/en-us/dotnet/api/system.drawing.drawing2d.graphicspath) class to create custom shapes such as [rectangles with rounded corners](http://www.gutgames.com/post/Drawing-a-Box-With-Rounded-Corners-in-C.aspx).
 
 ## Transparent background
 
-A control may have a shape that is not a rectangle, an ellipse for instance. You want to be able to see the controls that are beyond the area of the ellipse. The default behavior is to see a rectangular background even if the region has not been painted by your code. To draw irregularly shaped controls you can set the [`Control.Region`](http://msdn.microsoft.com/en-us/library/system.windows.forms.control.region.aspx) property.
+A control may have a shape that is not a rectangle, an ellipse for instance. You want to be able to see the controls that are beyond the area of the ellipse. The default behavior is to see a rectangular background even if the region has not been painted by your code. To draw irregularly shaped controls you can set the [`Control.Region`](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.region) property.
 
 ## Moving Controls
 
 Probably the most common need is to move the controls around using the mouse.
 
-This can be done quite simply by handling the [`MouseMove`](http://msdn.microsoft.com/en-us/library/system.windows.forms.control.mousemove.aspx) event and some code
+This can be done quite simply by handling the [`MouseMove`](https://docs.microsoft.com/en-us/dotnet/api/system.windows.forms.control.mousemove) event and some code
 
 ```c#
 int newX = control.Left + e.X - xOffset;

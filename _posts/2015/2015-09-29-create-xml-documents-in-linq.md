@@ -6,7 +6,7 @@ comments: true
 ---
 # Create XML documents in LINQ
 
-I've created XML documents using string concatenation, and DOM implementations, in the past. LINQ in .NET provides an [interesting mechanism](https://msdn.microsoft.com/en-us/library/bb387019.aspx) for document creation.
+I've created XML documents using string concatenation, and DOM implementations, in the past. LINQ in .NET provides an [interesting mechanism](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/linq/functional-construction-linq-to-xml) for document creation.
 
 I'll use the following XML document obtained from IETF's [PIDF-LO spec](https://tools.ietf.org/html/rfc5491), as an example
 

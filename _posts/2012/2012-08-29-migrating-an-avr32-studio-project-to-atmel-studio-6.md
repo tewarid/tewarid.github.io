@@ -10,7 +10,7 @@ Atmel has at two IDEs that I know of
 
 * A cross-platform, Eclipse based, AVR32 Studio.
 
-* A Windows only, [Visual Studio Isolated Shell](http://msdn.microsoft.com/en-us/library/bb685691.aspx) based, Atmel Studio 6.
+* A Windows only, [Visual Studio Isolated Shell](https://docs.microsoft.com/en-us/visualstudio/extensibility/visual-studio-isolated-shell) based, Atmel Studio 6.
 
 ## Migrate AVR32 Studio project
 

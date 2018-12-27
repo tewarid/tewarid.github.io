@@ -8,7 +8,7 @@ comments: true
 
 I have returned to C++ programming. In the past I have read about it and practiced it as a theoretical exercise, but never for anything serious beyond that.
 
-I was recently looking for a way to read a file, and that simple task turned into an arduous affair. Since I am using VC++ my first thought was to lookup documentation on the fstream library, but that is not easy since members are split across [basic_istream](http://msdn.microsoft.com/en-us/library/bf670b2d.aspx), [basic_ios](http://msdn.microsoft.com/en-us/library/h6y46td1.aspx) and [basic_fstream](http://msdn.microsoft.com/en-us/library/ss211x23.aspx).
+I was recently looking for a way to read a file, and that simple task turned into an arduous affair. Since I am using VC++, my first thought was to lookup documentation on the fstream library, but that is not easy since members are split across `basic_istream`, `basic_ios` and `basic_fstream`.
 
 Eventually, I managed to create a basic example
 

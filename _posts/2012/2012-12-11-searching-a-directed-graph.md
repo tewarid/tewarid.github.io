@@ -10,7 +10,7 @@ This post briefly describes a generic [directed graph](https://github.com/tewari
 
 ## DirectedGraph class
 
-I use the [dynamic](http://msdn.microsoft.com/en-us/library/dd264736.aspx) keyword to do run-time type checking, this is required so that I can use math operations (like addition) with the generic type. This, unfortunately, only works with .NET Framework 4.0 and beyond.
+I use the [dynamic](https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/types/using-type-dynamic) keyword to do run-time type checking, this is required so that I can use math operations (like addition) with the generic type. This, unfortunately, only works with .NET Framework 4.0 and beyond.
 
 The Search method is where most of the action happens. It supports end criteria based on weight and depth. Weight is the total weight of all the edges along a path. Depth is the number of nodes after the node where the search starts. Finally, there is a boolean flag that stops search when a cycle is detected. Cycle detection is very rudimentary. It is equivalent to setting the depth to total number of nodes (with adjacent nodes) in the graph.
 

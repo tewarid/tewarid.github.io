@@ -8,7 +8,7 @@ comments: true
 
 This post describes a means to simulate a Bluetooth serial device on Windows. This can be useful to test Bluetooth applications running on Android and Windows, that use a virtual serial port to communicate with devices.
 
-Windows [Bluetooth socket API](https://msdn.microsoft.com/en-us/library/windows/desktop/aa362928.aspx) can be used to create a server (listener). I use [32feet.NET](http://32feet.codeplex.com/wikipage?title=Bluetooth%20Server-side) here, a neat .NET library layered over the C/C++ socket APIs provided by Microsoft.
+Windows [Bluetooth socket API](https://docs.microsoft.com/en-us/windows/desktop/Bluetooth/bluetooth-programming-with-windows-sockets) can be used to create a server (listener). I use [32feet.NET](https://github.com/inthehand/32feet) here, a neat .NET library layered over the C/C++ socket APIs provided by Microsoft.
 
 Here's how you can create a Bluetooth listener on the primary adapter/radio
 

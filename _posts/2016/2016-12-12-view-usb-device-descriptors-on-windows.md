@@ -16,6 +16,6 @@ This single purpose utility, [from](http://www.thesycon.de/eng/usb_descriptordum
 
 ## USBView
 
-This tool is part of the [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/windows-driver-kit) (WDK) and [Debugging Tools for Windows](https://msdn.microsoft.com/en-us/library/windows/hardware/ff551063.aspx). Its [source code](https://github.com/Microsoft/Windows-driver-samples/tree/master/usb/usbview) is available as part of the [Windows driver samples](https://github.com/Microsoft/Windows-driver-samples) GitHub repo.
+This tool is part of the [Windows Driver Kit](https://developer.microsoft.com/windows/hardware/windows-driver-kit) (WDK) and [Debugging Tools for Windows](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/index). Its [source code](https://github.com/Microsoft/Windows-driver-samples/tree/master/usb/usbview) is available as part of the [Windows driver samples](https://github.com/Microsoft/Windows-driver-samples) GitHub repo.
 
 ![USBView Utility](/assets/img/usb-dd-usbview.png)

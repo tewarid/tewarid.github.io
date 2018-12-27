@@ -8,15 +8,15 @@ comments: true
 
 The System.Management namespace of the .NET framework has some Windows-specific features for recovering information regarding a USB device. The following list of [Windows Management Instrumentation](http://technet.microsoft.com/en-us/library/ee692772.aspx) (WMI) classes are enough to recover almost all information one could need regarding the device.
 
-* [`Win32_PnPEntity`](http://msdn.microsoft.com/en-us/library/aa394353.aspx)
+* [`Win32_PnPEntity`](https://docs.microsoft.com/en-us/windows/desktop/CIMWin32Prov/win32-pnpentity)
 
   Information regarding vendor and product IDs, device name etc
 
-* [`Win32_SystemDriver`](http://msdn.microsoft.com/en-us/library/aa394472.aspx)
+* [`Win32_SystemDriver`](https://docs.microsoft.com/en-us/windows/desktop/CIMWin32Prov/win32-systemdriver)
 
   Information regarding the driver itself such as driver file name and path
 
-* [`Win32_PnPSignedDriver`](http://msdn.microsoft.com/en-us/library/aa394354.aspx)
+* [`Win32_PnPSignedDriver`](https://msdn.microsoft.com/en-us/library/aa394354.aspx)
 
   Information regarding the driver inf file and more
 

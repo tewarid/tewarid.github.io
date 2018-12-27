@@ -10,7 +10,7 @@ Some setup and application executables need to be signed so that they are **not*
 
 The following steps were performed on Windows, from the Developer Command Prompt installed by Visual Studio.
 
-To [generate](https://msdn.microsoft.com/en-us/library/windows/desktop/jj835832.aspx) self-signed certificate for code signing, run
+To [generate](https://docs.microsoft.com/en-us/windows/desktop/appxpkg/how-to-create-a-package-signing-certificate) self-signed certificate for code signing, run
 
 ```cmd
 makecert.exe -n CN=Test.org(Test) -r -h 0 -eku "1.3.6.1.5.5.7.3.3,1.3.6.1.4.1.311.10.3.13" -e 12/31/2017 -pe -sv Test.pvk Test.cer
@@ -33,7 +33,7 @@ To convert self-signed certificate to PFX format for usage with SignTool, run
 Pvk2Pfx -pvk Test.pvk -spc Test.cer -pfx Test.pfx
 ```
 
-To [use](https://msdn.microsoft.com/en-us/library/windows/desktop/jj835835.aspx) SignTool to sign an executable, run
+To [use](https://docs.microsoft.com/windows/desktop/appxpkg/how-to-sign-a-package-using-signtool) SignTool to sign an executable, run
 
 ```cmd
 SignTool sign /fd SHA256 /a /f Test.pfx filepath.exe

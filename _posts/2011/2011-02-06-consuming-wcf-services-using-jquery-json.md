@@ -17,7 +17,7 @@ System.ServiceModel
 System.ServiceModel.Web
 ```
 
-The console application listed below hosts and exposes a test service. All the service methods are annotated using the WebGetAttribute class, which means they will be accessed using the HTTP GET method. [Other](http://msdn.microsoft.com/en-us/library/bb472541.aspx "Advanced Web Programming") HTTP methods such as POST, PUT or DELETE can be specified using the WebInvokeAttribute class.
+The console application listed below hosts and exposes a test service. All the service methods are annotated using the WebGetAttribute class, which means they will be accessed using the HTTP GET method. HTTP methods such as POST, PUT or DELETE can be specified using the WebInvokeAttribute class.
 
 ```c#
 [ServiceContract]
