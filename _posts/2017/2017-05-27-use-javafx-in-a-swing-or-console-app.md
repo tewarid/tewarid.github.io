@@ -8,7 +8,7 @@ comments: true
 
 This short post explores how to integrate JavaFX into a legacy console or Swing application.
 
-Assuming you've created an application such as the [WebView Sample](https://gist.github.com/tewarid/59c5b91c6c4c89d7beda207144978470), create a separate thread to launch JavaFX's Application class
+Assuming you've created an application such as the [WebView Sample]({% link _posts/2017/2017-02-21-retrieve-oauth-2.0-authorization-code-using-javafx-webview.md %}#webviewsamplejava), create a separate thread to launch JavaFX's Application class
 
 ```java
 Thread appThread = new Thread(() -> {
