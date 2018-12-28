@@ -14,7 +14,7 @@ We'll be using the following tools in this post
 
 * A C# compiler, or the free Visual C# Express IDE
 
-* An XML-RPC library, the one we'll use can be obtained at [http://www.xml-rpc.net/](http://xml-rpc.net/)
+* An XML-RPC library, the one we'll use can be obtained at [http://xml-rpc.net/](http://xml-rpc.net/)
 
 * SQL Server 2008 Express database
 

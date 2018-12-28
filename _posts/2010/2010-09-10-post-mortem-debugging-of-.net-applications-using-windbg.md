@@ -8,7 +8,7 @@ comments: true
 
 Debugging is a skill you usually learn under pressure, when things are going awry with an application or service just gone live. It is never a pleasure to encounter such bugs because, although they happen quite frequently in your production environment, they are particularly hard to reproduce in your test environment.
 
-For managed applications, you can learn a new skill that will save you some face, called post-mortem debugging. [WinDbg](http://www.microsoft.com/whdc/devtools/debugging/installx86.mspx) is a splendid tool that is often used to debug running processes, but can also be used to analyze process crash dumps.
+For managed applications, you can learn a new skill that will save you some face, called post-mortem debugging. [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools) is a splendid tool that is often used to debug running processes, but can also be used to analyze process crash dumps.
 
 ## Dump process memory
 

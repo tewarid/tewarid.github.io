@@ -6,7 +6,7 @@ comments: true
 ---
 # Importing external data - a tale of multiple approaches
 
-We have a custom software solution for one of our customers that imports data from external systems. The data is provided in the form of Excel spreadsheets, that are imported using the [Microsoft Access Database Engine 2010 Redistributable](http://www.microsoft.com/downloads/en/details.aspx?familyid=C06B8369-60DD-4B64-A44B-84B371EDE16D&displaylang=en).
+We have a custom software solution for one of our customers that imports data from external systems. The data is provided in the form of Excel spreadsheets, that are imported using the [Microsoft Access Database Engine 2010 Redistributable](https://www.microsoft.com/en-us/download/details.aspx?id=13255).
 
 There are several technical approaches that can be used to solve the problem. The use case quite generally involves the user manually exporting the data from other systems, rarely adjusting some information and feeding it to our custom solution. Our main application in the solution is web based.
 
