@@ -14,7 +14,7 @@ These are some noteworthy features
 
 * HTML editor does syntax highlighting, code folding, and document formatting. It validates HTML on the fly and shows errors in the editor. You can jump to CSS style definitions. It has a design mode, where you can do WYSIWYG editing, add typical HTML components (tags) from the toolbox, and edit their properties. Nice for typical server request/response applications, but not so useful for single page applications.
 
-* Edit JavaScript, inline or in a .js file. The editor does syntax highlighting, code folding, checks for mistakes in syntax, and supports IntelliSense. If you are [toying](http://www.typescriptlang.org/Playground/) with [TypeScript](http://www.typescriptlang.org/), there is a [Visual Studio 2012 extension](http://www.microsoft.com/en-us/download/details.aspx?id=34790) that adds a new project type called  HTML Application with TypeScript.
+* Edit JavaScript, inline or in a .js file. The editor does syntax highlighting, code folding, checks for mistakes in syntax, and supports IntelliSense. If you are [toying](https://www.typescriptlang.org/play/) with [TypeScript](https://www.typescriptlang.org/), there is a [Visual Studio 2012 extension](https://www.microsoft.com/en-us/download/details.aspx?id=34790) that adds a new project type called  HTML Application with TypeScript.
 
 * CSS editor does syntax highlighting, validation, and document formatting. IntelliSense supports CSS3. Context-sensitive help for a keyword (F1) takes you to its documentation at MSDN.
 
