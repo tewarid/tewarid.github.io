@@ -1,0 +1,16 @@
+{
+    "recommendations": [
+        "AlanWalk.markdown-toc",
+        "bierner.markdown-mermaid",
+        "codezombiech.gitignore",
+        "DavidAnson.vscode-markdownlint",
+        "formulahendry.code-runner",
+        "ginfuru.vscode-jekyll-snippets",
+        "goessner.mdmath",
+        "Gruntfuggly.renumber-selection",
+        "jock.svg",
+        "mdickin.markdown-shortcuts",
+        "shuworks.vscode-table-formatter",
+        "streetsidesoftware.code-spell-checker",
+    ]
+}
