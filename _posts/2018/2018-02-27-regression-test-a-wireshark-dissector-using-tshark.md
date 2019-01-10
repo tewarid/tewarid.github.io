@@ -11,15 +11,15 @@ This post shows how you can use some basic command line utilities, and [tshark](
 Create baseline test result
 
 ```bash
-for f in `ls *.pcap* | sort -f`; do echo $f; tshark -r "$f" -V; done > result.txt
+for f in *.pcap*; do echo $f; tshark -r "$f" -V; done > result.txt
 ```
 
-This will run tshark on files in the current directory with the pcap extension, and write the output to `result.txt`.
+This will run tshark on files in the current directory with the `pcap` or `pcapng` extension, and write the output to `result.txt`. The `-V` flag tells tshark to output packet tree.
 
 To test regression, use diff
 
 ```bash
-diff -b result.txt <(for f in `ls *.pcap* | sort -f`; do echo $f; tshark -r "$f" -V; done)
+diff result.txt <(for f in *.pcap*; do echo $f; tshark -r "$f" -V; done)
 ```
 
 Any output produced by the above could be a result of
