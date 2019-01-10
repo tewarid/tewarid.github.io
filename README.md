@@ -14,20 +14,14 @@ Some useful tips to work with this log
 
   This works well but I've run into a situation where the Docker container [uses excessive CPU time](https://github.com/docker/for-mac/issues/1759) on macOS while idling.
 
+* [Don´t use](https://github.com/jekyll/jekyll/issues/429) UTF-8 characters in file names of posts
+
 * Use `rename.sh` Bash script to rename all posts in a folder using title specified in Front Matter
 
-* Using Jekyll filters and tags in markdown makes it less portable, I suggest using them only in the following situations
-
-  * Add link to a post as follows
+* Liquid makes Markdown less portable, I suggest using only the link filter
 
   ```liquid
-  [posted]({% link _posts/2018/2018-03-23-status-of-popular-markup-language-standards.md %})
-  ```
-
-  * Insert source code from a GitHub gist as follows
-
-  ```liquid
-  {% gist 300cd9b377774598478a5ab852ae4d7e %}
+  [link to another post]({% link _posts/2018/2018-03-23-status-of-popular-markup-language-standards.md %})
   ```
 
 * mermaid.js diagrams can be inserted as follows
@@ -54,5 +48,3 @@ Some useful tips to work with this log
   ```json
   "mdmath.delimiters": "kramdown",
   ```
-
-* [Don´t use](https://github.com/jekyll/jekyll/issues/429) UTF-8 characters in file names of posts
