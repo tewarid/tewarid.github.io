@@ -6,7 +6,7 @@ comments: true
 ---
 # ONC RPC version 2 over TCP/IP
 
-This post discusses message structure of the Open Network Computing (ONC) remote procedure call (RPC) version 2\. The protocol is specified in IETF [RFC 5531](https://tools.ietf.org/html/rfc5531). [RFC 4506](https://tools.ietf.org/html/rfc4506) specifies the C-like data representation syntax used in RFC 5531\. [RFC 1833](https://tools.ietf.org/html/rfc1833) specifies an RPC service (portmapper) used to discover RPC services provided by a host.
+This post discusses message structure of the Open Network Computing (ONC) remote procedure call (RPC) version 2. The protocol is specified in IETF [RFC 5531](https://tools.ietf.org/html/rfc5531). [RFC 4506](https://tools.ietf.org/html/rfc4506) specifies the C-like data representation syntax used in RFC 5531. [RFC 1833](https://tools.ietf.org/html/rfc1833) specifies an RPC service (portmapper) used to discover RPC services provided by a host.
 
 ![ONC RPC in Wireshark](/assets/img/onc-rpc-dissector.png) Wireshark RPC dissector
 
@@ -52,7 +52,7 @@ struct opaque_auth {
 };
 ```
 
-If authentication flavor in use is AUTH_NONE, authentication credentials is an unsigned int value of 0, followed by another unsigned int value indicating an authentication credential body size of 0\. Authentication verifier is encoded in the same manner.
+If authentication flavor in use is AUTH_NONE, authentication credentials is an unsigned int value of 0, followed by another unsigned int value indicating an authentication credential body size of 0. Authentication verifier is encoded in the same manner.
 
 A reply is defined as follows
 
@@ -99,4 +99,4 @@ case AUTH_ERROR:
 
 Reply status is an unsigned int value, followed by the authentication verifier encoded as explained earlier. A reply status value of 0 indicates an accepted message, which is followed by an unsigned int indicating accepted status (0 is success). A reply status of 1 indicates a rejected message, which is followed by an unsigned int indicating rejection status.
 
-Blocks - string or opaque data, are padded with 0 to 3 residual bytes so that their length is a multiple of 4.
+Blocks&mdash;string or opaque data&mdash;are padded with 0 to 3 residual bytes so that their length is a multiple of 4.
