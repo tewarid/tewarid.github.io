@@ -62,10 +62,16 @@ Merge and commit changes in specified branch into the current branch
 git merge remote/branch
 ```
 
-Merge changes in specified branch, result available in working tree to commit (history is not preserved)
+Merge changes in specified branch, without preserving history, result available in working tree to commit
 
 ```bash
 git merge --squash remote/branch
+```
+
+Merge changes in specified branch, favoring their changes, without preserving history, result available in working tree to commit
+
+```bash
+git merge -s recursive -X theirs --squash remote/branch
 ```
 
 Run your favorite merge tool to resolve conflicts (I use [meld](http://meldmerge.org/), [on Mac OS X](https://yousseb.github.io/meld/))
