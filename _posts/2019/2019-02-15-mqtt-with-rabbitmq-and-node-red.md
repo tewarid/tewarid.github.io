@@ -13,9 +13,9 @@ To start RabbitMQ [Docker container](https://github.com/docker-library/docs/tree
 docker run -it --name myrabbitmq -p 15672:15672 -p 1883:1883 rabbitmq:3
 ```
 
-Port `5672` is exposed on host automatically. Additionally, management web interface port `15672` and MQTT protocol port `1883` are also exposed.
+Port `5672` is exposed on host by default. Management web interface port `15672` and non-TLS MQTT protocol port `1883` are also exposed.
 
-If you close/kill the above shell and need to run the same container again
+If you kill the above shell and need to run the same container again
 
 ```bash
 docker start -ai myrabbitmq
@@ -29,7 +29,7 @@ Start a Bash shell into the container
 docker exec -it myrabbit /bin/bash
 ```
 
-Enable the plugins issuing using the rabbitmq-plugins command
+Enable the plugins by issuing the `rabbitmq-plugins` command
 
 ```bash
 rabbitmq-plugins enable rabbitmq_management
@@ -40,13 +40,13 @@ Now, you should be able to log into the management interface at http://localhost
 
 Node-RED, a popular tool to orchestrate IoT devices, can be used to test MQTT.
 
-To install and use Nede-RED on localhost
+To run Node-RED Docker container
 
 ```bash
 docker run -it --rm -p 1880:1880 --name mynodered nodered/node-red-docker
 ```
 
-If you close/kill the above shell and need to run the same container again
+If you kill the above shell and need to run the same container again
 
 ```bash
 docker start -ai mynodered
