@@ -10,10 +10,10 @@ This post shows how to enable [MQTT](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1
 To start RabbitMQ [Docker container](https://github.com/docker-library/docs/tree/master/rabbitmq) run
 
 ```bash
-docker run -it --name myrabbitmq -p 15672:15672 -p 1883:1883 rabbitmq:3
+docker run -it --name myrabbitmq -p 15672:15672 -p 1883:1883 -p 15675:15675 rabbitmq:3
 ```
 
-Port `5672` is exposed on host by default. Management web interface port `15672` and non-TLS MQTT protocol port `1883` are also exposed.
+Port `5672` is exposed on host by default. Management web interface port `15672`, MQTT protocol port `1883`, and WebSocket protocol port 15675 are also exposed. WebSocket can be accessed at ws://172.24.6.221:15675/ws.
 
 If you kill the above shell and need to run the same container again
 
@@ -34,13 +34,14 @@ Enable the plugins by issuing the `rabbitmq-plugins` command
 ```bash
 rabbitmq-plugins enable rabbitmq_management
 rabbitmq-plugins enable rabbitmq_mqtt
+rabbitmq-plugins enable rabbitmq_web_mqtt
 ```
 
 Now, you should be able to log into the management interface at http://localhost:15672 using username/password guest/guest, and use MQTT from any compatible MQTT client.
 
 Node-RED, a popular tool to orchestrate IoT devices, can be used to test MQTT.
 
-To run Node-RED Docker container
+To run [Node-RED Docker container](https://hub.docker.com/r/nodered/node-red-docker)
 
 ```bash
 docker run -it --rm -p 1880:1880 --name mynodered nodered/node-red-docker
