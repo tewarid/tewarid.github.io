@@ -13,7 +13,7 @@ To start RabbitMQ [Docker container](https://github.com/docker-library/docs/tree
 docker run -it --name myrabbitmq -p 15672:15672 -p 1883:1883 -p 15675:15675 rabbitmq:3
 ```
 
-Port `5672` is exposed on host by default. Management web interface port `15672`, MQTT protocol port `1883`, and WebSocket protocol port 15675 are also exposed. WebSocket can be accessed at ws://172.24.6.221:15675/ws.
+Port `5672` is exposed on host by default. Management web interface port `15672`, MQTT protocol port `1883`, and WebSocket protocol port `15675` are also exposed. MQTT over WebSocket can be accessed at ws://172.24.6.221:15675/ws.
 
 If you kill the above shell and need to run the same container again
 
