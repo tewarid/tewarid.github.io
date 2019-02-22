@@ -4,6 +4,7 @@ title: MQTT with RabbitMQ and Node-RED
 tags: mqtt rabbitmq node-red docker
 comments: true
 ---
+# MQTT with RabbitMQ and Node-RED
 
 This post shows how to enable [MQTT](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1/os/mqtt-v3.1.1-os.html) in [RabbitMQ](https://www.rabbitmq.com), and use [Node-RED](https://nodered.org) to test the setup. Official Docker container images of both RabbitMQ and Node-RED are used for convenience.
 
