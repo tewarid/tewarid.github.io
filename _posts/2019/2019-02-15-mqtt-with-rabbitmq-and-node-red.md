@@ -11,10 +11,10 @@ This post shows how to enable [MQTT](http://docs.oasis-open.org/mqtt/mqtt/v3.1.1
 To start RabbitMQ [Docker container](https://github.com/docker-library/docs/tree/master/rabbitmq) run
 
 ```bash
-docker run -it --name myrabbitmq -p 15672:15672 -p 1883:1883 -p 15675:15675 rabbitmq:3
+docker run -it --name myrabbitmq -p 5672:5672 -p 15672:15672 -p 1883:1883 -p 15675:15675 rabbitmq:3
 ```
 
-Port `5672` is exposed on host by default. Management web interface port `15672`, MQTT protocol port `1883`, and WebSocket protocol port `15675` are also exposed. MQTT over WebSocket can be accessed at ws://172.24.6.221:15675/ws.
+AMQP port `5672`, management web interface port `15672`, MQTT protocol port `1883`, and WebSocket protocol port `15675` are exposed. MQTT over WebSocket can be accessed at ws://172.24.6.221:15675/ws.
 
 If you kill the above shell and need to run the same container again
 
@@ -27,7 +27,7 @@ docker start -ai myrabbitmq
 Start a Bash shell into the container
 
 ```bash
-docker exec -it myrabbit /bin/bash
+docker exec -it myrabbitmq /bin/bash
 ```
 
 Enable the plugins by issuing the `rabbitmq-plugins` command
@@ -36,9 +36,10 @@ Enable the plugins by issuing the `rabbitmq-plugins` command
 rabbitmq-plugins enable rabbitmq_management
 rabbitmq-plugins enable rabbitmq_mqtt
 rabbitmq-plugins enable rabbitmq_web_mqtt
+rabbitmq-plugins enable rabbitmq_amqp1_0
 ```
 
-Now, you should be able to log into the management interface at http://localhost:15672 using username/password guest/guest, and use MQTT from any compatible MQTT client.
+Now, you should be able to log into the management interface at http://localhost:15672 using username/password guest/guest, and use MQTT from any compatible MQTT client. AMQP 1.0 plugin is also enabled in case you want to emulate a service such as Azure Service Bus.
 
 Node-RED, a popular tool to orchestrate IoT devices, can be used to test MQTT.
 
