@@ -1,17 +1,17 @@
 ---
 layout: default
 title: Using Python to analyze data in a PDF file
-tags: python data analysis pandas pypdf2 macos
+tags: python data analysis pandas pdftotext macos
 comments: true
 ---
 # Using Python to analyze data in a PDF file
 
-The state university my daughter wants to study at just announced their [entrance exam results](http://processodeingresso.upe.pe.gov.br/arquivos/SSA1/SSA1_2018_Publicacao_v3.pdf) via a PDF file. I wanted to get additional insights from the data, and decided it was time to use Python&mdash;I've got [Jupyter Notebook](http://jupyter.org/) installed on macOS&mdash;to do the data extraction and analysis.
+The state university my daughter wants to study at just announced their [entrance exam results](http://processodeingresso.upe.pe.gov.br/processo2018/arquivos/SSA1/SSA1_2018_Publicacao_v4.pdf) via a PDF file. I wanted to get additional insights from the data, and decided it was time to use Python&mdash;I've got [Jupyter Notebook](http://jupyter.org/) installed on macOS&mdash;to do the data extraction and analysis.
 
 I needed to install a few additional packages for python 3
 
 ```bash
-pip3 install PyPDF2 pandas matplotlib
+pip3 install pdftotext pandas matplotlib
 ```
 
 First, I created an empty `DataFrame` with the three columns I needed
@@ -22,28 +22,33 @@ columns = ['id','name', 'result']
 df = pd.DataFrame(columns=columns)
 ```
 
-Next, I extracted data from the PDF into the `DataFrame`
+Next, I read text data from the PDF
 
 ```python
-import PyPDF2
-pdf_file = open('SSA1_2018_Publicacao_v3.pdf', 'rb')
-read_pdf = PyPDF2.PdfFileReader(pdf_file)
-number_of_pages = read_pdf.getNumPages()
-k = 0
-for i in range(number_of_pages):
-    page = read_pdf.getPage(i)
-    textData = page.extractText()
-    lineList = textData.splitlines()
-    for j in range(5, len(lineList) - 2, 3):
-        df.loc[k] = [lineList[j], lineList[j+1], float(lineList[j+2].replace(",", "."))]
-        k = k + 1
+import pdftotext
+with open('SSA1_2018_Publicacao_v4.pdf', 'rb') as f:
+    pdf = pdftotext.PDF(f)
+print(len(pdf))
 ```
 
-Next, I dropped the last row because it contained spurious data
+Next, I parsed the text data into the `DataFrame`
 
 ```python
-df = df.drop(df.count() - 1)
-print(df)
+k = 0
+for i in range(len(pdf)):
+    lines = pdf[i].split('\n')
+    for j in range(3, len(lines) - 3, 1):
+        words = lines[j].split()
+        idn = words[0]
+        name = ' '.join(words[1:-1])
+        if not name:
+            continue
+        result = float(words[-1].replace(",", "."))
+        if result == 0.0:
+            continue
+        df.loc[k] = [idn, name, result]
+        k = k + 1
+print(k)
 ```
 
 Next, I sorted the `DataFrame` by the `result` column to find the top scorers
@@ -60,7 +65,7 @@ df_grouped = df.groupby(by='result')['result'].count()
 print(df_grouped)
 ```
 
-Finally, I plotted the grouped data&mdash;after removing students who scored 0
+Finally, I plotted the grouped data
 
 ```python
 %matplotlib inline
