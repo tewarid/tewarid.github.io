@@ -21,9 +21,10 @@ comments: true
 | Message persistence     |                      YES                       |               YES                |                                         |        YES        |              YES               |         YES          |
 | High availability       |                      YES                       |               YES                |                                         |        YES        |              YES               |         YES          |
 | Management interface    |                 WEB, HTTP API                  |               YES                |                                         |  mosquitto.conf   |        WEB, rabbitmqctl        | HTTP API, vmq-admin  |
-| Latest version          |                      5.15                      |                4                 |                  5.16                   |       1.5.8       |             3.7.13             |        1.7.1         |
+| Latest version          |          5.15 ([see note 2](#notes))           |                4                 |                  5.16                   |       1.5.8       |             3.7.13             |        1.7.1         |
 | GitHub likes            |                      1.4K                      |                NA                |                   NA                    |       2.4K        |              5.4K              |         1.7K         |
 
 ## Notes
 
 1. If a client was offline when a retained message was sent to a topic, it is not received when the client subsequently subscribes to the topic with wildcards
+2. ActiveMQ version 6 may be based on Artemis which is based on JBoss Hornett and currently distributed as a separate product.
