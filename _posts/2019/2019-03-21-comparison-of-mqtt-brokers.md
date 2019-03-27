@@ -13,7 +13,7 @@ comments: true
 | Docker container        |       rmohr/activemq        |        rmohr/activemq        | hivemq/hivemq3 |        NO        | eclipse-mosquitto |           rabbitmq:3            | erlio/docker-vernemq |
 | Windows release         |             YES             |             YES              |      YES       |       YES        |        YES        |               YES               |          NO          |
 | MQTT version            |            3.1.1            |            3.1.1             |  3.x and 5.0   |       3.x        |       3.1.1       |              3.1.1              |     3.x and 5.0      |
-| AMQP version            |             1.0             |             1.0              |       NO       |    0.9.1, 1.0    |        NO         |         0.8, 0.9.x, 1.0         |          NO          |
+| AMQP version            |             1.0             |             1.0              |       NA       |    0.9.1, 1.0    |        NA         |         0.8, 0.9.x, 1.0         |          NA          |
 | AMQP interoperability   |             NO              |              NO              |       NA       |       1.0        |        NA         | [Partial]([see note 1](#notes)) |          NA          |
 | MQTT over WebSocket     |             YES             |             YES              |      YES       |       YES        |        YES        |               YES               |         YES          |
 | Retain flag             |             YES             |             YES              |      YES       |       YES        |        YES        | Partial ([see note 2](#notes))  |         YES          |
