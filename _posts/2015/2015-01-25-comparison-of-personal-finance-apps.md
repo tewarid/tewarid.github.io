@@ -6,7 +6,7 @@ comments: true
 ---
 # Comparison of Personal Finance Apps
 
-Here's a comparison of personal finance based on features I've come to consider as necessary. After using Pocket Money for three years, I have chosen Account Tracker as my app of choice.
+Here's a comparison of personal finance based on features I've come to consider as necessary. After using PocketMoney for three years, I have chosen Account Tracker as my app of choice.
 
 |                    | **Account Tracker** | **CoinKeeper** |   **MoneyWiz**    |
 | ------------------ | :-----------------: | :------------: | :---------------: |
@@ -22,7 +22,6 @@ Here's a comparison of personal finance based on features I've come to consider 
 | iPhone             |          Y          |       Y        |         Y         |
 | iPad               |          Y          |       Y        |         Y         |
 | Android            |          N          |       Y        |         Y         |
-| Windows Phone      |          Y          |       N        |         N         |
 | **Backup**         |                     |                |                   |
 | iCloud             |          Y          |       N        |         N         |
 | Dropbox            |          Y          |       N        |         N         |
