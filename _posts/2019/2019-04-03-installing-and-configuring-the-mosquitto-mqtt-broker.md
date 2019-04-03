@@ -71,9 +71,9 @@ TLS 1.2 can be enabled using a self-signed certificate. You can generate one usi
 To enable TLS 1.2 for default listener
 
 ```conf
-cafile C:/Program Files/mosquitto/localhost.pem
-certfile C:/Program Files/mosquitto/localhost.pem
-keyfile C:/Program Files/mosquitto/localhost.pem
+cafile C:/Program Files/mosquitto/cert.pem
+certfile C:/Program Files/mosquitto/cert.pem
+keyfile C:/Program Files/mosquitto/key.pem
 tls_version tlsv1.2
 ```
 
@@ -103,20 +103,14 @@ password_file C:/Program Files/mosquitto/passwordfile
 Create aclfile
 
 ```conf
-# This affects access control for clients with no username.
-topic read $SYS/#
-
 # This only affects clients with username "user1".
 user user1
 topic foo/bar
-
-# This affects all clients.
-pattern write $SYS/broker/connection/%c/state
 ```
 
 `user1` can only subscribe and publish to topic `foo/bar`.
 
-Specify aclfile in configuration
+Specify `acl_file` in configuration
 
 ```conf
 acl_file C:/Program Files/mosquitto/aclfile
