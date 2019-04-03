@@ -14,7 +14,7 @@ This post brings together information I found in several different places, to cr
 
 OpenSSL is available in the [Git](https://git-scm.com/download/) Bash shell on Windows.
 
-To create a certificate with subject alternative names
+To create self-signed certificate in ASCII PEM format
 
 ```bash
 openssl req -x509 -newkey rsa:4096 -nodes -subj '/CN=localhost' -keyout key.pem -out cert.pem -days 365 -config openssl.cnf -extensions req_ext
@@ -46,16 +46,22 @@ Print certificate to view subject alternative names and thumbprint/fingerprint
 openssl x509 -noout -text -fingerprint -in cert.pem
 ```
 
-Create pfx from private key and certificate in pem format
+Create PFX containing private key from self-signed certificate
 
 ```bash
 openssl pkcs12 -inkey key.pem -in cert.pem -export -out key.pfx
 ```
 
-Create crt file from certificate in pem format
+Create CRT file in binary DER format from self-signed certificate
 
 ```bash
 openssl x509 -outform der -in cert.pem -out cert.crt
+```
+
+Create CRT file in ASCII PEM format from self-signed certificate
+
+```bash
+openssl x509 -outform pem -in cert.pem -out cert.crt
 ```
 
 Add private key to the appropriate key store and reconfigure server application.
