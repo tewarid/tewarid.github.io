@@ -22,10 +22,15 @@ To restart container later
 docker start -ai mosquitto1
 ```
 
-To edit config file in container
+To edit config file exec command shell in container
 
 ```bash
 docker exec -it mosquitto1 /bin/sh
+```
+
+Run vi
+
+```bash
 vi /mosquitto/config/mosquitto.conf
 ```
 
