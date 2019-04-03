@@ -6,9 +6,13 @@ comments: true
 ---
 # Create valid self-signed certificates using OpenSSL
 
-I was debugging a WebSocket connection failing with error `net::ERR_INSECURE_RESPONSE`, in Chrome, when I learnt that the self-signed certificate I was using was missing [subject alternative names](https://tools.ietf.org/html/rfc5280). This post brings together information I found in several different places, to create valid self-signed server certificates, using OpenSSL, that work with internet browsers such as Chrome.
+I was debugging a WebSocket connection failing with error `net::ERR_INSECURE_RESPONSE`, in Chrome, when I learnt that the self-signed certificate I was using was missing [subject alternative names](https://tools.ietf.org/html/rfc5280).
+
+This post brings together information I found in several different places, to create valid self-signed server certificates using OpenSSL that work with internet browsers such as Chrome.
 
 ![Valid Certificate on IIS](/assets/img/valid-certificate-iis.png)
+
+OpenSSL is available in the [Git](https://git-scm.com/download/) Bash shell on Windows.
 
 To create a certificate with subject alternative names
 
@@ -58,8 +62,12 @@ Add private key to the appropriate key store and reconfigure server application.
 
 Add certificate file to trusted root authorities key store. Restart the browser. It should be happy with the certificate provided by the server.
 
-On Windows, PowerShell's [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate) command can also be used to automate self-signed certificate creation and installation
+## Using PowerShell to create self-signed certificates
+
+PowerShell's [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powershell/module/pkiclient/new-selfsignedcertificate) command can also be used to automate self-signed certificate creation and installation
 
 ```powershell
 New-SelfSignedCertificate -DnsName "localhost", "example.com" -CertStoreLocation "cert:\LocalMachine\My"
 ```
+
+You can export the private key to PFX format using **Manage computer certificates** Control Panel widget, and [convert it to PEM format]({% link _posts/2017/2017-09-18-export-private-key-in-pfx-or-p12-file-to-pem-format.md %}) using OpenSSL.
