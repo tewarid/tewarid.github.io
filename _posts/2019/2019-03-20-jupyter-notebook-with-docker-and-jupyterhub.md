@@ -42,7 +42,9 @@ The container image does not come with Jupyter Notebook, so we need to install i
 conda install notebook
 ```
 
-You should now be able to create and use Notebooks. To install any additional Python packages required by your Notebooks
+You should now be able to create and use Notebooks.
+
+To install any additional Python packages required by your Notebooks
 
 ```bash
 pip install pandas matplotlib
