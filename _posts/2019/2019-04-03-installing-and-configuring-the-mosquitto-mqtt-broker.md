@@ -76,11 +76,15 @@ TLS 1.2 can be enabled using a self-signed certificate. You can generate one usi
 To enable TLS 1.2 for default listener
 
 ```conf
-cafile C:/Program Files/mosquitto/cert.pem
-certfile C:/Program Files/mosquitto/cert.pem
+cafile C:/Program Files/mosquitto/cacert.pem
+certfile C:/Program Files/mosquitto/cert.crt
 keyfile C:/Program Files/mosquitto/key.pem
 tls_version tlsv1.2
 ```
+
+`cacert.pem` bundles well known CA Root Certificates [maintained by Mozilla](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/), and is available in PEM format at https://curl.haxx.se/ca/cacert.pem.
+
+`cert.crt` needs to be in ASCII PEM format. Mosquitto on Windows does not accept line endings with a single carriage return as used by macOS. You'll also need to add `cert.crt` to the Trusted Root Certification Authorities keystore used by any clients.
 
 ## Setup username/password authentication
 
