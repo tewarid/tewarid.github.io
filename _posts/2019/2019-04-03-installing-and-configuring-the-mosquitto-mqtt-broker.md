@@ -82,7 +82,7 @@ keyfile C:/Program Files/mosquitto/key.pem
 tls_version tlsv1.2
 ```
 
-`cacert.pem` bundles well known CA Root Certificates [maintained by Mozilla](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/), and is available in PEM format at https://curl.haxx.se/ca/cacert.pem.
+`cacert.pem` bundles well known CA Root Certificates [maintained by Mozilla](https://www.mozilla.org/en-US/about/governance/policies/security-group/certs/), and is available in PEM format at https://curl.haxx.se/ca/cacert.pem. You can replace the contents of the file with just the root certificates you want to accept, but the file cannot be empty.
 
 `cert.crt` needs to be in ASCII PEM format. Mosquitto on Windows does not accept line endings with a single carriage return as used by macOS. You'll also need to add `cert.crt` to the Trusted Root Certification Authorities keystore used by any clients.
 
@@ -123,6 +123,19 @@ Specify `acl_file` in configuration
 
 ```conf
 acl_file C:/Program Files/mosquitto/aclfile
+```
+
+## Setup listener for WebSocket
+
+To configure a second listener for the WebSocket protocol over TLS 1.2
+
+```conf
+# listener port-number [ip address/host name]
+listener 8443
+protocol websockets
+cafile C:/Program Files/mosquitto/cacert.pem
+certfile C:/Program Files/mosquitto/cert.crt
+keyfile C:/Program Files/mosquitto/key.pem
 ```
 
 ## Configure a bridge
