@@ -41,4 +41,4 @@ rabbitmq-plugins enable rabbitmq_amqp1_0
 
 Now, you should be able to log into the management interface at http://localhost:15672 using username/password guest/guest, and use MQTT from any compatible MQTT client. AMQP 1.0 plugin is also enabled in case you want to emulate a service such as Azure Service Bus.
 
-Node-RED, a popular tool to orchestrate IoT devices, [can now be used to test MQTT]({% link _posts/2019/2019-02-15-mqtt-with-rabbitmq-and-node-red.md %}).
+Node-RED, a popular tool to orchestrate IoT devices, [can now be used to test MQTT]({% link _posts/2019/2019-02-15-mqtt-in-node-red-with-docker.md %}).
