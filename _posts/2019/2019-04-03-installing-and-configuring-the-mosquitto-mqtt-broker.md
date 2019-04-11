@@ -16,6 +16,8 @@ In a Docker container
 docker run -it --name mosquitto1 -p 1883:1883 eclipse-mosquitto
 ```
 
+Add `--net=host` if you want the container to use the same IP address as host&mdash;this is not supported in Docker for macOS and Windows.
+
 To restart container later
 
 ```bash
