@@ -6,7 +6,7 @@ comments: true
 ---
 # Installing and configuring the Mosquitto MQTT broker
 
-This post contains basic instructions on installing and configuring Mosquitto MQTT broker in a Docker container and on Windows.
+This post contains basic instructions on installing and configuring Mosquitto MQTT broker for application development.
 
 ## Install Mosquitto
 
@@ -38,7 +38,23 @@ vi /mosquitto/config/mosquitto.conf
 
 ### Install on Windows
 
-Download and run installer available at https://mosquitto.org/download/. See that the option to install service is checked. Configuration file `mosquitto.conf` is located at `C:\Program Files\mosquitto` by default.
+Download and run installer available at https://mosquitto.org/download/. See that the option to install service is checked. Configuration file `mosquitto.conf` is located at `C:\Program Files\mosquitto` by default. You'll need to restart the mosquitto service each time you edit the config file.
+
+### Install on macOS
+
+With HomeBrew
+
+```bash
+brew install mosquitto
+```
+
+To run it
+
+```bash
+/usr/local/opt/mosquitto/sbin/mosquitto
+```
+
+The default config file is located at `/usr/local/opt/mosquitto/etc/mosquitto/mosquitto.conf`.
 
 ## Enable Persistence
 
