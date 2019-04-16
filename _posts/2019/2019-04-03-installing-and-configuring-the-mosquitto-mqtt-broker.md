@@ -158,16 +158,16 @@ keyfile C:/Program Files/mosquitto/key.pem
 
 ## Configure a bridge
 
-Run another Mosquitto instance using Docker
+Run another Mosquitto instance using Docker, to act as the bridge
 
 ```bash
-docker run -it --name mosquitto2 -p 1884:1883 eclipse-mosquitto
+docker run -it --name bridge1 -p 1884:1883 eclipse-mosquitto
 ```
 
-Configure mosquitto1 container to publish/subscribe messages on any topic to mosquitto2 container, with QoS Level 1
+Configure mosquitto1 container to publish/subscribe messages on any topic to bridge1 container, with QoS Level 1
 
 ```conf
-connection mosquitto2
+connection bridge1
 address 172.24.6.221:1884
 topic # both 1
 ```
