@@ -24,7 +24,7 @@ You should now be able to create Node-RED flows at http://localhost:1880.
 
 ## Publish
 
-The first flow will be used to publish MQTT messages to the broker. Start with a new flow and add an inject node and an MQTT out node. Configure Payload in inject node to timestamp, to start after `1` second, and to repeat every `10` seconds. Configure MQTT out node next. Add new MQTT broker. Use IP address of your machine, but `localhost` or `127.0.0.1` should also do the trick. Set Port to `1883`. Finalize MQTT broker configuration. Specify Topic in MQTT out node as `nodered/test`, and QoS as `2`. Finalize node creation. Link inject node to MQTT out node.
+The first flow will be used to publish MQTT messages to the broker. Start with a new flow and add an inject node and an MQTT out node. Configure Payload in inject node to timestamp, to start after `1` second, and to repeat every `10` seconds. Configure MQTT out node next. Add new MQTT broker. Assuming MQTT broker is installed on your machine, set Server to `localhost` or `127.0.0.1`. Set Port to `1883`. Specify TLS and security settings if needed and finalize MQTT broker configuration. Specify Topic in MQTT out node as `nodered/test` and QoS as `2`. Finalize node creation. Link inject node to MQTT out node.
 
 ## Subscribe
 
