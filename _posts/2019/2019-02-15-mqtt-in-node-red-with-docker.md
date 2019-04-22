@@ -11,7 +11,7 @@ This post shows how to use MQTT in [Node-RED](https://nodered.org) with brokers 
 To run [Node-RED Docker container](https://hub.docker.com/r/nodered/node-red-docker)
 
 ```bash
-docker run -it --rm -p 1880:1880 --name mynodered nodered/node-red-docker
+docker run -it -p 1880:1880 --name mynodered nodered/node-red-docker
 ```
 
 If you kill the above shell and need to run the same container again
