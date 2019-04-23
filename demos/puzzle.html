@@ -1,0 +1,97 @@
+<html>
+    <head>
+        <title>Puzzle</title>
+        <script src="https://code.jquery.com/jquery-2.2.0.min.js">
+        </script>
+    <style>
+        .circle-15px, .alive, .dead, .sword-holder 
+        {
+            float:left; margin-right: 8px; margin-top: 2px;
+            border-radius: 50%; 
+            width: 15px; height: 15px;             
+        }
+        .alive 
+        {
+            background-color: lime
+        }
+        .sword-holder 
+        {
+            background-color: red
+        }
+        .dead 
+        {
+            background-color: black
+        }
+        .label
+        {
+            position: absolute;
+            font-size: xx-large;
+        }
+    </style>
+    </head>
+    <body>
+        <div id="content">
+            <div id="label" class="label">
+            </div>            
+        </div>
+        <script>
+            $(document).ready(function() {
+                var num = 100;
+                createCircle($("#content"), $("#label"), num);
+                $("#1").attr("class", "sword-holder");
+                setTimeout(kill, 500, num);
+            });
+            
+            function createCircle(content, label, num) {
+                var r = num / 4 * 15;
+                var td = 2 * Math.PI / num;
+                var t = 0;
+                for (var i = 1; i < num + 1; i++)
+                {
+                    var y = r - r * Math.cos(t);
+                    var x = r - r * Math.sin(t);
+                    content.append($("<div/>")
+                        .addClass("alive")
+                        .css("position", "absolute")
+                        .css("top", y)
+                        .css("left", x)
+                        .attr("title", i)
+                        .attr("id", i));
+                    t = t + td;
+                }
+                label.css("top", r)
+                    .css("left", r);
+            }
+            
+            function kill(num) {
+                var id = parseInt($(".sword-holder").attr("id"));
+                
+                nextId = id + 1; // id to kill
+                if (nextId > num) nextId = 1;
+                while($("#" + nextId).attr("class") == "dead") {
+                    nextId = nextId + 1;
+                    if (nextId > num) nextId = 1;
+                    if (nextId == id) return;                    
+                }                
+                $("#" + nextId).
+                    attr("class", "dead")
+                    .fadeTo(1000, 0.2); // kill                
+                
+                $("#" + id).attr("class", "alive");
+                
+                id = nextId;
+                next = nextId + 1;
+                if (nextId > num) nextId = 1;
+                while($("#" + nextId).attr("class") == "dead") {
+                    nextId = nextId + 1;
+                    if (nextId > num) nextId = 1;
+                    if (nextId == id) return;                    
+                }                
+                $("#" + nextId).attr("class", "sword-holder");
+                $("#label").text(nextId);
+                                    
+                setTimeout(kill, 500, num);
+            }
+        </script>
+    </body>
+</html>
