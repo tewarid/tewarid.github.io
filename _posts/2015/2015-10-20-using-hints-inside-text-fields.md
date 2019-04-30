@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Using hints inside text fields instead of labels
+title: Using hints inside text fields
 tags: jquery hint text input html javascript programming
 comments: true
 ---
-# Using hints inside text fields instead of labels
+# Using hints inside text fields
 
-The following code example demonstrates replacing labels with hints that appear as temporary values within text fields; akin to placeholder attribute in HTML5.
+The following code example demonstrates placing temporary values within text fields&mdash;akin to placeholder attribute in HTML5.
 
 A custom attribute called data-hint-value contains the hint value to which a text field gets initialized. That value represents what typically would be the value of a label associated with the text field. It is cleared when the text field receives focus, and filled with hint value if text field is empty on blur.
 
@@ -21,7 +21,8 @@ A custom attribute called data-hint-value contains the hint value to which a tex
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
 </head>
 <body>
-    <input id="name" type="text" data-hint-value="your name" />
+    <div>Name</div>
+    <input id="name" type="text" data-hint-value="FirstName LastName" />
     <script type="text/javascript">
         $(document).ready(function() {
             setAllTextToHint();
@@ -42,7 +43,6 @@ A custom attribute called data-hint-value contains the hint value to which a tex
                     hint = $(this).attr("data-hint-value");
                     value = $(this).val();
                     if (value == hint || value == "") {
-                        alert("Please specify " + hint);
                         $(this).val(hint);
                         $(this).focus();
                         return;
@@ -72,4 +72,4 @@ A custom attribute called data-hint-value contains the hint value to which a tex
 </html>
 ```
 
-setAllTextToHint is a helper function that sets all text fields to their hint values. isTextValueValid may be used to check whether a text field contains some value, and alerts the user when it does not. Tweak these as you see fit.
+setAllTextToHint is a helper function that sets all text fields to their hint values. isTextValueValid may be used to check whether any text input contains the hint value.
