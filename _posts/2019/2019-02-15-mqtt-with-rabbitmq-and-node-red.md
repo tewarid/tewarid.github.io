@@ -42,3 +42,15 @@ rabbitmq-plugins enable rabbitmq_amqp1_0
 Now, you should be able to log into the management interface at http://localhost:15672 using username/password guest/guest, and use MQTT from any compatible MQTT client. AMQP 1.0 plugin is also enabled in case you want to emulate a service such as Azure Service Bus.
 
 Node-RED, a popular tool to orchestrate IoT devices, [can now be used to test MQTT]({% link _posts/2019/2019-02-15-mqtt-in-node-red-with-docker.md %}).
+
+If RabbitMQ is part of a larger solution that requires other containers, you may want to use docker-compose to bring them all up. Here's a simple configuration file that shows how RabbitMQ may be brought up using `docker-compose`
+
+```yml
+  broker:
+    image: rabbitmq:3
+    command: "/bin/bash -c \"rabbitmq-plugins enable rabbitmq_mqtt; rabbitmq-server\""
+    ports:
+      - "1883:1883"
+    volumes:
+      - "./rabbitmq:/etc/rabbitmq"
+```
