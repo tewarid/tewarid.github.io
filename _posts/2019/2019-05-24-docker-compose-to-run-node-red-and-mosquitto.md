@@ -44,4 +44,4 @@ Volume mapping allows all configuration and data to be stored on the host file s
 
 The compose file defines a private bridge network called `localnet`. Code running in containers can use service names specified in compose file as host names. In the Node-RED container, `broker` will resolve to IP address of the container running Mosquitto.
 
-Port mapping allows container services to be available to applications running on the host or host network. A browser running on the host can access Node-RED at `http://localhost:1880`. Another machine on the same network can access it at `http://<ip address of host>:1880`. Mosquitto can be access at port `1883` on the host network.
+Port mapping allows container services to be available to applications running on the host or host network. A browser running on the host can access Node-RED at `http://localhost:1880`. Another machine on the same network can access it at `http://<ip address of host>:1880`. Mosquitto can be accessed at port `1883` on the host network.
