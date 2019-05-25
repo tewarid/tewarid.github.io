@@ -6,7 +6,7 @@ comments: true
 ---
 # A simple TCP proxy in Node.js
 
-A simple TCP proxy that may be used to access a service on another network.
+A TCP proxy built with Node.js, that may be used to access a service on another network, is available at [GitHub](https://github.com/tewarid/node-tcp-proxy).
 
 It is an extensible replacement for socat when used thus
 
@@ -20,7 +20,7 @@ To achieve the same with node-tcp-proxy
 tcpproxy  --proxyPort [port1] --serviceHost [host] --servicePort [port2]
 ```
 
-Install node-tcp-proxy using npm
+To install node-tcp-proxy using npm
 
 ```bash
 sudo npm install -g node-tcp-proxy
@@ -38,5 +38,3 @@ To end the proxy
 ```javascript
 newProxy.end();
 ```
-
-The source code is available at https://github.com/tewarid/node-tcp-proxy.
