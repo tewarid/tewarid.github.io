@@ -14,7 +14,7 @@ A comparison with additional brokers is available at https://github.com/mqtt/mqt
 | Commercial support       |             YES             |             YES              |     HiveMQ     |    ScalAgent     |       TIBCO       |            Pivotal             |    Octavo Labs AG    |
 | Docker container         |       rmohr/activemq        |   vromero/activemq-artemis   | hivemq/hivemq3 |        NO        | eclipse-mosquitto |           rabbitmq:3           | erlio/docker-vernemq |
 | Windows support          |             YES             |             YES              |      YES       |       YES        |        YES        |              YES               |          NO          |
-| MQTT version             |            3.1.1            |            3.1.1             |  3.x and 5.0   |       3.x        |    3.1.1, 5.0     |             3.1.1              |     3.x and 5.0      |
+| MQTT version             |            3.1.1            |            3.1.1             |    3.x, 5.0    |       3.x        |    3.1.1, 5.0     |             3.1.1              |       3.x, 5.0       |
 | AMQP version             |             1.0             |             1.0              |       NA       |    0.9.1, 1.0    |        NA         |        0.8, 0.9.x, 1.0         |          NA          |
 | AMQP interoperability    |             NO              |              NO              |       NA       |        NO        |        NA         | Partial ([see note 1](#notes)) |          NA          |
 | MQTT over WebSocket      |             YES             |             YES              |      YES       |       YES        |        YES        |              YES               |         YES          |
@@ -23,7 +23,7 @@ A comparison with additional brokers is available at https://github.com/mqtt/mqt
 | Persistent Session       |             YES             |             YES              |      YES       |       YES        |        YES        |              YES               |         YES          |
 | QoS Level 1              |             YES             |             YES              |      YES       |       YES        |        YES        |              YES               |         YES          |
 | QoS Level 2              |             YES             |             YES              |      YES       |       YES        |        YES        |               NO               |         YES          |
-| Shared subscriptions     |                             |                              |                |                  |                   |                                |                      |
+| Shared subscriptions     |             NO              |              NO              |      YES       |        NO        |        NO         |               NO               |         YES          |
 | Bridging                 |             NO              |              NO              |      YES       |       YES        |        YES        |               NO               |         YES          |
 | Listener topic isolation |                             |                              |                |                  |        YES        |                                |         YES          |
 | Clustering               |             YES             |             YES              |      YES       |       YES        |        NO         |              YES               |         YES          |
