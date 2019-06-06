@@ -359,23 +359,23 @@ The following points should help you overcome any potential problems when using 
 
 - A Java object serialized by OpenAMF must:
 
-    - Specify getters and setters.
+  - Specify getters and setters.
 
 - A Java object de-serialized by OpenAMF must:
 
-    - Have a default (no argument) constructor.
+  - Have a default (no argument) constructor.
 
-    - Specify getters and setters.
+  - Specify getters and setters.
 
-    - Must have a custom-class-mapping in openamf-config.xml.
+  - Must have a custom-class-mapping in openamf-config.xml.
 
 - A Flash ActionScript object must:
 
-    - Have a default no arguments constructor and the constructor must not assign values to fields received through Flash remoting as these values will be overwritten.
+  - Have a default no arguments constructor and the constructor must not assign values to fields received through Flash remoting as these values will be overwritten.
 
-    - Have attributes whose name and case match the name and case of the attributes in the corresponding remote object.
+  - Have attributes whose name and case match the name and case of the attributes in the corresponding remote object.
 
-    - Be registered using the Object.registerClass method which associates an ActionScript class to the type of an incoming remote object.
+  - Be registered using the Object.registerClass method which associates an ActionScript class to the type of an incoming remote object.
 
 ## Advantages and Limitations of Flash Remoting
 
