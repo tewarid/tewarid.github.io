@@ -6,9 +6,9 @@ comments: true
 ---
 # Access control
 
-In this post I document a simple domain model that I have used to implement access control in my projects, the first time being sometime around 1998. I have since seen similar approaches to access control elsewhere, so you may already be familiar with it.
+In this post I document a simple domain model that I have used to implement access control in my projects, the first time being sometime in 1998.
 
-The approach mentioned here assumes that authentication is already done, you get some kind of user ID, and have to make the access control decision. It is different from resource oriented access control mechanisms, such as access to files, database structures and so on.
+The model described here assumes that authentication is already done, you get some kind of user ID, and have to make the access control decision. It is different from resource oriented access control mechanisms such as access to files, and database structures.
 
 ## The entities or classes
 
@@ -20,11 +20,11 @@ The primary entities in the domain are
 
 * Action
 
-    Represents an action in the system e.g. Log into the system, View users, and so on. I have also called this Operation or Function in the past. Each Action is identified by a unique ID.
+    Represents an action in the system e.g. Log into the system, View users, and so on. Each Action is identified by a unique ID. Nouns Operation or Function may be used instead of Action if they fit your use case better.
 
 * Profile
 
-    Represents a set of users e.g. System administrators. Each profile is identified by a unique ID. Profile may also be called Group, if you find that more convenient.
+    Represents a set of users e.g. System administrators. Each profile is identified by a unique ID. Group or Role may be used instead of Profile if they fit your use case better.
 
 ## The relationships
 
@@ -40,8 +40,8 @@ The entities or classes are related in the following manner
 
 ## Making the access control decision
 
-The decision can be implemented at the point in the code where the action is performed. You need to get a list of all actions the user can perform by traversing from User-Profile to Profile-Action. If the ID of the Action is found to be associated with the User, she is granted access.
+The access control decision can be implemented at any point in the code where an Action is performed. You can get a list of all Actions the User can perform by traversing from User-Profile to Profile-Action. You allow the Action to proceed if its ID is found to be associated with the User, or else throw an exception.
 
 ## Authentication
 
-Although not the focus of the post, password based authentication can be handled by adding a password hash to the User entity. The authentication decision can be implemented in a [front controller](http://www.martinfowler.com/eaaCatalog/frontController.html) and the user ID stored in the session for access control decisions downstream.
+Although not the focus of this post, password based authentication can be handled by adding a password hash to the User entity. The authentication decision can be implemented in a [front controller](http://www.martinfowler.com/eaaCatalog/frontController.html) and the user ID stored in the session context for access control decisions downstream.
