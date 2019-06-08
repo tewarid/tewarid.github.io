@@ -6,9 +6,9 @@ comments: true
 ---
 # Developing with Kafka using Docker
 
-Cloud-first development with Kafka is becoming easier with almost every cloud platform providing a service of the kind and even a few dedicated to Kafka alone such as [cloudkarafka](https://www.cloudkarafka.com/). In this post, I share a compose file to run Kafka in Docker for development and testing.
+Cloud-first development with Kafka is becoming easier with every cloud platform providing a service of the kind, and even a few dedicated to Kafka alone such as [cloudkarafka](https://www.cloudkarafka.com/). In this post, I share a compose file to run Kafka in Docker for development and testing.
 
-The following compose file runs Kafka and Zookeeper in a private bridge network. Add you own services to the file and they will be able to use Kafka at host address `kafka` and (the default) port `9092`.
+The following compose file runs Kafka and Zookeeper in a private bridge network. Add your own services to the file and they will be able to use Kafka at host address `kafka` and (the default) port `9092`.
 
 ```yaml
 version: '2'
@@ -44,11 +44,13 @@ To launch the containers, run
 docker-compose up -d
 ```
 
-To test Kafka broker from host OS such as Windows, [download Kafka binary](https://kafka.apache.org/downloads), and run console consumer and publisher
+To test Kafka broker from host OS such as Windows, [download Kafka binary](https://kafka.apache.org/downloads), and run console consumer
 
 ```cmd
 .\kafka_2.11-2.2.1\bin\windows\kafka-console-consumer.bat --bootstrap-server localhost:29092 --topic test
 ```
+
+And publisher
 
 ```cmd
 .\kafka_2.11-2.2.1\bin\windows\kafka-console-producer.bat --broker-list localhost:29092 --topic test
