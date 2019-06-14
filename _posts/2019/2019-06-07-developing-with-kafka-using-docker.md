@@ -36,7 +36,7 @@ services:
       - app-tier
 ```
 
-The compose file also [exposes Kafka to the host OS](https://github.com/bitnami/bitnami-docker-kafka/issues/21#issuecomment-435216317) at address `localhost` and port `29092`. For additional options such as volume mapping head over to [GitHub](https://github.com/bitnami/bitnami-docker-kafka).
+The compose file also [exposes Kafka on the host](https://github.com/bitnami/bitnami-docker-kafka/issues/21#issuecomment-435216317) at address `localhost` and port `29092`. For additional options such as volume mapping head over to [GitHub](https://github.com/bitnami/bitnami-docker-kafka).
 
 To launch the containers, run
 
