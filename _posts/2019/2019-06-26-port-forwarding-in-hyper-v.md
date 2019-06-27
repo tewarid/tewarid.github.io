@@ -18,7 +18,7 @@ New-NetIPAddress -IPAddress 192.168.10.1 -PrefixLength 24 -InterfaceAlias "vEthe
 New-NetNAT -Name "NATNetwork" -InternalIPInterfaceAddressPrefix 192.168.10.0/24
 ```
 
-Create a new 64-bit Linux VM and configure it to use the above network switch. [Install](https://www.alpinelinux.org/downloads/) Alpine in the VM.
+Create a new 64-bit Linux VM and configure it to use the above network switch. [Download](https://www.alpinelinux.org/downloads/) and [setup](https://wiki.alpinelinux.org/wiki/Alpine_setup_scripts) Alpine in the VM.
 
 To be able to ssh into the VM from the host, you need to forward TCP port 22 to the same port number on the VM.
 
