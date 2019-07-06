@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tewarid
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tewarid.github.io
+  * I am tewarid (https://keybase.io/tewarid) on keybase.
+  * I have a public key ASCq-Mt_n9YvbxTc1ExAECsqlhl66SE3RL6Mb5T7UEx7pgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120aaf8cb7f9fd62f6f14dcd44c40102b2a96197ae9213744be8c6f94fb504c7ba60a",
+      "host": "keybase.io",
+      "kid": "0120aaf8cb7f9fd62f6f14dcd44c40102b2a96197ae9213744be8c6f94fb504c7ba60a",
+      "uid": "8a82d614a68c4d66cc239fe1557f5a19",
+      "username": "tewarid"
+    },
+    "merkle_root": {
+      "ctime": 1562415978,
+      "hash": "5b207dfc29c5cbe93856c72e2340f58a6a43c32a04c1c59a3847da56eb0e3001ebb9c023058862b3532932f1e11279e755bec01dba042057d708cf3e17556281",
+      "hash_meta": "ca080c44ccdaaadfbfafc83c3fa41c303144d8078a5392ef996db99735509c3a",
+      "seqno": 5705121
+    },
+    "service": {
+      "entropy": "2dGhRH1jS3U23+6ZuDmxY4Oq",
+      "hostname": "tewarid.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.1.0"
+  },
+  "ctime": 1562416015,
+  "expire_in": 504576000,
+  "prev": "1ec9d45d091ea23e5a2323b4a395a5363799b09bc4869d4f9363385eb6d37e17",
+  "seqno": 6,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgqvjLf5/WL28U3NRMQBArKpYZeukhN0S+jG+U+1BMe6YKp3BheWxvYWTESpcCBsQgHsnUXQkeoj5aIyO0o5WlNjeZsJvEhp1Pk2M4XrbTfhfEIF6CXXKUhT3AQAIC1Az3X4xV6dBU93vO+ee8433aEt64AgHCo3NpZ8RAQAaHLq2gktfs6CcBbbn7r+FF96Ti0wB5HX0WC0UbreY7KP8OVi+lg2zGIvvn0ctGtD0zjp8ibVmnumM/EnaPDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIF46Q8Pf81cMH06ijUnctAw128WIFfORzKO1aBoxjvEao3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tewarid
+
+==================================================================
