@@ -6,7 +6,7 @@ comments: true
 ---
 # Use semistandard to lint TypeScript code
 
-semistandard is a fork of standard thats allows semicolons at end of statements. The following Docker file illustrates how to run semistandard using Docker
+semistandard is a fork of standard that allows semicolons at end of statements. The following Docker file illustrates how to run semistandard using Docker
 
 ```Dockerfile
 FROM node:lts-alpine AS base

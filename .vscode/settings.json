@@ -1,6 +1,8 @@
 {
     "cSpell.words": [
         "bitnami",
-        "cloudkarafka"
+        "cloudkarafka",
+        "mkdir",
+        "semistandard"
     ]
 }
