@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Use semistandard to lint TypeScript code
-tags: .net core asp.net docker multistage
+tags: typescript docker semistandard standard check
 comments: true
 ---
 # Use semistandard to lint TypeScript code
