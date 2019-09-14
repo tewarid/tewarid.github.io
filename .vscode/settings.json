@@ -1,7 +1,14 @@
 {
     "cSpell.words": [
+        "Adafruit",
+        "Wireshark",
+        "Wireshark's",
         "bitnami",
+        "btcommon",
+        "btle",
         "cloudkarafka",
+        "ibeacon",
+        "libpcap",
         "mkdir",
         "semistandard"
     ]
