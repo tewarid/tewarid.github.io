@@ -1,15 +1,22 @@
 {
     "cSpell.words": [
         "Adafruit",
+        "Imager",
+        "Raspbian",
+        "SSID",
         "Wireshark",
         "Wireshark's",
         "bitnami",
         "btcommon",
         "btle",
         "cloudkarafka",
+        "ftdi",
         "ibeacon",
+        "ifconfig",
         "libpcap",
         "mkdir",
-        "semistandard"
+        "semistandard",
+        "sparkfun",
+        "wlan"
     ]
 }
