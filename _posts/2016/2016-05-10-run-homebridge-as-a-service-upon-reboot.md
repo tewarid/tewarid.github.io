@@ -25,9 +25,6 @@ setuid pi
 script
     export HOME="/home/pi"
     export NODE_PATH=$HOME/node_modules/
-    gpio -g mode 27 out
-    gpio -g mode 27 down
-    gpio export 27 out
     exec /usr/local/bin/homebridge
 end script
 ```
