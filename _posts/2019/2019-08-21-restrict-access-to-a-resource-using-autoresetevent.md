@@ -4,6 +4,7 @@ title: Restrict access to a resource using AutoResetEvent
 tags: .net core dotnet autoresetevent
 comments: true
 ---
+# Restrict access to a resource using AutoResetEvent
 
 The following .NET console application
 
