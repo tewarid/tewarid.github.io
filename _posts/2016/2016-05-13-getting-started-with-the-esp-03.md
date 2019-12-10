@@ -26,10 +26,10 @@ In flash mode, new program instructions can be flashed to SPI Flash, using tools
 
 ESP8266 can be programmed using an [SDK](http://espressif.com/en/products/hardware/esp8266ex/resources) distributed by Espressif. Popular embedded development platforms such as the [Arduino IDE](https://www.arduino.cc/en/main/software), MicroPython, and [Lua](http://nodemcu.com) can also be used.
 
-Adafruit provides [instructions](https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-arduino-ide) for configuring the Arduino IDE for ESP8266 development. Here're the settings I use with the Arduino IDE - under Tools menu.
+Adafruit provides [instructions](https://learn.adafruit.com/adafruit-huzzah-esp8266-breakout/using-arduino-ide) for configuring the Arduino IDE for ESP8266 development. Here's the settings I use with the Arduino IDE&mdash;under Tools menu.
 
 ![Arduino Settings](/assets/img/esp03-arduino-ide-settings.jpg)
 
-Try the example project under File -> Examples -> ESP8266WiFi. With it, you'll be controlling a GPIO pin on the ESP-03, over your Wi-Fi network, in no time at all.
+Try the example project under File, Examples, ESP8266WiFi. With it, you'll be controlling a GPIO pin on the ESP-03, over your Wi-Fi network, in no time at all.
 
 ![Wi-Fi Web Server](/assets/img/esp03-wifi-web-server.gif)
