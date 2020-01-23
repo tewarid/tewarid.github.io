@@ -6,7 +6,7 @@ comments: true
 ---
 # Pandoc Lua filter to convert math block type
 
-I've been using Markdown for writing text, and  converting it to different formats such as HTML and PDF. One consequence of this is that I have to live with differences between different converters such as Pandoc, which I use to render HTML and PDF, and Kramdown, which is used by Jekyll to render this page.
+I've been using Markdown for writing text, and  converting it to different formats such as HTML and PDF. As a result, I am having to learn to live with differences between different converters such as Pandoc, which I use to render HTML and PDF, and Kramdown, which is used by Jekyll to render this page.
 
 One particular difference is related to how you insert math using $$\LaTeX$$. Whereas Pandoc expects you to insert inline math between `$` signs, Kramdown expects you to use `$$`. Pandoc understands math between `$$` as block math syntax and it will add a line break before and after the math. The math still gets rendered nicely but messes with the vertical flow of the text.
 
