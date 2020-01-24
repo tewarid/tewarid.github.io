@@ -12,7 +12,11 @@ For managed applications, you can learn a new skill that will save you some face
 
 ## Dump process memory
 
-Process memory can be dumped quite easily.
+Process memory dump can be obtained through several means
+
+* Windows Error Reporting (WER)
+
+    Configure WER to [dump process memory when a user mode application crashes](https://docs.microsoft.com/en-us/windows/win32/wer/collecting-user-mode-dumps).
 
 * Task Manager
 
@@ -27,8 +31,6 @@ Process memory can be dumped quite easily.
     ```
 
 You need to have enough disk space because `dmp` files can be rather big.
-
-There are [more ways](https://www.wintellect.com/how-to-capture-a-minidump-let-me-count-the-ways/) documented elsewhere, but the above should suffice for most purposes.
 
 ## WinDbg commands
 
@@ -48,7 +50,7 @@ Once you have the crash dump file, you can open it with WinDbg, and examine it w
 
 * `!uniqstack`
 
-    Displays all stacks of all the threads of the current process. You can also see the stack trace of a single thread using the [`k`](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-) commands.
+    Displays all stacks of all the threads of the current process. You can view the stack trace of a single thread using the [`k` commands](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/k--kb--kc--kd--kp--kp--kv--display-stack-backtrace-).
 
 * `~ns`
 
