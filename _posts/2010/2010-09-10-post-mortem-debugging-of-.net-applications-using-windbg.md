@@ -12,7 +12,7 @@ For managed applications, you can learn a new skill that will save you some face
 
 ## Dump process memory
 
-Process memory dump can be obtained through several means
+User mode process memory dumps can be obtained through several means
 
 * Windows Error Reporting (WER)
 
@@ -20,7 +20,7 @@ Process memory dump can be obtained through several means
 
 * Task Manager
 
-    Right click on a process and select _Create dump file_.
+    Right click on a process and select _Create dump file_. 32-bit Task Manager at %WINDIR%\SysWOW64\Taskmgr.exe should be used to dump memory of a 32-bit process.
 
 * WinDbg
 
@@ -34,15 +34,15 @@ You need to have enough disk space because `dmp` files can be rather big.
 
 ## WinDbg commands
 
-Once you have the crash dump file, you can open it with WinDbg, and examine it with several useful commands
-
-* `!runaway`
-
-    Shows thread times. This can be really useful to find badly behaved threads that are consuming a lot of CPU.
+Once you have the crash dump file, you can open it with WinDbg, and examine it using several useful commands
 
 * `!analyze -v`
 
     Shows detailed information about the current exception.
+
+* `!runaway`
+
+    Shows thread times. This can be really useful to find badly behaved threads that are consuming a lot of CPU.
 
 * `!threads`
 
@@ -56,21 +56,31 @@ Once you have the crash dump file, you can open it with WinDbg, and examine it w
 
     Sets the thread with ID `n` as the current thread.
 
+## Symbol files
+
+You can run `.sympath C:\SymbolCache` to download and load [symbols](https://docs.microsoft.com/en-us/windows/win32/dxtecharts/debugging-with-symbols) from a specified path. To load symbols from Microsoft and Nuget.org, run `.sympath srv*C:\SymbolCache*https://msdl.microsoft.com/download/symbols;srv*C:\SymbolCache*https://symbols.nuget.org/download/symbols`.
+
+Run `.reload /f` to force debugger to reload symbols for all modules from the specified path. Run `.symopt +0x40` followed by `.reload /f`, or `.reload /i`, if you want to load a symbol file even if it does not match the module. This can be useful if you want to use a symbol file built from the same source code.
+
+Run `!chksym Module` to check symbol information for a particular module, and `!chksym Module Symbol` to check if a module matches a symbol file. Use an underscore character for each space character in the module name, or symbol path.
+
+Run `!sym noisy` if you want to see detailed symbol loading information when these commands are run.
+
 ## Extensions
 
 WinDbg is most useful for debugging managed application using the following extensions
 
 * [SOS](https://docs.microsoft.com/en-us/dotnet/framework/tools/sos-dll-sos-debugging-extension)
 
-    This extension is distributed along with the .NET framework can be loaded using the following command: `.loadby sos mscorwks` or `.loadby sos clr` for .NET 4.
+    This extension is distributed along with the .NET framework can be loaded using `.loadby sos mscorwks`, or `.loadby sos clr` for .NET 4.
 
 * [SOSEX](http://www.stevestechspot.com/default.aspx)
 
-    This has several useful additions to the core SOS extension. It must be loaded using the `.load` command e.g. `.load c:\sosex\sosex.dll`.
+    This has several useful additions to the core SOS extension. It can be loaded using a command such as `.load c:\sosex\sosex.dll`.
 
 * [Psscor2](https://blogs.msdn.microsoft.com/amb/2011/04/28/free-download-psscor2-new-windbg-extension-for-debugging-net-4-0-applications/)
 
-    Has several useful commands, especially commands for debugging ASP.NET applications. Load it using the `.load` command e.g. `.load c:\psscor2\x86\psscor2.dll`.
+    Has several useful commands, especially commands for debugging ASP.NET applications. It can be loaded using a command such as `.load c:\psscor2\x86\psscor2.dll`.
 
 ## SOS extension
 
@@ -78,7 +88,7 @@ The SOS extension has several useful commands, particularly
 
 * `!clrstack -p`
 
-    Prints the stack trace of the current thread. This only works for managed threads. If you have [symbols](http://support.microsoft.com/kb/311503) for your assemblies, you can see some pretty useful information in the stack trace.
+    Prints the stack trace of the current thread. This only works for managed threads. If you have loaded symbols for your assemblies, you can see very useful information in the stack trace.
 
 * `!dumpheap`
 
