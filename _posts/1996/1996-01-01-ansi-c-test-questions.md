@@ -64,8 +64,7 @@ See answers below.
     c. The world  
        is round  
 
-11. If you want to read a string having several words you will use the  
-    function  
+11. If you want to read a string having several words you will use the function  
     a. `scanf`  
     b. `getch`  
     c. `gets`  
@@ -126,7 +125,7 @@ See answers below.
     c. a file containing prototype declarations  
     d. both b and c  
 
-21. A register variable will be mostly used in  
+21. A register variable is mostly used for  
     a. loops and counters  
     b. passing parameters to functions  
     c. calling interrupt service routines  
