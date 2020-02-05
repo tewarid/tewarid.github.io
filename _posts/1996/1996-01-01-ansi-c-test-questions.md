@@ -64,7 +64,7 @@ See answers below.
     c. The world  
        is round  
 
-11. If you want to read a string having several words you will use the function  
+11. If you want to read a string of words you can use the function  
     a. `scanf`  
     b. `getch`  
     c. `gets`  
@@ -361,8 +361,7 @@ See answers below.
     c. `s->fieldname`  
     d. all of the above  
 
-63. If we have an executable program `prog.exe`, and text file f1 then  
-    typing `prog < f1` at DOS prompt means  
+63. If we have an executable program `prog.exe`, and text file f1 then typing `prog < f1` at DOS prompt means  
     a. The screen is temporarily redundant  
     b. The keyboard is temporarily redundant  
     c. Both screen and keyboard are temporarily redundant  
@@ -380,8 +379,7 @@ See answers below.
     c. `fscanf`  
     d. `pscanf`  
 
-66. With which of the following file I/O type is the buffer management  
-    transparent  
+66. With which of the following file I/O type is the buffer management transparent  
     a. high level  
     b. low level  
 
