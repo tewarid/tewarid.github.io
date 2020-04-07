@@ -6,19 +6,19 @@ comments: true
 ---
 # Virtual serial port redirection using socat
 
-Here's how socat can be used to redirect one serial port to another on Ubuntu
+Here's how socat can be used to redirect one serial port to another on Ubuntu, assuming both serial devices are not assigned to a real device
 
 ```bash
 sudo socat -d -d pty,link=/dev/ttyS0,raw,echo=0 pty,link=/dev/ttyS1,raw,echo=0
 ```
 
-Assuming both serial devices above are not assigned to a real device. If the above command is successful, you can send data from on serial port to another using a terminal emulator such as screen
+If the above command is successful, you can send data from one serial port to another using a terminal emulator such as screen
 
 ```bash
 screen /dev/ttyS0 115200
 ```
 
-Install screen using `sudo apt-get screen` if not already installed. Repeat the above command on another prompt for the other serial device, and you're good to go. Quit screen using Ctrl-A .
+Install screen using `sudo apt-get screen` if not already installed. Repeat the above command on another prompt for the other serial device, and you're good to go. Quit screen using Ctrl-A.
 
 socat can also be used to perform serial to TCP redirection
 
