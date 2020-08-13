@@ -6,7 +6,11 @@ comments: true
 ---
 # Use eisvogel custom template with Pandoc
 
-On macOS, the preinstalled tlmgr command is used to install $$\TeX$$ packages from [CTAN](https://ctan.org/).
+On macOS prior to Catalina, the preinstalled tlmgr command is used to install $$\TeX$$ packages from [CTAN](https://ctan.org/). To install tlmgr on macOS Catalina using Homebrew, run
+
+```bash
+brew cask install mactex
+```
 
 To list currently installed packages
 
