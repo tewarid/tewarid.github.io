@@ -48,6 +48,6 @@ The application can send data at any time as follows
 stream.Write(buffer, 0, buffer.Length);
 ```
 
-The code above is available at GitHub as part of the [Bluetooth Serial Client Tool](https://github.com/tewarid/net-tools/blob/master/BluetoothSerialClientTool).
+The code above is available at GitHub as part of the [Bluetooth Serial Client Tool](https://github.com/tewarid/dotnet-tools/blob/master/BluetoothSerialClientTool).
 
 ![bluetooth-serial-client-tool.PNG](/assets/img/bt-spp-client-windows.png)

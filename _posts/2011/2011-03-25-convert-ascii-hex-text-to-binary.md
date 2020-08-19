@@ -8,7 +8,7 @@ comments: true
 
 Debugging sometimes means dumping a hex stream to the console, or to a log file, something like 0x0a 0xff...
 
-I [wrote](https://github.com/tewarid/net-hex-to-bin) a simple command line tool to convert that kind of hex data to binary. Users of Linux can [resort to](http://www.linuxjournal.com/content/doing-reverse-hex-dump) the fine xxd utility to do the same thing.
+I [wrote](https://github.com/tewarid/dotnet-hex-to-bin) a simple command line tool to convert that kind of hex data to binary. Users of Linux can [resort to](http://www.linuxjournal.com/content/doing-reverse-hex-dump) the fine xxd utility to do the same thing.
 
 The following are all valid hex values and produce the same binary
 

@@ -34,7 +34,7 @@ while (true) {
 
 I then compiled the code and programmed it to my target using a JTAGICE mkII. Connecting the target to a Windows PC results in creation of a serial port on the PC. A driver is provided with the example. If you use Windows 8, you'll require a [(self-)signed driver](https://github.com/tewarid/atmel-usb-cdc-virtual-com-driver), that is, if you haven't disabled that check.
 
-Measuring data rate is then a matter of sending a known amount of data and dividing it by the time required to send it. Since I'm echoing back data, I divided that result by 2\. Just to be sure that my code modifications were reliable, I compared the echoed back data with the original. To communicate over the serial port, I used a handy tool called [SerialTool](https://github.com/tewarid/net-tools/tree/master/SerialTool) I created a while back (requires .NET framework 4.5 or mono 3.2.x).
+Measuring data rate is then a matter of sending a known amount of data and dividing it by the time required to send it. Since I'm echoing back data, I divided that result by 2\. Just to be sure that my code modifications were reliable, I compared the echoed back data with the original. To communicate over the serial port, I used a handy tool called [SerialTool](https://github.com/tewarid/dotnet-tools/tree/master/SerialTool) I created a while back (requires .NET framework 4.5 or mono 3.2.x).
 
 The average data rate that I was able to measure is in the range of 3200 bytes per seconds or just shy of 26000 bits per second. Pretty lame, I think.
 

@@ -92,4 +92,4 @@ MessageDispatcher<string, string>.Dispatch("foo", "bar");
 
 The use of static methods with generic types allows it to be used for multiple message payload types.
 
-See code and unit tests at [GitHub](https://github.com/tewarid/net-dispatcher).
+See code and unit tests at [GitHub](https://github.com/tewarid/dotnet-dispatcher).

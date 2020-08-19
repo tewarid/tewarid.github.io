@@ -6,7 +6,7 @@ comments: true
 ---
 # Searching a directed graph
 
-This post briefly describes a generic [directed graph](https://github.com/tewarid/net-directed-graph) depth-first search algorithm I wrote in C#.
+This post briefly describes a generic [directed graph](https://github.com/tewarid/dotnet-directed-graph) depth-first search algorithm I wrote in C#.
 
 ## DirectedGraph class
 

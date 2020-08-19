@@ -52,6 +52,6 @@ The application can send data at any time as follows
 stream.WriteAsync(buffer, 0, buffer.Length);
 ```
 
-As a bonus to the reader who's come this far, the [code](https://github.com/tewarid/net-tools/tree/master/BluetoothSerialServerTool) above is available at GitHub as part of the Bluetooth Serial Server Tool.
+As a bonus to the reader who's come this far, the [code](https://github.com/tewarid/dotnet-tools/tree/master/BluetoothSerialServerTool) above is available at GitHub as part of the Bluetooth Serial Server Tool.
 
 ![bluetooth-spp-tool.PNG](/assets/img/bt-spp-server-windows.png)

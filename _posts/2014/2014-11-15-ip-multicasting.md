@@ -67,4 +67,4 @@ s.on("message", function (msg, rinfo) {
 
 Receiving multicasts on Linux does not work when you bind the socket to a specific interface, for instance `s.bind(8001, 192.168.1.1...` does not work. It looks like a Linux (nay Unix, including OS X) quirk because it is not required on Windows with either Mono .NET runtime or Node.js.
 
-.NET code that does something similar can be found in the [UDP Tool](https://github.com/tewarid/net-tools/tree/master/UdpTool) at GitHub.
+.NET code that does something similar can be found in the [UDP Tool](https://github.com/tewarid/dotnet-tools/tree/master/UdpTool) at GitHub.

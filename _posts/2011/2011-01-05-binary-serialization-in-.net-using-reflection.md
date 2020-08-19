@@ -78,4 +78,4 @@ The `Read` method sets the properties of an object that are annotated using the 
 
 `Read` uses [`GetProperties`](https://docs.microsoft.com/en-us/dotnet/api/system.type.getproperties) method of `Type`, that may return properties in any particular order. You should use the `Order` property of `DataMember` to enforce the order in which values are read. If the object inherits from another type that also has annotated properties, the inherited properties are read or ignored based on the `inherit` parameter. They can also be masked in subclasses, by specifying the same value for `Order`.
 
-The [class library](https://www.nuget.org/packages/NetMemoryCopy/) is available from NuGet. You can get the source code, and contribute to its development, at [GitHub](https://github.com/tewarid/net-memory-copy).
+The [class library](https://www.nuget.org/packages/NetMemoryCopy/) is available from NuGet. You can get the source code, and contribute to its development, at [GitHub](https://github.com/tewarid/dotnet-memory-copy).
