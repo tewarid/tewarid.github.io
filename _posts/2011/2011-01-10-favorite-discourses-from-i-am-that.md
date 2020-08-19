@@ -6,7 +6,7 @@ comments: true
 ---
 # Favorite discourses from I Am That
 
-Here are some of my favorite discourses from the book [I Am That](http://www.amazon.com/Am-That-Talks-Sri-Nisargadatta/dp/0893860220) by Nisargadatta Maharaj. A PDF file can be found [here](http://www.anandavala.info/miscl/I_Am_That.pdf).
+Here are some of my favorite discourses from the book [I Am That](http://www.amazon.com/Am-That-Talks-Sri-Nisargadatta/dp/0893860220) by Nisargadatta Maharaj.
 
 * How do I get at it? (the realization of who am I)
 
