@@ -35,5 +35,5 @@ openssl rsa -in key.pem -pubout -text
 If you need to create pfx from private key and certificate in pem format
 
 ```bash
-openssl pkcs12 -inkey key.pem -in cert.pem -export -out file.pfx  -passout pass:foobar
+openssl pkcs12 -inkey key.pem -in cert.pem -export -out file.pfx -passout pass:foobar
 ```
