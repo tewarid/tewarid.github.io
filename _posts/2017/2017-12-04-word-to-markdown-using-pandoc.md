@@ -46,7 +46,7 @@ I use a few additional plugins to make editing Markdown files more productive
 
 * [Markdown TOC](https://marketplace.visualstudio.com/items?itemName=AlanWalk.markdown-toc)
 
-* [Table Formatter](https://marketplace.visualstudio.com/items?itemName=shuworks.vscode-table-formatter)
+* [Markdown Table Formatter](https://marketplace.visualstudio.com/items?itemName=fcrespo82.markdown-table-formatter)
 
 ## HTML in Markdown
 
