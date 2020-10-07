@@ -2,7 +2,7 @@
 
 Head over to https://tewarid.github.io to view posts.
 
-Some useful tips to work with this log
+Some useful tips to work with this blog
 
 * Use [VS Code](_posts\2017\2017-12-04-word-to-markdown-using-pandoc.md#markdown-editor), and its [myriad plugins](.vscode/extensions.json), to edit and preview posts
 
@@ -48,3 +48,5 @@ Some useful tips to work with this log
   ```json
   "mdmath.delimiters": "kramdown",
   ```
+
+* A custom slate theme is configured in [_config.yml](_config.yml) and is sourced from [https://github.com/tewarid/slate](https://github.com/tewarid/slate).
