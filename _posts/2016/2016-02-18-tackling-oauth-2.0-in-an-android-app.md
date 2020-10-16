@@ -6,13 +6,13 @@ comments: true
 ---
 # Tackling OAuth 2.0 in an Android app
 
-This post shows how to perform OAuth 2.0 authorization in an Android app using WebView. It is meant for those who need to tackle OAuth 2.0 themselves, probably because their identity provider does not provide an Android library.
+This post shows you how to perform OAuth 2.0 authorization grant flow in an Android app using WebView, without the need to bring up a web server to receive the authorization code.
 
-[OAuth 2.0](https://tools.ietf.org/html/rfc6749) defines a two-step process for obtaining an access token from an authorization server (aka identity service), that can subsequently be used to obtain resources from resource servers that trust the authorization server.
+[OAuth 2.0](https://tools.ietf.org/html/rfc6749) defines a two-step process for obtaining an access token from an identity service, that can subsequently be used to obtain resources from resource servers that trust the identity service.
 
-1. Obtain authorization code from authorization server. This step is usually carried out once, within the browser, to mitigate the need for user credentials to be handled by clients. The user authenticates with the identity service, and authorizes requested scopes. The authorization service grants an authorization code as a result, and redirects the browser to a redirect URI specified by the client.
+1. The step to obtain authorization code from identity service is usually carried out once, within the browser, to mitigate the need for user credentials to be handled by clients. The user authenticates with the identity service and authorizes requested scopes. The identity service grants an authorization code as a result, and redirects the browser to a redirect URI specified by the client.
 
-2. Client uses the authorization code obtained through previous step, and performs a token request to authorization server with its own credentials such as client_id and client_secret. This step usually happens in a server application, but it's done here on device. Some OAuth 2.0 providers will enable a simpler implicit grant flow, where step 1 above returns an access token, dispensing the need for step 2.
+2. Client uses the authorization code obtained through previous step, and performs a token request to identity service with its own credentials in client_id and client_secret. This step usually happen in a server application, but here it's done in an Android app. Some OAuth 2.0 providers enable a simpler implicit grant flow, where step 1 above returns an access token, dispensing the need for step 2.
 
 Here's one way to carry out Step 1 in a WebView
 
@@ -38,7 +38,7 @@ WebViewClient webViewClient = new WebViewClient() {
     }
 };
 webView.setWebViewClient(webViewClient);
-// Prepare loginURL
+// Prepare authorization code request url ...
 webView.loadUrl(loginURL);
 ```
 
@@ -46,8 +46,6 @@ I intercept browser navigation using shouldOverrideUrlLoading. Upon detecting th
 
 ```java
 private void acquireAccessToken(String code) {
-    // prepare url
-
     AsyncTask task = new AsyncTask<Object, Integer, String>() {
         @Override
         protected String doInBackground(Object[] urls) {
@@ -64,7 +62,8 @@ private void acquireAccessToken(String code) {
             }
         }
     };
-    task.execute(url);
+    // Prepare token request url...
+    task.execute(tokenUrl);
 }
 ```
 
@@ -103,7 +102,9 @@ private String executeRequest(String url, String method, String content) {
 }
 ```
 
-Since my authorization server uses SSL certificates with custom CAs, I have need for a customized SSLContext that can perform SSL handshake using the custom CAs (certificate pinning). This is how sslContext above may be initialized
+Since my identity service creates secure sockets using certificates signed by custom certification authorities, I have need for a custom SSLContext that can perform SSL handshake using pinned CA certificates.
+
+This is how sslContext used above may be initialized
 
 ```java
 // Create a KeyStore containing our trusted CAs,
