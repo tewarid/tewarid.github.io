@@ -26,17 +26,17 @@ The secure file transmission mechanism, depicted in the diagram below, has the f
 
 ```mermaid
 graph LR
-    Program-->data["Encrypted Data"]
-    data-->Server
+    Program-->data[Encrypted Data]
+    data-->Service
     subgraph Alice
-    priva["Alice's Private Key"]-->Program
-    pubb["Server's Public Key"]-->Program
-    file1["File"]-->Program
+        priva[Alice's Private Key]-->Program
+        pubb[Server's Public Key]-->Program
+        file1[File]-->Program
     end
     subgraph Server
-    privb["Server's Private Key"]-->Server
-    puba["Alice's Public Key"]-->Server
-    Server-->file2["File"]
+        privb[Server's Private Key]-->Service
+        puba[Alice's Public Key]-->Service
+        Service-->file2[File]
     end
 ```
 
