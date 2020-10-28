@@ -65,14 +65,14 @@ ip addr add 192.168.2.1/24 dev wlan0
 ip link set wlan0 up
 ```
 
-Configure and bring up dhcpd. Edit /etc/dhcp/dhcpd.conf. Edit following lines so that they are commented (as shown)
+Configure and bring up dhcpd. Edit /etc/dhcp/dhcpd.conf. Edit following lines so that they are commented, as shown
 
 ```conf
 #option domain-name "example.org";
 #option domain-name-servers ns1.example.org, ns2.example.org;
 ```
 
-Edit following line so that it is uncommented (as shown)
+Edit following line so that it is not commented, as shown
 
 ```conf
 authoritative;
@@ -145,7 +145,9 @@ nl80211 driver initialization failed.
 hostapd_free_hapd_data: Interface wlan0 wasn't started
 ```
 
-Join the pi network from any other device using password raspberry, and you're good to go. Configure NAT routing, if you want to access internet over the wired ethernet interface like so
+Join the pi network from any other device using password raspberry, and you're good to go.
+
+Configure NAT routing, if you want to access internet over the wired ethernet interface, like so
 
 ```bash
 echo 1 > /proc/sys/net/ipv4/ip_forward
@@ -154,15 +156,15 @@ iptables -A FORWARD -i usb0 -o wlan0 -m conntrack --ctstate ESTABLISHED,RELATED 
 iptables -A FORWARD -i wlan0 -o usb0 -j ACCEPT
 ```
 
-Change usb0 to eth0 if that is where your ISP link is at.
+Where usb0 is the ethernet interface on my Raspberry Pi.
 
-Check where your default route is configured for with
+Check how your default route is configured, with
 
 ```bash
 netstat -nr
 ```
 
-Or
+OR
 
 ```bash
 route
