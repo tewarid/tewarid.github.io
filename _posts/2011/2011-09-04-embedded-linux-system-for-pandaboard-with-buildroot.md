@@ -88,6 +88,6 @@ sudo tar xvf output/images/rootfs.tar
 
 ## Boot the system
 
-Now, you're ready to plug the SD card into the PandaBoard and test the newly minted kernel. Remember to connect your PC to the serial port of the PandaBoard, the startup messages appear there, and you can login to the new system to do whatever you have built it for. If your PC does not have a serial port, you can buy any of several cheap USB to serial adapters. [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) is an excellent terminal for serial ports if you are using Windows. You can also use it on Linux, or use [stty](http://www.arduino.cc/playground/Interfacing/LinuxTTY).
+Now, you're ready to plug the SD card into the PandaBoard and test the newly minted kernel. Remember to connect your PC to the serial port of the PandaBoard, the startup messages appear there, and you can login to the new system to do whatever you have built it for. If your PC does not have a serial port, you can buy any of several cheap USB to serial adapters. [PuTTY](http://www.chiark.greenend.org.uk/~sgtatham/putty/) is an excellent terminal for serial ports if you are using Windows. It is also available for Linux, or you can use [screen or cu](http://www.arduino.cc/playground/Interfacing/LinuxTTY).
 
 That's all for now. Further work needs to be done to [enable](http://elinux.org/Panda_How_to_kernel_3_0_rel) HDMI display, audio, WLAN and other hardware available on the PandaBoard.
