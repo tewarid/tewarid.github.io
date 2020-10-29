@@ -156,7 +156,7 @@ iptables -A FORWARD -i usb0 -o wlan0 -m conntrack --ctstate ESTABLISHED,RELATED 
 iptables -A FORWARD -i wlan0 -o usb0 -j ACCEPT
 ```
 
-Where usb0 is the ethernet interface on my Raspberry Pi.
+Where usb0 is a WAN interface on my Raspberry Pi.
 
 Check how your default route is configured, with
 
@@ -170,7 +170,7 @@ OR
 route
 ```
 
-If default route is set for usb0 (or eth0) add route through wlan0 for subnet 192.168.2.0 thus
+If default route is set for usb0, add route through wlan0 for subnet 192.168.2.0, thus
 
 ```bash
 route add -net 192.168.2.0/24 dev wlan0
