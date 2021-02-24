@@ -11,12 +11,12 @@ The last time I posted about [building a Linux system for a Raspberry Pi using t
 To create the container, we'll start with the ubuntu:20.04 base image available at Docker Hub
 
 ```bash
-docker run --name yoctopi -it -v ${PWD}:/workdir ubuntu:20.04 /bin/bash
+docker run --name yocto-raspberry-pi -it -v ${PWD}:/workdir ubuntu:20.04 /bin/bash
 ```
 
-We've mapped `/workdir` in the container to the current directory, in case you want to copy files in or out of the container. You cannot build in that directory because Yocto requires a case-sensitive file system.
+We've mapped `/workdir` in the container to the current directory, in case you want to copy files in to or out of the container. You cannot build in that directory because Yocto requires a case-sensitive file system.
 
-Now that we've created the container and are in its terminal, we can install dependencies needed to run Yocto
+Now that we've created the container and are situated in its terminal, we can install dependencies needed to run Yocto
 
 ```bash
 apt update
@@ -34,9 +34,9 @@ dpkg-reconfigure locales
 Finally, we need to run the build as a different user because Yocto does not allow building as root
 
 ```bash
-adduser yoctopi
-su yoctopi
-cd /home/yoctopi
+adduser pi
+su pi
+cd /home/pi
 ```
 
 Now, you should be good to follow the post referenced earlier to build a Linux system for the Raspberry Pi.
@@ -44,7 +44,7 @@ Now, you should be good to follow the post referenced earlier to build a Linux s
 To return to the container any time in the future, run
 
 ```bash
-docker start -ai yoctopi
-su yoctopi
-cd /home/yoctopi
+docker start -ai yocto-raspberry-pi
+su pi
+cd /home/pi
 ```
