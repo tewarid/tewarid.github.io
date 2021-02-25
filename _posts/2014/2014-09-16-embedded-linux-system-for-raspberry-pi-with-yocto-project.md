@@ -21,7 +21,7 @@ git clone https://github.com/dv1/meta-gstreamer1.0.git
 Initialize the build environment by executing
 
 ```bash
-source poky/oe-init-build-env rpi-build
+source poky/oe-init-build-env build
 ```
 
 You can run the same command again if you ever need to setup the environment again in the future.
@@ -36,11 +36,11 @@ After you're done, `conf/bblayers.conf` should look like
 
 ```conf
 BBLAYERS ?= " \
-  /home/yoctopi/poky/meta \
-  /home/yoctopi/poky/meta-poky \
-  /home/yoctopi/poky/meta-yocto-bsp \
-  /home/yoctopi/meta-gstreamer1.0 \
-  /home/yoctopi/meta-raspberrypi \
+  /home/pi/poky/meta \
+  /home/pi/poky/meta-poky \
+  /home/pi/poky/meta-yocto-bsp \
+  /home/pi/meta-gstreamer1.0 \
+  /home/pi/meta-raspberrypi \
   "
 ```
 
@@ -63,7 +63,7 @@ MACHINE ??= "raspberrypi"
 # Where to place downloads
 ```
 
-This will build an image suitable to be installed on a Raspberry 1 Model B+. Other available alternatives can be seen under `/workdir/meta-raspberrypi/conf/machine/`
+This will build an image suitable to be installed on a Raspberry 1 Model B+. Other available alternatives can be seen under `/home/pi/meta-raspberrypi/conf/machine/`
 
 ```text
 raspberrypi-cm.conf
