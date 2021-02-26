@@ -28,7 +28,7 @@ We've also installed vim to be able to edit any files within the container.
 Yocto build system requires the system locale to be set to `en_US.UTF-8`
 
 ```bash
-dpkg-reconfigure locales
+locale-gen "en_US.UTF-8"
 ```
 
 Finally, we need to run the build as a different user because Yocto does not allow building as root
