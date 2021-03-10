@@ -6,7 +6,7 @@ comments: true
 ---
 # Bluetooth on Raspberry Pi with Buildroot
 
-This post shows how to build Bluetooth support with Buildroot for a Raspberry Pi. You'll need a Bluetooth adapter such as the [Bluetooth 4.0 USB Module](http://www.adafruit.com/products/1327) from Adafruit. That adapter is also Bluetooth Smart (LE) ready.
+This post shows how to build Bluetooth support with Buildroot for a Raspberry Pi 1 Model B+. You'll need a Bluetooth adapter such as the [Bluetooth 4.0 USB Module](http://www.adafruit.com/products/1327) from Adafruit. That adapter is also Bluetooth Smart (LE) ready.
 
 I recommend using Buildroot 2014.08 because [bluez-tools]({% link _posts/2014/2014-10-24-customize-buildroot-to-build-bluez-tools.md %}) such as bt-adapter and bt-agent work with its version of Bluez.
 
@@ -40,87 +40,87 @@ If using Buildroot 2014.08, select bluez-utils 5.x package instead
 
 Look for interfaces
 
-```
+```bash
 hciconfig -a
 ```
 
 Bring up HCI interface
 
-```
+```bash
 hciconfig hci0 up
 ```
 
 Make the device discoverable
 
-```
+```bash
 hciconfig hci0 piscan
 ```
 
 Scan available devices
 
-```
+```bash
 hcitool scan
 ```
 
 Ping a device
 
-```
+```bash
 l2ping C8:3E:99:C6:1B:F8
 ```
 
 Browse capabilities of a device
 
-```
+```bash
 sdptool browse C8:3E:99:C6:1B:F8
 ```
 
 Run bluetooth daemon
 
-```
+```bash
 bluetoothd
 ```
 
 If using Buildroot 2014.08
 
-```
+```bash
 /usr/libexec/bluetooth/bluetoothd &
 ```
 
 Browse local capabilities
 
-```
+```bash
 sdptool browse local
 ```
 
 Another means to discover available devices, using [bluez-tools]({% link _posts/2014/2014-10-24-customize-buildroot-to-build-bluez-tools.md %})
 
-```
+```bash
 bt-adapter -d
 ```
 
 Connect and pair with a device listed by the command above
 
-```
+```bash
 bt-device -c 5C:0E:8B:03:6E:4E
 ```
 
 Create a network connection and obtain IP address
 
-```
+```bash
 bt-network -c C8:3E:99:C6:1B:F8 nap
 sudo dhclient bnep0
 ```
 
 Create a serial port
 
-```
+```bash
 sdptool add --channel=7 SP
 rfcomm connect /dev/rfcomm0 C8:3E:99:C6:1B:F8 7
 ```
 
 Use screen with the above serial port
 
-```
+```bash
 screen /dev/rfcomm0 115200
 ```
 
@@ -128,19 +128,19 @@ screen /dev/rfcomm0 115200
 
 Scan for Bluetooth LE devices
 
-```
+```bash
 hcitool lescan
 ```
 
 Access services and characteristics provided by an LE peripheral
 
-```
+```bash
 gatttool -b 7F:AE:48:2B:00:0C -t random -I
 ```
 
 gatttool prompt supports a set of commands to interact with the peripheral
 
-```
+```text
 connect
 primary
 char-desc
@@ -150,7 +150,7 @@ char-write-req handle data
 
 Enable advertising as an [iBeacon](https://learn.adafruit.com/pibeacon-ibeacon-with-a-raspberry-pi/overview)
 
-```
+```bash
 hciconfig hci0 leadv
 hciconfig hci0 noscan
 hcitool -i hci0 cmd 0x08 0x0008 1E 02 01 1A 1A FF 4C 00 02 15 E2 0A 39 F4 73 F5 4B C4 A1 2F 17 D1 AD 07 A9 61 00
