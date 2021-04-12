@@ -8,7 +8,7 @@ comments: true
 
 I have need to change the USB descriptors of an Arduino Uno R3 acting as a peripheral to another device. This post describes how I built a [USB Serial firmware](https://github.com/tewarid/arduino-usb-serial) for the ATmega16U2 on an Arduino Uno R3, using Atmel Studio 7 and its LUFA Library extension. It can be flashed using the built-in DFU firmware and Atmel's [FLIP](http://www.microchip.com/developmenttools/productdetails.aspx?partno=flip) tool.
 
-Source files that perform the actual USB/serial proxying are derived from USB to Serial Converter example project for the at90usb1287 (File -> New -> Example Project...). I suggest creating a project based on that example and copying the files over. I have also borrowed code from the official [source code](https://github.com/arduino/Arduino/tree/master/hardware/arduino/avr/firmwares/atmegaxxu2/arduino-usbserial) at GitHub to enable additional functionality such as allowing a sketch to be uploaded from the Arduino IDE.
+Source files that perform the actual USB/serial proxying are derived from USB to Serial Converter example project for the at90usb1287 (File -> New -> Example Project...). I suggest creating a project based on that example and copying the files over. I have also borrowed code from the official [source code](https://github.com/arduino/ArduinoCore-avr/tree/master/firmwares/atmegaxxu2/arduino-usbserial) at GitHub to enable additional functionality such as allowing a sketch to be uploaded from the Arduino IDE.
 
 ![USB to Serial Converter Example Project](/assets/img/atmel-studio-usb-serial-converter.png)
 
