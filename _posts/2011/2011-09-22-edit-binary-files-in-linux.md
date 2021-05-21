@@ -12,7 +12,7 @@ In this post I'll mention how to edit binary files using vi and the utility xxd 
 
 Use the xxd command by typing `:%!xxd`. Edit hex data. Quit hex mode with `:%!xxd -r`.
 
-## Using xxd command
+## Use xxd command
 
 You can use the xxd command outside vi. If you have an existing binary file, you can convert it to hex
 
@@ -25,6 +25,28 @@ You can then edit the hex and convert it back to binary
 ```bash
 xxd -r file.hex > file.bin
 ```
+
+### Read from standard input
+
+You can pipe standard input to xxd to convert hex to binary
+
+```bash
+echo "dead bead" | xxd -p -r > file.bin
+```
+
+Some versions of xxd require lowercase input, you can use sed to perform the conversion
+
+```bash
+echo "DEAD BEAD" | sed y/ABCDEF/abcdef/ | xxd -p -r > file.bin
+```
+
+Some versions of xxd required hex with 30 bytes per line, sed can help with that
+
+```bash
+echo "5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a" | sed 's/.\{60\}/&\n/g' | xxd -p -r > file.bin
+```
+
+### Create C static array from binary
 
 One nice little thing that xxd does is to produce a C static array definition, very convenient for embedding resource files
 
