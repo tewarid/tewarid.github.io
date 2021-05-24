@@ -34,13 +34,13 @@ You can pipe standard input to xxd to convert hex to binary
 echo "dead bead" | xxd -p -r > file.bin
 ```
 
-Some versions of xxd require lowercase input, you can use sed to perform the conversion
+Certain minimal versions of xxd require lowercase input - you can use sed to perform the conversion
 
 ```bash
 echo "DEAD BEAD" | sed y/ABCDEF/abcdef/ | xxd -p -r > file.bin
 ```
 
-Some versions of xxd required hex with 30 bytes per line, sed can help with that
+Certain minimal versions of xxd require hex with 30 bytes per line - sed can help with that
 
 ```bash
 echo "5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a5a" | sed 's/.\{60\}/&\n/g' | xxd -p -r > file.bin
