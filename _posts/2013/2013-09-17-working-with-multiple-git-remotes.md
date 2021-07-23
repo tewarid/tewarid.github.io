@@ -38,13 +38,13 @@ This can be done as follows
 
 ```bash
 git remote add repo_short_name repository_url
-git push repo_short_name master
+git push repo_short_name main
 ```
 
 You can pull changes from the new repository
 
 ```bash
-git pull repo_short_name master
+git pull repo_short_name main
 ```
 
 And push them to origin (origin is assumed if not specified)
@@ -56,13 +56,13 @@ git push origin
 If a remote has conflicting commits that you want to favor
 
 ```bash
-git pull -s recursive -X theirs repo_short_name master
+git pull -s recursive -X theirs repo_short_name main
 ```
 
 Pull and rebase on top of remote
 
 ```bash
-git pull --rebase repo_short_name master
+git pull --rebase repo_short_name main
 ```
 
 For more information on working with remote repositories see [chapter 2](https://git-scm.com/book/ch2-5.html) of the free [Git book](https://git-scm.com/book).
