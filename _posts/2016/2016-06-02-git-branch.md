@@ -50,10 +50,10 @@ Create a new branch with specified name from current start point
 git checkout -b branch
 ```
 
-Switch to master branch of origin
+Switch to main branch of origin
 
 ```bash
-git checkout master
+git checkout main
 ```
 
 Merge and commit changes in specified branch into the current branch
@@ -140,4 +140,10 @@ Reset to previous commit on current branch
 
 ```bash
 git reset HEAD~
+```
+
+Reset current branch to commit on remote tracking branch
+
+```bash
+git reset --hard remote/branch
 ```
