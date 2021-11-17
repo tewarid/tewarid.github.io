@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wireshark dissector in Lua for custom protocol over WebSockets
-tags: update
+tags: custom protocol wireshark lua
 comments: true
 ---
 # Wireshark dissector in Lua for custom protocol over WebSockets

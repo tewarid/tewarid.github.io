@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Table manipulation in Lua
-tags: lua table programming
+tags: lua table programming wireshark
 comments: true
 ---
 # Table manipulation in Lua

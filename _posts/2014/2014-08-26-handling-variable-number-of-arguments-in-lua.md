@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Handling variable number of arguments in Lua
-tags: lua programming
+tags: lua programming wireshark
 comments: true
 ---
 # Handling variable number of arguments in Lua

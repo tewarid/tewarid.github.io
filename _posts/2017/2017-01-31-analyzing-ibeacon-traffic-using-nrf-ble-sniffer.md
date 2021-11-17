@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Analyzing iBeacon traffic using nRF BLE Sniffer
-tags: ibeacon nrf bluetooth le ble sniffer nordic
+tags: ibeacon nrf bluetooth le ble sniffer nordic lua wireshark
 comments: true
 ---
 # Analyzing iBeacon traffic using nRF BLE Sniffer
