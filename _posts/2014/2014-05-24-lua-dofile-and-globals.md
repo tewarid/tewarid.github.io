@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lua dofile and globals
-tags: lua programming
+tags: lua programming wireshark
 comments: true
 ---
 # Lua dofile and globals
@@ -39,7 +39,9 @@ f1 called
 f2 called
 ```
 
-Lua only encounters call to global `f2` inside function `f1` when we call function `f1` towards the end of `file1.lua`. If we call `f1` right at the beginning of `file1.lua` we get
+Lua only encounters call to global `f2` inside function `f1` when we call function `f1` towards the end of `file1.lua`.
+
+If we call `f1` right at the beginning of `file1.lua` we get
 
 ```bash
 $ lua file1.lua
@@ -63,7 +65,9 @@ stack traceback:
 
 Summing it up, a global exists only when Lua has encountered it, whether within the same or another script file.
 
-Let us explore one other characteristic of `dofile` with another example. This is `file1.lua`
+Let us explore one other characteristic of `dofile` with another example.
+
+This is `file1.lua`
 
 ```lua
 dofile("file2.lua")
@@ -80,7 +84,9 @@ dofile("file3.lua")
 f1()
 ```
 
-It requires a certain global table in `file2.lua`, which it updates before using. It also requires a certain function `f3` in `file3.lua`. This is `file2.lua`
+It requires a certain global table in `file2.lua`, which it updates before using. It also requires a certain function `f3` in `file3.lua`.
+
+This is `file2.lua`
 
 ```lua
 hello = {['hello']='world!'}
@@ -101,7 +107,9 @@ function f3()
 end
 ```
 
-It needs function `f2` in `file2.lua`. You shouldn't need `dofile` because `file1.lua` has already loaded `file2.lua`, but whoever coded `file3.lua` probably doesn't know that. Let's execute `file1.lua` and see what happens
+It needs function `f2` in `file2.lua`. You shouldn't need `dofile` because `file1.lua` has already loaded `file2.lua`, but whoever coded `file3.lua` probably doesn't know that.
+
+Let's execute `file1.lua` and see what happens
 
 ```bash
 $ lua file1.lua
@@ -111,7 +119,11 @@ f3 called
 f2 called
 ```
 
-By the time function `f1` gets called, the value of key `'world'` in the `hello` table ceases to exist. Why? Because, right before `f1` is called, when we `dofile` `file3.lua` it will `dofile` `file2.lua`. Since `file2.lua` gets interpreted again, the global hello is replaced by a new table.
+By the time function `f1` gets called, the value of key `'world'` in the `hello` table ceases to exist.
+
+Why?
+
+Because, right before `f1` is called, when we `dofile` `file3.lua` it will `dofile` `file2.lua`. Since `file2.lua` gets interpreted again, the global `hello` is replaced by a new table.
 
 Summing it up, Lua will load and execute the same file again when it encounters `dofile`, redefining all globals in it.
 
@@ -128,9 +140,13 @@ f3 called
 f2 called
 ```
 
-Globals now work without side-effects! Note the use of LUA_PATH environment variable to specify the search path for Lua scripts. You can also set search path inside a Lua script by modifying package.path.
+Globals now work without side-effects!
 
-What if you have already invested in `dofile` and don't want to change things for now? In the example above, modifying `file2.lua` thus, eliminates our problem
+Note the use of LUA_PATH environment variable to specify the search path for Lua scripts. You can also set search path inside a Lua script by modifying `package.path`.
+
+What if you have already invested in `dofile` and don't want to change things for now?
+
+In the previous example, modifying `file2.lua` thus, eliminates our problem
 
 ```lua
 if hello == nil then hello = { } end
