@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Wireshark
-tags: wireshark lua
+tags: wireshark
 ---
 # Wireshark
 
