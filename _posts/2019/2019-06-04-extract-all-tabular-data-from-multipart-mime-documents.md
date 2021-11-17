@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Extract all tabular data from multipart mime documents
-tags: docker compose mqtt node-red nodered
+tags: python  data extraction multipart mime
 comments: true
 ---
 # Extract all tabular data from multipart mime documents
