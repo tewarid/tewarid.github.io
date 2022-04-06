@@ -102,7 +102,7 @@ To query the contents of the directory you can use the ldapsearch command. The f
 ldapsearch -x -b 'dc=my-domain,dc=com' '(sn=*)'
 ```
 
-Softerra offers a free windows-based browser called [LDAPBrowser](http://www.ldapbrowser.com/info_softerra-ldap-browser.htm) that can be used to explore an LDAP directory. Another option is the open source Java LDAP browser called [JXplorer](http://jxplorer.org/). JXplorer also lets you create new entries in an LDAP directory.
+Softerra offers a free windows-based browser called [LDAPBrowser](https://www.ldapadministrator.com/softerra-ldap-browser.htm) that can be used to explore an LDAP directory. Another option is the open source Java LDAP browser called [JXplorer](http://jxplorer.org/). JXplorer also lets you create new entries in an LDAP directory.
 
 ## Access the LDAP Directory from Java
 
