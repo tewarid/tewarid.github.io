@@ -12,4 +12,4 @@ I have been playing with the LightBlue app that can be freely purchased from the
 
 Google's Android is moving in the [same direction](http://gigaom.com/2013/05/16/android-is-just-the-beginning-how-bluetooth-is-preparing-for-the-internet-of-things/).
 
-Texas Instruments provides the SensorTag [kit](https://estore.ti.com/CC2541DK-SENSOR-P3192.aspx) and [software](http://www.ti.com/tool/sensortag-sw) for peripheral development, and it works with Android and iOS.
+Texas Instruments provides the SensorTag [reference design](https://www.ti.com/tool/CC2541-SENSORTAG-IBEACON-RD) and [software](http://www.ti.com/tool/sensortag-sw) for peripheral development, and it works with Android and iOS.
