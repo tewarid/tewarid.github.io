@@ -8,27 +8,28 @@ comments: true
 
 These are the commands that I mostly use to manage packages from the CLI. See `man command` for more detailed help.
 
-## apt-cache
+## apt search
 
-`apt-cache search text` to search for packages containing the specified text. Listed packages can be installed using `apt-get`. To see details about a package use `apt-cache showpkg packages`.
+`apt search text` to search for packages containing the specified text. Listed packages can be installed using `apt install`. To see details about a package use `apt show package`.
 
-## apt-add-repository
+## apt edit-sources
 
-`apt-add-repository url` to add a new repository source
+`sudo apt edit-sources` to edit package source repositories.
 
-`apt-add-repository -r url` to remove
+After that, `sudo apt update` to update package cache from active repository sources.
 
-## apt-get
+## apt install
 
-`sudo apt-get install package_name` to install or upgrade a package
+`sudo apt install package` to install a package.
 
-`sudo apt-get update` to update package cache from active respository sources, usually after a `apt-add-repository`
+`sudo apt upgrade package` to upgrade to latest version of a package.
 
 ## dpkg
 
-`dpkg -l` to list all packages installed and their versions. pipe to `grep` to filter.
+`dpkg -l` to list all packages installed and their versions, pipe to `grep` to filter.
 
-`sudo dpkg -i deb_package` to install from a package archive
+`sudo dpkg -i deb_package` to install from a package archive.
 
-`dpkg -S file` to discover which package a file belongs to
-`sudo dpkg -r --force-depends` to forcefully remove a broken package e.g. `sudo dpkg -r --force-depends libssl1.0.0`
+`dpkg -S file` to discover which package a file belongs to.
+
+`sudo dpkg -r --force-depends` to forcefully remove a broken package e.g. `sudo dpkg -r --force-depends libssl1.0.0`.
