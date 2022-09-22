@@ -11,7 +11,7 @@ This post shows how to run [homebridge](https://github.com/nfarina/homebridge/wi
 Install upstart
 
 ```bash
-sudo apt-get install upstart
+sudo apt install upstart
 ```
 
 Create configuration file `/etc/init/homebridge.conf` with
