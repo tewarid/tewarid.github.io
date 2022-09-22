@@ -36,22 +36,22 @@ To return to container created earlier
 docker start -ai container_id
 ```
 
-Update apt-get package cache so that you can search and install additional packages
+Update apt package cache so that you can search and install additional packages
 
 ```bash
-apt-get update
+sudo apt update
 ```
 
 You should now be able to search
 
 ```bash
-apt-cache search wget
+sudo apt search wget
 ```
 
 And install your favorite tools
 
 ```bash
-apt-get install wget
+sudo apt install wget
 ```
 
 Obtain Buildroot
@@ -69,7 +69,7 @@ tar xvzf buildroot-2016.11.2.tar.gz
 Install dependencies required to run Buildroot
 
 ```bash
-apt-get install patch cpio python unzip rsync bc bzip2 ncurses-dev git make g++
+sudo apt install patch cpio python unzip rsync bc bzip2 ncurses-dev git make g++
 ```
 
 Go ahead and build your [Linux system]({% link _posts/2014/2014-07-15-embedded-linux-system-for-raspberry-pi-with-buildroot.md %}).
