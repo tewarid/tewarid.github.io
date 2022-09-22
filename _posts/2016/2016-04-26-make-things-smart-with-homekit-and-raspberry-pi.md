@@ -6,11 +6,11 @@ comments: true
 ---
 # Make things smart with HomeKit and Raspberry Pi
 
-As an avid iOS user I have been keen on using [HomeKit](https://developer.apple.com/homekit/). That's when I read about a new - and currently free - HomeKit app in the iOS App Store called [Hesperus](https://itunes.apple.com/us/app/hesperus/id969348892?mt=8). I don't have a HomeKit compatible thing at home, but a quick internet search revealed that I could run a HomeKit compatible service called [homebridge](https://www.npmjs.com/package/homebridge) on a Raspberry Pi. This post only goes so far as configuring a fictitious light bulb plugin that can be controlled remotely.
+As an avid iOS user I have been keen on using [HomeKit](https://developer.apple.com/homekit/). That's when I read about a new - and currently free - HomeKit app in the iOS App Store called [Hesperus](https://9to5mac.com/2016/04/22/hesperus-homekit-iphone-app/). I don't have a HomeKit compatible thing at home, but a quick internet search revealed that I could run a HomeKit compatible service called [homebridge](https://www.npmjs.com/package/homebridge) on a Raspberry Pi. This post only goes so far as configuring a fictitious light bulb plugin that can be controlled remotely.
 
 ## Setup Raspberry Pi Image
 
-I decided to download a headless (console-only) version of Raspbian called [RASPBIAN JESSIE LITE](https://www.raspberrypi.org/downloads/raspbian/). Instructions for setting up an SD card appropriately can be [found here](https://www.raspberrypi.org/documentation/installation/installing-images/README.md). I [use Win32 Disk Imager on Windows to write images]({% link _posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md %}).
+I decided to download a [console-only LITE version](https://www.raspberrypi.com/software/operating-systems/) of Raspbian. Instructions for setting up an SD card appropriately can be [found here](https://www.raspberrypi.com/documentation/computers/getting-started.html). I [use Win32 Disk Imager on Windows to write images]({% link _posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md %}).
 
 I didn't want to use an HDMI display with the Raspberry Pi, and wanted to power it using my laptop. I have used a USB to serial adapter to do that [in the past]({% link _posts/2014/2014-07-21-sparkfun-ftdi-basic-with-raspberry-pi.md %}). This time, I went with the USB Serial TTL cable from Adafruit, as described [in this lesson](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable). That done, I was able to power up and login to the Raspberry Pi using a serial terminal. I tend to use screen on Linux or Mac OS X
 
@@ -20,7 +20,7 @@ screen /dev/ttyUSB0 9600
 
 ## Configuring Wi-Fi
 
-RASPBIAN JESSIE LITE lacks a full-fledged user interface, making Wi-Fi configuration slightly painful. I am using a Wi-Fi stick and had some issues getting the driver to work. Hopefully, you've got a Raspberry Pi 3, or a compatible Wi-Fi stick that does not require too much tinkering. You can also use Ethernet. The following can be used to check whether your network interface can be listed
+Raspbian LITE lacks a full-fledged user interface, making Wi-Fi configuration slightly painful. I am using a Wi-Fi stick and had some issues getting the driver to work. Hopefully, you've got a Raspberry Pi 3, or a compatible Wi-Fi stick that does not require too much tinkering. You can also use Ethernet. The following can be used to check whether your network interface can be listed
 
 ```bash
 ifconfig
@@ -47,11 +47,11 @@ Having done that, Wi-Fi was up and running. I had internet access, and could acc
 A few additional Linux packages and configuration steps are required before homebridge may be installed. Packages can be installed thus
 
 ```bash
-sudo apt-get update
+sudo apt update
 sudo apt install nodejs npm git libavahi-compat-libdnssd-dev
 ```
 
-The version of Node.js installed by apt-get is rather dated, and will not work with homebridge. To update node, use the following commands
+The version of Node.js installed by apt is rather dated, and will not work with homebridge. To update node, use the following commands
 
 ```bash
 sudo npm install -g n
@@ -72,7 +72,7 @@ To do anything interesting with homebridge you'll require a plugin, and have it 
 sudo npm install -g homebridge-fakebulb
 ```
 
-Its [sample configuration file](https://github.com/schemish/homebridge-fakebulb/blob/master/config-sample.json) can be used to create the config.json file mentioned above. This is what my config.json looks like
+Its [sample configuration file](https://github.com/tewarid/homebridge-fakebulb/blob/master/config-sample.json) can be used to create the config.json file mentioned above. This is what my config.json looks like
 
 ```javascript
 {
