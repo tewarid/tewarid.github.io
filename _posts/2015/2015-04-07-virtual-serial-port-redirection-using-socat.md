@@ -18,7 +18,7 @@ If the above command is successful, you can send data from one serial port to an
 screen /dev/ttyS0 115200
 ```
 
-Install screen using `sudo apt-get screen` if not already installed. Repeat the above command on another prompt for the other serial device, and you're good to go. Quit screen using Ctrl-A.
+Install screen using `sudo apt install screen` if not already installed. Repeat the above command on another prompt for the other serial device, and you're good to go. Quit screen using Ctrl-A.
 
 socat can also be used to perform serial to TCP redirection
 
