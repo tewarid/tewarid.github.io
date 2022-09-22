@@ -6,13 +6,13 @@ comments: true
 ---
 # Web chat using Strophe and Openfire
 
-[XMPP](http://xmpp.org/about-xmpp/) is now widely used to implement messaging and presence services. Popular applications and services such as Jabber, Google Voice, and Google Talk are based on it. [Openfire](http://xmpp.org/about-xmpp/) is one really popular cross-platform Java server infrastructure for XMPP. On the client side there is an increasing trend towards applications done in HTML and JavaScript. There now exist some pure JavaScript client libraries such as [Strophe](https://github.com/metajack/strophejs) that support this trend. These work with the [BOSH](http://xmpp.org/extensions/xep-0124.html) HTTP binding provided by Openfire.
+[XMPP](http://xmpp.org/about-xmpp/) is now widely used to implement messaging and presence services. Popular applications and services such as Jabber, Google Voice, and Google Talk are based on it. [Openfire](https://igniterealtime.org/projects/openfire/) is one really popular cross-platform Java server infrastructure for XMPP. On the client side there is an increasing trend towards applications done in HTML and JavaScript. There now exist some pure JavaScript client libraries such as [Strophe](https://github.com/metajack/strophejs) that support this trend. These work with the [BOSH](http://xmpp.org/extensions/xep-0124.html) HTTP binding provided by Openfire.
 
-In this post, I explain how I setup a simple chat application called [trophyim](http://code.google.com/p/trophyim/) to run with Openfire. I'll use Apache httpd along the way to get around cross-origin errors, by using it as a proxy to access the http binding service provided by Openfire. Openfire should soon [implement](https://issues.igniterealtime.org/browse/OF-342) [CORS](https://www.w3.org/TR/cors/#use-cases) support so we won't need to proxy HTTP requests in the future.
+In this post, I explain how I setup a simple chat application called [trophyim](https://code.google.com/p/trophyim/) to run with Openfire. I'll use Apache httpd along the way to get around cross-origin errors, by using it as a proxy to access the http binding service provided by Openfire. Openfire should soon [implement](https://issues.igniterealtime.org/browse/OF-342) [CORS](https://www.w3.org/TR/cors/#use-cases) support so we won't need to proxy HTTP requests in the future.
 
 ## Obtain and build Strophe
 
-Download Strophe from [GitHub](https://github.com/metajack/strophejs/). Build it using `make`. I usually have a Linux VM around for such occasions.
+Download Strophe from [GitHub](https://github.com/strophe/strophejs). Build it using `make`. I usually have a Linux VM around for such occasions.
 
 ## Setup Openfire and Apache httpd
 
