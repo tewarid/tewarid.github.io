@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Use SPI bus with the 38-pin ESP-32
+title: Use SPI bus with the 38-pin ESP-32 Module
 tags: esp32 spi grove bme680 arduino
 comments: true
 ---
@@ -22,7 +22,7 @@ You'll need to have the Arduino IDE set up and ready to go on your computer.
 
 We'll wire the sensor to the ESP-32 as follows
 
-![Wiring Diagram](/assets/img/esp32-38-pin-bme680.png)
+![Wiring Diagram](/assets/img/esp32-38-pin-bme680-spi.png)
 
  Note that the diagram shows the Adafruit BME680 sensor that is equivalent to the grove BME680 sensor from Seeed Studio.
 
