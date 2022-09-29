@@ -53,7 +53,7 @@ void loop() {
 }
 ```
 
-We define some constants and variables to interface with the BME680 using device address `0x77`, I2C frequency `100` KHz, and I2C bus `0` on GPIOs `21` (SCL) and `22` (SDA).
+We define some constants and setup the `TwoWire` API to interface with the BME680 using device address `0x77`, I2C frequency `100` KHz, and I2C bus `0` with GPIOs `21` (SCL) and `22` (SDA).
 
 ```c++
 #define I2C_ADDRESS 0x76
@@ -64,9 +64,29 @@ We define some constants and variables to interface with the BME680 using device
 #define I2C_SCL_0 22
 
 TwoWire I2C_0 = TwoWire(0);
+
+void setup() {
+  Serial.begin(115200);
+  while (!Serial);
+
+  // Setup I2C interface
+  I2C_0.begin(I2C_SDA_0, I2C_SCL_0, I2C_Freq);
 ```
 
-In the `setup` function, we initiate a write to register `0xD0`, in preparation to read from it
+Whereas the `TwoWire` API gives more control, the simpler `Wire` API can be used if you are happy to use the default I2C bus and GPIOs. The above code can then be simplified to
+
+```c++
+#define I2C_ADDRESS 0x76
+
+void setup() {
+  Serial.begin(115200);
+  while (!Serial);
+
+  // Setup I2C interface
+  I2C_0.begin();
+```
+
+Next, in the `setup` function, we initiate a write to register `0xD0`, in preparation to read from it
 
 ```c++
   I2C_0.beginTransmission(I2C_ADDRESS);
@@ -84,6 +104,8 @@ Finally, we send a read request and verify that the value read is `0x61`
   }
 ```
 
-Here's a logic analyzer probe of the I2C bus when doing the above operations
+Arduino's Wire API and hardware handles bus start/stop and ack/nak signaling required by I2C.  Here's a logic analyzer probe of the I2C bus when doing the above operations
 
 ![I2C bus analysis](/assets/img/esp32-arduino-bme680-i2c.png)
+
+Multiple devices, as long as they have different addresses, can similarly be connected to and conversed with on the same I2C bus.
