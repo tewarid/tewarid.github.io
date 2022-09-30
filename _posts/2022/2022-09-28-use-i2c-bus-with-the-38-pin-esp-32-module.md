@@ -19,7 +19,7 @@ Here's an Arduino Sketch that queries the sensor id register `0xD0`, and thus se
 ```c++
 #include <Wire.h>
 
-#define I2C_ADDRESS 0x77
+#define I2C_ADDRESS 0x76
 
 #define I2C_Freq 100000
 
@@ -53,7 +53,9 @@ void loop() {
 }
 ```
 
-We define some constants and setup the `TwoWire` API to interface with the BME680 using device address `0x77`, I2C frequency `100` KHz, and I2C bus `0` with GPIOs `21` (SCL) and `22` (SDA).
+We define some constants and setup the `TwoWire` API to interface with the BME680 using device address `0x76`, I2C frequency `100` KHz, and I2C bus `0` with GPIOs `21` (SCL) and `22` (SDA).
+
+Note that depending on the wiring of the BME680 module, if you are unable to detect the device, I2C address may need to be changed to `0x77`.
 
 ```c++
 #define I2C_ADDRESS 0x76
@@ -77,6 +79,8 @@ Whereas the `TwoWire` API gives more control, the simpler `Wire` API can be used
 
 ```c++
 #define I2C_ADDRESS 0x76
+
+TwoWire I2C_0 = Wire;
 
 void setup() {
   Serial.begin(115200);
