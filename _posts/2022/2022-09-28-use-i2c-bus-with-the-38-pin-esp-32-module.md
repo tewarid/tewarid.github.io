@@ -6,7 +6,7 @@ comments: true
 ---
 # Use I2C bus with the 38-pin ESP-32 Module
 
-The I2C bus is a multi-device two-wire half-duplex synchronous serial interface. Typical clock speeds are 100 KHz and 400 KHz. Device addresses are 7-bit and usually hardcoded in the device. This necessitates use of separate busses to interface with devices that have the same address.
+The I2C bus is a multi-device two-wire half-duplex 8-bit synchronous serial interface. Typical clock speeds are 100 KHz and 400 KHz. Device addresses are 7-bit and usually hardcoded in the device. This necessitates use of separate busses to interface with devices that have the same address.
 
 In this post, we'll use an ESP-32 38-pin module to interface with the common BME680 environment sensor from Bosch. We'll use the Arduino IDE to develop our code, and while there are several good Arduino libraries for the BME680, we'll develop code from scratch to do something as simple as detect BME680 sensor on the I2C bus.
 
