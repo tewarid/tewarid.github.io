@@ -72,4 +72,4 @@ Install dependencies required to run Buildroot
 sudo apt install patch cpio python unzip rsync bc bzip2 ncurses-dev git make g++
 ```
 
-Go ahead and build your [Linux system]({% link _posts/2014/2014-07-15-embedded-linux-system-for-raspberry-pi-with-buildroot.md %}).
+Go ahead and build your [Linux system](_posts/2014/2014-07-15-embedded-linux-system-for-raspberry-pi-with-buildroot.md).

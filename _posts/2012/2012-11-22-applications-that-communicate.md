@@ -68,4 +68,4 @@ Some considerations need to be made as to what happens to messages when delivery
 
 ## Software design patterns and data structures
 
-Certain data structures and patterns that can be very useful are queues, priority queues, [observer]({% link _posts/2012/2012-09-14-applying-the-observer-pattern-for-protocol-parsing-and-handling.md %}), and chain of responsibility.
+Certain data structures and patterns that can be very useful are queues, priority queues, [observer](_posts/2012/2012-09-14-applying-the-observer-pattern-for-protocol-parsing-and-handling.md), and chain of responsibility.

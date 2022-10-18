@@ -8,7 +8,7 @@ comments: true
 
 I was told about Apache Vysper by a colleague at work and thought I'd give it a try. It is very much in development, lacks documentation, and clustering support for those looking to scale.
 
-I'll replace Openfire in the web chat setup I did in [Web chat using Strophe and Openfire]({% link _posts/2011/2011-03-31-web-chat-using-strophe-and-openfire.md %}). You'll need a more feature-rich client than trophyim to be able to add users to the roster and such. I used [Jitsi](http://www.jitsi.org/).
+I'll replace Openfire in the web chat setup I did in [Web chat using Strophe and Openfire](_posts/2011/2011-03-31-web-chat-using-strophe-and-openfire.md). You'll need a more feature-rich client than trophyim to be able to add users to the roster and such. I used [Jitsi](http://www.jitsi.org/).
 
 
 ## Setup Vysper

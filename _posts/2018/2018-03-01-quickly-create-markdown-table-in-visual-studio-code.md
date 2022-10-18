@@ -38,6 +38,6 @@ Use Code's [Table Formatter](https://marketplace.visualstudio.com/items?itemName
 +------------------------+--------------+
 ```
 
-This is how the grid table should look when rendered to PDF using the [eisvogel latex template]({% link _posts/2018/2018-01-29-use-eisvogel-custom-template-with-pandoc.md %})
+This is how the grid table should look when rendered to PDF using the [eisvogel latex template](_posts/2018/2018-01-29-use-eisvogel-custom-template-with-pandoc.md)
 
 ![Grid Table rendered to PDF by Pandoc](/assets/img/pandoc-pdf-grid-table.png)

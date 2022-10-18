@@ -34,6 +34,6 @@ A comparison with additional brokers is available at https://github.com/mqtt/mqt
 
 ## Notes
 
-1. See [MQTT and AMQP 1.0 interoperability in RabbitMQ]({% link _posts/2019/2019-03-13-mqtt-and-amqp-1.0-interoperability-in-rabbitmq.md %}).
+1. See [MQTT and AMQP 1.0 interoperability in RabbitMQ](_posts/2019/2019-03-13-mqtt-and-amqp-1.0-interoperability-in-rabbitmq.md).
 2. A retained message sent to a topic is not received when a client later subscribes to the topic with wildcards.
 3. ActiveMQ version 6 will be based on Artemis which is based on JBoss Hornett and currently distributed as a separate product.

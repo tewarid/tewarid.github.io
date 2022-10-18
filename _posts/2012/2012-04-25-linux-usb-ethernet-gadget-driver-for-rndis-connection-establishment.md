@@ -22,7 +22,7 @@ This list summarizes the mapping
 
 The above can be reproduced quite easily using the `lsusb -v` command in Linux.
 
-Armed with that information I used Wireshark to [sniff the USB bus]({% link _posts/2011/2011-08-19-sniff-usb-bus-on-linux.md %}). The USB capture is usually very verbose, I used the filter `usb.data_flag == "present (0)"` to get to the relevant packets.
+Armed with that information I used Wireshark to [sniff the USB bus](_posts/2011/2011-08-19-sniff-usb-bus-on-linux.md). The USB capture is usually very verbose, I used the filter `usb.data_flag == "present (0)"` to get to the relevant packets.
 
 Here's the sequence of control messages that establish RNDIS communication. The first four bytes in the hex stream is the message id, in little endian order.
 

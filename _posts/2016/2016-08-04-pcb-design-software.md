@@ -31,7 +31,7 @@ Altium provides powerful design rules creation and checking capabilities that co
 
 [Eagle](https://cadsoft.io/) is the quintessential PCB design tool used by professionals and hobbyists. Small PCB designs can be done for free. It is useful to have to study open source designs such as the one for [Arduino Uno](https://www.arduino.cc/en/Main/ArduinoBoardUno). There's a lot of information available about and for Eagle such as a wonderful [series of tutorials](https://learn.sparkfun.com/tutorials/how-to-install-and-setup-eagle) from SparkFun.
 
-[Fritzing]({% link _posts/2013/2013-09-26-fritzing-to-design-and-prototype-electronics-circuits.md %}) has become very popular among makers to represent breadboard views of circuits. It also comes with quite powerful PCB editing and verification capabilities. Designs can be exported for manufacturing.
+[Fritzing](_posts/2013/2013-09-26-fritzing-to-design-and-prototype-electronics-circuits.md) has become very popular among makers to represent breadboard views of circuits. It also comes with quite powerful PCB editing and verification capabilities. Designs can be exported for manufacturing.
 
 [gerbv](http://gerbv.geda-project.org/) is very useful to review Gerber format manufacturing files. I always review mine in gerbv before sending them off to the manufacturer.
 

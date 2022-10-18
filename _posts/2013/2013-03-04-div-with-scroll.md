@@ -6,7 +6,7 @@ comments: true
 ---
 # DIV with scroll
 
-This is a continuation post to [Avoiding HTML5 Canvas]({% link _posts/2012/2012-08-06-avoiding-html5-canvas.md %}).
+This is a continuation post to [Avoiding HTML5 Canvas](_posts/2012/2012-08-06-avoiding-html5-canvas.md).
 
 If, instead of panning and scrolling the entire browser window, you want to pan or scroll the image inside the DIV, replace lines 18-19 as follows.
 

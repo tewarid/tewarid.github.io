@@ -95,4 +95,4 @@ sudo bmaptool copy --bmap tmp/deploy/images/raspberrypi/core-image-base-raspberr
 
 Change `/dev/sda` to the appropriate device on your system.
 
-Boot your Raspberry Pi using the SD card. Command line appears on the HDMI display, or, if configured, [over the serial port on the expansion header]({% link _posts/2014/2014-07-21-sparkfun-ftdi-basic-with-raspberry-pi.md %}). You can login as `root` with an empty password.
+Boot your Raspberry Pi using the SD card. Command line appears on the HDMI display, or, if configured, [over the serial port on the expansion header](_posts/2014/2014-07-21-sparkfun-ftdi-basic-with-raspberry-pi.md). You can login as `root` with an empty password.

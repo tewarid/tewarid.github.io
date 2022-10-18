@@ -18,12 +18,6 @@ Some useful tips to work with this blog
 
 * Use `rename.sh` Bash script to rename all posts in a folder using title specified in Front Matter
 
-* Liquid makes Markdown less portable, I suggest using only the link filter
-
-  ```liquid
-  [link to another post]({% link _posts/2018/2018-03-23-status-of-popular-markup-language-standards.md %})
-  ```
-
 * mermaid.js diagrams can be inserted as follows
 
   ````text

@@ -12,7 +12,7 @@ Getting back to the topic, I visited a local Toysrsus store and spent a couple o
 
 Two things convinced me I needed to buy it. The 3D display piqued my interest. The cheapest 3D TVs in Brazil can easily cost more than 2500 USDs, so they are rare to get hold of. I am curious about 3D display technology and I don't know of any other device or gadget with a 3D display at the price point of the 3DS.
 
-The other thing was Netflix. Since its [launch]({% link _posts/2011/2011-09-05-netflix-launches-in-brazil.md %}) in Latin America, Netflix has notched up a million subscribers. The 3DS has a Netflix app in the Nintendo eShop for North America. Netflix does not stream 3D movies. I thought another screen to watch Netflix, that consumes less electricity than a PC, would be a fine thing.
+The other thing was Netflix. Since its [launch](_posts/2011/2011-09-05-netflix-launches-in-brazil.md) in Latin America, Netflix has notched up a million subscribers. The 3DS has a Netflix app in the Nintendo eShop for North America. Netflix does not stream 3D movies. I thought another screen to watch Netflix, that consumes less electricity than a PC, would be a fine thing.
 
 So, I bought the 3DS. The Hotel I was staying at had a hotsite for Wireless access where you had to enter an access code. I was having a hard time figuring out how I'd provide the access code when I realized that the 3DS has a fine web browser. Having the internet working, I was then able to access the Nintendo eShop and download the Netflix app. The hotel Wireless was too bad to actually stream movies but I had the app and thought in all earnest that I was all set.
 

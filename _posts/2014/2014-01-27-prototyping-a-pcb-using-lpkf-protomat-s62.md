@@ -6,7 +6,7 @@ comments: true
 ---
 # Prototyping a PCB using LPKF ProtoMat S62
 
-The last time I designed my own PCB, in 1995, I used parchment (butter) paper and stickers. The fabrication was contracted out to a third-party. Times have changed, we now have simple circuit design software such as [Fritzing]({% link _posts/2013/2013-09-26-fritzing-to-design-and-prototype-electronics-circuits.md %}), and rapid PCB prototyping machines such as the LPKF ProtoMat S62\. Though the latter doesn't come cheap, it is totally worth it.
+The last time I designed my own PCB, in 1995, I used parchment (butter) paper and stickers. The fabrication was contracted out to a third-party. Times have changed, we now have simple circuit design software such as [Fritzing](_posts/2013/2013-09-26-fritzing-to-design-and-prototype-electronics-circuits.md), and rapid PCB prototyping machines such as the LPKF ProtoMat S62\. Though the latter doesn't come cheap, it is totally worth it.
 
 The PCB I designed is very simple, and contains only through-hole parts. It is a custom breakout for the Raspberry Pi Model B Rev 2\. I found most components in the Fritzing library. The Raspberry Pi component was obtained from the Adafruit Fritzing library at [GitHub](https://github.com/adafruit/Fritzing-Library) (AdaFruit.fzbz).
 

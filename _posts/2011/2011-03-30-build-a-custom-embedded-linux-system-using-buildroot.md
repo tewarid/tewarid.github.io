@@ -10,7 +10,7 @@ In this post I build a custom embedded Linux bootable CD that I can run in an x8
 
 ## Obtain Buildroot
 
-[Get](https://buildroot.org/download.html) buildroot. I use version 2011.02 in this post. My build machine is a Virtual Box VM running Ubuntu 10.04 LTS. I have Virtual Box Guest Additions installed, which I use to [access a shared folder]({% link _posts/2011/2011-05-06-using-shared-folders-in-virtualbox.md %}) on the host OS, to get files in and out of the VM.
+[Get](https://buildroot.org/download.html) buildroot. I use version 2011.02 in this post. My build machine is a Virtual Box VM running Ubuntu 10.04 LTS. I have Virtual Box Guest Additions installed, which I use to [access a shared folder](_posts/2011/2011-05-06-using-shared-folders-in-virtualbox.md) on the host OS, to get files in and out of the VM.
 
 To configure Buildroot, you'll require several packages. `make` is one, but most Linux installations have that already.
 

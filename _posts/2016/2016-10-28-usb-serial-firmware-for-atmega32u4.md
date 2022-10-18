@@ -12,7 +12,7 @@ This post describes how to create USB Serial firmware for the ATmega32U4 found o
 
 ## Source code
 
-Creation of source code using Atmel Studio 7 is described in post [Arduino USB Serial firmware from scratch]({% link _posts/2016/2016-08-10-arduino-usb-serial-firmware-from-scratch.md %}). Choose `adafruit_u4` as the board for LUFA Board Support (driver).
+Creation of source code using Atmel Studio 7 is described in post [Arduino USB Serial firmware from scratch](_posts/2016/2016-08-10-arduino-usb-serial-firmware-from-scratch.md). Choose `adafruit_u4` as the board for LUFA Board Support (driver).
 
 The breakout board has just one programmable LED hence the code has been adapted to blink the same LED when receiving and transmitting data.
 

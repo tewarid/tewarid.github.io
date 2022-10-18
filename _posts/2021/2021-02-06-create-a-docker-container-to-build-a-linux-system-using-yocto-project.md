@@ -6,7 +6,7 @@ comments: true
 ---
 # Create a Docker container to build a Linux system using Yocto Project
 
-The last time I posted about [building a Linux system for a Raspberry Pi using the Yocto project]({% link _posts/2014/2014-09-16-embedded-linux-system-for-raspberry-pi-with-yocto-project.md %}), I used a Linux Virtual machine on macOS. Docker has since become quite popular and is often used to build embedded Linux systems. In this post, I document how to create a Docker container to run the build in the aforementioned post, on macOS, but Linux and Windows should work similarly.
+The last time I posted about [building a Linux system for a Raspberry Pi using the Yocto project](_posts/2014/2014-09-16-embedded-linux-system-for-raspberry-pi-with-yocto-project.md), I used a Linux Virtual machine on macOS. Docker has since become quite popular and is often used to build embedded Linux systems. In this post, I document how to create a Docker container to run the build in the aforementioned post, on macOS, but Linux and Windows should work similarly.
 
 To create the container, we'll start with the ubuntu:20.04 base image available at Docker Hub
 

@@ -6,7 +6,7 @@ comments: true
 ---
 # Stream live WebM video to browser using Node.js and GStreamer
 
-In this post, we'll stream live WebM video to the browser using just GStreamer and Node.js. We'll use Node.js with the Express middleware. We have used the latter to [stream a WebM file]({% link _posts/2011/2011-04-25-stream-webm-file-to-chrome-using-node.js.md %}) on demand.
+In this post, we'll stream live WebM video to the browser using just GStreamer and Node.js. We'll use Node.js with the Express middleware. We have used the latter to [stream a WebM file](_posts/2011/2011-04-25-stream-webm-file-to-chrome-using-node.js.md) on demand.
 
 ## Code
 

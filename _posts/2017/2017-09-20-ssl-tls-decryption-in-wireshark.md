@@ -6,7 +6,7 @@ comments: true
 ---
 # SSL/TLS decryption in Wireshark
 
-Wireshark's [dissector for SSL](https://wiki.wireshark.org/SSL) is able to decrypt SSL/TLS, given the private key in PFX/P12 or PEM format. If you want to figure out whether you're using the right private key, you can [derive the public key]({% link _posts/2017/2017-09-18-export-private-key-in-pfx-or-p12-file-to-pem-format.md %}) from it, and compare its modulus with the first certificate in the chain of certificates sent in the SERVER HELLO.
+Wireshark's [dissector for SSL](https://wiki.wireshark.org/SSL) is able to decrypt SSL/TLS, given the private key in PFX/P12 or PEM format. If you want to figure out whether you're using the right private key, you can [derive the public key](_posts/2017/2017-09-18-export-private-key-in-pfx-or-p12-file-to-pem-format.md) from it, and compare its modulus with the first certificate in the chain of certificates sent in the SERVER HELLO.
 
 ```text
 $ openssl rsa -text -in key.pem -pubout

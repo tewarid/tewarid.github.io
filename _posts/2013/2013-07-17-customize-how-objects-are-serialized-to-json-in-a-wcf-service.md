@@ -6,7 +6,7 @@ comments: true
 ---
 # Customize how objects are serialized to JSON in a WCF service
 
-This post presents an improved version of the service presented in [Cleaner JSON from a WCF service with webHttp behavior]({% link _posts/2013/2013-06-26-cleaner-json-from-a-wcf-service-with-webhttp-behavior.md %}). I demonstrate how to customize serialization of an object to JSON.
+This post presents an improved version of the service presented in [Cleaner JSON from a WCF service with webHttp behavior](_posts/2013/2013-06-26-cleaner-json-from-a-wcf-service-with-webhttp-behavior.md). I demonstrate how to customize serialization of an object to JSON.
 
 ## Custom object
 

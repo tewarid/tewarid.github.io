@@ -5,16 +5,16 @@ tags: topic
 ---
 # Topics
 
-[Atmel AVR]({% link topics/avr.md %})
+[Atmel AVR](topics/avr.md)
 
-[Buildroot]({% link topics/buildroot.md %})
+[Buildroot](topics/buildroot.md)
 
-[GStreamer]({% link topics/gstreamer.md %})
+[GStreamer](topics/gstreamer.md)
 
-[Markdown]({% link topics/markdown.md %})
+[Markdown](topics/markdown.md)
 
-[MQTT]({% link topics/mqtt.md %})
+[MQTT](topics/mqtt.md)
 
-[OpenSSL]({% link topics/openssl.md %})
+[OpenSSL](topics/openssl.md)
 
-[Wireshark]({% link topics/wireshark.md %})
+[Wireshark](topics/wireshark.md)

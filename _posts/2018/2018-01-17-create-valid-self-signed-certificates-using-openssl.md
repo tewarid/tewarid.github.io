@@ -76,4 +76,4 @@ PowerShell's [New-SelfSignedCertificate](https://docs.microsoft.com/en-us/powers
 New-SelfSignedCertificate -DnsName "localhost", "example.com" -CertStoreLocation "cert:\LocalMachine\My"
 ```
 
-You can export the private key to PFX format using **Manage computer certificates** Control Panel widget, and [convert it to PEM format]({% link _posts/2017/2017-09-18-export-private-key-in-pfx-or-p12-file-to-pem-format.md %}) using OpenSSL.
+You can export the private key to PFX format using **Manage computer certificates** Control Panel widget, and [convert it to PEM format](_posts/2017/2017-09-18-export-private-key-in-pfx-or-p12-file-to-pem-format.md) using OpenSSL.

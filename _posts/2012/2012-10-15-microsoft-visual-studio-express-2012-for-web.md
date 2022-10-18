@@ -6,7 +6,7 @@ comments: true
 ---
 # Microsoft Visual Studio Express 2012 for Web
 
-[Visual Studio Express 2012 for Web](https://www.visualstudio.com/vs/visual-studio-express/), or VS Express for Web as its shortcut is called, is a fairly competent free IDE for developing Browser apps. It has some nice entry-level features, that compete favorably with features in [IntelliJ IDEA](http://www.jetbrains.com/idea/) Community Edition (Free) and [WebStorm]({% link _posts/2012/2012-07-11-jetbrains-webstorm.md %}), both from JetBrains.
+[Visual Studio Express 2012 for Web](https://www.visualstudio.com/vs/visual-studio-express/), or VS Express for Web as its shortcut is called, is a fairly competent free IDE for developing Browser apps. It has some nice entry-level features, that compete favorably with features in [IntelliJ IDEA](http://www.jetbrains.com/idea/) Community Edition (Free) and [WebStorm](_posts/2012/2012-07-11-jetbrains-webstorm.md), both from JetBrains.
 
 These are some noteworthy features
 

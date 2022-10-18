@@ -8,7 +8,7 @@ comments: true
 
 There was a time when making phone calls from the browser would have meant installing a native extension. Thanks to WebRTC, we can now make phone calls from the browser. This post is my recent experiment with doing exactly that, using readily available open source components.
 
-Let's start by [installing]({% link _posts/2010/2010-09-10-setup-a-free-voip-solution-using-freeswitch-and-x-lite.md %}) FreeSWITCH (FS). I am assuming a Windows based setup but Linux or Mac should also work. Once you have FS installed&mdash;I'm on version 1.5.8b+git~20131213T181356Z~87751f9eaf~64bit&mdash;and sanity-tested you'll need to enable WebSocket support. This can be done by editing the configuration file <FS folder>\conf\sip_profiles\internal.xml so the the following line is not commented
+Let's start by [installing](_posts/2010/2010-09-10-setup-a-free-voip-solution-using-freeswitch-and-x-lite.md) FreeSWITCH (FS). I am assuming a Windows based setup but Linux or Mac should also work. Once you have FS installed&mdash;I'm on version 1.5.8b+git~20131213T181356Z~87751f9eaf~64bit&mdash;and sanity-tested you'll need to enable WebSocket support. This can be done by editing the configuration file <FS folder>\conf\sip_profiles\internal.xml so the the following line is not commented
 
 ```xml
     <param name="ws-binding"  value=":5066"/>

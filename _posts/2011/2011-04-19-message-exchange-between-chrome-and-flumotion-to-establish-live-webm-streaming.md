@@ -39,4 +39,4 @@ The server should start streaming WebM data at this point, but Chrome closes the
 
 The container format used to stream WebM is based on the [Matroska](http://www.matroska.org/technical/diagram/index.html) container format. It can also be used for [live streaming](http://www.matroska.org/technical/streaming/index.html).
 
-I used the [Node.js TCP proxy]({% link _posts/2011/2011-04-08-a-simple-tcp-proxy-in-node.js.md %}) to log the messages above.
+I used the [Node.js TCP proxy](_posts/2011/2011-04-08-a-simple-tcp-proxy-in-node.js.md) to log the messages above.

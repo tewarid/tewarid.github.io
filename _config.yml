@@ -10,4 +10,8 @@ defaults:
 plugins:
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-relative-links
 repository: tewarid/tewarid.github.io
+relative_links:
+  enabled:     true
+  collections: true

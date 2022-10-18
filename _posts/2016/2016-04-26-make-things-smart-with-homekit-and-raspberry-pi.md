@@ -10,9 +10,9 @@ As an avid iOS user I have been keen on using [HomeKit](https://developer.apple.
 
 ## Setup Raspberry Pi Image
 
-I decided to download a [console-only LITE version](https://www.raspberrypi.com/software/operating-systems/) of Raspbian. Instructions for setting up an SD card appropriately can be [found here](https://www.raspberrypi.com/documentation/computers/getting-started.html). I [use Win32 Disk Imager on Windows to write images]({% link _posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md %}).
+I decided to download a [console-only LITE version](https://www.raspberrypi.com/software/operating-systems/) of Raspbian. Instructions for setting up an SD card appropriately can be [found here](https://www.raspberrypi.com/documentation/computers/getting-started.html). I [use Win32 Disk Imager on Windows to write images](_posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md).
 
-I didn't want to use an HDMI display with the Raspberry Pi, and wanted to power it using my laptop. I have used a USB to serial adapter to do that [in the past]({% link _posts/2014/2014-07-21-sparkfun-ftdi-basic-with-raspberry-pi.md %}). This time, I went with the USB Serial TTL cable from Adafruit, as described [in this lesson](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable). That done, I was able to power up and login to the Raspberry Pi using a serial terminal. I tend to use screen on Linux or Mac OS X
+I didn't want to use an HDMI display with the Raspberry Pi, and wanted to power it using my laptop. I have used a USB to serial adapter to do that [in the past](_posts/2014/2014-07-21-sparkfun-ftdi-basic-with-raspberry-pi.md). This time, I went with the USB Serial TTL cable from Adafruit, as described [in this lesson](https://learn.adafruit.com/adafruits-raspberry-pi-lesson-5-using-a-console-cable). That done, I was able to power up and login to the Raspberry Pi using a serial terminal. I tend to use screen on Linux or Mac OS X
 
 ```bash
 screen /dev/ttyUSB0 9600

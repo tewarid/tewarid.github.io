@@ -16,7 +16,7 @@ The boot sequence is explained in some detail at [omappedia.org](http://omappedi
 
 ## SD card format
 
-The SD card format is explained in great detail [here](http://omappedia.org/wiki/Minimal-FS_SD_Configuration). For the sake of simplicity I used an SD card formatted correctly by [writing]({% link _posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md %}) an Ubuntu 11.04 [preinstalled image](https://wiki.ubuntu.com/ARM/OMAP) for OMAP4. You can also obtain the X-loader MLO, U-Boot, and kernel uImage files from that image. Especially, if you want to replace your own binaries with something that works, for debugging.
+The SD card format is explained in great detail [here](http://omappedia.org/wiki/Minimal-FS_SD_Configuration). For the sake of simplicity I used an SD card formatted correctly by [writing](_posts/2011/2011-06-27-write-ubuntu-image-file-to-sd-card-on-windows.md) an Ubuntu 11.04 [preinstalled image](https://wiki.ubuntu.com/ARM/OMAP) for OMAP4. You can also obtain the X-loader MLO, U-Boot, and kernel uImage files from that image. Especially, if you want to replace your own binaries with something that works, for debugging.
 
 ## Obtain and configure buildroot
 

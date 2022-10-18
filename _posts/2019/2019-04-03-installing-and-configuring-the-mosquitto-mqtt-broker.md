@@ -89,7 +89,7 @@ You may have to tweak file permissions to be able to view it.
 
 ## Setup TLS 1.2
 
-TLS 1.2 can be enabled using a self-signed certificate. You can generate one using [OpenSSL or PowerShell]({% link _posts/2018/2018-01-17-create-valid-self-signed-certificates-using-openssl.md %}).
+TLS 1.2 can be enabled using a self-signed certificate. You can generate one using [OpenSSL or PowerShell](_posts/2018/2018-01-17-create-valid-self-signed-certificates-using-openssl.md).
 
 To enable TLS 1.2 for default listener
 
