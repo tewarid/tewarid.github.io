@@ -1,7 +1,7 @@
 title: A Mutable Log
 description: A blog by Devendra Tewari
 google_analytics: UA-114405074-1
-remote_theme: pages-themes/midnight
+remote_theme: tewarid/midnight
 defaults:
   - scope:
       path: "assets/img"
