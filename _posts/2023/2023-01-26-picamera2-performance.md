@@ -6,11 +6,11 @@ comments: true
 ---
 # Picamera2 performance
 
-[Picamera2](https://github.com/raspberrypi/picamera2) is a Python library based on libcamera that replaces Picamera. This post discusses some sample code and its performance on a Raspberry Pi 4 with both 32-bit and 64-bit Raspberry Pi OS. Raspberry Pi OS already has all the dependencies required to run the sample code. All samples capture full 5MP resolution images from OV5647 based camera module V1.
+[Picamera2](https://github.com/raspberrypi/picamera2) is a Python library based on libcamera that replaces [Picamera](https://github.com/waveform80/picamera).
 
-Power supply can significantly influence performance, always use the original 3A power supply or better.
+This post discusses sample code that captures full-resolution (5MP) still images from a OV5604 (camera module V1) sensor and its performance, on a Raspberry Pi 4 with both 32-bit and 64-bit Raspberry Pi OS. Raspberry Pi OS already has all the dependencies required to run the sample code. `/etc/os-release` shows the Raspberry Pi OS version to be `11 (bullseye)`. `apt info libcamera0` shows its version to be `0~git20230124+9b860a66-1`.
 
-SD cards can also influence performance, use `fio` to benchmark and compare different cards
+Power supplies can significantly influence performance&mdash;always use the original 3A power adapter, or better. SD cards can also influence performance, use `fio` to benchmark and compare different cards
 
 ```bash
 sudo apt install fio
@@ -19,7 +19,7 @@ fio --randrepeat=1 --ioengine=libaio --direct=1 --gtod_reduce=1 --name=test --fi
 
 ## Capture to file sequentially
 
-The code below sequentially captures twenty full-resolution JPEG images
+The code below sequentially captures twenty full-resolution JPEG images using `capture_file` function
 
 ```python
 from picamera2 import Picamera2, Preview
@@ -46,7 +46,7 @@ It takes `5.64` seconds to run on 32-bit Raspberry Pi OS and `3.85` seconds on 6
 
 ## Capture and convert sequentially
 
-The code below is quite similar to the one above, but it makes a Python Image Library (PIL) image from the capture buffer using `make_image` helper function, and then calls `save`
+The code below is quite similar to the one above, but it makes a [Python Image Library](https://github.com/python-pillow/Pillow) (PIL) image from the capture buffer using `make_image` helper function, then calls `save`
 
 ```python
 from picamera2 import Picamera2, Preview
@@ -75,7 +75,7 @@ It takes `6.36` seconds to run on 32-bit Raspberry Pi OS and `3.82` seconds on 6
 
 ## Convert asynchronously and save to file
 
-This code changes the previous code to use a separate thread to call `make_image` helper function, and then call `save`
+This code changes the previous code to use a separate thread to call `make_image` helper function, then call `save`
 
 ```python
 from picamera2 import Picamera2, Preview
@@ -109,7 +109,7 @@ end = time.time()
 print(end - start)
 ```
 
-It takes `2.18` seconds to run on 32-bit Raspberry Pi OS and `1.37` seconds on 64-bit.
+It takes `2.18` seconds to run on 32-bit Raspberry Pi OS and `1.37` seconds on 64-bit. Comparing this with result from previous sample demonstrates that optimizing `make_image` is critical to improving performance.
 
 ## Convert asynchronously and stream to network
 
